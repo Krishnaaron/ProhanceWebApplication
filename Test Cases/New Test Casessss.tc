@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>7ba55045-e1e5-4fc2-8215-7684e63e0a6a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c25c538a-14d0-4f3c-8c7d-2fdabd2ad88b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://enhance.prohance.io/phxauth/login'</defaultValue>
+      <description></description>
+      <id>c25c538a-14d0-4f3c-8c7d-2fdabd2ad88b</id>
+      <masked>false</masked>
+      <name>WebURL</name>
+   </variable>
 </TestCaseEntity>
