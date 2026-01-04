@@ -17,17 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser("");
-WebUI.maximizeWindow();
-WebUI.waitForPageLoad(GlobalVariable.Delay, FailureHandling.CONTINUE_ON_FAILURE);
-WebUI.navigateToUrl(GlobalVariable.URL);
-WebUI.setText(findTestObject('Object Repository/LoginOR/userName') ,GlobalVariable.userName);
-WebUI.setText(findTestObject('Object Repository/LoginOR/Password'), GlobalVariable.password);
-WebUI.waitForElementClickable(findTestObject('Object Repository/LoginOR/login_btn'), GlobalVariable.Delay);
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.waitForPageLoad(GlobalVariable.Delay, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.navigateToUrl(GlobalVariable.URL)
+
+WebUI.setText(findTestObject('Object Repository/LoginOR/userName'), userName)
+
+WebUI.setText(findTestObject('Object Repository/LoginOR/Password'), password)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/LoginOR/login_btn'), GlobalVariable.Delay)
+
 WebUI.click(findTestObject('Object Repository/LoginOR/login_btn'))
-if(WebUI.verifyElementPresent(findTestObject('Object Repository/LoginOR/session_Distroysession'), 2))
-{
-	
-	WebUI.waitForElementClickable(findTestObject('Object Repository/LoginOR/session_Distroysession'), GlobalVariable.Delay);
-	WebUI.click(findTestObject('Object Repository/LoginOR/session_Distroysession'))
-}	
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/LoginOR/session_Distroysession'), 2)) {
+    WebUI.waitForElementClickable(findTestObject('Object Repository/LoginOR/session_Distroysession'), GlobalVariable.Delay)
+
+    WebUI.click(findTestObject('Object Repository/LoginOR/session_Distroysession'))
+}
+

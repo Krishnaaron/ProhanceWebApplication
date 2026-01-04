@@ -17,6 +17,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/ProhanceWeb/Login_Page/Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>abb36807-d3bd-4b16-af3a-45d3d2e11cac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dfad082c-e840-418a-a98c-292c3ae56617</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2f62d8a0-c87b-4349-954a-7485530e387c</guid>
