@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Casessss</name>
+   <name>General_Settings</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>7ba55045-e1e5-4fc2-8215-7684e63e0a6a</testCaseGuid>
+   <testCaseGuid>d45118a5-ec05-4b33-a296-f5e2e2ef0ba8</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c25c538a-14d0-4f3c-8c7d-2fdabd2ad88b</variableId>
+      <variableId>92290794-d4ca-4840-96ee-b20aebbbcdbe</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'https://enhance.prohance.io/phxauth/login'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>c25c538a-14d0-4f3c-8c7d-2fdabd2ad88b</id>
+      <id>92290794-d4ca-4840-96ee-b20aebbbcdbe</id>
       <masked>false</masked>
-      <name>WebURL</name>
+      <name>variable</name>
    </variable>
 </TestCaseEntity>
