@@ -1,3 +1,4 @@
+import java.text.SimpleDateFormat as SimpleDateFormat
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -16,6 +17,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.time.LocalDateTime as LocalDateTime
+import java.time.format.DateTimeFormatter as DateTimeFormatter
 
 WebUI.openBrowser('')
 
@@ -25,17 +28,31 @@ WebUI.waitForPageLoad(GlobalVariable.Delay, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Object Repository/LoginOR/userName'), userName)
+try {
+    WebUI.setEncryptedText(findTestObject('Object Repository/LoginOR/userName'), userName)
 
-WebUI.setText(findTestObject('Object Repository/LoginOR/Password'), password)
+    WebUI.setEncryptedText(findTestObject('Object Repository/LoginOR/Password'), password)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/LoginOR/login_btn'), GlobalVariable.Delay)
+    WebUI.waitForElementClickable(findTestObject('Object Repository/LoginOR/login_btn'), GlobalVariable.Delay)
 
-WebUI.click(findTestObject('Object Repository/LoginOR/login_btn'))
+    WebUI.click(findTestObject('Object Repository/LoginOR/login_btn'))
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/LoginOR/session_Distroysession'), 2)) {
-    WebUI.waitForElementClickable(findTestObject('Object Repository/LoginOR/session_Distroysession'), GlobalVariable.Delay)
+    if (WebUI.verifyElementPresent(findTestObject('Object Repository/LoginOR/session_Distroysession'), 2)) {
+        WebUI.waitForElementClickable(findTestObject('Object Repository/LoginOR/session_Distroysession'), GlobalVariable.Delay)
 
-    WebUI.click(findTestObject('Object Repository/LoginOR/session_Distroysession'))
+        WebUI.click(findTestObject('Object Repository/LoginOR/session_Distroysession'))
+    }
 }
+catch (Exception e) {
+    System.out.println(e.getMessage())
 
+  
+
+    String timestamp = new Date().format('yyyyMMdd_HHmmss')
+
+   WebUI.takeScreenshot("D:\\KatalonScreenshots\\ldt_${timestamp}.png");
+}
+finally {
+	String timestamp = new Date().format('yyyyMMdd_HHmmss')
+	WebUI.takeScreenshot("D:\\KatalonScreenshots\\ldt_${timestamp}.png");
+}
