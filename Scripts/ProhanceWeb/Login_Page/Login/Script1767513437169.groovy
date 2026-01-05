@@ -27,7 +27,7 @@ WebUI.maximizeWindow()
 WebUI.waitForPageLoad(GlobalVariable.Delay, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.URL)
-
+//
 try {
     WebUI.setEncryptedText(findTestObject('Object Repository/LoginOR/userName'), userName)
 
