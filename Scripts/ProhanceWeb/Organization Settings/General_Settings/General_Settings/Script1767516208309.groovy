@@ -25,7 +25,7 @@ if (WebUI.verifyElementVisible(findTestObject('Object Repository/Organization Se
 )
 
 System.out.println(getText)
-
+//
 	
 	WebUI.clearText(findTestObject('Object Repository/Organization Settings/Displaynon-configuredAOS'));
 	WebUI.setText(findTestObject('Object Repository/Organization Settings/Displaynon-configuredAOS'),"krishna");
