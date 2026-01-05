@@ -16,17 +16,26 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ProhanceWeb/Login_Page/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5f87606e-6094-4855-ae4b-ab99748d1599</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login_Page/Login</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>5f87606e-6094-4855-ae4b-ab99748d1599</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userName</value>
          <variableId>abb36807-d3bd-4b16-af3a-45d3d2e11cac</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>5f87606e-6094-4855-ae4b-ab99748d1599</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
          <variableId>dfad082c-e840-418a-a98c-292c3ae56617</variableId>
       </variableLink>
    </testCaseLink>

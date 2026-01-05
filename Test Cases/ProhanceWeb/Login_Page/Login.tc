@@ -8,7 +8,7 @@
    <testCaseGuid>c360a9d3-7484-45fd-9ec4-39c8a8c6aef0</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>2e7ad3f5-5da7-43c4-93f9-8e6593e690fb</id>
+      <id>cb7903e6-b463-4d58-91c8-c9946a7f6c40</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -16,13 +16,13 @@
       <testDataId>Data Files/Login_Page/Login</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>2e7ad3f5-5da7-43c4-93f9-8e6593e690fb</testDataLinkId>
+      <testDataLinkId>cb7903e6-b463-4d58-91c8-c9946a7f6c40</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>userName</value>
       <variableId>abb36807-d3bd-4b16-af3a-45d3d2e11cac</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>2e7ad3f5-5da7-43c4-93f9-8e6593e690fb</testDataLinkId>
+      <testDataLinkId>cb7903e6-b463-4d58-91c8-c9946a7f6c40</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>password</value>
       <variableId>dfad082c-e840-418a-a98c-292c3ae56617</variableId>
