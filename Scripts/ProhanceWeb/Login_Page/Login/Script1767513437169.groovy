@@ -42,6 +42,13 @@ try {
 
         WebUI.click(findTestObject('Object Repository/LoginOR/session_Distroysession'))
     }
+	
+	
+	if (WebUI.verifyElementPresent(findTestObject('Object Repository/Common/Accept Cookies'), GlobalVariable.Delay)) {
+		WebUI.waitForElementClickable(findTestObject('Object Repository/Common/Accept Cookies'), GlobalVariable.Delay)
+
+		WebUI.click(findTestObject('Object Repository/Common/Accept Cookies'))
+	}
 }
 catch (Exception e) {
     System.out.println(e.getMessage())
@@ -50,9 +57,9 @@ catch (Exception e) {
 
     String timestamp = new Date().format('yyyyMMdd_HHmmss')
 
-   WebUI.takeScreenshot("D:\\KatalonScreenshots\\ldt_${timestamp}.png");
+  // WebUI.takeScreenshot("D:\\KatalonScreenshots\\ldt_${timestamp}.png");
 }
 finally {
 	String timestamp = new Date().format('yyyyMMdd_HHmmss')
-	WebUI.takeScreenshot("D:\\KatalonScreenshots\\ldt_${timestamp}.png");
+//	WebUI.takeScreenshot("D:\\KatalonScreenshots\\ldt_${timestamp}.png");
 }

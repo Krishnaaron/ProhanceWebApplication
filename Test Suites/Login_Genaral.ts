@@ -18,38 +18,32 @@
       <testCaseId>Test Cases/ProhanceWeb/Login_Page/Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>5f87606e-6094-4855-ae4b-ab99748d1599</id>
+         <id>236a136c-d6f6-42a8-ae54-b2124d273f0a</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Login_Page/Login</testDataId>
+         <testDataId>Data Files/LoginPage/LoginPage</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>5f87606e-6094-4855-ae4b-ab99748d1599</testDataLinkId>
+         <testDataLinkId>236a136c-d6f6-42a8-ae54-b2124d273f0a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>userName</value>
          <variableId>abb36807-d3bd-4b16-af3a-45d3d2e11cac</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5f87606e-6094-4855-ae4b-ab99748d1599</testDataLinkId>
+         <testDataLinkId>236a136c-d6f6-42a8-ae54-b2124d273f0a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>dfad082c-e840-418a-a98c-292c3ae56617</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2f62d8a0-c87b-4349-954a-7485530e387c</guid>
+      <guid>2b4f9513-e30a-4100-adf8-4ddcfe153e06</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ProhanceWeb/Organization Settings/General_Settings/General_Settings</testCaseId>
+      <testCaseId>Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>92290794-d4ca-4840-96ee-b20aebbbcdbe</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

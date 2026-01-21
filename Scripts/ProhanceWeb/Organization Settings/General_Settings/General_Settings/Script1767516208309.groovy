@@ -17,18 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 String getText =null;
-if (WebUI.verifyElementVisible(findTestObject('Object Repository/Organization Settings/Displaynon-configuredAOS')))
+if (WebUI.verifyElementVisible(findTestObject('null')))
 {
 	 getText = WebUI.getAttribute(
-    findTestObject('Object Repository/Organization Settings/Displaynon-configuredAOS'),
+    findTestObject('null'),
     'value'
 )
 
 System.out.println(getText)
 //
 	
-	WebUI.clearText(findTestObject('Object Repository/Organization Settings/Displaynon-configuredAOS'));
-	WebUI.setText(findTestObject('Object Repository/Organization Settings/Displaynon-configuredAOS'),"krishna");
+	WebUI.clearText(findTestObject('null'));
+	WebUI.setText(findTestObject('null'),"krishna");
 	
 }	
 
