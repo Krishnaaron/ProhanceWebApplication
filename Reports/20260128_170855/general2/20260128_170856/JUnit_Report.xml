@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="general2" time="128.498" tests="1" failures="0" errors="0">
+   <testsuite name="general2" tests="1" failures="0" errors="0" time="128.498" skipped="0" timestamp="2026-01-28T11:39:06.536Z" hostname="gopal.s - JAMOCHA57.jamochahq.local" id="Test Suites/general2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260128_170855\\general2\\20260128_170856"/>
+         <property name="logFiles" value="C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260128_170855\\general2\\20260128_170856\\console0.log, C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260128_170855\\general2\\20260128_170856\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gopal.s - JAMOCHA57.jamochahq.local"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+         <property name="browser" value="Chrome 144.0.7559.98"/>
+         <property name="userFullName" value="Gopal"/>
+         <property name="hostAddress" value="10.10.10.136"/>
+         <property name="sessionId" value="eca436d74796143726d4e82bb30aa49a"/>
+         <property name="projectName" value="ProhanceWebApplication"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ProhanceWeb/General_TC/General_TC" time="127.759" classname="Test Cases/ProhanceWeb/General_TC/General_TC" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"HeCM15nHKBI\u003d","exportType":"pdf","userName":"vG9BolkT2AE\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[28-01-2026T17:09:07 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/General_TC/General_TC: Test Cases/ProhanceWeb/General_TC/General_TC
+
+28-01-2026T17:09:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/ProhanceWeb/Login_Page/Login"), ["userName":userName, "password":password]): Call Test Case 'Test Cases/ProhanceWeb/Login_Page/Login' successfully
+
+28-01-2026T17:09:07 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Login_Page/Login: Test Cases/ProhanceWeb/Login_Page/Login
+
+28-01-2026T17:09:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2026T17:09:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2026T17:09:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2026T17:10:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2026T17:10:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-01-2026T17:10:16 - [MESSAGE][PASSED] - Current window maximized
+
+28-01-2026T17:10:16 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, CONTINUE_ON_FAILURE): Wait for page load successfully
+
+28-01-2026T17:10:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-01-2026T17:10:17 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://10.10.10.157:1001/prohance/' successfully
+
+28-01-2026T17:10:45 - [MESSAGE][PASSED] - Navigate to 'http://10.10.10.157:1001/prohance/' successfully
+
+28-01-2026T17:10:45 - [TEST_STEP][PASSED] - try: null
+
+28-01-2026T17:10:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/userName"), userName): Text ****** has been set on object 'Object Repository/Login/userName'
+
+28-01-2026T17:10:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/userName'
+
+28-01-2026T17:10:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Password"), password): Text ****** has been set on object 'Object Repository/Login/Password'
+
+28-01-2026T17:10:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+28-01-2026T17:10:46 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay): Object 'Object Repository/Login/login_btn' is clickable
+
+28-01-2026T17:10:46 - [MESSAGE][PASSED] - Object 'Object Repository/Login/login_btn' is clickable
+
+28-01-2026T17:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/login_btn")): Object: 'Object Repository/Login/login_btn' is clicked on
+
+28-01-2026T17:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/login_btn' is clicked on
+
+28-01-2026T17:10:49 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay)): null
+
+28-01-2026T17:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login/session_Distroysession' is present
+
+28-01-2026T17:10:49 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Login/session_Distroysession"), Delay): Object 'Object Repository/Login/session_Distroysession' is clickable
+
+28-01-2026T17:10:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login/session_Distroysession' is clickable
+
+28-01-2026T17:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/session_Distroysession")): Object: 'Object Repository/Login/session_Distroysession' is clicked on
+
+28-01-2026T17:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/session_Distroysession' is clicked on
+
+28-01-2026T17:10:50 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay)): null
+
+28-01-2026T17:10:52 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is present
+
+28-01-2026T17:10:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay): Object 'Object Repository/Common/Accept Cookies' is clickable
+
+28-01-2026T17:10:52 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is clickable
+
+28-01-2026T17:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Common/Accept Cookies")): Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+28-01-2026T17:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+28-01-2026T17:10:53 - [TEST_STEP][PASSED] - Finally: null
+
+28-01-2026T17:10:53 - [TEST_STEP][PASSED] - timestamp = Date().format("yyyyMMdd_HHmmss"): null
+
+28-01-2026T17:10:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ProhanceWeb/Login_Page/Login' successfully
+
+28-01-2026T17:10:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard"), ["exportType":exportType]): Call Test Case 'Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard' successfully
+
+28-01-2026T17:10:53 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard: Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+
+28-01-2026T17:10:53 - [TEST_STEP][PASSED] - explort = null: null
+
+28-01-2026T17:10:53 - [TEST_STEP][PASSED] - rows = null: null
+
+28-01-2026T17:10:53 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)): null
+
+28-01-2026T17:10:54 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+
+28-01-2026T17:10:54 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clickable
+
+28-01-2026T17:10:54 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clickable
+
+28-01-2026T17:10:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clicked on
+
+28-01-2026T17:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clicked on
+
+28-01-2026T17:10:55 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clickable
+
+28-01-2026T17:10:55 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clickable
+
+28-01-2026T17:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clicked on
+
+28-01-2026T17:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clicked on
+
+28-01-2026T17:10:55 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"), Delay, STOP_ON_FAILURE): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clickable
+
+28-01-2026T17:10:57 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clickable
+
+28-01-2026T17:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clicked on
+
+28-01-2026T17:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clicked on
+
+28-01-2026T17:10:58 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, STOP_ON_FAILURE): Wait for page load successfully
+
+28-01-2026T17:10:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-01-2026T17:10:58 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clickable
+
+28-01-2026T17:10:58 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clickable
+
+28-01-2026T17:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clicked on
+
+28-01-2026T17:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clicked on
+
+28-01-2026T17:10:59 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+28-01-2026T17:10:59 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+28-01-2026T17:10:59 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, STOP_ON_FAILURE): Wait for page load successfully
+
+28-01-2026T17:10:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-01-2026T17:10:59 - [TEST_STEP][PASSED] - rows = com.prohancewebapplication.webtable.Table.webTableDataReader(findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_Id"), findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_tr")): com.prohancewebapplication.webtable.Table.webTableDataReader is PASSED
+
+28-01-2026T17:11:02 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_Id' is visible
+
+28-01-2026T17:11:02 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_tr
+
+28-01-2026T17:11:02 - [MESSAGE][PASSED] - com.prohancewebapplication.webtable.Table.webTableDataReader is PASSED
+
+28-01-2026T17:11:02 - [TEST_STEP][PASSED] - if (rows != null): com.prohancewebapplication.webtable.Table.webTableDataWriter is PASSED
+
+28-01-2026T17:11:02 - [TEST_STEP][PASSED] - com.prohancewebapplication.webtable.Table.webTableDataWriter(rows): com.prohancewebapplication.webtable.Table.webTableDataWriter is PASSED
+
+28-01-2026T17:11:03 - [MESSAGE][INFO] - Row 0:  | Rank | Activity | Duration | #Users | #Switches | Rating | Category | 
+
+28-01-2026T17:11:03 - [MESSAGE][INFO] - Row 1:  | 1 | Remote Desktop | 03 : 23 : 33 | 2 | 47 | +1 | Support Tools | 
+
+28-01-2026T17:11:03 - [MESSAGE][INFO] - Row 2:  | 2 | ProHance | 02 : 32 : 40 | 3 | 66 | +2 | Business Tools | 
+
+28-01-2026T17:11:04 - [MESSAGE][INFO] - Row 3:  | 3 | Eclipse | 02 : 06 : 06 | 2 | 63 | +2 | Development Tools | 
+
+28-01-2026T17:11:04 - [MESSAGE][INFO] - Row 4:  | 4 | MS Teams | 01 : 43 : 20 | 2 | 48 | +2 | Communication Tools | 
+
+28-01-2026T17:11:04 - [MESSAGE][INFO] - Row 5:  | 5 | Notepad | 01 : 07 : 38 | 2 | 29 | +2 | Development Tools | 
+
+28-01-2026T17:11:05 - [MESSAGE][INFO] - Row 6:  | 6 | UNKNOWN AOS | 00 : 43 : 25 | 2 | 25 |  |  | 
+
+28-01-2026T17:11:05 - [MESSAGE][INFO] - Row 7:  | 7 | Techmate Application | 00 : 39 : 19 | 2 | 13 | +2 | Support Tools | 
+
+28-01-2026T17:11:05 - [MESSAGE][INFO] - Row 8:  | 8 | Unproductive Sites | 00 : 35 : 09 | 1 | 22 | -2 | Unproductive | 
+
+28-01-2026T17:11:06 - [MESSAGE][INFO] - Row 9:  | 9 | Chat GPT | 00 : 30 : 22 | 2 | 21 | +2 | AI Tools | 
+
+28-01-2026T17:11:06 - [MESSAGE][INFO] - Row 10:  | 10 | Email Applications | 00 : 21 : 51 | 2 | 5 | +2 | Communication Tools | 
+
+28-01-2026T17:11:06 - [MESSAGE][INFO] - Row 11:  | 11 | Customer Connect Apps | 00 : 20 : 52 | 1 | 4 | +2 | Support Tools | 
+
+28-01-2026T17:11:07 - [MESSAGE][INFO] - Row 12:  | 12 | Windows Components | 00 : 15 : 51 | 1 | 8 | +2 | Support Tools | 
+
+28-01-2026T17:11:07 - [MESSAGE][INFO] - Row 13:  | 13 | Linux Applications | 00 : 11 : 17 | 1 | 10 | +2 | Development Tools | 
+
+28-01-2026T17:11:08 - [MESSAGE][INFO] - Row 14:  | 14 | Jenkins | 00 : 07 : 10 | 1 | 5 | +2 | Development Tools | 
+
+28-01-2026T17:11:08 - [MESSAGE][INFO] - Row 15:  | 15 | Excel | 00 : 03 : 10 | 1 | 1 | +2 | Documentation Tools | 
+
+28-01-2026T17:11:08 - [MESSAGE][PASSED] - com.prohancewebapplication.webtable.Table.webTableDataWriter is PASSED
+
+28-01-2026T17:11:08 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+28-01-2026T17:11:08 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+28-01-2026T17:11:08 - [TEST_STEP][PASSED] - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete(): com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+
+28-01-2026T17:11:08 - [MESSAGE][PASSED] - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+
+28-01-2026T17:11:08 - [TEST_STEP][PASSED] - explort = ((exportType != null)) ? exportType : false: null
+
+28-01-2026T17:11:08 - [TEST_STEP][PASSED] - browserName = getExecutedBrowser(): null
+
+28-01-2026T17:11:08 - [TEST_STEP][PASSED] - logInfo("Browser Name :" + " " + browserName): Browser Name : Chrome
+
+28-01-2026T17:11:08 - [MESSAGE][INFO] - Browser Name : Chrome
+
+28-01-2026T17:11:08 - [TEST_STEP][PASSED] - xPath = com.prohanceebapplication.common.Export.export(explort): com.prohanceebapplication.common.Export.export is PASSED
+
+28-01-2026T17:11:08 - [MESSAGE][PASSED] - com.prohanceebapplication.common.Export.export is PASSED
+
+28-01-2026T17:11:08 - [TEST_STEP][PASSED] - out.println(xPath): null
+
+28-01-2026T17:11:08 - [TEST_STEP][PASSED] - if (xPath != null): Execute JavaScript 'arguments[0].click();' successfully
+
+28-01-2026T17:11:08 - [TEST_STEP][PASSED] - exportSpan = new com.kms.katalon.core.testobject.TestObject(): null
+
+28-01-2026T17:11:08 - [TEST_STEP][PASSED] - exportSpan.addProperty("xpath", EQUALS, xPath): null
+
+28-01-2026T17:11:08 - [TEST_STEP][PASSED] - waitForElementPresent(exportSpan, Delay): Object '' is present
+
+28-01-2026T17:11:09 - [MESSAGE][PASSED] - Object '' is present
+
+28-01-2026T17:11:09 - [TEST_STEP][PASSED] - el = findWebElement(exportSpan, Delay): Found web element by test object 
+
+28-01-2026T17:11:09 - [MESSAGE][PASSED] - Found web element by test object 
+
+28-01-2026T17:11:09 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(el)): Execute JavaScript 'arguments[0].scrollIntoView(true);' successfully
+
+28-01-2026T17:11:09 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].scrollIntoView(true);' successfully
+
+28-01-2026T17:11:09 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(el)): Execute JavaScript 'arguments[0].click();' successfully
+
+28-01-2026T17:11:12 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+28-01-2026T17:11:12 - [TEST_STEP][PASSED] - com.prohancewebapplication.file.FileSizeFinder.fileSize(): com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+
+28-01-2026T17:11:12 - [MESSAGE][PASSED] - com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+
+28-01-2026T17:11:12 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+28-01-2026T17:11:12 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+28-01-2026T17:11:12 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+28-01-2026T17:11:12 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+28-01-2026T17:11:12 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+28-01-2026T17:11:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard' successfully
+
+28-01-2026T17:11:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/ProhanceWeb/LogOut_Page/LogOut"), [:]): Call Test Case 'Test Cases/ProhanceWeb/LogOut_Page/LogOut' successfully
+
+28-01-2026T17:11:12 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/LogOut_Page/LogOut: Test Cases/ProhanceWeb/LogOut_Page/LogOut
+
+28-01-2026T17:11:13 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Logout/logOut' is clicked on
+
+28-01-2026T17:11:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Logout/userProfileIcon"), Delay): Object 'Object Repository/Logout/userProfileIcon' is present
+
+28-01-2026T17:11:13 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/userProfileIcon' is present
+
+28-01-2026T17:11:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/userProfileIcon"), STOP_ON_FAILURE): Object: 'Object Repository/Logout/userProfileIcon' is clicked on
+
+28-01-2026T17:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/userProfileIcon' is clicked on
+
+28-01-2026T17:11:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Logout/logOut"), Delay): Object 'Object Repository/Logout/logOut' is present
+
+28-01-2026T17:11:14 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/logOut' is present
+
+28-01-2026T17:11:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/logOut"), STOP_ON_FAILURE): Object: 'Object Repository/Logout/logOut' is clicked on
+
+28-01-2026T17:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/logOut' is clicked on
+
+28-01-2026T17:11:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ProhanceWeb/LogOut_Page/LogOut' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-01-2026T17:09:06 - [TEST_SUITE][PASSED] - general2: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

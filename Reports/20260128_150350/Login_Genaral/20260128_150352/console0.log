@@ -1,0 +1,64 @@
+2026-01-28 15:04:06.806 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gopal.s\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-28 15:04:06.813 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gopal.s\git\ProhanceWebApplication\Include\config\log.properties
+2026-01-28 15:04:09.946 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login_Genaral
+2026-01-28 15:04:10.127 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-28 15:04:10.143 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-28 15:04:10.180 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gopal.s - JAMOCHA57.jamochahq.local
+2026-01-28 15:04:10.183 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-28 15:04:10.219 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.10.10.136
+2026-01-28 15:04:10.245 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-28 15:04:11.645 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 15:04:11.645 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-28 15:04:11.787 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-28 15:04:11.787 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-28 15:04:13.242 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-28 15:04:14.071 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-28 15:04:14.174 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 28, 2026 3:05:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-28 15:05:22.417 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f03deebb741ea9ab0ce1cf59ff1af28c
+2026-01-28 15:05:22.420 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.98
+2026-01-28 15:05:22.421 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-28 15:05:22.421 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-28 15:05:22.452 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-28 15:05:22.519 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-28 15:05:22.655 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-28 15:05:23.125 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-01-28 15:05:39.793 DEBUG testcase.Login                           - 5: try
+2026-01-28 15:05:39.797 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/Login/userName"), userName)
+2026-01-28 15:05:40.966 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Login/Password"), password)
+2026-01-28 15:05:41.571 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay)
+2026-01-28 15:05:42.072 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/Login/login_btn"))
+2026-01-28 15:05:42.809 DEBUG testcase.Login                           - 5: if (verifyElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay))
+2026-01-28 15:05:43.937 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Login/session_Distroysession"), Delay)
+2026-01-28 15:05:44.274 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Login/session_Distroysession"))
+2026-01-28 15:05:44.693 DEBUG testcase.Login                           - 6: if (verifyElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay))
+2026-01-28 15:05:47.224 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay)
+2026-01-28 15:05:47.576 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Common/Accept Cookies"))
+2026-01-28 15:05:48.045 DEBUG testcase.Login                           - 7: Finally
+2026-01-28 15:05:48.050 DEBUG testcase.Login                           - 1: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-28 15:05:48.088 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-28 15:05:48.117 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 15:05:48.118 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-28 15:05:48.138 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = JaYlvlkoT9Q=
+2026-01-28 15:05:48.138 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-28 15:05:48.142 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-28 15:05:48.151 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-01-28 15:05:48.914 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-28 15:05:48.921 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 28, 2026 3:06:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-28 15:06:56.205 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 170b9d119e8e9eb2705710df92ec70aa
+2026-01-28 15:06:56.231 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.98
+2026-01-28 15:06:56.232 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-28 15:06:56.234 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-28 15:06:56.239 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-28 15:06:56.281 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-28 15:06:56.463 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-28 15:06:56.517 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-01-28 15:07:16.552 DEBUG testcase.Login                           - 5: try
+2026-01-28 15:07:16.569 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/Login/userName"), userName)
+2026-01-28 15:07:17.104 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Login/Password"), password)
+2026-01-28 15:07:17.564 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay)
+2026-01-28 15:07:17.959 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/Login/login_btn"))
+2026-01-28 15:07:20.172 DEBUG testcase.Login                           - 5: if (verifyElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay))

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img__ph-dash-vertical-align-middle ph-dash-_e9ae0f</name>
+   <tag></tag>
+   <elementGuidId>6690c162-44ce-4e88-9b24-129566153e8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='exportTD']/span[3]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.ph-dash-vertical-align-middle.ph-dash-cursor-pointer</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=img[name=&quot;Export to Excel&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>cdb77d96-8699-44f6-a3e5-51900a4af25e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/prohance/images/excel.png</value>
+      <webElementGuid>8c8fafd6-5717-400e-ac21-761629e8e353</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Export to Excel</value>
+      <webElementGuid>e975d137-e3bf-454e-a1aa-1b0c4c161014</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>middle</value>
+      <webElementGuid>60051b4b-efd9-4204-b247-8ccae5424350</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ph-dash-vertical-align-middle ph-dash-cursor-pointer</value>
+      <webElementGuid>07f82f34-c05d-4dd6-8280-ca6e3633f912</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;exportTD&quot;)/span[3]/img[@class=&quot;ph-dash-vertical-align-middle ph-dash-cursor-pointer&quot;]</value>
+      <webElementGuid>b3a2efb8-f855-4c90-8165-a6ae84915f0c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='exportTD']/span[3]/img</value>
+      <webElementGuid>750a6e41-13f5-4932-a448-77f3b02c226f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@title='Export to Excel']</value>
+      <webElementGuid>97d954bc-3510-49c9-9dcc-23232680332c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/span[3]/img</value>
+      <webElementGuid>7eacf8aa-441f-408f-835b-0ab7142dda8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/prohance/images/excel.png' and @title = 'Export to Excel']</value>
+      <webElementGuid>232565e8-113d-4fde-87a5-83da9e6853f4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

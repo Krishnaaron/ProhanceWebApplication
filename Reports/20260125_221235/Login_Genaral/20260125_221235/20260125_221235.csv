@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Genaral,Edge Chromium 144.0.3719.92,,,25-01-2026 22:12:38,25-01-2026 22:13:09,30.240s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Login_Page/Login,Edge Chromium 144.0.3719.92,Login,,25-01-2026 22:12:39,25-01-2026 22:12:49,9.653s,PASSED
+"DATA BINDING - {""password"":""tsL9urF6O/APwsPS+50KRA\u003d\u003d"",""userName"":""tsL9urF6O/D/xURRxzj/8w\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Edge Chromium 144.0.3719.92,,,25-01-2026 22:12:39,25-01-2026 22:12:42,2.702s,PASSED
+maximizeWindow(),Edge Chromium 144.0.3719.92,,,25-01-2026 22:12:42,25-01-2026 22:12:42,0.081s,PASSED
+"waitForPageLoad(Delay, CONTINUE_ON_FAILURE)",Edge Chromium 144.0.3719.92,,,25-01-2026 22:12:42,25-01-2026 22:12:43,0.344s,PASSED
+navigateToUrl(URL),Edge Chromium 144.0.3719.92,,,25-01-2026 22:12:43,25-01-2026 22:12:43,0.812s,PASSED
+try,Edge Chromium 144.0.3719.92,,,25-01-2026 22:12:43,25-01-2026 22:12:49,5.174s,PASSED
+Finally,Edge Chromium 144.0.3719.92,,,25-01-2026 22:12:49,25-01-2026 22:12:49,0.032s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard,Edge Chromium 144.0.3719.92,,,25-01-2026 22:12:49,25-01-2026 22:13:08,19.521s,PASSED
+"DATA BINDING - {""exportType"":""Pdf""}",,,,,,,
+explort = null,Edge Chromium 144.0.3719.92,,,25-01-2026 22:12:49,25-01-2026 22:12:49,0.002s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",Edge Chromium 144.0.3719.92,,,25-01-2026 22:12:49,25-01-2026 22:13:08,19.185s,PASSED

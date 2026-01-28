@@ -27,39 +27,35 @@ WebUI.maximizeWindow()
 WebUI.waitForPageLoad(GlobalVariable.Delay, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.URL)
-//
+
+//login page 
 try {
-    WebUI.setEncryptedText(findTestObject('Object Repository/LoginOR/userName'), userName)
+    WebUI.setEncryptedText(findTestObject('Object Repository/Login/userName'), userName)
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/LoginOR/Password'), password)
+    WebUI.setEncryptedText(findTestObject('Object Repository/Login/Password'), password)
 
-    WebUI.waitForElementClickable(findTestObject('Object Repository/LoginOR/login_btn'), GlobalVariable.Delay)
+    WebUI.waitForElementClickable(findTestObject('Object Repository/Login/login_btn'), GlobalVariable.Delay)
 
-    WebUI.click(findTestObject('Object Repository/LoginOR/login_btn'))
+    WebUI.click(findTestObject('Object Repository/Login/login_btn'))
 
-    if (WebUI.verifyElementPresent(findTestObject('Object Repository/LoginOR/session_Distroysession'), 2)) {
-        WebUI.waitForElementClickable(findTestObject('Object Repository/LoginOR/session_Distroysession'), GlobalVariable.Delay)
+    if (WebUI.verifyElementPresent(findTestObject('Object Repository/Login/session_Distroysession'), GlobalVariable.Delay)) {
+        WebUI.waitForElementClickable(findTestObject('Object Repository/Login/session_Distroysession'), GlobalVariable.Delay)
 
-        WebUI.click(findTestObject('Object Repository/LoginOR/session_Distroysession'))
+        WebUI.click(findTestObject('Object Repository/Login/session_Distroysession'))
     }
-	
-	
-	if (WebUI.verifyElementPresent(findTestObject('Object Repository/Common/Accept Cookies'), GlobalVariable.Delay)) {
-		WebUI.waitForElementClickable(findTestObject('Object Repository/Common/Accept Cookies'), GlobalVariable.Delay)
+    
+    if (WebUI.verifyElementPresent(findTestObject('Object Repository/Common/Accept Cookies'), GlobalVariable.Delay)) {
+        WebUI.waitForElementClickable(findTestObject('Object Repository/Common/Accept Cookies'), GlobalVariable.Delay)
 
-		WebUI.click(findTestObject('Object Repository/Common/Accept Cookies'))
-	}
+        WebUI.click(findTestObject('Object Repository/Common/Accept Cookies'))
+    }
 }
 catch (Exception e) {
     System.out.println(e.getMessage())
 
-  
-
     String timestamp = new Date().format('yyyyMMdd_HHmmss')
-
-  // WebUI.takeScreenshot("D:\\KatalonScreenshots\\ldt_${timestamp}.png");
-}
-finally {
-	String timestamp = new Date().format('yyyyMMdd_HHmmss')
-//	WebUI.takeScreenshot("D:\\KatalonScreenshots\\ldt_${timestamp}.png");
+} 
+// WebUI.takeScreenshot("D:\\KatalonScreenshots\\ldt_${timestamp}.png");
+finally { 
+    String timestamp = new Date().format('yyyyMMdd_HHmmss') //	WebUI.takeScreenshot("D:\\KatalonScreenshots\\ldt_${timestamp}.png");
 }

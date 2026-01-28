@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-27T17:45:44.419560500Z</date>
+  <millis>1769535944419</millis>
+  <nanos>560500</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Login_Genaral</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">3</property>
+  <property name="name">Login_Genaral</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Login_Genaral</property>
+</record>
+<record>
+  <date>2026-01-27T17:45:44.448329700Z</date>
+  <millis>1769535944448</millis>
+  <nanos>329700</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>userFullName = Gopal</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="userFullName">Gopal</property>
+</record>
+<record>
+  <date>2026-01-27T17:45:44.448329700Z</date>
+  <millis>1769535944448</millis>
+  <nanos>329700</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>projectName = ProhanceWebApplication</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="projectName">ProhanceWebApplication</property>
+</record>
+<record>
+  <date>2026-01-27T17:45:44.449837800Z</date>
+  <millis>1769535944449</millis>
+  <nanos>837800</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = KRISHNA - krishna</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">KRISHNA - krishna</property>
+</record>
+<record>
+  <date>2026-01-27T17:45:44.450847700Z</date>
+  <millis>1769535944450</millis>
+  <nanos>847700</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 11 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 11 64bit</property>
+</record>
+<record>
+  <date>2026-01-27T17:45:44.450847700Z</date>
+  <millis>1769535944450</millis>
+  <nanos>847700</nanos>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.9</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.0.9</property>
+</record>
+<record>
+  <date>2026-01-27T17:45:44.451846100Z</date>
+  <millis>1769535944451</millis>
+  <nanos>846100</nanos>
+  <sequence>6</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 10.4.3.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">10.4.3.0</property>
+</record>
+<record>
+  <date>2026-01-27T17:45:45.134725400Z</date>
+  <millis>1769535945134</millis>
+  <nanos>725400</nanos>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ProhanceWeb/Login_Page/Login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="origin"></property>
+  <property name="name">Test Cases/ProhanceWeb/Login_Page/Login</property>
+  <property name="description">Login</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/ProhanceWeb/Login_Page/Login</property>
+  <property name="source">C:\Users\KRISHNA\git\ProhanceWebApplication\Test Cases\ProhanceWeb\Login_Page\Login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>

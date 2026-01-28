@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+general,Edge Chromium 144.0.3719.92,,,28-01-2026 17:12:03,28-01-2026 17:16:36,4m - 33.089s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/General_TC/General_TC,Edge Chromium 144.0.3719.92,,,28-01-2026 17:12:05,28-01-2026 17:16:35,4m - 29.739s,PASSED
+"DATA BINDING - {""password"":""HeCM15nHKBI\u003d"",""exportType"":""excel"",""userName"":""tsL9urF6O/D/xURRxzj/8w\u003d\u003d""}",,,,,,,
+"callTestCase(findTestCase(""Test Cases/ProhanceWeb/Login_Page/Login""), [""userName"":userName, ""password"":password])",Edge Chromium 144.0.3719.92,,,28-01-2026 17:12:08,28-01-2026 17:15:59,3m - 51.438s,PASSED
+"callTestCase(findTestCase(""Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard""), [""exportType"":exportType])",Edge Chromium 144.0.3719.92,,,28-01-2026 17:15:59,28-01-2026 17:16:32,33.345s,PASSED
+"callTestCase(findTestCase(""Test Cases/ProhanceWeb/LogOut_Page/LogOut""), [:])",Edge Chromium 144.0.3719.92,,,28-01-2026 17:16:32,28-01-2026 17:16:35,2.615s,PASSED

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+general,,,,28-01-2026 16:17:38,28-01-2026 16:19:01,1m - 23.549s,FAILED
+,,,,,,,
+Test Cases/ProhanceWeb/General_TC/General_TC,,,,28-01-2026 16:18:12,28-01-2026 16:18:22,9.899s,FAILED
+"DATA BINDING - {""password"":""HeCM15nHKBI\u003d"",""exportType"":""excel"",""userName"":""tsL9urF6O/D/xURRxzj/8w\u003d\u003d""}",,,,,,,
+"callTestCase(findTestCase(""Test Cases/ProhanceWeb/Login_Page/Login""), [""userName"":userName, ""password"":password])",,,,28-01-2026 16:18:12,28-01-2026 16:18:22,9.872s,FAILED
+,,,,,,,
+Test Cases/ProhanceWeb/General_TC/General_TC,,,,28-01-2026 16:18:52,28-01-2026 16:19:01,9.529s,FAILED
+"DATA BINDING - {""password"":""HeCM15nHKBI\u003d"",""exportType"":""pdf"",""userName"":""vG9BolkT2AE\u003d\u003d""}",,,,,,,
+"callTestCase(findTestCase(""Test Cases/ProhanceWeb/Login_Page/Login""), [""userName"":userName, ""password"":password])",,,,28-01-2026 16:18:52,28-01-2026 16:19:01,9.510s,FAILED

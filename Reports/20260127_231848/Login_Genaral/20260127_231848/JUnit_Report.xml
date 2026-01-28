@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Genaral" time="48.873" tests="2" failures="0" errors="0">
+   <testsuite name="Login_Genaral" tests="2" failures="0" errors="0" time="48.873" skipped="0" timestamp="2026-01-27T17:48:52.529Z" hostname="KRISHNA - krishna" id="Test Suites/Login_Genaral">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\KRISHNA\\git\\ProhanceWebApplication\\Reports\\20260127_231848\\Login_Genaral\\20260127_231848"/>
+         <property name="logFiles" value="C:\\Users\\KRISHNA\\git\\ProhanceWebApplication\\Reports\\20260127_231848\\Login_Genaral\\20260127_231848\\console0.log, C:\\Users\\KRISHNA\\git\\ProhanceWebApplication\\Reports\\20260127_231848\\Login_Genaral\\20260127_231848\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KRISHNA - krishna"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+         <property name="browser" value="Chrome 144.0.7559.97"/>
+         <property name="userFullName" value="Gopal"/>
+         <property name="hostAddress" value="192.168.0.9"/>
+         <property name="sessionId" value="9456123801214b096943fd20e5d4573f"/>
+         <property name="projectName" value="ProhanceWebApplication"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ProhanceWeb/Login_Page/Login" time="5.95" classname="Test Cases/ProhanceWeb/Login_Page/Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"tsL9urF6O/APwsPS+50KRA\u003d\u003d","userName":"tsL9urF6O/D/xURRxzj/8w\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[27-01-2026T23:18:53 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Login_Page/Login: Test Cases/ProhanceWeb/Login_Page/Login
+
+27-01-2026T23:18:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-01-2026T23:18:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-01-2026T23:18:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-01-2026T23:18:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-01-2026T23:18:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-01-2026T23:18:56 - [MESSAGE][PASSED] - Current window maximized
+
+27-01-2026T23:18:56 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, CONTINUE_ON_FAILURE): Wait for page load successfully
+
+27-01-2026T23:18:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-01-2026T23:18:56 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://enhance.prohance.io/prohance' successfully
+
+27-01-2026T23:18:57 - [MESSAGE][PASSED] - Navigate to 'https://enhance.prohance.io/prohance' successfully
+
+27-01-2026T23:18:57 - [TEST_STEP][PASSED] - try: null
+
+27-01-2026T23:18:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginOR/userName"), userName): Text ****** has been set on object 'Object Repository/LoginOR/userName'
+
+27-01-2026T23:18:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginOR/userName'
+
+27-01-2026T23:18:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginOR/Password"), password): Text ****** has been set on object 'Object Repository/LoginOR/Password'
+
+27-01-2026T23:18:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginOR/Password'
+
+27-01-2026T23:18:58 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/LoginOR/login_btn"), Delay): Object 'Object Repository/LoginOR/login_btn' is clickable
+
+27-01-2026T23:18:58 - [MESSAGE][PASSED] - Object 'Object Repository/LoginOR/login_btn' is clickable
+
+27-01-2026T23:18:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginOR/login_btn")): Object: 'Object Repository/LoginOR/login_btn' is clicked on
+
+27-01-2026T23:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginOR/login_btn' is clicked on
+
+27-01-2026T23:18:58 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/LoginOR/session_Distroysession"), Dela)): null
+
+27-01-2026T23:18:58 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+27-01-2026T23:18:58 - [TEST_STEP][PASSED] - out.println(e.getMessage()): null
+
+27-01-2026T23:18:59 - [TEST_STEP][PASSED] - timestamp = Date().format("yyyyMMdd_HHmmss"): null
+
+27-01-2026T23:18:59 - [TEST_STEP][PASSED] - Finally: null
+
+27-01-2026T23:18:59 - [TEST_STEP][PASSED] - timestamp = Date().format("yyyyMMdd_HHmmss"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProhanceWeb/LogOut_Page/LogOut" time="42.323" classname="Test Cases/ProhanceWeb/LogOut_Page/LogOut" status="PASSED">
+         <system-out><![CDATA[27-01-2026T23:18:59 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/LogOut_Page/LogOut: Test Cases/ProhanceWeb/LogOut_Page/LogOut
+
+27-01-2026T23:18:59 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/LogoutOR/logOut' is clicked on
+
+27-01-2026T23:18:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/LogoutOR/userProfileIcon"), Delay): Object 'Object Repository/LogoutOR/userProfileIcon' is present
+
+27-01-2026T23:19:37 - [MESSAGE][PASSED] - Object 'Object Repository/LogoutOR/userProfileIcon' is present
+
+27-01-2026T23:19:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LogoutOR/userProfileIcon"), STOP_ON_FAILURE): Object: 'Object Repository/LogoutOR/userProfileIcon' is clicked on
+
+27-01-2026T23:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LogoutOR/userProfileIcon' is clicked on
+
+27-01-2026T23:19:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/LogoutOR/logOut"), Delay): Object 'Object Repository/LogoutOR/logOut' is present
+
+27-01-2026T23:19:40 - [MESSAGE][PASSED] - Object 'Object Repository/LogoutOR/logOut' is present
+
+27-01-2026T23:19:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LogoutOR/logOut"), STOP_ON_FAILURE): Object: 'Object Repository/LogoutOR/logOut' is clicked on
+
+27-01-2026T23:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LogoutOR/logOut' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-01-2026T23:18:52 - [TEST_SUITE][PASSED] - Login_Genaral: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

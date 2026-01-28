@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Genaral,Chrome 144.0.7559.97,,,27-01-2026 23:35:19,27-01-2026 23:35:59,40.322s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Login_Page/Login,Chrome 144.0.7559.97,Login,,27-01-2026 23:35:19,27-01-2026 23:35:29,9.970s,PASSED
+"DATA BINDING - {""password"":""tsL9urF6O/APwsPS+50KRA\u003d\u003d"",""userName"":""tsL9urF6O/D/xURRxzj/8w\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Chrome 144.0.7559.97,,,27-01-2026 23:35:20,27-01-2026 23:35:22,2.461s,PASSED
+maximizeWindow(),Chrome 144.0.7559.97,,,27-01-2026 23:35:22,27-01-2026 23:35:22,0.070s,PASSED
+"waitForPageLoad(Delay, CONTINUE_ON_FAILURE)",Chrome 144.0.7559.97,,,27-01-2026 23:35:22,27-01-2026 23:35:23,0.374s,PASSED
+navigateToUrl(URL),Chrome 144.0.7559.97,,,27-01-2026 23:35:23,27-01-2026 23:35:23,0.770s,PASSED
+try,Chrome 144.0.7559.97,,,27-01-2026 23:35:23,27-01-2026 23:35:29,5.677s,PASSED
+Finally,Chrome 144.0.7559.97,,,27-01-2026 23:35:29,27-01-2026 23:35:29,0.021s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard,Chrome 144.0.7559.97,,,27-01-2026 23:35:29,27-01-2026 23:35:56,26.792s,PASSED
+"DATA BINDING - {""exportType"":""Pdf""}",,,,,,,
+explort = null,Chrome 144.0.7559.97,,,27-01-2026 23:35:30,27-01-2026 23:35:30,0.003s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",Chrome 144.0.7559.97,,,27-01-2026 23:35:30,27-01-2026 23:35:56,26.238s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/LogOut_Page/LogOut,Chrome 144.0.7559.97,,,27-01-2026 23:35:56,27-01-2026 23:35:59,2.627s,PASSED
+try,Chrome 144.0.7559.97,,,27-01-2026 23:35:56,27-01-2026 23:35:59,2.408s,PASSED

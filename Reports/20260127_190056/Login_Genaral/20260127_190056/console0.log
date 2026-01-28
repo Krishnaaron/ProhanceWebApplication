@@ -1,0 +1,644 @@
+2026-01-27 19:01:03.250 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gopal.s\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-27 19:01:03.255 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gopal.s\git\ProhanceWebApplication\ProhanceWebApplication\Include\config\log.properties
+2026-01-27 19:01:04.727 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login_Genaral
+2026-01-27 19:01:04.832 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-27 19:01:04.834 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-27 19:01:04.837 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gopal.s - JAMOCHA57.jamochahq.local
+2026-01-27 19:01:04.841 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-27 19:01:04.842 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.10.10.136
+2026-01-27 19:01:04.846 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-27 19:01:05.451 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 19:01:05.451 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-27 19:01:05.618 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-27 19:01:05.619 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = tsL9urF6O/APwsPS+50KRA==
+2026-01-27 19:01:06.164 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-27 19:01:06.462 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-27 19:01:06.537 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 27, 2026 7:02:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-27 19:02:12.783 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b0e0570ebc25e8a38cf91c9516d3e385
+2026-01-27 19:02:12.787 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.97
+2026-01-27 19:02:12.796 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-27 19:02:12.797 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-27 19:02:12.805 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-27 19:02:12.859 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-27 19:02:12.937 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-27 19:02:13.197 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-01-27 19:02:32.370 DEBUG testcase.Login                           - 5: try
+2026-01-27 19:02:32.378 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/LoginOR/userName"), userName)
+2026-01-27 19:02:32.989 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/LoginOR/Password"), password)
+2026-01-27 19:02:33.429 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/LoginOR/login_btn"), Delay)
+2026-01-27 19:02:33.807 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/LoginOR/login_btn"))
+2026-01-27 19:02:34.265 DEBUG testcase.Login                           - 5: if (verifyElementPresent(findTestObject("Object Repository/LoginOR/session_Distroysession"), Dela))
+2026-01-27 19:02:34.271 DEBUG testcase.Login                           - 6: catch (Exception e)
+2026-01-27 19:02:34.271 DEBUG testcase.Login                           - 1: out.println(e.getMessage())
+No such property: Dela for class: internal.GlobalVariable
+2026-01-27 19:02:34.314 DEBUG testcase.Login                           - 2: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-27 19:02:34.322 DEBUG testcase.Login                           - 7: Finally
+2026-01-27 19:02:34.322 DEBUG testcase.Login                           - 1: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-27 19:02:34.333 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-27 19:02:34.354 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 19:02:34.354 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 19:02:34.560 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = Pdf
+2026-01-27 19:02:34.775 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-27 19:02:34.775 DEBUG testcase.ActivityDashBoard               - 2: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-27 19:02:59.743 DEBUG testcase.ActivityDashBoard               - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-01-27 19:03:01.188 DEBUG testcase.ActivityDashBoard               - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-01-27 19:03:01.590 DEBUG testcase.ActivityDashBoard               - 3: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay)
+2026-01-27 19:03:01.919 DEBUG testcase.ActivityDashBoard               - 4: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"))
+2026-01-27 19:03:02.326 DEBUG testcase.ActivityDashBoard               - 5: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay)
+2026-01-27 19:03:03.904 DEBUG testcase.ActivityDashBoard               - 6: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"))
+2026-01-27 19:03:05.121 DEBUG testcase.ActivityDashBoard               - 7: switchToWindowIndex(1)
+2026-01-27 19:03:05.323 DEBUG testcase.ActivityDashBoard               - 8: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-27 19:03:05.397 DEBUG testcase.ActivityDashBoard               - 9: waitForElementVisible(TestObject().addProperty("xpath", EQUALS, "//table[@id ='topAppsDetailsList']"), Delay)
+2026-01-27 19:03:07.265 DEBUG testcase.ActivityDashBoard               - 10: rows = findWebElements(TestObject().addProperty("xpath", EQUALS, "//table[@id='topAppsDetailsList']//tr"), Delay)
+2026-01-27 19:03:07.540 DEBUG testcase.ActivityDashBoard               - 11: for ([i = 0, i < rows.size(), (i++)])
+2026-01-27 19:03:07.542 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:07.818 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:07.822 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("th"))
+2026-01-27 19:03:08.076 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:08.076 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:08.076 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.101 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.112 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.131 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.144 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.165 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.171 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.189 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.208 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:08.218 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 0:  | Rank | Activity | Duration | #Users | #Switches | Rating | Category | 
+2026-01-27 19:03:08.226 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:08.497 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:08.501 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:08.501 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:08.501 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.529 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.555 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.560 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.576 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.592 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.608 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.619 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.632 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:08.634 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 1:  | 1 | Eclipse | 2270.26h | 42 | 455896 | +2 | Development Tools | 
+2026-01-27 19:03:08.634 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:08.909 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:08.909 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:08.909 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:08.909 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.925 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.929 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.941 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.956 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.972 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.983 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:08.997 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.003 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:09.003 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 2:  | 2 | ProHance | 2161.24h | 51 | 403891 | +2 | Business Tools | 
+2026-01-27 19:03:09.003 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:09.247 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:09.247 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:09.250 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:09.250 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.262 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.276 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.282 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.301 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.313 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.313 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.348 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.363 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:09.364 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 3:  | 3 | UNKNOWN AOS | 702.41h | 51 | 217733 |  |  | 
+2026-01-27 19:03:09.364 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:09.645 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:09.645 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:09.645 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:09.652 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.676 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.692 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.703 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.711 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.727 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.739 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.751 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:09.786 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:09.788 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 4:  | 4 | MS Teams | 555.87h | 51 | 112945 | +2 | Communication Tools | 
+2026-01-27 19:03:09.788 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:10.074 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:10.077 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:10.079 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:10.081 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.104 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.122 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.143 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.155 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.167 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.183 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.188 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.205 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:10.210 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 5:  | 5 | Notepad | 459.29h | 51 | 161416 | +2 | Development Tools | 
+2026-01-27 19:03:10.212 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:10.473 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:10.473 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:10.486 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:10.486 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.488 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.504 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.520 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.522 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.545 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.558 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.569 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.583 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:10.583 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 6:  | 6 | Windows Components | 323.96h | 51 | 277667 | +2 | Support Tools | 
+2026-01-27 19:03:10.583 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:10.842 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:10.842 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:10.844 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:10.844 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.856 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.864 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.879 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.892 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.907 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.921 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.937 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:10.957 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:10.959 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 7:  | 7 | Chat GPT | 188.63h | 47 | 27535 | +2 | Business Tools | 
+2026-01-27 19:03:10.961 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:11.186 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:11.186 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:11.186 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:11.202 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.211 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.225 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.238 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.251 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.259 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.267 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.286 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.296 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:11.296 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 8:  | 8 | MS Visual Studio | 163.85h | 3 | 16893 | +2 | Development Tools | 
+2026-01-27 19:03:11.296 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:11.572 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:11.572 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:11.572 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:11.572 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.592 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.604 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.627 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.641 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.651 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.657 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.669 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.683 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:11.690 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 9:  | 9 | Email Applications | 151.62h | 51 | 28704 | +2 | Communication Tools | 
+2026-01-27 19:03:11.690 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:11.968 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:11.972 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:11.974 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:11.974 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:11.987 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.004 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.018 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.031 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.043 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.056 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.072 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.080 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:12.084 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 10:  | 10 | MYSQL Server | 114.50h | 43 | 15941 | +2 | Development Tools | 
+2026-01-27 19:03:12.084 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:12.327 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:12.327 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:12.327 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:12.327 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.335 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.349 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.361 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.374 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.386 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.397 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.407 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.419 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:12.419 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 11:  | 11 | Remote Desktop | 90.38h | 37 | 5824 | +1 | Support Tools | 
+2026-01-27 19:03:12.419 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:12.655 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:12.655 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:12.655 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:12.666 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.669 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.687 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.706 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.716 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.732 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.742 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.751 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:12.764 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:12.764 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 12:  | 12 | Techmate Application | 85.51h | 37 | 13238 | +2 | Support Tools | 
+2026-01-27 19:03:12.768 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:13.018 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:13.018 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:13.018 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:13.018 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.044 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.050 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.071 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.081 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.094 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.106 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.117 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.128 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:13.128 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 13:  | 13 | XCode | 79.89h | 4 | 3910 | +2 | Development Tools | 
+2026-01-27 19:03:13.128 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:13.374 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:13.375 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:13.375 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:13.376 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.387 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.400 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.407 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.423 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.441 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.451 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.469 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.483 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:13.483 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 14:  | 14 | Personal Time | 64.89h | 33 | 227 |  |  | 
+2026-01-27 19:03:13.483 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:13.707 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:13.707 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:13.707 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:13.707 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.721 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.737 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.753 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.765 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.768 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.784 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.800 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:13.816 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:13.816 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 15:  | 15 | Customer Connect Apps | 53.74h | 48 | 7713 | +2 | Support Tools | 
+2026-01-27 19:03:13.816 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:14.087 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:14.087 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:14.087 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:14.087 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.089 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.108 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.120 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.134 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.136 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.152 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.166 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.182 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:14.184 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 16:  | 16 | Excel | 52.45h | 49 | 13152 | +2 | Documentation Tools | 
+2026-01-27 19:03:14.184 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:14.456 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:14.456 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:14.458 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:14.458 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.468 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.476 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.495 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.506 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.519 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.527 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.535 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.551 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:14.551 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 17:  | 17 | Tutorials | 51.07h | 38 | 6376 | +1 | Documentation Tools | 
+2026-01-27 19:03:14.551 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:14.791 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:14.791 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:14.791 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:14.800 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.810 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.823 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.832 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.847 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.856 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.870 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.886 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:14.886 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:14.886 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 18:  | 18 | MSSQL Server | 46.53h | 42 | 12352 | +2 | Development Tools | 
+2026-01-27 19:03:14.886 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:15.174 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:15.174 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:15.174 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:15.177 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.190 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.200 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.210 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.223 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.237 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.237 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.253 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.271 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:15.271 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 19:  | 19 | Advanced Rest Client | 36.44h | 30 | 9010 | +2 | Documentation Tools | 
+2026-01-27 19:03:15.276 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:15.513 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:15.523 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:15.523 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:15.523 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.523 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.539 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.555 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.571 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.655 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.673 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.686 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.698 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:15.706 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 20:  | 20 | General Web Browsing | 36.13h | 51 | 12572 | 0 | Documentation Tools | 
+2026-01-27 19:03:15.706 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:15.937 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:15.937 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:15.937 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:15.937 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.960 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.973 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.985 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:15.985 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.000 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.020 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.032 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.046 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:16.048 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 21:  | 21 | License Portal | 25.09h | 49 | 6358 | +2 | Documentation Tools | 
+2026-01-27 19:03:16.048 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:16.301 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:16.301 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:16.307 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:16.307 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.317 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.327 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.343 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.354 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.372 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.387 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.400 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.409 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:16.410 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 22:  | 22 | Paint | 16.72h | 44 | 7468 | 0 | Documentation Tools | 
+2026-01-27 19:03:16.410 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:16.687 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:16.687 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:16.687 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:16.691 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.707 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.723 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.741 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.752 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.784 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.797 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.805 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:16.820 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:16.820 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 23:  | 23 | Python | 16.50h | 1 | 3664 | +2 | Development Tools | 
+2026-01-27 19:03:16.820 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:17.083 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:17.083 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:17.083 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:17.083 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.100 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.104 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.114 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.130 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.130 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.146 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.168 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.178 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:17.182 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 24:  | 24 | Files & Folders | 15.50h | 12 | 5252 | 0 | System Tools | 
+2026-01-27 19:03:17.182 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:17.451 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:17.451 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:17.451 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:17.455 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.467 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.469 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.482 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.501 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.514 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.518 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.530 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.546 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:17.546 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 25:  | 25 | IP Messenger | 10.21h | 43 | 4111 | +1 | Communication Tools | 
+2026-01-27 19:03:17.546 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:17.818 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:17.818 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:17.818 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:17.818 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.832 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.838 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.848 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.867 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.879 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.895 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.900 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:17.918 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:17.918 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 26:  | 26 | Automation Robot | 08.75h | 4 | 3377 | +2 | Development Tools | 
+2026-01-27 19:03:17.922 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:18.182 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:18.182 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:18.182 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:18.182 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.198 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.214 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.219 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.233 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.245 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.245 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.273 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.285 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:18.285 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 27:  | 27 | Jenkins | 08.26h | 47 | 4064 | +2 | Development Tools | 
+2026-01-27 19:03:18.285 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:18.569 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:18.569 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:18.569 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:18.569 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.583 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.585 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.610 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.620 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.631 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.646 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.658 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.669 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:18.669 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 28:  | 28 | Unproductive Sites | 08.26h | 40 | 1379 | 0 | Unproductive | 
+2026-01-27 19:03:18.673 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:18.950 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:18.950 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:18.950 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:18.950 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.976 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:18.990 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.001 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.015 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.020 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.029 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.045 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.060 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:19.060 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 29:  | 29 | Word | 07.45h | 9 | 1355 | +2 | Documentation Tools | 
+2026-01-27 19:03:19.060 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:19.300 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:19.300 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:19.300 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:19.300 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.320 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.342 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.351 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.363 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.385 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.399 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.413 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.425 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:19.427 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 30:  | 30 | Grey Tip HR | 06.64h | 42 | 1106 | +2 | Internal Applications | 
+2026-01-27 19:03:19.427 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:19.699 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:19.699 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:19.699 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:19.699 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.721 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.732 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.744 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.755 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.760 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.780 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.793 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:19.793 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:19.807 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 31:  | 31 | Browser Extensions and Addons | 02.89h | 8 | 616 | +2 | Development Tools | 
+2026-01-27 19:03:19.807 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:20.080 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:20.082 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:20.082 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:20.084 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.110 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.126 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.132 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.149 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.159 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.173 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.173 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.191 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:20.191 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 32:  | 32 | Mouse Jiggles | 02.85h | 2 | 422 | 0 | Unproductive | 
+2026-01-27 19:03:20.199 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:20.462 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:20.462 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:20.462 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:20.471 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.478 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.494 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.496 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.509 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.529 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.541 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.556 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.572 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:20.572 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 33:  | 33 | Compress Utilities | 01.81h | 37 | 2123 | +1 | System Tools | 
+2026-01-27 19:03:20.572 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:20.829 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:20.829 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:20.829 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:20.829 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.843 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.854 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.859 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.875 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.891 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.903 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.911 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:20.929 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:20.929 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 34:  | 34 | LinkedIn | 01.52h | 12 | 250 | 0 | Communication Tools | 
+2026-01-27 19:03:20.932 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:21.210 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:21.214 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:21.216 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:21.216 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.229 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.240 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.258 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.272 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.288 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.294 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.313 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.323 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:21.323 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 35:  | 35 | Power Point | 01.19h | 4 | 433 | +2 | Documentation Tools | 
+2026-01-27 19:03:21.329 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:21.574 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:21.574 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:21.574 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:21.574 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.592 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.606 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.624 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.638 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.649 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.654 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.677 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.685 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:21.685 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 36:  | 36 | Electron | 00.26h | 2 | 11 | +2 | Development Tools | 
+2026-01-27 19:03:21.685 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:21.959 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:21.959 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:21.972 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:21.973 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.989 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:21.994 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.004 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.020 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.030 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.036 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.052 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.052 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:22.052 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 37:  | 37 | Whatsapp | 00.23h | 4 | 64 | 0 | Unproductive | 
+2026-01-27 19:03:22.052 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:22.339 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:22.339 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:22.341 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:22.341 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.361 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.377 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.392 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.414 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.426 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.438 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.452 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.454 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:22.466 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 38:  | 38 | Internet Information Services (IIS) Manager | 00.21h | 2 | 84 | +2 | Development Tools | 
+2026-01-27 19:03:22.466 DEBUG testcase.ActivityDashBoard               - 1: cols = get(i).findElements(By.tagName("td"))
+2026-01-27 19:03:22.723 DEBUG testcase.ActivityDashBoard               - 2: if (cols.size() == 0)
+2026-01-27 19:03:22.723 DEBUG testcase.ActivityDashBoard               - 3: rowText = ""
+2026-01-27 19:03:22.723 DEBUG testcase.ActivityDashBoard               - 4: for (org.openqa.selenium.WebElement col : cols)
+2026-01-27 19:03:22.723 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.739 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.741 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.754 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.770 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.770 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.786 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.802 DEBUG testcase.ActivityDashBoard               - 1: rowText += col.getText() + " | "
+2026-01-27 19:03:22.805 DEBUG testcase.ActivityDashBoard               - 5: logInfo("Row " + i + ": " + rowText)
+2026-01-27 19:03:22.816 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 39:  | 39 | Jira | 00.13h | 18 | 72 | +2 | Documentation Tools | 
+2026-01-27 19:03:22.816 DEBUG testcase.ActivityDashBoard               - 12: executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+2026-01-27 19:03:22.849 DEBUG testcase.ActivityDashBoard               - 13: com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete()
+C:\Users\gopal.s\Downloads
+2026-01-27 19:03:22.889 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+2026-01-27 19:03:22.895 DEBUG testcase.ActivityDashBoard               - 14: explort = ((exportType != null)) ? exportType : false
+2026-01-27 19:03:22.897 DEBUG testcase.ActivityDashBoard               - 15: browserName = getExecutedBrowser()
+2026-01-27 19:03:22.899 DEBUG testcase.ActivityDashBoard               - 16: logInfo("Browser Name :" + " " + browserName)
+2026-01-27 19:03:22.901 INFO  com.kms.katalon.core.util.KeywordUtil    - Browser Name : Chrome
+2026-01-27 19:03:22.903 DEBUG testcase.ActivityDashBoard               - 17: xPath = com.prohanceebapplication.common.Export.export(explort)
+2026-01-27 19:03:22.929 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceebapplication.common.Export.export is PASSED
+2026-01-27 19:03:22.933 DEBUG testcase.ActivityDashBoard               - 18: out.println(xPath)
+//span[.//img[@title='Export to PDF']]
+2026-01-27 19:03:22.944 DEBUG testcase.ActivityDashBoard               - 19: if (xPath != null)
+2026-01-27 19:03:22.950 DEBUG testcase.ActivityDashBoard               - 1: exportSpan = new com.kms.katalon.core.testobject.TestObject()
+2026-01-27 19:03:22.951 DEBUG testcase.ActivityDashBoard               - 2: exportSpan.addProperty("xpath", EQUALS, xPath)
+2026-01-27 19:03:22.959 DEBUG testcase.ActivityDashBoard               - 3: waitForElementPresent(exportSpan, Delay)
+2026-01-27 19:03:23.260 DEBUG testcase.ActivityDashBoard               - 4: el = findWebElement(exportSpan, Delay)
+2026-01-27 19:03:23.555 DEBUG testcase.ActivityDashBoard               - 5: executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(el))
+2026-01-27 19:03:23.592 DEBUG testcase.ActivityDashBoard               - 6: executeJavaScript("arguments[0].click();", Arrays.asList(el))
+2026-01-27 19:03:24.920 DEBUG testcase.ActivityDashBoard               - 20: com.prohancewebapplication.file.FileSizeFinder.fileSize()
+2026-01-27 19:03:24.952 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+2026-01-27 19:03:24.953 DEBUG testcase.ActivityDashBoard               - 21: switchToDefaultContent()
+2026-01-27 19:03:25.007 DEBUG testcase.ActivityDashBoard               - 22: closeWindowIndex(1)
+2026-01-27 19:03:25.124 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 19:03:25.134 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 19:03:25.134 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/LogOut_Page/LogOut
+2026-01-27 19:03:25.364 DEBUG testcase.LogOut                          - 1: try
+2026-01-27 19:03:25.364 DEBUG testcase.LogOut                          - 1: waitForElementPresent(findTestObject("Object Repository/LogoutOR/logOut"), Delay)

@@ -1,0 +1,323 @@
+2026-01-27 14:42:43.887 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gopal.s\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-27 14:42:43.893 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gopal.s\git\ProhanceWebApplication\ProhanceWebApplication\Include\config\log.properties
+2026-01-27 14:42:45.710 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login_Genaral
+2026-01-27 14:42:45.818 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-27 14:42:45.820 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-27 14:42:45.823 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gopal.s - JAMOCHA57.jamochahq.local
+2026-01-27 14:42:45.824 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-27 14:42:45.826 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.10.10.136
+2026-01-27 14:42:45.828 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-27 14:42:46.379 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 14:42:46.379 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-27 14:42:46.448 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-27 14:42:46.450 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = tsL9urF6O/APwsPS+50KRA==
+2026-01-27 14:42:47.219 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-27 14:42:47.507 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-27 14:42:47.572 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 27, 2026 2:43:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-27 14:43:55.854 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6ac2b020c734f26b9339f7f780eed0b6
+2026-01-27 14:43:55.855 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.97
+2026-01-27 14:43:55.857 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-27 14:43:55.857 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-27 14:43:55.871 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-27 14:43:55.948 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-27 14:43:56.084 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-27 14:43:56.484 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-01-27 14:44:40.832 DEBUG testcase.Login                           - 5: try
+2026-01-27 14:44:40.837 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/LoginOR/userName"), userName)
+2026-01-27 14:44:41.865 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/LoginOR/Password"), password)
+2026-01-27 14:44:42.431 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/LoginOR/login_btn"), Delay)
+2026-01-27 14:44:42.853 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/LoginOR/login_btn"))
+2026-01-27 14:44:43.372 DEBUG testcase.Login                           - 5: if (verifyElementPresent(findTestObject("Object Repository/LoginOR/session_Distroysession"), 2))
+2026-01-27 14:44:44.177 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/LoginOR/session_Distroysession"), Delay)
+2026-01-27 14:44:44.490 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/LoginOR/session_Distroysession"))
+2026-01-27 14:44:44.855 DEBUG testcase.Login                           - 6: if (verifyElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay))
+2026-01-27 14:44:46.042 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay)
+2026-01-27 14:44:46.347 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Common/Accept Cookies"))
+2026-01-27 14:44:46.722 DEBUG testcase.Login                           - 7: Finally
+2026-01-27 14:44:46.726 DEBUG testcase.Login                           - 1: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-27 14:44:46.740 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-27 14:44:46.767 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 14:44:46.767 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:44:46.881 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = Pdf
+2026-01-27 14:44:47.106 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-27 14:44:47.106 DEBUG testcase.ActivityDashBoard               - 2: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-27 14:44:47.376 DEBUG testcase.ActivityDashBoard               - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-01-27 14:44:47.739 DEBUG testcase.ActivityDashBoard               - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-01-27 14:44:48.140 DEBUG testcase.ActivityDashBoard               - 3: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay)
+2026-01-27 14:44:48.465 DEBUG testcase.ActivityDashBoard               - 4: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"))
+2026-01-27 14:44:48.843 DEBUG testcase.ActivityDashBoard               - 5: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay)
+2026-01-27 14:44:50.784 DEBUG testcase.ActivityDashBoard               - 6: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"))
+2026-01-27 14:44:51.951 DEBUG testcase.ActivityDashBoard               - 7: switchToWindowIndex(1)
+2026-01-27 14:44:52.165 DEBUG testcase.ActivityDashBoard               - 8: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-27 14:44:52.229 DEBUG testcase.ActivityDashBoard               - 9: executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+2026-01-27 14:44:52.255 DEBUG testcase.ActivityDashBoard               - 10: com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete()
+C:\Users\gopal.s\Downloads
+2026-01-27 14:44:52.318 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+2026-01-27 14:44:52.320 DEBUG testcase.ActivityDashBoard               - 11: explort = ((exportType != null)) ? exportType : false
+2026-01-27 14:44:52.324 DEBUG testcase.ActivityDashBoard               - 12: browserName = getBrowserName()
+2026-01-27 14:44:52.349 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.configuration.RunConfiguration.getBrowserName() is applicable for argument types: () values: []
+Possible solutions: getHostName(), getProjectName()
+	at ActivityDashBoard.run(ActivityDashBoard:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505156934.run(TempTestSuite1769505156934.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-01-27 14:44:52.389 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.configuration.RunConfiguration.getBrowserName() is applicable for argument types: () values: []
+Possible solutions: getHostName(), getProjectName()
+	at ActivityDashBoard.run(ActivityDashBoard:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505156934.run(TempTestSuite1769505156934.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-01-27 14:44:52.418 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:44:52.422 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 14:44:52.422 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:44:52.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = Pdf
+2026-01-27 14:44:52.481 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-27 14:44:52.483 DEBUG testcase.ActivityDashBoard               - 2: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-27 14:45:32.773 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' located by 'By.xpath: //a[@id='workTimeLiToggle2']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' located by 'By.xpath: //a[@id='workTimeLiToggle2']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at ActivityDashBoard.run(ActivityDashBoard:13)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505156934.run(TempTestSuite1769505156934.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2026-01-27 14:45:32.869 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at ActivityDashBoard.run(ActivityDashBoard:13)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505156934.run(TempTestSuite1769505156934.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' located by 'By.xpath: //a[@id='workTimeLiToggle2']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+)
+2026-01-27 14:45:32.872 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at ActivityDashBoard.run(ActivityDashBoard:13)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505156934.run(TempTestSuite1769505156934.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' located by 'By.xpath: //a[@id='workTimeLiToggle2']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2026-01-27 14:45:32.875 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:45:32.879 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 14:45:32.879 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:45:32.903 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = Pdf
+2026-01-27 14:45:32.911 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-27 14:45:32.929 DEBUG testcase.ActivityDashBoard               - 2: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-27 14:46:13.151 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' located by 'By.xpath: //a[@id='workTimeLiToggle2']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' located by 'By.xpath: //a[@id='workTimeLiToggle2']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at ActivityDashBoard.run(ActivityDashBoard:13)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505156934.run(TempTestSuite1769505156934.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2026-01-27 14:46:13.264 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at ActivityDashBoard.run(ActivityDashBoard:13)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505156934.run(TempTestSuite1769505156934.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' located by 'By.xpath: //a[@id='workTimeLiToggle2']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+)
+2026-01-27 14:46:13.266 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at ActivityDashBoard.run(ActivityDashBoard:13)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505156934.run(TempTestSuite1769505156934.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' located by 'By.xpath: //a[@id='workTimeLiToggle2']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+2026-01-27 14:46:13.268 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:46:13.271 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 14:46:13.271 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:46:13.292 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = Pdf
+2026-01-27 14:46:13.298 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-27 14:46:13.299 DEBUG testcase.ActivityDashBoard               - 2: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+Jan 27, 2026 2:46:19 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:984)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:939)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:939)
+

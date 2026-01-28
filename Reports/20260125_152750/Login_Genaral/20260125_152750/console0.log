@@ -1,0 +1,196 @@
+2026-01-25 15:27:52.651 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\KRISHNA\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-25 15:27:52.654 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\KRISHNA\git\ProhanceWebApplication\Include\config\log.properties
+2026-01-25 15:27:53.003 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login_Genaral
+2026-01-25 15:27:53.091 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-25 15:27:53.091 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-25 15:27:53.092 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = KRISHNA - krishna
+2026-01-25 15:27:53.092 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-25 15:27:53.092 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.9
+2026-01-25 15:27:53.093 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-25 15:27:53.576 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-25 15:27:53.576 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-25 15:27:53.644 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-25 15:27:53.645 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = tsL9urF6O/APwsPS+50KRA==
+2026-01-25 15:27:53.986 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-25 15:27:54.202 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome (headless)' driver
+2026-01-25 15:27:54.257 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 25, 2026 3:27:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-25 15:27:55.894 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6d208265504e63cdc2bb879469638762
+2026-01-25 15:27:55.895 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.97
+2026-01-25 15:27:55.896 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-25 15:27:55.896 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-25 15:27:55.905 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-25 15:27:55.944 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-25 15:27:55.991 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-25 15:27:56.179 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-01-25 15:27:59.171 DEBUG testcase.Login                           - 5: try
+2026-01-25 15:27:59.174 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/LoginOR/userName"), userName)
+2026-01-25 15:27:59.703 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/LoginOR/Password"), password)
+2026-01-25 15:28:00.025 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/LoginOR/login_btn"), Delay)
+2026-01-25 15:28:00.314 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/LoginOR/login_btn"))
+2026-01-25 15:28:00.670 DEBUG testcase.Login                           - 5: if (verifyElementPresent(findTestObject("Object Repository/LoginOR/session_Distroysession"), 2))
+2026-01-25 15:28:01.385 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/LoginOR/session_Distroysession"), Delay)
+2026-01-25 15:28:01.652 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/LoginOR/session_Distroysession"))
+2026-01-25 15:28:01.950 DEBUG testcase.Login                           - 6: if (verifyElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay))
+2026-01-25 15:28:05.074 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay)
+2026-01-25 15:28:05.346 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Common/Accept Cookies"))
+2026-01-25 15:28:05.647 DEBUG testcase.Login                           - 7: Finally
+2026-01-25 15:28:05.649 DEBUG testcase.Login                           - 1: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-25 15:28:05.662 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-25 15:28:05.677 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-25 15:28:05.677 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-25 15:28:05.722 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = Pdf
+2026-01-25 15:28:05.865 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-25 15:28:05.867 DEBUG testcase.ActivityDashBoard               - 2: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-25 15:28:06.111 DEBUG testcase.ActivityDashBoard               - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-01-25 15:28:06.381 DEBUG testcase.ActivityDashBoard               - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-01-25 15:28:06.680 DEBUG testcase.ActivityDashBoard               - 3: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay)
+2026-01-25 15:28:06.939 DEBUG testcase.ActivityDashBoard               - 4: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"))
+2026-01-25 15:28:07.232 DEBUG testcase.ActivityDashBoard               - 5: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay)
+2026-01-25 15:28:27.257 WARN  k.c.w.k.b.WaitForElementClickableKeyword - Waiting for element timed out
+2026-01-25 15:28:27.259 DEBUG testcase.ActivityDashBoard               - 6: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"))
+2026-01-25 15:28:37.276 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-01-25 15:28:38.354 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at ActivityDashBoard.run(ActivityDashBoard:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769335070018.run(TempTestSuite1769335070018.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span title="View Details" id="drilldown-container_3" class="widget-tools tool-detail drilldown-container_3 showDrillDown" data-divid="container_3" data-param1="NTopAppsDetailsReport" data-param2="G_TOP_APP_GROUP_REP" data-param3="container_3" data-param4="3" data-param5="39"></span> is not clickable at point (679, 192). Other element would receive the click: <div class="modal fade undraggable z-index-1090 ui-draggable ui-draggable-disabled z-index-dynamic-css in" tabindex="1" role="dialog" id="alertModal" data-backdrop="static" style="display: block; padding-right: 15px;">...</div>
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [6d208265504e63cdc2bb879469638762, clickElement {id=f.9A3E2C64825796D68A0E568C72C17661.d.6D317365940F99D27E245ED4FACC97A6.e.250}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.31 (18537d992890..., userDataDir: C:\Users\KRISHNA\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57312}, goog:processID: 6076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57312/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:8945/session..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (6d208265504e63cdc2bb879469638762)] -> xpath: //span[@id='drilldown-container_3']]
+Session ID: 6d208265504e63cdc2bb879469638762
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$RF6tXOKk.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1768987107445.run(Script1768987107445.groovy:40)
+	... 15 more
+)
+2026-01-25 15:28:38.357 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at ActivityDashBoard.run(ActivityDashBoard:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769335070018.run(TempTestSuite1769335070018.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span title="View Details" id="drilldown-container_3" class="widget-tools tool-detail drilldown-container_3 showDrillDown" data-divid="container_3" data-param1="NTopAppsDetailsReport" data-param2="G_TOP_APP_GROUP_REP" data-param3="container_3" data-param4="3" data-param5="39"></span> is not clickable at point (679, 192). Other element would receive the click: <div class="modal fade undraggable z-index-1090 ui-draggable ui-draggable-disabled z-index-dynamic-css in" tabindex="1" role="dialog" id="alertModal" data-backdrop="static" style="display: block; padding-right: 15px;">...</div>
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [6d208265504e63cdc2bb879469638762, clickElement {id=f.9A3E2C64825796D68A0E568C72C17661.d.6D317365940F99D27E245ED4FACC97A6.e.250}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.31 (18537d992890..., userDataDir: C:\Users\KRISHNA\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57312}, goog:processID: 6076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57312/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:8945/session..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (6d208265504e63cdc2bb879469638762)] -> xpath: //span[@id='drilldown-container_3']]
+Session ID: 6d208265504e63cdc2bb879469638762
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$RF6tXOKk.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2026-01-25 15:28:38.362 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-25 15:28:38.367 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-25 15:28:38.367 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-25 15:28:38.380 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = Pdf
+2026-01-25 15:28:38.383 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-25 15:28:38.383 DEBUG testcase.ActivityDashBoard               - 2: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-25 15:28:38.628 DEBUG testcase.ActivityDashBoard               - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)

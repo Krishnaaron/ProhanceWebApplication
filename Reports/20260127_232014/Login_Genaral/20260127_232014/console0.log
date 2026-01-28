@@ -1,0 +1,51 @@
+2026-01-27 23:20:17.880 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\KRISHNA\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-27 23:20:17.885 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\KRISHNA\git\ProhanceWebApplication\Include\config\log.properties
+2026-01-27 23:20:18.341 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login_Genaral
+2026-01-27 23:20:18.431 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-27 23:20:18.432 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-27 23:20:18.432 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = KRISHNA - krishna
+2026-01-27 23:20:18.433 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-27 23:20:18.433 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.9
+2026-01-27 23:20:18.434 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-27 23:20:18.990 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 23:20:18.990 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-27 23:20:19.055 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-27 23:20:19.055 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = tsL9urF6O/APwsPS+50KRA==
+2026-01-27 23:20:19.498 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-27 23:20:19.776 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-27 23:20:19.846 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 27, 2026 11:20:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-27 23:20:21.845 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0ffbe090e8f8ba344112749497052000
+2026-01-27 23:20:21.847 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.97
+2026-01-27 23:20:21.848 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-27 23:20:21.848 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-27 23:20:21.856 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-27 23:20:21.909 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-27 23:20:21.975 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-27 23:20:22.308 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-01-27 23:20:23.279 DEBUG testcase.Login                           - 5: try
+2026-01-27 23:20:23.283 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/LoginOR/userName"), userName)
+2026-01-27 23:20:23.975 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/LoginOR/Password"), password)
+2026-01-27 23:20:24.369 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/LoginOR/login_btn"), Delay)
+2026-01-27 23:20:24.723 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/LoginOR/login_btn"))
+2026-01-27 23:20:25.204 DEBUG testcase.Login                           - 5: if (verifyElementPresent(findTestObject("Object Repository/LoginOR/session_Distroysession"), Delay))
+Jan 27, 2026 11:20:36 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:984)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:939)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:939)
+

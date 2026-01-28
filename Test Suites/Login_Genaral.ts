@@ -44,6 +44,28 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4ad311d1-9893-4b95-ac70-25e67b76f4d5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginPage/LoginPage</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>4ad311d1-9893-4b95-ac70-25e67b76f4d5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>exportType</value>
+         <variableId>d41db5d9-148b-4fd0-a782-e364b051317f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f19b7162-7d2f-429a-ad18-611c70c509c4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ProhanceWeb/LogOut_Page/LogOut</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

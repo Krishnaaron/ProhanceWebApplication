@@ -1,0 +1,711 @@
+2026-01-27 14:47:06.092 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gopal.s\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-27 14:47:06.098 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gopal.s\git\ProhanceWebApplication\ProhanceWebApplication\Include\config\log.properties
+2026-01-27 14:47:07.550 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login_Genaral
+2026-01-27 14:47:07.659 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-27 14:47:07.660 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-27 14:47:07.662 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gopal.s - JAMOCHA57.jamochahq.local
+2026-01-27 14:47:07.664 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-27 14:47:07.666 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.10.10.136
+2026-01-27 14:47:07.667 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-27 14:47:08.208 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 14:47:08.208 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-27 14:47:08.286 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-27 14:47:08.287 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = tsL9urF6O/APwsPS+50KRA==
+2026-01-27 14:47:08.803 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-27 14:47:09.111 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-27 14:47:09.176 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 27, 2026 2:48:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-27 14:48:16.193 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 24192fbd3d089f4841385df007980a76
+2026-01-27 14:48:16.202 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.97
+2026-01-27 14:48:16.210 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-27 14:48:16.216 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-27 14:48:16.233 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-27 14:48:16.333 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-27 14:48:16.447 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-27 14:48:16.761 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-01-27 14:48:35.536 DEBUG testcase.Login                           - 5: try
+2026-01-27 14:48:35.545 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/LoginOR/userName"), userName)
+2026-01-27 14:48:36.196 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/LoginOR/Password"), password)
+2026-01-27 14:48:36.640 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/LoginOR/login_btn"), Delay)
+2026-01-27 14:48:37.000 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/LoginOR/login_btn"))
+2026-01-27 14:48:39.208 DEBUG testcase.Login                           - 5: if (verifyElementPresent(findTestObject("Object Repository/LoginOR/session_Distroysession"), 2))
+2026-01-27 14:48:39.863 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/LoginOR/session_Distroysession"), Delay)
+2026-01-27 14:48:40.212 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/LoginOR/session_Distroysession"))
+2026-01-27 14:48:40.649 DEBUG testcase.Login                           - 6: if (verifyElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay))
+2026-01-27 14:48:42.018 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay)
+2026-01-27 14:48:42.455 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Common/Accept Cookies"))
+2026-01-27 14:48:42.903 DEBUG testcase.Login                           - 7: Finally
+2026-01-27 14:48:42.906 DEBUG testcase.Login                           - 1: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-27 14:48:42.921 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-27 14:48:42.943 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 14:48:42.943 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:48:43.090 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = Pdf
+2026-01-27 14:48:43.330 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-27 14:48:43.331 DEBUG testcase.ActivityDashBoard               - 2: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-27 14:48:43.658 DEBUG testcase.ActivityDashBoard               - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-01-27 14:48:44.018 DEBUG testcase.ActivityDashBoard               - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-01-27 14:48:44.399 DEBUG testcase.ActivityDashBoard               - 3: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay)
+2026-01-27 14:48:44.720 DEBUG testcase.ActivityDashBoard               - 4: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"))
+2026-01-27 14:48:45.155 DEBUG testcase.ActivityDashBoard               - 5: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay)
+2026-01-27 14:48:46.982 DEBUG testcase.ActivityDashBoard               - 6: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"))
+2026-01-27 14:48:48.227 DEBUG testcase.ActivityDashBoard               - 7: switchToWindowIndex(1)
+2026-01-27 14:48:48.421 DEBUG testcase.ActivityDashBoard               - 8: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-27 14:48:48.524 DEBUG testcase.ActivityDashBoard               - 9: executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+2026-01-27 14:48:48.559 DEBUG testcase.ActivityDashBoard               - 10: com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete()
+C:\Users\gopal.s\Downloads
+2026-01-27 14:48:48.643 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+2026-01-27 14:48:48.647 DEBUG testcase.ActivityDashBoard               - 11: explort = ((exportType != null)) ? exportType : false
+2026-01-27 14:48:48.651 DEBUG testcase.ActivityDashBoard               - 12: browserName = getExecutedBrowser()
+2026-01-27 14:48:48.657 DEBUG testcase.ActivityDashBoard               - 13: result = com.prohancewebapplication.file.DowloadLocation.createBrowserWithDownload(browserName, "TopApplication")
+Jan 27, 2026 2:49:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-27 14:49:39.943 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 75d4ef67f91dd96c950f091a429bf442
+2026-01-27 14:49:39.945 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.97
+2026-01-27 14:49:39.945 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-27 14:49:39.946 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-27 14:49:39.947 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-27 14:49:39.952 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.DowloadLocation.createBrowserWithDownload is PASSED
+2026-01-27 14:49:39.955 DEBUG testcase.ActivityDashBoard               - 14: xPath = com.prohanceebapplication.common.Export.export(explort)
+2026-01-27 14:49:39.972 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceebapplication.common.Export.export is PASSED
+2026-01-27 14:49:39.974 DEBUG testcase.ActivityDashBoard               - 15: out.println(xPath)
+//span[.//img[@title='Export to PDF']]
+2026-01-27 14:49:39.979 DEBUG testcase.ActivityDashBoard               - 16: if (xPath != null)
+2026-01-27 14:49:39.981 DEBUG testcase.ActivityDashBoard               - 1: exportSpan = new com.kms.katalon.core.testobject.TestObject()
+2026-01-27 14:49:39.991 DEBUG testcase.ActivityDashBoard               - 2: exportSpan.addProperty("xpath", EQUALS, xPath)
+2026-01-27 14:49:40.021 DEBUG testcase.ActivityDashBoard               - 3: waitForElementPresent(exportSpan, Delay)
+2026-01-27 14:50:20.061 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+2026-01-27 14:50:20.065 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to wait for object '' to be present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to wait for object '' to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at ActivityDashBoard.run(ActivityDashBoard:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505419424.run(TempTestSuite1769505419424.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75d4ef67f91dd96c950f091a429bf442, findElements {value=//span[.//img[@title='Export to PDF']], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\gopal.s\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65165}, goog:processID: 14876, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65165/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75d4ef67f91dd96c950f091a429bf442
+	at jdk.internal.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:374)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:185)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$_findWebElement_closure2.doCall(WebUIAbstractKeyword.groovy:104)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at Script1768987107445.run(Script1768987107445.groovy:53)
+	... 15 more
+)
+2026-01-27 14:50:20.075 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object '' to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at ActivityDashBoard.run(ActivityDashBoard:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505419424.run(TempTestSuite1769505419424.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75d4ef67f91dd96c950f091a429bf442, findElements {value=//span[.//img[@title='Export to PDF']], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\gopal.s\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65165}, goog:processID: 14876, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65165/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75d4ef67f91dd96c950f091a429bf442
+	at jdk.internal.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:374)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:185)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:86)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$_findWebElement_closure2.doCall(WebUIAbstractKeyword.groovy:104)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2026-01-27 14:50:20.083 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:50:20.089 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 14:50:20.090 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:50:20.133 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = Pdf
+2026-01-27 14:50:20.145 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-27 14:50:20.149 DEBUG testcase.ActivityDashBoard               - 2: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-27 14:51:00.237 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+2026-01-27 14:51:00.240 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at ActivityDashBoard.run(ActivityDashBoard:13)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505419424.run(TempTestSuite1769505419424.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75d4ef67f91dd96c950f091a429bf442, findElements {value=//a[@id='workTimeLiToggle2'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\gopal.s\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65165}, goog:processID: 14876, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65165/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75d4ef67f91dd96c950f091a429bf442
+	at jdk.internal.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:374)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:185)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$_findWebElement_closure2.doCall(WebUIAbstractKeyword.groovy:104)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Script1768987107445.run(Script1768987107445.groovy:13)
+	... 16 more
+)
+2026-01-27 14:51:00.244 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at ActivityDashBoard.run(ActivityDashBoard:13)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505419424.run(TempTestSuite1769505419424.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75d4ef67f91dd96c950f091a429bf442, findElements {value=//a[@id='workTimeLiToggle2'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\gopal.s\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65165}, goog:processID: 14876, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65165/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75d4ef67f91dd96c950f091a429bf442
+	at jdk.internal.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:374)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:185)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$_findWebElement_closure2.doCall(WebUIAbstractKeyword.groovy:104)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2026-01-27 14:51:00.248 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:51:00.251 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 14:51:00.251 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:51:00.267 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = Pdf
+2026-01-27 14:51:00.269 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-27 14:51:00.270 DEBUG testcase.ActivityDashBoard               - 2: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-27 14:51:40.296 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+2026-01-27 14:51:40.296 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at ActivityDashBoard.run(ActivityDashBoard:13)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505419424.run(TempTestSuite1769505419424.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75d4ef67f91dd96c950f091a429bf442, findElements {value=//a[@id='workTimeLiToggle2'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\gopal.s\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65165}, goog:processID: 14876, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65165/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75d4ef67f91dd96c950f091a429bf442
+	at jdk.internal.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:374)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:185)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$_findWebElement_closure2.doCall(WebUIAbstractKeyword.groovy:104)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Script1768987107445.run(Script1768987107445.groovy:13)
+	... 17 more
+)
+2026-01-27 14:51:40.308 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at ActivityDashBoard.run(ActivityDashBoard:13)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505419424.run(TempTestSuite1769505419424.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75d4ef67f91dd96c950f091a429bf442, findElements {value=//a[@id='workTimeLiToggle2'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\gopal.s\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65165}, goog:processID: 14876, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65165/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75d4ef67f91dd96c950f091a429bf442
+	at jdk.internal.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:374)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:185)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$_findWebElement_closure2.doCall(WebUIAbstractKeyword.groovy:104)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+2026-01-27 14:51:40.311 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:51:40.314 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 14:51:40.314 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:51:40.333 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = Pdf
+2026-01-27 14:51:40.530 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-27 14:51:40.533 DEBUG testcase.ActivityDashBoard               - 2: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-27 14:52:20.548 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+2026-01-27 14:52:20.548 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at ActivityDashBoard.run(ActivityDashBoard:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505419424.run(TempTestSuite1769505419424.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75d4ef67f91dd96c950f091a429bf442, findElements {value=//a[@id='workTimeLiToggle2'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\gopal.s\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65165}, goog:processID: 14876, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65165/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75d4ef67f91dd96c950f091a429bf442
+	at jdk.internal.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:374)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:185)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$_findWebElement_closure2.doCall(WebUIAbstractKeyword.groovy:104)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Script1768987107445.run(Script1768987107445.groovy:16)
+	... 18 more
+)
+2026-01-27 14:52:20.555 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at ActivityDashBoard.run(ActivityDashBoard:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505419424.run(TempTestSuite1769505419424.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75d4ef67f91dd96c950f091a429bf442, findElements {value=//a[@id='workTimeLiToggle2'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\gopal.s\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65165}, goog:processID: 14876, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65165/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75d4ef67f91dd96c950f091a429bf442
+	at jdk.internal.reflect.GeneratedConstructorAccessor33.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:374)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementByNormalMethods(WebUiElementFinder.java:185)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:91)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:74)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElementsBySelectedMethod(WebUiElementFinder.java:69)
+	at com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(WebUiElementFinder.java:43)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.basicFindElement(WebUiElementFinderWithTimeout.java:50)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.lambda$0(WebUiElementFinderWithTimeout.java:29)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout.findElement(WebUiElementFinderWithTimeout.java:28)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$_findWebElement_closure2.doCall(WebUIAbstractKeyword.groovy:104)
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:49)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.retry(SeleniumActionRetryController.java:44)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+
+2026-01-27 14:52:20.559 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:52:20.819 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-27 14:52:20.819 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Login_Genaral
+2026-01-27 14:52:20.819 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Genaral,Chrome 144.0.7559.97,,,27-01-2026 23:18:52,27-01-2026 23:19:41,49.251s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Login_Page/Login,Chrome 144.0.7559.97,Login,,27-01-2026 23:18:53,27-01-2026 23:18:59,5.950s,PASSED
+"DATA BINDING - {""password"":""tsL9urF6O/APwsPS+50KRA\u003d\u003d"",""userName"":""tsL9urF6O/D/xURRxzj/8w\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Chrome 144.0.7559.97,,,27-01-2026 23:18:53,27-01-2026 23:18:56,2.444s,PASSED
+maximizeWindow(),Chrome 144.0.7559.97,,,27-01-2026 23:18:56,27-01-2026 23:18:56,0.064s,PASSED
+"waitForPageLoad(Delay, CONTINUE_ON_FAILURE)",Chrome 144.0.7559.97,,,27-01-2026 23:18:56,27-01-2026 23:18:56,0.328s,PASSED
+navigateToUrl(URL),Chrome 144.0.7559.97,,,27-01-2026 23:18:56,27-01-2026 23:18:57,0.639s,PASSED
+try,Chrome 144.0.7559.97,,,27-01-2026 23:18:57,27-01-2026 23:18:58,1.872s,PASSED
+catch (Exception e),Chrome 144.0.7559.97,,,27-01-2026 23:18:58,27-01-2026 23:18:59,0.068s,PASSED
+Finally,Chrome 144.0.7559.97,,,27-01-2026 23:18:59,27-01-2026 23:18:59,0.002s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/LogOut_Page/LogOut,Chrome 144.0.7559.97,,,27-01-2026 23:18:59,27-01-2026 23:19:41,42.323s,PASSED
+try,Chrome 144.0.7559.97,,,27-01-2026 23:18:59,27-01-2026 23:19:41,42.155s,PASSED

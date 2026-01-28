@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/New Test Suite Collection",
+  "name": "New Test Suite Collection",
+  "reportFolder": "C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260128_162657\\New Test Suite Collection\\20260128_162657",
+  "startTime": 1769597822656,
+  "endTime": 1769597919323,
+  "totalPassedTestCases": "0",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "2",
+  "totalTestCases": "2",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": "New Test Suite Collection"
+}

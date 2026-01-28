@@ -1,0 +1,195 @@
+2026-01-28 11:04:53.748 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gopal.s\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-28 11:04:53.753 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gopal.s\git\ProhanceWebApplication\Include\config\log.properties
+2026-01-28 11:05:13.599 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login_Genaral
+2026-01-28 11:05:14.973 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-28 11:05:14.975 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-28 11:05:14.979 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gopal.s - JAMOCHA57.jamochahq.local
+2026-01-28 11:05:14.981 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-28 11:05:14.983 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.10.10.136
+2026-01-28 11:05:14.986 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-28 11:05:17.523 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 11:05:17.523 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-28 11:05:17.643 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-28 11:05:17.648 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = tsL9urF6O/APwsPS+50KRA==
+2026-01-28 11:05:18.617 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-28 11:05:19.128 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-28 11:05:19.256 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 28, 2026 11:06:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-28 11:06:28.370 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2226612fb3e9dda5e4447a384faa229c
+2026-01-28 11:06:28.374 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.97
+2026-01-28 11:06:28.379 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-28 11:06:28.380 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-28 11:06:28.398 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-28 11:06:28.473 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-28 11:06:28.575 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-28 11:06:28.925 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-01-28 11:06:46.904 DEBUG testcase.Login                           - 5: try
+2026-01-28 11:06:46.906 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/Login/userName"), userName)
+2026-01-28 11:06:47.636 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Login/Password"), password)
+2026-01-28 11:06:48.129 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay)
+2026-01-28 11:06:48.601 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/Login/login_btn"))
+2026-01-28 11:06:50.877 DEBUG testcase.Login                           - 5: if (verifyElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay))
+2026-01-28 11:07:31.177 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/session_Distroysession' located by 'By.xpath: //input[@id='distroysession']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/session_Distroysession' located by 'By.xpath: //input[@id='distroysession']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Login.run(Login:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769578486322.run(TempTestSuite1769578486322.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2026-01-28 11:07:31.269 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify object 'Object Repository/Login/session_Distroysession' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Login/session_Distroysession' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Login.run(Login:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769578486322.run(TempTestSuite1769578486322.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/session_Distroysession' located by 'By.xpath: //input[@id='distroysession']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+2026-01-28 11:07:31.276 DEBUG testcase.Login                           - 6: catch (Exception e)
+2026-01-28 11:07:31.278 DEBUG testcase.Login                           - 1: out.println(e.getMessage())
+Unable to verify object 'Object Repository/Login/session_Distroysession' is present
+2026-01-28 11:07:31.323 DEBUG testcase.Login                           - 2: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-28 11:07:31.345 DEBUG testcase.Login                           - 7: Finally
+2026-01-28 11:07:31.347 DEBUG testcase.Login                           - 1: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-28 11:07:31.353 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-28 11:07:31.384 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 11:07:31.384 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-28 11:07:31.516 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = Pdf
+2026-01-28 11:07:31.768 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-28 11:07:31.776 DEBUG testcase.ActivityDashBoard               - 2: rows = null
+2026-01-28 11:07:31.782 DEBUG testcase.ActivityDashBoard               - 3: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-28 11:07:32.064 DEBUG testcase.ActivityDashBoard               - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-01-28 11:07:32.366 DEBUG testcase.ActivityDashBoard               - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-01-28 11:07:32.767 DEBUG testcase.ActivityDashBoard               - 3: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay)
+2026-01-28 11:07:33.093 DEBUG testcase.ActivityDashBoard               - 4: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"))
+2026-01-28 11:07:33.506 DEBUG testcase.ActivityDashBoard               - 5: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay)
+2026-01-28 11:07:35.564 DEBUG testcase.ActivityDashBoard               - 6: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"))
+2026-01-28 11:07:36.850 DEBUG testcase.ActivityDashBoard               - 7: switchToWindowIndex(1)
+2026-01-28 11:07:37.056 DEBUG testcase.ActivityDashBoard               - 8: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-28 11:07:37.183 DEBUG testcase.ActivityDashBoard               - 9: rows = com.prohancewebapplication.webtable.Table.webTableDataReader(findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_Id"), findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_tr"))
+2026-01-28 11:07:39.665 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.webtable.Table.webTableDataReader is PASSED
+2026-01-28 11:07:39.674 DEBUG testcase.ActivityDashBoard               - 10: if (rows != null)
+2026-01-28 11:07:39.676 DEBUG testcase.ActivityDashBoard               - 1: com.prohancewebapplication.webtable.Table.webTableDataWriter(rows)
+2026-01-28 11:07:40.394 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 0:  | Rank | Activity | Duration | #Users | #Switches | Rating | Category | 
+2026-01-28 11:07:40.742 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 1:  | 1 | ProHance | 2255.95h | 71 | 387769 | +2 | Business Tools | 
+2026-01-28 11:07:41.073 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 2:  | 2 | Eclipse | 1313.47h | 43 | 278776 | +2 | Development Tools | 
+2026-01-28 11:07:41.401 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 3:  | 3 | MS Teams | 600.82h | 71 | 114436 | +2 | Communication Tools | 
+2026-01-28 11:07:42.215 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 4:  | 4 | Notepad | 402.11h | 70 | 126054 | +2 | Development Tools | 
+2026-01-28 11:07:43.451 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 5:  | 5 | Windows Components | 389.58h | 70 | 310685 | +2 | Support Tools | 
+2026-01-28 11:07:43.834 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 6:  | 6 | UNKNOWN AOS | 342.17h | 71 | 101505 |  |  | 
+2026-01-28 11:07:44.173 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 7:  | 7 | Email Applications | 240.60h | 71 | 40301 | +2 | Communication Tools | 
+2026-01-28 11:07:44.529 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 8:  | 8 | Excel | 208.74h | 68 | 45628 | +2 | Documentation Tools | 
+2026-01-28 11:07:44.845 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 9:  | 9 | Remote Desktop | 173.36h | 47 | 9759 | +1 | Support Tools | 
+2026-01-28 11:07:45.169 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 10:  | 10 | Chat GPT | 157.40h | 68 | 20238 | +2 | Business Tools | 
+2026-01-28 11:07:45.508 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 11:  | 11 | XCode | 131.30h | 5 | 6795 | +2 | Development Tools | 
+2026-01-28 11:07:45.836 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 12:  | 12 | Techmate Application | 114.72h | 59 | 18172 | +2 | Support Tools | 
+2026-01-28 11:07:46.171 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 13:  | 13 | MS Visual Studio | 109.84h | 14 | 24935 | +2 | Development Tools | 
+2026-01-28 11:07:46.502 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 14:  | 14 | Customer Connect Apps | 85.25h | 61 | 13517 | +2 | Support Tools | 
+2026-01-28 11:07:46.856 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 15:  | 15 | MYSQL Server | 74.07h | 45 | 10378 | +2 | Development Tools | 
+2026-01-28 11:07:47.197 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 16:  | 16 | Personal Time | 71.85h | 28 | 256 |  |  | 
+2026-01-28 11:07:47.526 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 17:  | 17 | MSSQL Server | 54.69h | 37 | 13428 | +2 | Development Tools | 
+2026-01-28 11:07:47.858 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 18:  | 18 | General Web Browsing | 32.81h | 69 | 7811 | 0 | Documentation Tools | 
+2026-01-28 11:07:48.162 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 19:  | 19 | License Portal | 30.29h | 52 | 8048 | +2 | Documentation Tools | 
+2026-01-28 11:07:48.498 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 20:  | 20 | Python | 26.75h | 4 | 3238 | +2 | Development Tools | 
+2026-01-28 11:07:48.849 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 21:  | 21 | Files & Folders | 17.76h | 70 | 9574 | 0 | System Tools | 
+2026-01-28 11:07:49.226 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 22:  | 22 | Power Point | 13.13h | 11 | 1606 | +2 | Documentation Tools | 
+2026-01-28 11:07:49.584 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 23:  | 23 | Unproductive Sites | 10.41h | 52 | 1587 | 0 | Unproductive | 
+2026-01-28 11:07:49.922 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 24:  | 24 | Electron | 10.37h | 2 | 1195 | +2 | Development Tools | 
+2026-01-28 11:07:50.249 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 25:  | 25 | Paint | 10.09h | 64 | 5638 | 0 | Documentation Tools | 
+2026-01-28 11:07:50.578 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 26:  | 26 | Grey Tip HR | 09.67h | 50 | 1281 | +2 | Internal Applications | 
+2026-01-28 11:07:50.902 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 27:  | 27 | Automation Robot | 08.92h | 4 | 2483 | +2 | Development Tools | 
+2026-01-28 11:07:51.245 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 28:  | 28 | Advanced Rest Client | 08.68h | 22 | 1538 | +2 | Documentation Tools | 
+2026-01-28 11:07:51.574 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 29:  | 29 | Jenkins | 08.11h | 54 | 3598 | +2 | Development Tools | 
+2026-01-28 11:07:51.925 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 30:  | 30 | Word | 07.99h | 18 | 1003 | +2 | Documentation Tools | 
+2026-01-28 11:07:52.239 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 31:  | 31 | Tutorials | 07.13h | 37 | 948 | +1 | Documentation Tools | 
+2026-01-28 11:07:52.595 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 32:  | 32 | IP Messenger | 06.72h | 47 | 3236 | +1 | Communication Tools | 
+2026-01-28 11:07:52.975 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 33:  | 33 | CAST Application | 03.42h | 13 | 359 | +2 | Development Tools | 
+2026-01-28 11:07:53.340 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 34:  | 34 | Mouse Jiggles | 02.71h | 4 | 235 | 0 | Unproductive | 
+2026-01-28 11:07:53.667 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 35:  | 35 | Advanced Rest Client | 02.35h | 12 | 566 | +2 | Development Tools | 
+2026-01-28 11:07:53.997 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 36:  | 36 | Automation Robot | 02.17h | 3 | 1015 | +2 | Quality Tools | 
+2026-01-28 11:07:54.327 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 37:  | 37 | Compress Utilities | 01.83h | 53 | 2853 | +1 | System Tools | 
+2026-01-28 11:07:54.652 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 38:  | 38 | Jira | 01.48h | 16 | 349 | +2 | Documentation Tools | 
+2026-01-28 11:07:54.984 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 39:  | 39 | Browser Extensions and Addons | 00.76h | 7 | 138 | +2 | Development Tools | 
+2026-01-28 11:07:55.306 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 40:  | 40 | LinkedIn | 00.60h | 12 | 181 | 0 | Communication Tools | 
+2026-01-28 11:07:55.635 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 41:  | 41 | Internet Information Services (IIS) Manager | 00.49h | 3 | 282 | +2 | Development Tools | 
+2026-01-28 11:07:55.990 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 42:  | 42 | Whatsapp | 00.06h | 5 | 18 | 0 | Unproductive | 
+2026-01-28 11:07:56.309 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 43:  | 43 | Hopstack Vacus App | 00.01h | 1 | 2 | 0 | Business Tools | 
+2026-01-28 11:07:56.660 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 44:  | 44 | Testing Tools | 00.00h | 2 | 8 | +2 | Quality Tools | 
+2026-01-28 11:07:56.661 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.webtable.Table.webTableDataWriter is PASSED
+2026-01-28 11:07:56.662 DEBUG testcase.ActivityDashBoard               - 11: executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+2026-01-28 11:07:56.718 DEBUG testcase.ActivityDashBoard               - 12: com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete()
+C:\Users\gopal.s\Downloads
+2026-01-28 11:07:56.776 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+2026-01-28 11:07:56.789 DEBUG testcase.ActivityDashBoard               - 13: explort = ((exportType != null)) ? exportType : false
+2026-01-28 11:07:56.793 DEBUG testcase.ActivityDashBoard               - 14: browserName = getExecutedBrowser()
+2026-01-28 11:07:56.801 DEBUG testcase.ActivityDashBoard               - 15: logInfo("Browser Name :" + " " + browserName)
+2026-01-28 11:07:56.804 INFO  com.kms.katalon.core.util.KeywordUtil    - Browser Name : Chrome
+2026-01-28 11:07:56.808 DEBUG testcase.ActivityDashBoard               - 16: xPath = com.prohanceebapplication.common.Export.export(explort)
+2026-01-28 11:07:56.827 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceebapplication.common.Export.export is PASSED
+2026-01-28 11:07:56.833 DEBUG testcase.ActivityDashBoard               - 17: out.println(xPath)
+//span[.//img[@title='Export to PDF']]
+2026-01-28 11:07:56.837 DEBUG testcase.ActivityDashBoard               - 18: if (xPath != null)
+2026-01-28 11:07:56.840 DEBUG testcase.ActivityDashBoard               - 1: exportSpan = new com.kms.katalon.core.testobject.TestObject()
+2026-01-28 11:07:56.842 DEBUG testcase.ActivityDashBoard               - 2: exportSpan.addProperty("xpath", EQUALS, xPath)
+2026-01-28 11:07:56.854 DEBUG testcase.ActivityDashBoard               - 3: waitForElementPresent(exportSpan, Delay)
+2026-01-28 11:07:57.167 DEBUG testcase.ActivityDashBoard               - 4: el = findWebElement(exportSpan, Delay)
+2026-01-28 11:07:57.487 DEBUG testcase.ActivityDashBoard               - 5: executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(el))
+2026-01-28 11:07:57.534 DEBUG testcase.ActivityDashBoard               - 6: executeJavaScript("arguments[0].click();", Arrays.asList(el))
+2026-01-28 11:07:58.799 DEBUG testcase.ActivityDashBoard               - 19: com.prohancewebapplication.file.FileSizeFinder.fileSize()
+2026-01-28 11:07:58.833 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+2026-01-28 11:07:58.839 DEBUG testcase.ActivityDashBoard               - 20: switchToDefaultContent()
+2026-01-28 11:07:58.937 DEBUG testcase.ActivityDashBoard               - 21: closeWindowIndex(1)
+2026-01-28 11:07:59.031 DEBUG testcase.ActivityDashBoard               - 22: switchToWindowIndex(0)
+2026-01-28 11:07:59.080 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-28 11:07:59.095 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 11:07:59.095 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/LogOut_Page/LogOut
+2026-01-28 11:07:59.450 DEBUG testcase.LogOut                          - 1: try
+2026-01-28 11:07:59.457 DEBUG testcase.LogOut                          - 1: waitForElementPresent(findTestObject("Object Repository/Logout/userProfileIcon"), Delay)
+2026-01-28 11:07:59.758 DEBUG testcase.LogOut                          - 2: click(findTestObject("Object Repository/Logout/userProfileIcon"), STOP_ON_FAILURE)
+2026-01-28 11:08:00.212 DEBUG testcase.LogOut                          - 3: waitForElementPresent(findTestObject("Object Repository/Logout/logOut"), Delay)
+2026-01-28 11:08:00.685 DEBUG testcase.LogOut                          - 4: click(findTestObject("Object Repository/Logout/logOut"), STOP_ON_FAILURE)
+2026-01-28 11:08:01.515 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/LogOut_Page/LogOut
+2026-01-28 11:08:01.993 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-28 11:08:01.993 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Login_Genaral
+2026-01-28 11:08:01.993 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

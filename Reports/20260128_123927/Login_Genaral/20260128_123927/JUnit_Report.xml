@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Genaral" time="179.28" tests="3" failures="0" errors="0">
+   <testsuite name="Login_Genaral" tests="3" failures="0" errors="0" time="179.28" skipped="0" timestamp="2026-01-28T07:09:37.797Z" hostname="gopal.s - JAMOCHA57.jamochahq.local" id="Test Suites/Login_Genaral">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260128_123927\\Login_Genaral\\20260128_123927"/>
+         <property name="logFiles" value="C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260128_123927\\Login_Genaral\\20260128_123927\\console0.log, C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260128_123927\\Login_Genaral\\20260128_123927\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gopal.s - JAMOCHA57.jamochahq.local"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+         <property name="browser" value="Chrome 144.0.7559.97"/>
+         <property name="userFullName" value="Gopal"/>
+         <property name="hostAddress" value="10.10.10.136"/>
+         <property name="sessionId" value="e666297f3a8ade4a2d7c484e9a89ff1b"/>
+         <property name="projectName" value="ProhanceWebApplication"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ProhanceWeb/Login_Page/Login" time="133.174" classname="Test Cases/ProhanceWeb/Login_Page/Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"tsL9urF6O/APwsPS+50KRA\u003d\u003d","userName":"tsL9urF6O/D/xURRxzj/8w\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[28-01-2026T12:39:38 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Login_Page/Login: Test Cases/ProhanceWeb/Login_Page/Login
+
+28-01-2026T12:39:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-01-2026T12:39:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-01-2026T12:39:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-01-2026T12:40:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-01-2026T12:40:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-01-2026T12:40:50 - [MESSAGE][PASSED] - Current window maximized
+
+28-01-2026T12:40:50 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, CONTINUE_ON_FAILURE): Wait for page load successfully
+
+28-01-2026T12:40:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-01-2026T12:40:50 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://enhance.prohance.io/prohance' successfully
+
+28-01-2026T12:41:41 - [MESSAGE][PASSED] - Navigate to 'https://enhance.prohance.io/prohance' successfully
+
+28-01-2026T12:41:41 - [TEST_STEP][PASSED] - try: null
+
+28-01-2026T12:41:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/userName"), userName): Text ****** has been set on object 'Object Repository/Login/userName'
+
+28-01-2026T12:41:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/userName'
+
+28-01-2026T12:41:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Password"), password): Text ****** has been set on object 'Object Repository/Login/Password'
+
+28-01-2026T12:41:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+28-01-2026T12:41:43 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay): Object 'Object Repository/Login/login_btn' is clickable
+
+28-01-2026T12:41:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login/login_btn' is clickable
+
+28-01-2026T12:41:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/login_btn")): Object: 'Object Repository/Login/login_btn' is clicked on
+
+28-01-2026T12:41:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/login_btn' is clicked on
+
+28-01-2026T12:41:46 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay)): null
+
+28-01-2026T12:41:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/session_Distroysession' is present
+
+28-01-2026T12:41:47 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Login/session_Distroysession"), Delay): Object 'Object Repository/Login/session_Distroysession' is clickable
+
+28-01-2026T12:41:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/session_Distroysession' is clickable
+
+28-01-2026T12:41:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/session_Distroysession")): Object: 'Object Repository/Login/session_Distroysession' is clicked on
+
+28-01-2026T12:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/session_Distroysession' is clicked on
+
+28-01-2026T12:41:48 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay)): null
+
+28-01-2026T12:41:50 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is present
+
+28-01-2026T12:41:50 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay): Object 'Object Repository/Common/Accept Cookies' is clickable
+
+28-01-2026T12:41:51 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is clickable
+
+28-01-2026T12:41:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Common/Accept Cookies")): Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+28-01-2026T12:41:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+28-01-2026T12:41:51 - [TEST_STEP][PASSED] - Finally: null
+
+28-01-2026T12:41:51 - [TEST_STEP][PASSED] - timestamp = Date().format("yyyyMMdd_HHmmss"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard" time="42.769" classname="Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"exportType":"excel"}]]></property>
+         </properties>
+         <system-out><![CDATA[28-01-2026T12:41:51 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard: Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+
+28-01-2026T12:41:52 - [TEST_STEP][PASSED] - explort = null: null
+
+28-01-2026T12:41:52 - [TEST_STEP][PASSED] - rows = null: null
+
+28-01-2026T12:41:52 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)): null
+
+28-01-2026T12:41:52 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+
+28-01-2026T12:41:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clickable
+
+28-01-2026T12:41:53 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clickable
+
+28-01-2026T12:41:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clicked on
+
+28-01-2026T12:41:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clicked on
+
+28-01-2026T12:41:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clickable
+
+28-01-2026T12:41:54 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clickable
+
+28-01-2026T12:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clicked on
+
+28-01-2026T12:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clicked on
+
+28-01-2026T12:41:54 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"), Delay, STOP_ON_FAILURE): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clickable
+
+28-01-2026T12:42:00 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clickable
+
+28-01-2026T12:42:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clicked on
+
+28-01-2026T12:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clicked on
+
+28-01-2026T12:42:04 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, STOP_ON_FAILURE): Wait for page load successfully
+
+28-01-2026T12:42:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-01-2026T12:42:04 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clickable
+
+28-01-2026T12:42:07 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clickable
+
+28-01-2026T12:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clicked on
+
+28-01-2026T12:42:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clicked on
+
+28-01-2026T12:42:10 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+28-01-2026T12:42:10 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+28-01-2026T12:42:10 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, STOP_ON_FAILURE): Wait for page load successfully
+
+28-01-2026T12:42:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+28-01-2026T12:42:11 - [TEST_STEP][PASSED] - rows = com.prohancewebapplication.webtable.Table.webTableDataReader(findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_Id"), findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_tr")): com.prohancewebapplication.webtable.Table.webTableDataReader is PASSED
+
+28-01-2026T12:42:13 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_Id' is visible
+
+28-01-2026T12:42:13 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_tr
+
+28-01-2026T12:42:13 - [MESSAGE][PASSED] - com.prohancewebapplication.webtable.Table.webTableDataReader is PASSED
+
+28-01-2026T12:42:13 - [TEST_STEP][PASSED] - if (rows != null): com.prohancewebapplication.webtable.Table.webTableDataWriter is PASSED
+
+28-01-2026T12:42:13 - [TEST_STEP][PASSED] - com.prohancewebapplication.webtable.Table.webTableDataWriter(rows): com.prohancewebapplication.webtable.Table.webTableDataWriter is PASSED
+
+28-01-2026T12:42:14 - [MESSAGE][INFO] - Row 0:  | Rank | Activity | Duration | #Users | #Switches | Rating | Category | 
+
+28-01-2026T12:42:15 - [MESSAGE][INFO] - Row 1:  | 1 | ProHance | 2255.95h | 71 | 387769 | +2 | Business Tools | 
+
+28-01-2026T12:42:15 - [MESSAGE][INFO] - Row 2:  | 2 | Eclipse | 1313.47h | 43 | 278776 | +2 | Development Tools | 
+
+28-01-2026T12:42:15 - [MESSAGE][INFO] - Row 3:  | 3 | MS Teams | 600.82h | 71 | 114436 | +2 | Communication Tools | 
+
+28-01-2026T12:42:16 - [MESSAGE][INFO] - Row 4:  | 4 | Notepad | 402.11h | 70 | 126054 | +2 | Development Tools | 
+
+28-01-2026T12:42:16 - [MESSAGE][INFO] - Row 5:  | 5 | Windows Components | 389.58h | 70 | 310685 | +2 | Support Tools | 
+
+28-01-2026T12:42:16 - [MESSAGE][INFO] - Row 6:  | 6 | UNKNOWN AOS | 342.17h | 71 | 101505 |  |  | 
+
+28-01-2026T12:42:17 - [MESSAGE][INFO] - Row 7:  | 7 | Email Applications | 240.60h | 71 | 40301 | +2 | Communication Tools | 
+
+28-01-2026T12:42:17 - [MESSAGE][INFO] - Row 8:  | 8 | Excel | 208.74h | 68 | 45628 | +2 | Documentation Tools | 
+
+28-01-2026T12:42:18 - [MESSAGE][INFO] - Row 9:  | 9 | Remote Desktop | 173.36h | 47 | 9759 | +1 | Support Tools | 
+
+28-01-2026T12:42:18 - [MESSAGE][INFO] - Row 10:  | 10 | Chat GPT | 157.40h | 68 | 20238 | +2 | Business Tools | 
+
+28-01-2026T12:42:18 - [MESSAGE][INFO] - Row 11:  | 11 | XCode | 131.30h | 5 | 6795 | +2 | Development Tools | 
+
+28-01-2026T12:42:19 - [MESSAGE][INFO] - Row 12:  | 12 | Techmate Application | 114.72h | 59 | 18172 | +2 | Support Tools | 
+
+28-01-2026T12:42:19 - [MESSAGE][INFO] - Row 13:  | 13 | MS Visual Studio | 109.84h | 14 | 24935 | +2 | Development Tools | 
+
+28-01-2026T12:42:19 - [MESSAGE][INFO] - Row 14:  | 14 | Customer Connect Apps | 85.25h | 61 | 13517 | +2 | Support Tools | 
+
+28-01-2026T12:42:20 - [MESSAGE][INFO] - Row 15:  | 15 | MYSQL Server | 74.07h | 45 | 10378 | +2 | Development Tools | 
+
+28-01-2026T12:42:20 - [MESSAGE][INFO] - Row 16:  | 16 | Personal Time | 71.85h | 28 | 256 |  |  | 
+
+28-01-2026T12:42:20 - [MESSAGE][INFO] - Row 17:  | 17 | MSSQL Server | 54.69h | 37 | 13428 | +2 | Development Tools | 
+
+28-01-2026T12:42:21 - [MESSAGE][INFO] - Row 18:  | 18 | General Web Browsing | 32.81h | 69 | 7811 | 0 | Documentation Tools | 
+
+28-01-2026T12:42:21 - [MESSAGE][INFO] - Row 19:  | 19 | License Portal | 30.29h | 52 | 8048 | +2 | Documentation Tools | 
+
+28-01-2026T12:42:21 - [MESSAGE][INFO] - Row 20:  | 20 | Python | 26.75h | 4 | 3238 | +2 | Development Tools | 
+
+28-01-2026T12:42:22 - [MESSAGE][INFO] - Row 21:  | 21 | Files & Folders | 17.76h | 70 | 9574 | 0 | System Tools | 
+
+28-01-2026T12:42:24 - [MESSAGE][INFO] - Row 22:  | 22 | Power Point | 13.13h | 11 | 1606 | +2 | Documentation Tools | 
+
+28-01-2026T12:42:24 - [MESSAGE][INFO] - Row 23:  | 23 | Unproductive Sites | 10.41h | 52 | 1587 | 0 | Unproductive | 
+
+28-01-2026T12:42:24 - [MESSAGE][INFO] - Row 24:  | 24 | Electron | 10.37h | 2 | 1195 | +2 | Development Tools | 
+
+28-01-2026T12:42:25 - [MESSAGE][INFO] - Row 25:  | 25 | Paint | 10.09h | 64 | 5638 | 0 | Documentation Tools | 
+
+28-01-2026T12:42:25 - [MESSAGE][INFO] - Row 26:  | 26 | Grey Tip HR | 09.67h | 50 | 1281 | +2 | Internal Applications | 
+
+28-01-2026T12:42:25 - [MESSAGE][INFO] - Row 27:  | 27 | Automation Robot | 08.92h | 4 | 2483 | +2 | Development Tools | 
+
+28-01-2026T12:42:26 - [MESSAGE][INFO] - Row 28:  | 28 | Advanced Rest Client | 08.68h | 22 | 1538 | +2 | Documentation Tools | 
+
+28-01-2026T12:42:26 - [MESSAGE][INFO] - Row 29:  | 29 | Jenkins | 08.11h | 54 | 3598 | +2 | Development Tools | 
+
+28-01-2026T12:42:27 - [MESSAGE][INFO] - Row 30:  | 30 | Word | 07.99h | 18 | 1003 | +2 | Documentation Tools | 
+
+28-01-2026T12:42:27 - [MESSAGE][INFO] - Row 31:  | 31 | Tutorials | 07.13h | 37 | 948 | +1 | Documentation Tools | 
+
+28-01-2026T12:42:27 - [MESSAGE][INFO] - Row 32:  | 32 | IP Messenger | 06.72h | 47 | 3236 | +1 | Communication Tools | 
+
+28-01-2026T12:42:28 - [MESSAGE][INFO] - Row 33:  | 33 | CAST Application | 03.42h | 13 | 359 | +2 | Development Tools | 
+
+28-01-2026T12:42:28 - [MESSAGE][INFO] - Row 34:  | 34 | Mouse Jiggles | 02.71h | 4 | 235 | 0 | Unproductive | 
+
+28-01-2026T12:42:28 - [MESSAGE][INFO] - Row 35:  | 35 | Advanced Rest Client | 02.35h | 12 | 566 | +2 | Development Tools | 
+
+28-01-2026T12:42:29 - [MESSAGE][INFO] - Row 36:  | 36 | Automation Robot | 02.17h | 3 | 1015 | +2 | Quality Tools | 
+
+28-01-2026T12:42:29 - [MESSAGE][INFO] - Row 37:  | 37 | Compress Utilities | 01.83h | 53 | 2853 | +1 | System Tools | 
+
+28-01-2026T12:42:29 - [MESSAGE][INFO] - Row 38:  | 38 | Jira | 01.48h | 16 | 349 | +2 | Documentation Tools | 
+
+28-01-2026T12:42:30 - [MESSAGE][INFO] - Row 39:  | 39 | Browser Extensions and Addons | 00.76h | 7 | 138 | +2 | Development Tools | 
+
+28-01-2026T12:42:30 - [MESSAGE][INFO] - Row 40:  | 40 | LinkedIn | 00.60h | 12 | 181 | 0 | Communication Tools | 
+
+28-01-2026T12:42:30 - [MESSAGE][INFO] - Row 41:  | 41 | Internet Information Services (IIS) Manager | 00.49h | 3 | 282 | +2 | Development Tools | 
+
+28-01-2026T12:42:31 - [MESSAGE][INFO] - Row 42:  | 42 | Whatsapp | 00.06h | 5 | 18 | 0 | Unproductive | 
+
+28-01-2026T12:42:31 - [MESSAGE][INFO] - Row 43:  | 43 | Hopstack Vacus App | 00.01h | 1 | 2 | 0 | Business Tools | 
+
+28-01-2026T12:42:32 - [MESSAGE][INFO] - Row 44:  | 44 | Testing Tools | 00.00h | 2 | 8 | +2 | Quality Tools | 
+
+28-01-2026T12:42:32 - [MESSAGE][PASSED] - com.prohancewebapplication.webtable.Table.webTableDataWriter is PASSED
+
+28-01-2026T12:42:32 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+28-01-2026T12:42:32 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+28-01-2026T12:42:32 - [TEST_STEP][PASSED] - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete(): com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+
+28-01-2026T12:42:32 - [MESSAGE][PASSED] - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+
+28-01-2026T12:42:32 - [TEST_STEP][PASSED] - explort = ((exportType != null)) ? exportType : false: null
+
+28-01-2026T12:42:32 - [TEST_STEP][PASSED] - browserName = getExecutedBrowser(): null
+
+28-01-2026T12:42:32 - [TEST_STEP][PASSED] - logInfo("Browser Name :" + " " + browserName): Browser Name : Chrome
+
+28-01-2026T12:42:32 - [MESSAGE][INFO] - Browser Name : Chrome
+
+28-01-2026T12:42:32 - [TEST_STEP][PASSED] - xPath = com.prohanceebapplication.common.Export.export(explort): com.prohanceebapplication.common.Export.export is PASSED
+
+28-01-2026T12:42:32 - [MESSAGE][PASSED] - com.prohanceebapplication.common.Export.export is PASSED
+
+28-01-2026T12:42:32 - [TEST_STEP][PASSED] - out.println(xPath): null
+
+28-01-2026T12:42:32 - [TEST_STEP][PASSED] - if (xPath != null): Execute JavaScript 'arguments[0].click();' successfully
+
+28-01-2026T12:42:32 - [TEST_STEP][PASSED] - exportSpan = new com.kms.katalon.core.testobject.TestObject(): null
+
+28-01-2026T12:42:32 - [TEST_STEP][PASSED] - exportSpan.addProperty("xpath", EQUALS, xPath): null
+
+28-01-2026T12:42:32 - [TEST_STEP][PASSED] - waitForElementPresent(exportSpan, Delay): Object '' is present
+
+28-01-2026T12:42:32 - [MESSAGE][PASSED] - Object '' is present
+
+28-01-2026T12:42:32 - [TEST_STEP][PASSED] - el = findWebElement(exportSpan, Delay): Found web element by test object 
+
+28-01-2026T12:42:32 - [MESSAGE][PASSED] - Found web element by test object 
+
+28-01-2026T12:42:32 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(el)): Execute JavaScript 'arguments[0].scrollIntoView(true);' successfully
+
+28-01-2026T12:42:32 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].scrollIntoView(true);' successfully
+
+28-01-2026T12:42:32 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(el)): Execute JavaScript 'arguments[0].click();' successfully
+
+28-01-2026T12:42:34 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+28-01-2026T12:42:34 - [TEST_STEP][PASSED] - com.prohancewebapplication.file.FileSizeFinder.fileSize(): com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+
+28-01-2026T12:42:34 - [MESSAGE][PASSED] - com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+
+28-01-2026T12:42:34 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+28-01-2026T12:42:34 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+28-01-2026T12:42:34 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+28-01-2026T12:42:34 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+28-01-2026T12:42:34 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProhanceWeb/LogOut_Page/LogOut" time="2.541" classname="Test Cases/ProhanceWeb/LogOut_Page/LogOut" status="PASSED">
+         <system-out><![CDATA[28-01-2026T12:42:34 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/LogOut_Page/LogOut: Test Cases/ProhanceWeb/LogOut_Page/LogOut
+
+28-01-2026T12:42:34 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Logout/logOut' is clicked on
+
+28-01-2026T12:42:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Logout/userProfileIcon"), Delay): Object 'Object Repository/Logout/userProfileIcon' is present
+
+28-01-2026T12:42:35 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/userProfileIcon' is present
+
+28-01-2026T12:42:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/userProfileIcon"), STOP_ON_FAILURE): Object: 'Object Repository/Logout/userProfileIcon' is clicked on
+
+28-01-2026T12:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/userProfileIcon' is clicked on
+
+28-01-2026T12:42:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Logout/logOut"), Delay): Object 'Object Repository/Logout/logOut' is present
+
+28-01-2026T12:42:36 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/logOut' is present
+
+28-01-2026T12:42:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/logOut"), STOP_ON_FAILURE): Object: 'Object Repository/Logout/logOut' is clicked on
+
+28-01-2026T12:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/logOut' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-01-2026T12:39:37 - [TEST_SUITE][PASSED] - Login_Genaral: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

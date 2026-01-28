@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>General_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7cf3bb96-f89e-471e-8c43-0b1f0f23bca7</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>8f7eb8c2-1bec-4423-ab83-7120462bd395</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/LoginPage/LoginPage</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>8f7eb8c2-1bec-4423-ab83-7120462bd395</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>userName</value>
+      <variableId>6072c373-d0aa-41c1-97f0-1f3a79b7deae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8f7eb8c2-1bec-4423-ab83-7120462bd395</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>b97b1ae6-9a00-494b-8cd0-c6e6d35c742f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8f7eb8c2-1bec-4423-ab83-7120462bd395</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>exportType</value>
+      <variableId>6faa5939-a322-4ea0-86b7-c0676a8376cb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6072c373-d0aa-41c1-97f0-1f3a79b7deae</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b97b1ae6-9a00-494b-8cd0-c6e6d35c742f</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6faa5939-a322-4ea0-86b7-c0676a8376cb</id>
+      <masked>false</masked>
+      <name>exportType</name>
+   </variable>
+</TestCaseEntity>

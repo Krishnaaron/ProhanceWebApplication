@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-28T09:32:16.545288100Z</date>
+  <millis>1769592736545</millis>
+  <nanos>288100</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Login_Genaral</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">3</property>
+  <property name="name">Login_Genaral</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Login_Genaral</property>
+</record>
+<record>
+  <date>2026-01-28T09:32:16.622443600Z</date>
+  <millis>1769592736622</millis>
+  <nanos>443600</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>userFullName = Gopal</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="userFullName">Gopal</property>
+</record>
+<record>
+  <date>2026-01-28T09:32:16.623441100Z</date>
+  <millis>1769592736623</millis>
+  <nanos>441100</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>projectName = ProhanceWebApplication</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="projectName">ProhanceWebApplication</property>
+</record>
+<record>
+  <date>2026-01-28T09:32:16.628427500Z</date>
+  <millis>1769592736628</millis>
+  <nanos>427500</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = gopal.s - JAMOCHA57.jamochahq.local</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">gopal.s - JAMOCHA57.jamochahq.local</property>
+</record>
+<record>
+  <date>2026-01-28T09:32:16.632416800Z</date>
+  <millis>1769592736632</millis>
+  <nanos>416800</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 11 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 11 64bit</property>
+</record>
+<record>
+  <date>2026-01-28T09:32:16.634414200Z</date>
+  <millis>1769592736634</millis>
+  <nanos>414200</nanos>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.10.10.136</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">10.10.10.136</property>
+</record>
+<record>
+  <date>2026-01-28T09:32:16.635411500Z</date>
+  <millis>1769592736635</millis>
+  <nanos>411500</nanos>
+  <sequence>6</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 10.4.3.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">10.4.3.0</property>
+</record>
+<record>
+  <date>2026-01-28T09:32:18.377034900Z</date>
+  <millis>1769592738377</millis>
+  <nanos>34900</nanos>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ProhanceWeb/Login_Page/Login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="origin"></property>
+  <property name="name">Test Cases/ProhanceWeb/Login_Page/Login</property>
+  <property name="description">Login</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/ProhanceWeb/Login_Page/Login</property>
+  <property name="source">C:\Users\gopal.s\git\ProhanceWebApplication\Test Cases\ProhanceWeb\Login_Page\Login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2026-01-28T09:32:19.027069100Z</date>
+  <millis>1769592739027</millis>
+  <nanos>69100</nanos>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>userName = tsL9urF6O/D/xURRxzj/8w==</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-28T09:32:19.034050600Z</date>
+  <millis>1769592739034</millis>
+  <nanos>50600</nanos>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>password = HeCM15nHKBI=</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-28T09:32:22.137234100Z</date>
+  <millis>1769592742137</millis>
+  <nanos>234100</nanos>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-28T09:32:23.072107800Z</date>
+  <millis>1769592743072</millis>
+  <nanos>107800</nanos>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-28T09:32:23.202966Z</date>
+  <millis>1769592743202</millis>
+  <nanos>966000</nanos>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

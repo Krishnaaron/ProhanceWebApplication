@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Genaral" time="44.986" tests="2" failures="0" errors="0">
+   <testsuite name="Login_Genaral" tests="2" failures="0" errors="0" time="44.986" skipped="0" timestamp="2026-01-27T18:01:43.624Z" hostname="KRISHNA - krishna" id="Test Suites/Login_Genaral">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\KRISHNA\\git\\ProhanceWebApplication\\Reports\\20260127_233139\\Login_Genaral\\20260127_233139"/>
+         <property name="logFiles" value="C:\\Users\\KRISHNA\\git\\ProhanceWebApplication\\Reports\\20260127_233139\\Login_Genaral\\20260127_233139\\console0.log, C:\\Users\\KRISHNA\\git\\ProhanceWebApplication\\Reports\\20260127_233139\\Login_Genaral\\20260127_233139\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KRISHNA - krishna"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+         <property name="browser" value="Chrome 144.0.7559.97"/>
+         <property name="userFullName" value="Gopal"/>
+         <property name="hostAddress" value="192.168.0.9"/>
+         <property name="sessionId" value="b97e5d2da710993220aee8dc90df99ad"/>
+         <property name="projectName" value="ProhanceWebApplication"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ProhanceWeb/Login_Page/Login" time="11.023" classname="Test Cases/ProhanceWeb/Login_Page/Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"tsL9urF6O/APwsPS+50KRA\u003d\u003d","userName":"tsL9urF6O/D/xURRxzj/8w\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[27-01-2026T23:31:44 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Login_Page/Login: Test Cases/ProhanceWeb/Login_Page/Login
+
+27-01-2026T23:31:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-01-2026T23:31:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-01-2026T23:31:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-01-2026T23:31:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-01-2026T23:31:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-01-2026T23:31:47 - [MESSAGE][PASSED] - Current window maximized
+
+27-01-2026T23:31:47 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, CONTINUE_ON_FAILURE): Wait for page load successfully
+
+27-01-2026T23:31:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-01-2026T23:31:47 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://enhance.prohance.io/prohance' successfully
+
+27-01-2026T23:31:49 - [MESSAGE][PASSED] - Navigate to 'https://enhance.prohance.io/prohance' successfully
+
+27-01-2026T23:31:49 - [TEST_STEP][PASSED] - try: null
+
+27-01-2026T23:31:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginOR/userName"), userName): Text ****** has been set on object 'Object Repository/LoginOR/userName'
+
+27-01-2026T23:31:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginOR/userName'
+
+27-01-2026T23:31:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginOR/Password"), password): Text ****** has been set on object 'Object Repository/LoginOR/Password'
+
+27-01-2026T23:31:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginOR/Password'
+
+27-01-2026T23:31:50 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/LoginOR/login_btn"), Delay): Object 'Object Repository/LoginOR/login_btn' is clickable
+
+27-01-2026T23:31:50 - [MESSAGE][PASSED] - Object 'Object Repository/LoginOR/login_btn' is clickable
+
+27-01-2026T23:31:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginOR/login_btn")): Object: 'Object Repository/LoginOR/login_btn' is clicked on
+
+27-01-2026T23:31:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginOR/login_btn' is clicked on
+
+27-01-2026T23:31:50 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/LoginOR/session_Distroysession"), Delay)): null
+
+27-01-2026T23:31:52 - [MESSAGE][PASSED] - Object 'Object Repository/LoginOR/session_Distroysession' is present
+
+27-01-2026T23:31:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/LoginOR/session_Distroysession"), Delay): Object 'Object Repository/LoginOR/session_Distroysession' is clickable
+
+27-01-2026T23:31:52 - [MESSAGE][PASSED] - Object 'Object Repository/LoginOR/session_Distroysession' is clickable
+
+27-01-2026T23:31:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginOR/session_Distroysession")): Object: 'Object Repository/LoginOR/session_Distroysession' is clicked on
+
+27-01-2026T23:31:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginOR/session_Distroysession' is clicked on
+
+27-01-2026T23:31:53 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay)): null
+
+27-01-2026T23:31:54 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is present
+
+27-01-2026T23:31:54 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay): Object 'Object Repository/Common/Accept Cookies' is clickable
+
+27-01-2026T23:31:54 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is clickable
+
+27-01-2026T23:31:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Common/Accept Cookies")): Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+27-01-2026T23:31:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+27-01-2026T23:31:55 - [TEST_STEP][PASSED] - Finally: null
+
+27-01-2026T23:31:55 - [TEST_STEP][PASSED] - timestamp = Date().format("yyyyMMdd_HHmmss"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard" time="33.37" classname="Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"exportType":"Pdf"}]]></property>
+         </properties>
+         <system-out><![CDATA[27-01-2026T23:31:55 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard: Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+
+27-01-2026T23:31:55 - [TEST_STEP][PASSED] - explort = null: null
+
+27-01-2026T23:31:55 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)): null
+
+27-01-2026T23:31:56 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+
+27-01-2026T23:31:56 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clickable
+
+27-01-2026T23:31:56 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clickable
+
+27-01-2026T23:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clicked on
+
+27-01-2026T23:31:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clicked on
+
+27-01-2026T23:31:56 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clickable
+
+27-01-2026T23:31:57 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clickable
+
+27-01-2026T23:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clicked on
+
+27-01-2026T23:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clicked on
+
+27-01-2026T23:31:57 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clickable
+
+27-01-2026T23:32:01 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clickable
+
+27-01-2026T23:32:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clicked on
+
+27-01-2026T23:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clicked on
+
+27-01-2026T23:32:02 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+27-01-2026T23:32:02 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-01-2026T23:32:02 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, STOP_ON_FAILURE): Wait for page load successfully
+
+27-01-2026T23:32:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-01-2026T23:32:02 - [TEST_STEP][PASSED] - waitForElementVisible(TestObject().addProperty("xpath", EQUALS, "//table[@id ='topAppsDetailsList']"), Delay): Object '' is visible
+
+27-01-2026T23:32:10 - [MESSAGE][PASSED] - Object '' is visible
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - rows = findWebElements(TestObject().addProperty("xpath", EQUALS, "//table[@id='topAppsDetailsList']//tr"), Delay): Found web elements by test object 
+
+27-01-2026T23:32:10 - [MESSAGE][PASSED] - Found web elements by test object 
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - for ([i = 0, i < rows.size(), (i++)]): Row 39:  | 39 | Jira | 00.13h | 18 | 72 | +2 | Documentation Tools | 
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("th")): null
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:10 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 0:  | Rank | Activity | Duration | #Users | #Switches | Rating | Category | 
+
+27-01-2026T23:32:11 - [MESSAGE][INFO] - Row 0:  | Rank | Activity | Duration | #Users | #Switches | Rating | Category | 
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 1:  | 1 | Eclipse | 2270.26h | 42 | 455896 | +2 | Development Tools | 
+
+27-01-2026T23:32:11 - [MESSAGE][INFO] - Row 1:  | 1 | Eclipse | 2270.26h | 42 | 455896 | +2 | Development Tools | 
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 2:  | 2 | ProHance | 2161.24h | 51 | 403891 | +2 | Business Tools | 
+
+27-01-2026T23:32:11 - [MESSAGE][INFO] - Row 2:  | 2 | ProHance | 2161.24h | 51 | 403891 | +2 | Business Tools | 
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:11 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 3:  | 3 | UNKNOWN AOS | 702.41h | 51 | 217733 |  |  | 
+
+27-01-2026T23:32:12 - [MESSAGE][INFO] - Row 3:  | 3 | UNKNOWN AOS | 702.41h | 51 | 217733 |  |  | 
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 4:  | 4 | MS Teams | 555.87h | 51 | 112945 | +2 | Communication Tools | 
+
+27-01-2026T23:32:12 - [MESSAGE][INFO] - Row 4:  | 4 | MS Teams | 555.87h | 51 | 112945 | +2 | Communication Tools | 
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 5:  | 5 | Notepad | 459.29h | 51 | 161416 | +2 | Development Tools | 
+
+27-01-2026T23:32:12 - [MESSAGE][INFO] - Row 5:  | 5 | Notepad | 459.29h | 51 | 161416 | +2 | Development Tools | 
+
+27-01-2026T23:32:12 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 6:  | 6 | Windows Components | 323.96h | 51 | 277667 | +2 | Support Tools | 
+
+27-01-2026T23:32:13 - [MESSAGE][INFO] - Row 6:  | 6 | Windows Components | 323.96h | 51 | 277667 | +2 | Support Tools | 
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 7:  | 7 | Chat GPT | 188.63h | 47 | 27535 | +2 | Business Tools | 
+
+27-01-2026T23:32:13 - [MESSAGE][INFO] - Row 7:  | 7 | Chat GPT | 188.63h | 47 | 27535 | +2 | Business Tools | 
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:13 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 8:  | 8 | MS Visual Studio | 163.85h | 3 | 16893 | +2 | Development Tools | 
+
+27-01-2026T23:32:14 - [MESSAGE][INFO] - Row 8:  | 8 | MS Visual Studio | 163.85h | 3 | 16893 | +2 | Development Tools | 
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 9:  | 9 | Email Applications | 151.62h | 51 | 28704 | +2 | Communication Tools | 
+
+27-01-2026T23:32:14 - [MESSAGE][INFO] - Row 9:  | 9 | Email Applications | 151.62h | 51 | 28704 | +2 | Communication Tools | 
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 10:  | 10 | MYSQL Server | 114.50h | 43 | 15941 | +2 | Development Tools | 
+
+27-01-2026T23:32:14 - [MESSAGE][INFO] - Row 10:  | 10 | MYSQL Server | 114.50h | 43 | 15941 | +2 | Development Tools | 
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:14 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 11:  | 11 | Remote Desktop | 90.38h | 37 | 5824 | +1 | Support Tools | 
+
+27-01-2026T23:32:15 - [MESSAGE][INFO] - Row 11:  | 11 | Remote Desktop | 90.38h | 37 | 5824 | +1 | Support Tools | 
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 12:  | 12 | Techmate Application | 85.51h | 37 | 13238 | +2 | Support Tools | 
+
+27-01-2026T23:32:15 - [MESSAGE][INFO] - Row 12:  | 12 | Techmate Application | 85.51h | 37 | 13238 | +2 | Support Tools | 
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 13:  | 13 | XCode | 79.89h | 4 | 3910 | +2 | Development Tools | 
+
+27-01-2026T23:32:15 - [MESSAGE][INFO] - Row 13:  | 13 | XCode | 79.89h | 4 | 3910 | +2 | Development Tools | 
+
+27-01-2026T23:32:15 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 14:  | 14 | Personal Time | 64.89h | 33 | 227 |  |  | 
+
+27-01-2026T23:32:16 - [MESSAGE][INFO] - Row 14:  | 14 | Personal Time | 64.89h | 33 | 227 |  |  | 
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 15:  | 15 | Customer Connect Apps | 53.74h | 48 | 7713 | +2 | Support Tools | 
+
+27-01-2026T23:32:16 - [MESSAGE][INFO] - Row 15:  | 15 | Customer Connect Apps | 53.74h | 48 | 7713 | +2 | Support Tools | 
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 16:  | 16 | Excel | 52.45h | 49 | 13152 | +2 | Documentation Tools | 
+
+27-01-2026T23:32:16 - [MESSAGE][INFO] - Row 16:  | 16 | Excel | 52.45h | 49 | 13152 | +2 | Documentation Tools | 
+
+27-01-2026T23:32:16 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 17:  | 17 | Tutorials | 51.07h | 38 | 6376 | +1 | Documentation Tools | 
+
+27-01-2026T23:32:17 - [MESSAGE][INFO] - Row 17:  | 17 | Tutorials | 51.07h | 38 | 6376 | +1 | Documentation Tools | 
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 18:  | 18 | MSSQL Server | 46.53h | 42 | 12352 | +2 | Development Tools | 
+
+27-01-2026T23:32:17 - [MESSAGE][INFO] - Row 18:  | 18 | MSSQL Server | 46.53h | 42 | 12352 | +2 | Development Tools | 
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 19:  | 19 | Advanced Rest Client | 36.44h | 30 | 9010 | +2 | Documentation Tools | 
+
+27-01-2026T23:32:17 - [MESSAGE][INFO] - Row 19:  | 19 | Advanced Rest Client | 36.44h | 30 | 9010 | +2 | Documentation Tools | 
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:17 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 20:  | 20 | General Web Browsing | 36.13h | 51 | 12572 | 0 | Documentation Tools | 
+
+27-01-2026T23:32:18 - [MESSAGE][INFO] - Row 20:  | 20 | General Web Browsing | 36.13h | 51 | 12572 | 0 | Documentation Tools | 
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 21:  | 21 | License Portal | 25.09h | 49 | 6358 | +2 | Documentation Tools | 
+
+27-01-2026T23:32:18 - [MESSAGE][INFO] - Row 21:  | 21 | License Portal | 25.09h | 49 | 6358 | +2 | Documentation Tools | 
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 22:  | 22 | Paint | 16.72h | 44 | 7468 | 0 | Documentation Tools | 
+
+27-01-2026T23:32:18 - [MESSAGE][INFO] - Row 22:  | 22 | Paint | 16.72h | 44 | 7468 | 0 | Documentation Tools | 
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:18 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 23:  | 23 | Python | 16.50h | 1 | 3664 | +2 | Development Tools | 
+
+27-01-2026T23:32:19 - [MESSAGE][INFO] - Row 23:  | 23 | Python | 16.50h | 1 | 3664 | +2 | Development Tools | 
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 24:  | 24 | Files & Folders | 15.50h | 12 | 5252 | 0 | System Tools | 
+
+27-01-2026T23:32:19 - [MESSAGE][INFO] - Row 24:  | 24 | Files & Folders | 15.50h | 12 | 5252 | 0 | System Tools | 
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 25:  | 25 | IP Messenger | 10.21h | 43 | 4111 | +1 | Communication Tools | 
+
+27-01-2026T23:32:19 - [MESSAGE][INFO] - Row 25:  | 25 | IP Messenger | 10.21h | 43 | 4111 | +1 | Communication Tools | 
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:19 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 26:  | 26 | Automation Robot | 08.75h | 4 | 3377 | +2 | Development Tools | 
+
+27-01-2026T23:32:20 - [MESSAGE][INFO] - Row 26:  | 26 | Automation Robot | 08.75h | 4 | 3377 | +2 | Development Tools | 
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 27:  | 27 | Jenkins | 08.26h | 47 | 4064 | +2 | Development Tools | 
+
+27-01-2026T23:32:20 - [MESSAGE][INFO] - Row 27:  | 27 | Jenkins | 08.26h | 47 | 4064 | +2 | Development Tools | 
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 28:  | 28 | Unproductive Sites | 08.26h | 40 | 1379 | 0 | Unproductive | 
+
+27-01-2026T23:32:20 - [MESSAGE][INFO] - Row 28:  | 28 | Unproductive Sites | 08.26h | 40 | 1379 | 0 | Unproductive | 
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:20 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 29:  | 29 | Word | 07.45h | 9 | 1355 | +2 | Documentation Tools | 
+
+27-01-2026T23:32:21 - [MESSAGE][INFO] - Row 29:  | 29 | Word | 07.45h | 9 | 1355 | +2 | Documentation Tools | 
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 30:  | 30 | Grey Tip HR | 06.64h | 42 | 1106 | +2 | Internal Applications | 
+
+27-01-2026T23:32:21 - [MESSAGE][INFO] - Row 30:  | 30 | Grey Tip HR | 06.64h | 42 | 1106 | +2 | Internal Applications | 
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 31:  | 31 | Browser Extensions and Addons | 02.89h | 8 | 616 | +2 | Development Tools | 
+
+27-01-2026T23:32:21 - [MESSAGE][INFO] - Row 31:  | 31 | Browser Extensions and Addons | 02.89h | 8 | 616 | +2 | Development Tools | 
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 32:  | 32 | Mouse Jiggles | 02.85h | 2 | 422 | 0 | Unproductive | 
+
+27-01-2026T23:32:21 - [MESSAGE][INFO] - Row 32:  | 32 | Mouse Jiggles | 02.85h | 2 | 422 | 0 | Unproductive | 
+
+27-01-2026T23:32:21 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 33:  | 33 | Compress Utilities | 01.81h | 37 | 2123 | +1 | System Tools | 
+
+27-01-2026T23:32:22 - [MESSAGE][INFO] - Row 33:  | 33 | Compress Utilities | 01.81h | 37 | 2123 | +1 | System Tools | 
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 34:  | 34 | LinkedIn | 01.52h | 12 | 250 | 0 | Communication Tools | 
+
+27-01-2026T23:32:22 - [MESSAGE][INFO] - Row 34:  | 34 | LinkedIn | 01.52h | 12 | 250 | 0 | Communication Tools | 
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 35:  | 35 | Power Point | 01.19h | 4 | 433 | +2 | Documentation Tools | 
+
+27-01-2026T23:32:22 - [MESSAGE][INFO] - Row 35:  | 35 | Power Point | 01.19h | 4 | 433 | +2 | Documentation Tools | 
+
+27-01-2026T23:32:22 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 36:  | 36 | Electron | 00.26h | 2 | 11 | +2 | Development Tools | 
+
+27-01-2026T23:32:23 - [MESSAGE][INFO] - Row 36:  | 36 | Electron | 00.26h | 2 | 11 | +2 | Development Tools | 
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 37:  | 37 | Whatsapp | 00.23h | 4 | 64 | 0 | Unproductive | 
+
+27-01-2026T23:32:23 - [MESSAGE][INFO] - Row 37:  | 37 | Whatsapp | 00.23h | 4 | 64 | 0 | Unproductive | 
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 38:  | 38 | Internet Information Services (IIS) Manager | 00.21h | 2 | 84 | +2 | Development Tools | 
+
+27-01-2026T23:32:23 - [MESSAGE][INFO] - Row 38:  | 38 | Internet Information Services (IIS) Manager | 00.21h | 2 | 84 | +2 | Development Tools | 
+
+27-01-2026T23:32:23 - [TEST_STEP][PASSED] - cols = get(i).findElements(By.tagName("td")): null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - if (cols.size() == 0): null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - rowText = "": null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - for (org.openqa.selenium.WebElement col : cols): null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - rowText += col.getText() + " | ": null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - logInfo("Row " + i + ": " + rowText): Row 39:  | 39 | Jira | 00.13h | 18 | 72 | +2 | Documentation Tools | 
+
+27-01-2026T23:32:24 - [MESSAGE][INFO] - Row 39:  | 39 | Jira | 00.13h | 18 | 72 | +2 | Documentation Tools | 
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+27-01-2026T23:32:24 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete(): com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+
+27-01-2026T23:32:24 - [MESSAGE][PASSED] - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - explort = ((exportType != null)) ? exportType : false: null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - browserName = getExecutedBrowser(): null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - logInfo("Browser Name :" + " " + browserName): Browser Name : Chrome
+
+27-01-2026T23:32:24 - [MESSAGE][INFO] - Browser Name : Chrome
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - xPath = com.prohanceebapplication.common.Export.export(explort): com.prohanceebapplication.common.Export.export is PASSED
+
+27-01-2026T23:32:24 - [MESSAGE][PASSED] - com.prohanceebapplication.common.Export.export is PASSED
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - out.println(xPath): null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - if (xPath != null): Execute JavaScript 'arguments[0].click();' successfully
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - exportSpan = new com.kms.katalon.core.testobject.TestObject(): null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - exportSpan.addProperty("xpath", EQUALS, xPath): null
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - waitForElementPresent(exportSpan, Delay): Object '' is present
+
+27-01-2026T23:32:24 - [MESSAGE][PASSED] - Object '' is present
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - el = findWebElement(exportSpan, Delay): Found web element by test object 
+
+27-01-2026T23:32:24 - [MESSAGE][PASSED] - Found web element by test object 
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(el)): Execute JavaScript 'arguments[0].scrollIntoView(true);' successfully
+
+27-01-2026T23:32:24 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].scrollIntoView(true);' successfully
+
+27-01-2026T23:32:24 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(el)): Execute JavaScript 'arguments[0].click();' successfully
+
+27-01-2026T23:32:26 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+27-01-2026T23:32:26 - [TEST_STEP][PASSED] - com.prohancewebapplication.file.FileSizeFinder.fileSize(): com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+
+27-01-2026T23:32:26 - [MESSAGE][PASSED] - com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+
+27-01-2026T23:32:26 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+27-01-2026T23:32:26 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+27-01-2026T23:32:26 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+27-01-2026T23:32:26 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+27-01-2026T23:32:26 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+27-01-2026T23:32:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/LogoutOR/userProfileIcon"), Delay): Object 'Object Repository/LogoutOR/userProfileIcon' is present
+
+27-01-2026T23:32:26 - [MESSAGE][PASSED] - Object 'Object Repository/LogoutOR/userProfileIcon' is present
+
+27-01-2026T23:32:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LogoutOR/userProfileIcon"), STOP_ON_FAILURE): Object: 'Object Repository/LogoutOR/userProfileIcon' is clicked on
+
+27-01-2026T23:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LogoutOR/userProfileIcon' is clicked on
+
+27-01-2026T23:32:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/LogoutOR/logOut"), Delay): Object 'Object Repository/LogoutOR/logOut' is present
+
+27-01-2026T23:32:27 - [MESSAGE][PASSED] - Object 'Object Repository/LogoutOR/logOut' is present
+
+27-01-2026T23:32:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LogoutOR/logOut"), STOP_ON_FAILURE): Object: 'Object Repository/LogoutOR/logOut' is clicked on
+
+27-01-2026T23:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/LogoutOR/logOut' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-01-2026T23:31:43 - [TEST_SUITE][PASSED] - Login_Genaral: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

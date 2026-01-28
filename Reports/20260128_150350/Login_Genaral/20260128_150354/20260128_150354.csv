@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Genaral,,,,28-01-2026 15:04:10,28-01-2026 15:05:51,1m - 41.284s,ERROR
+,,,,,,,
+Test Cases/ProhanceWeb/Login_Page/Login,,Login,,28-01-2026 15:04:49,28-01-2026 15:05:03,13.546s,FAILED
+"DATA BINDING - {""password"":""HeCM15nHKBI\u003d"",""userName"":""tsL9urF6O/D/xURRxzj/8w\u003d\u003d""}",,,,,,,
+"openBrowser("""")",,,,28-01-2026 15:04:49,28-01-2026 15:05:03,13.490s,FAILED
+,,,,,,,
+Test Cases/ProhanceWeb/Login_Page/Login,,Login,,28-01-2026 15:05:39,28-01-2026 15:05:49,9.439s,FAILED
+"DATA BINDING - {""password"":""HeCM15nHKBI\u003d"",""userName"":""JaYlvlkoT9Q\u003d""}",,,,,,,
+"openBrowser("""")",,,,28-01-2026 15:05:39,28-01-2026 15:05:49,9.411s,FAILED
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard,,,,28-01-2026 15:05:51,28-01-2026 15:05:51,0.059s,ERROR
+"DATA BINDING - {""exportType"":""excel""}",,,,,,,
+explort = null,,,,28-01-2026 15:05:51,28-01-2026 15:05:51,0.002s,PASSED
+rows = null,,,,28-01-2026 15:05:51,28-01-2026 15:05:51,0.001s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",,,,28-01-2026 15:05:51,28-01-2026 15:05:51,0.012s,ERROR
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard,,,,28-01-2026 15:05:51,28-01-2026 15:05:51,0.043s,ERROR
+"DATA BINDING - {""exportType"":""pdf""}",,,,,,,
+explort = null,,,,28-01-2026 15:05:51,28-01-2026 15:05:51,0.001s,PASSED
+rows = null,,,,28-01-2026 15:05:51,28-01-2026 15:05:51,0.001s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",,,,28-01-2026 15:05:51,28-01-2026 15:05:51,0.012s,ERROR
+,,,,,,,
+Test Cases/ProhanceWeb/LogOut_Page/LogOut,,,,28-01-2026 15:05:51,28-01-2026 15:05:51,0.034s,ERROR
+try,,,,28-01-2026 15:05:51,28-01-2026 15:05:51,0.010s,PASSED
+catch (Exception e),,,,28-01-2026 15:05:51,28-01-2026 15:05:51,0.003s,ERROR

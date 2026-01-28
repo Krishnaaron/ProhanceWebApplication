@@ -1,48 +1,92 @@
 package com.prohancewebapplication.file
 
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
 import com.kms.katalon.core.annotation.Keyword
-import com.kms.katalon.core.checkpoint.Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.testcase.TestCase
-import com.kms.katalon.core.testdata.TestData
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.util.KeywordUtil
 
-import internal.GlobalVariable
-
+import java.io.File
+import java.nio.file.Files
+import java.nio.file.StandardCopyOption
 public class FileSizeFinder {
-	
-	
-	public long fileSize()
-	{
-		String downloadPath = "C:/Downloads"
-		File dir = new File(downloadPath)
-		 
-		// wait download complete
-		while (dir.listFiles().any { it.name.endsWith(".crdownload") }) {
-			Thread.sleep(1000)
+
+
+
+	@Keyword
+	public void fileSize() {
+
+		try {
+			String downloadPath = System.getProperty("user.home") + File.separator + "Downloads"
+			File dir = new File(downloadPath)
+
+			if (!dir.exists() || !dir.isDirectory()) {
+				KeywordUtil.logInfo("Downloads folder not found: " + downloadPath)
+				return
+			}
+
+			File[] files = dir.listFiles()
+
+			if (files == null) {
+				KeywordUtil.logInfo("No files found in Downloads Top Applications Details Report")
+				return
+			}
+			//		String designationFolder = "MyNewFolder";
+			//
+			//		File designationFile = new File(
+			//				System.getProperty("user.home") + File.separator + designationFolder
+			//				);
+
+			//		if (!designationFile.exists()) {
+			//			boolean created = designationFile.mkdir();
+			//
+			//		} else {
+			//			System.out.println("Folder already exists");
+			//		}
+
+			for (File file : files) {
+
+				if (file.getName().startsWith("Top Applications Details Report")
+						&& file.length() > 0) {
+					KeywordUtil.logInfo(file.getName() + " " + file.length())
+					//				Files.move(
+					//					file.toPath(),
+					//					new File(designationFolder, file.getName()).toPath(),
+					//					StandardCopyOption.REPLACE_EXISTING
+					//			)
+				}
+			}
+		}catch(Exception e) {
+			KeywordUtil.markError(e.getMessage())
 		}
-		 
-		// get latest file
-		File file = dir.listFiles()
-				.findAll { it.isFile() && !it.name.endsWith(".crdownload") }
-				.sort { -it.lastModified() }
-				.first()
-		 
-		assert file.length() > 0 : "File size is 0 KB"
-		 
-		println "Downloaded file: ${file.name}"
-		println "Size: ${file.length()} bytes"
 	}
 
+	@Keyword
+	public void exisitingFileDelete() {
+
+		try {
+			String downloadPath = System.getProperty("user.home") + File.separator + "Downloads"
+			System.out.println(downloadPath);
+			File dir = new File(downloadPath)
+
+			if (!dir.exists() || !dir.isDirectory()) {
+				KeywordUtil.logInfo("Downloads folder not found: " + downloadPath)
+				return
+			}
+
+			File[] files = dir.listFiles()
+
+			if (files == null) {
+				KeywordUtil.logInfo("No files found in Downloads Top Applications Details Report")
+				return
+			}
+
+			for (File file : files) {
+
+				if (file.getName().startsWith("Top Applications Details Report")) {
+
+					file.delete();
+				}
+			}
+		}catch(Exception e) {
+			KeywordUtil.markError(e.getMessage())
+		}
+	}
 }

@@ -1,0 +1,3469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-01-27T17:47:43.425526800Z</date>
+  <millis>1769536063425</millis>
+  <nanos>526800</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Login_Genaral</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">3</property>
+  <property name="name">Login_Genaral</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Login_Genaral</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:43.449219100Z</date>
+  <millis>1769536063449</millis>
+  <nanos>219100</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>userFullName = Gopal</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="userFullName">Gopal</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:43.450234Z</date>
+  <millis>1769536063450</millis>
+  <nanos>234000</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>projectName = ProhanceWebApplication</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="projectName">ProhanceWebApplication</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:43.450234Z</date>
+  <millis>1769536063450</millis>
+  <nanos>234000</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = KRISHNA - krishna</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">KRISHNA - krishna</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:43.451244400Z</date>
+  <millis>1769536063451</millis>
+  <nanos>244400</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 11 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 11 64bit</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:43.451244400Z</date>
+  <millis>1769536063451</millis>
+  <nanos>244400</nanos>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.9</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.0.9</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:43.452578800Z</date>
+  <millis>1769536063452</millis>
+  <nanos>578800</nanos>
+  <sequence>6</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 10.4.3.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">10.4.3.0</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:44.011955800Z</date>
+  <millis>1769536064011</millis>
+  <nanos>955800</nanos>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ProhanceWeb/Login_Page/Login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="origin"></property>
+  <property name="name">Test Cases/ProhanceWeb/Login_Page/Login</property>
+  <property name="description">Login</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/ProhanceWeb/Login_Page/Login</property>
+  <property name="source">C:\Users\KRISHNA\git\ProhanceWebApplication\Test Cases\ProhanceWeb\Login_Page\Login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:44.079522100Z</date>
+  <millis>1769536064079</millis>
+  <nanos>522100</nanos>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>userName = tsL9urF6O/D/xURRxzj/8w==</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:44.080520400Z</date>
+  <millis>1769536064080</millis>
+  <nanos>520400</nanos>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>password = tsL9urF6O/APwsPS+50KRA==</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:44.520193800Z</date>
+  <millis>1769536064520</millis>
+  <nanos>193800</nanos>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:44.808594800Z</date>
+  <millis>1769536064808</millis>
+  <nanos>594800</nanos>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:44.877418700Z</date>
+  <millis>1769536064877</millis>
+  <nanos>418700</nanos>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:46.900937900Z</date>
+  <millis>1769536066900</millis>
+  <nanos>937900</nanos>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = dc0015122cd889dbc20edc0f2197c772</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">dc0015122cd889dbc20edc0f2197c772</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:46.901938600Z</date>
+  <millis>1769536066901</millis>
+  <nanos>938600</nanos>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 144.0.7559.97</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 144.0.7559.97</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:46.902450200Z</date>
+  <millis>1769536066902</millis>
+  <nanos>450200</nanos>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 11</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 11</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:46.902450200Z</date>
+  <millis>1769536066902</millis>
+  <nanos>450200</nanos>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 4.34.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">4.34.0</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:46.926545200Z</date>
+  <millis>1769536066926</millis>
+  <nanos>545200</nanos>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:46.974942800Z</date>
+  <millis>1769536066974</millis>
+  <nanos>942800</nanos>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-01-27T17:47:46.976933300Z</date>
+  <millis>1769536066976</millis>
+  <nanos>933300</nanos>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:46.976933300Z</date>
+  <millis>1769536066976</millis>
+  <nanos>933300</nanos>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:47.046058600Z</date>
+  <millis>1769536067046</millis>
+  <nanos>58600</nanos>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-01-27T17:47:47.048570100Z</date>
+  <millis>1769536067048</millis>
+  <nanos>570100</nanos>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:47.049583400Z</date>
+  <millis>1769536067049</millis>
+  <nanos>583400</nanos>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(Delay, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">27</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:47.391693300Z</date>
+  <millis>1769536067391</millis>
+  <nanos>693300</nanos>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:327)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$_waitForPageLoad_closure1.doCall(WaitForPageLoadKeyword.groovy:94)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$_waitForPageLoad_closure1.doCall(WaitForPageLoadKeyword.groovy)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.waitForPageLoad(WaitForPageLoadKeyword.groovy:95)
+com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword.execute(WaitForPageLoadKeyword.groovy:68)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForPageLoad(WebUiBuiltInKeywords.groovy:2545)
+Login.run(Login:27)
+</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:47.394673100Z</date>
+  <millis>1769536067394</millis>
+  <nanos>673100</nanos>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(Delay, CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:47.395678600Z</date>
+  <millis>1769536067395</millis>
+  <nanos>678600</nanos>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(URL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">29</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:48.866036300Z</date>
+  <millis>1769536068866</millis>
+  <nanos>36300</nanos>
+  <sequence>39</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://enhance.prohance.io/prohance&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2026-01-27T17:47:48.867574500Z</date>
+  <millis>1769536068867</millis>
+  <nanos>574500</nanos>
+  <sequence>40</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(URL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:48.868586100Z</date>
+  <millis>1769536068868</millis>
+  <nanos>586100</nanos>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">32</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:48.870763Z</date>
+  <millis>1769536068870</millis>
+  <nanos>763000</nanos>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setEncryptedText(findTestObject(&amp;quot;Object Repository/LoginOR/userName&amp;quot;), userName)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">33</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:49.559346900Z</date>
+  <millis>1769536069559</millis>
+  <nanos>346900</nanos>
+  <sequence>55</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/LoginOR/userName&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:327)
+com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:82)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:88)
+com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:48)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1112)
+Login.run(Login:33)
+</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:49.561353200Z</date>
+  <millis>1769536069561</millis>
+  <nanos>353200</nanos>
+  <sequence>56</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setEncryptedText(findTestObject(&amp;quot;Object Repository/LoginOR/userName&amp;quot;), userName)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:49.562348400Z</date>
+  <millis>1769536069562</millis>
+  <nanos>348400</nanos>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setEncryptedText(findTestObject(&amp;quot;Object Repository/LoginOR/Password&amp;quot;), password)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">35</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:49.992381300Z</date>
+  <millis>1769536069992</millis>
+  <nanos>381300</nanos>
+  <sequence>70</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/LoginOR/Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:327)
+com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:82)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:88)
+com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:48)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1112)
+Login.run(Login:35)
+</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:49.995377800Z</date>
+  <millis>1769536069995</millis>
+  <nanos>377800</nanos>
+  <sequence>71</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setEncryptedText(findTestObject(&amp;quot;Object Repository/LoginOR/Password&amp;quot;), password)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:49.996381400Z</date>
+  <millis>1769536069996</millis>
+  <nanos>381400</nanos>
+  <sequence>72</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementClickable(findTestObject(&amp;quot;Object Repository/LoginOR/login_btn&amp;quot;), Delay)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">37</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.360418800Z</date>
+  <millis>1769536070360</millis>
+  <nanos>418800</nanos>
+  <sequence>79</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/LoginOR/login_btn&amp;apos; is clickable</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:327)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.doCall(WaitForElementClickableKeyword.groovy:59)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeywordUntilTimeout$0.call(Unknown Source)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:76)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:42)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:580)
+Login.run(Login:37)
+</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.364416200Z</date>
+  <millis>1769536070364</millis>
+  <nanos>416200</nanos>
+  <sequence>80</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementClickable(findTestObject(&amp;quot;Object Repository/LoginOR/login_btn&amp;quot;), Delay)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.365417200Z</date>
+  <millis>1769536070365</millis>
+  <nanos>417200</nanos>
+  <sequence>81</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Object Repository/LoginOR/login_btn&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">39</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.833556900Z</date>
+  <millis>1769536070833</millis>
+  <nanos>556900</nanos>
+  <sequence>92</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/LoginOR/login_btn&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:327)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+Login.run(Login:39)
+</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.842449700Z</date>
+  <millis>1769536070842</millis>
+  <nanos>449700</nanos>
+  <sequence>93</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Object Repository/LoginOR/login_btn&amp;quot;))</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.843448500Z</date>
+  <millis>1769536070843</millis>
+  <nanos>448500</nanos>
+  <sequence>94</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (verifyElementPresent(findTestObject(&amp;quot;Object Repository/LoginOR/session_Distroysession&amp;quot;), Dela))</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">41</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.852571300Z</date>
+  <millis>1769536070852</millis>
+  <nanos>571300</nanos>
+  <sequence>96</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (verifyElementPresent(findTestObject(&amp;quot;Object Repository/LoginOR/session_Distroysession&amp;quot;), Dela))</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.853569400Z</date>
+  <millis>1769536070853</millis>
+  <nanos>569400</nanos>
+  <sequence>97</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.853569400Z</date>
+  <millis>1769536070853</millis>
+  <nanos>569400</nanos>
+  <sequence>98</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : catch (Exception e)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">53</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.854571600Z</date>
+  <millis>1769536070854</millis>
+  <nanos>571600</nanos>
+  <sequence>99</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(e.getMessage())</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">54</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.918272800Z</date>
+  <millis>1769536070918</millis>
+  <nanos>272800</nanos>
+  <sequence>100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(e.getMessage())</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.919287700Z</date>
+  <millis>1769536070919</millis>
+  <nanos>287700</nanos>
+  <sequence>101</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : timestamp = Date().format(&amp;quot;yyyyMMdd_HHmmss&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">56</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.938841200Z</date>
+  <millis>1769536070938</millis>
+  <nanos>841200</nanos>
+  <sequence>102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : timestamp = Date().format(&amp;quot;yyyyMMdd_HHmmss&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.940869300Z</date>
+  <millis>1769536070940</millis>
+  <nanos>869300</nanos>
+  <sequence>103</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : catch (Exception e)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.940869300Z</date>
+  <millis>1769536070940</millis>
+  <nanos>869300</nanos>
+  <sequence>104</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Finally</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">59</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.943881500Z</date>
+  <millis>1769536070943</millis>
+  <nanos>881500</nanos>
+  <sequence>105</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : timestamp = Date().format(&amp;quot;yyyyMMdd_HHmmss&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">60</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.945882Z</date>
+  <millis>1769536070945</millis>
+  <nanos>882000</nanos>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : timestamp = Date().format(&amp;quot;yyyyMMdd_HHmmss&amp;quot;)</message>
+  <nestedLevel>3</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.945882Z</date>
+  <millis>1769536070945</millis>
+  <nanos>882000</nanos>
+  <sequence>107</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Finally</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.946879400Z</date>
+  <millis>1769536070946</millis>
+  <nanos>879400</nanos>
+  <sequence>108</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/ProhanceWeb/Login_Page/Login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.949403600Z</date>
+  <millis>1769536070949</millis>
+  <nanos>403600</nanos>
+  <sequence>109</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/ProhanceWeb/Login_Page/Login</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[
+  {
+    &quot;value&quot;: &quot;tsL9urF6O/D/xURRxzj/8w\u003d\u003d&quot;,
+    &quot;isDefault&quot;: false,
+    &quot;name&quot;: &quot;userName&quot;,
+    &quot;masked&quot;: false
+  },
+  {
+    &quot;value&quot;: &quot;tsL9urF6O/APwsPS+50KRA\u003d\u003d&quot;,
+    &quot;isDefault&quot;: false,
+    &quot;name&quot;: &quot;password&quot;,
+    &quot;masked&quot;: false
+  }
+]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="executedKeywords">{
+  &quot;WebUI.setEncryptedText&quot;: 2,
+  &quot;WebUI.maximizeWindow&quot;: 1,
+  &quot;WebUI.click&quot;: 1,
+  &quot;WebUI.waitForPageLoad&quot;: 1,
+  &quot;WebUI.navigateToUrl&quot;: 1,
+  &quot;WebUI.openBrowser&quot;: 1,
+  &quot;WebUI.waitForElementClickable&quot;: 1
+}</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:50.958417800Z</date>
+  <millis>1769536070958</millis>
+  <nanos>417800</nanos>
+  <sequence>110</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ProhanceWeb/LogOut_Page/LogOut</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="origin"></property>
+  <property name="name">Test Cases/ProhanceWeb/LogOut_Page/LogOut</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/ProhanceWeb/LogOut_Page/LogOut</property>
+  <property name="source">C:\Users\KRISHNA\git\ProhanceWebApplication\Test Cases\ProhanceWeb\LogOut_Page\LogOut.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:51.132711300Z</date>
+  <millis>1769536071132</millis>
+  <nanos>711300</nanos>
+  <sequence>112</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:51.134709100Z</date>
+  <millis>1769536071134</millis>
+  <nanos>709100</nanos>
+  <sequence>113</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(&amp;quot;Object Repository/LogoutOR/userProfileIcon&amp;quot;), Delay)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:54.716854400Z</date>
+  <millis>1769536074716</millis>
+  <nanos>854400</nanos>
+  <sequence>120</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:327)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:56)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:68)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:38)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+LogOut.run(LogOut:23)
+</property>
+</record>
+<record>
+  <date>2026-01-27T17:47:54.718385500Z</date>
+  <millis>1769536074718</millis>
+  <nanos>385500</nanos>
+  <sequence>121</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(&amp;quot;Object Repository/LogoutOR/userProfileIcon&amp;quot;), Delay)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:47:54.719728Z</date>
+  <millis>1769536074719</millis>
+  <nanos>728000</nanos>
+  <sequence>122</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Object Repository/LogoutOR/userProfileIcon&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:04.743250400Z</date>
+  <millis>1769536084743</millis>
+  <nanos>250400</nanos>
+  <sequence>131</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Waiting for element timed out</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.038004Z</date>
+  <millis>1769536086038</millis>
+  <nanos>4000</nanos>
+  <sequence>136</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to click on object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at LogOut.run(LogOut:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &amp;lt;a href=&amp;quot;javascript:void(0)&amp;quot; class=&amp;quot;userProfileMenu dropdown-toggle&amp;quot; id=&amp;quot;userProfileDropdown&amp;quot; data-toggle=&amp;quot;dropdown&amp;quot; role=&amp;quot;button&amp;quot; aria-haspopup=&amp;quot;true&amp;quot; aria-expanded=&amp;quot;false&amp;quot; aria-label=&amp;quot;My Profile&amp;quot;&amp;gt;...&amp;lt;/a&amp;gt; is not clickable at point (1451, 24). Other element would receive the click: &amp;lt;div class=&amp;quot;modal fade font-family-opensansregular in&amp;quot; data-target=&amp;quot;#myGlobalModal&amp;quot; data-toggle=&amp;quot;modal&amp;quot; data-backdrop=&amp;quot;static&amp;quot; data-keyboard=&amp;quot;false&amp;quot; role=&amp;quot;dialog&amp;quot; tabindex=&amp;quot;-1&amp;quot; id=&amp;quot;globalCookieId&amp;quot; aria-labelledby=&amp;quot;gridSystemModalLabel&amp;quot; style=&amp;quot;display: block;&amp;quot;&amp;gt;...&amp;lt;/div&amp;gt;
+  (Session info: chrome=144.0.7559.97)
+Build info: version: &amp;apos;4.34.0&amp;apos;, revision: &amp;apos;707dcb4246*&amp;apos;
+System info: os.name: &amp;apos;Windows 11&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;17.0.14&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [dc0015122cd889dbc20edc0f2197c772, clickElement {id=f.7242C4544242860F7C4DCBE82A50572A.d.681AA05B2E414A0D7688698E65A83D17.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.31 (18537d992890..., userDataDir: C:\Users\KRISHNA\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57709}, goog:processID: 6340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57709/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:22728/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (dc0015122cd889dbc20edc0f2197c772)] -&amp;gt; xpath: //a[@id=&amp;apos;userProfileDropdown&amp;apos;]]
+Session ID: dc0015122cd889dbc20edc0f2197c772
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$MTcLZX2u.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1767513449298.run(Script1767513449298.groovy:25)
+	... 15 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.ElementClickInterceptedException</property>
+  <property name="attachment">1769536085845.png</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;javascript:void(0)&quot; class=&quot;userProfileMenu dropdown-toggle&quot; id=&quot;userProfileDropdown&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; aria-label=&quot;My Profile&quot;&gt;...&lt;/a&gt; is not clickable at point (1451, 24). Other element would receive the click: &lt;div class=&quot;modal fade font-family-opensansregular in&quot; data-target=&quot;#myGlobalModal&quot; data-toggle=&quot;modal&quot; data-backdrop=&quot;static&quot; data-keyboard=&quot;false&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; id=&quot;globalCookieId&quot; aria-labelledby=&quot;gridSystemModalLabel&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=144.0.7559.97)
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.14&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [dc0015122cd889dbc20edc0f2197c772, clickElement {id=f.7242C4544242860F7C4DCBE82A50572A.d.681AA05B2E414A0D7688698E65A83D17.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.31 (18537d992890..., userDataDir: C:\Users\KRISHNA\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57709}, goog:processID: 6340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57709/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:22728/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (dc0015122cd889dbc20edc0f2197c772)] -&gt; xpath: //a[@id=&apos;userProfileDropdown&apos;]]
+Session ID: dc0015122cd889dbc20edc0f2197c772
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$MTcLZX2u.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at LogOut.run(LogOut:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">element click intercepted: Element &lt;a href=&quot;javascript:void(0)&quot; class=&quot;userProfileMenu dropdown-toggle&quot; id=&quot;userProfileDropdown&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; aria-label=&quot;My Profile&quot;&gt;...&lt;/a&gt; is not clickable at point (1451, 24). Other element would receive the click: &lt;div class=&quot;modal fade font-family-opensansregular in&quot; data-target=&quot;#myGlobalModal&quot; data-toggle=&quot;modal&quot; data-backdrop=&quot;static&quot; data-keyboard=&quot;false&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; id=&quot;globalCookieId&quot; aria-labelledby=&quot;gridSystemModalLabel&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=144.0.7559.97)
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.14&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [dc0015122cd889dbc20edc0f2197c772, clickElement {id=f.7242C4544242860F7C4DCBE82A50572A.d.681AA05B2E414A0D7688698E65A83D17.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.31 (18537d992890..., userDataDir: C:\Users\KRISHNA\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57709}, goog:processID: 6340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57709/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:22728/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (dc0015122cd889dbc20edc0f2197c772)] -&gt; xpath: //a[@id=&apos;userProfileDropdown&apos;]]
+Session ID: dc0015122cd889dbc20edc0f2197c772</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.045689Z</date>
+  <millis>1769536086045</millis>
+  <nanos>689000</nanos>
+  <sequence>137</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Object Repository/LogoutOR/userProfileIcon&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.045689Z</date>
+  <millis>1769536086045</millis>
+  <nanos>689000</nanos>
+  <sequence>138</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.045689Z</date>
+  <millis>1769536086045</millis>
+  <nanos>689000</nanos>
+  <sequence>139</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : catch (Exception e)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">31</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.046925800Z</date>
+  <millis>1769536086046</millis>
+  <nanos>925800</nanos>
+  <sequence>140</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : markError(&amp;quot;Logout Failure : &amp;quot; + e.getMessage())</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">32</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.068286300Z</date>
+  <millis>1769536086068</millis>
+  <nanos>286300</nanos>
+  <sequence>142</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/ProhanceWeb/LogOut_Page/LogOut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Logout Failure : Unable to click on object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos;
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at LogOut.run(LogOut:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Logout Failure : Unable to click on object 'Object Repository/LogoutOR/userProfileIcon'</message>
+    <frame>
+      <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+      <method>logMessage</method>
+      <line>512</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.logging.KeywordLogger</class>
+      <method>logMessage</method>
+      <line>447</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>logError</method>
+      <line>599</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>logErrorForTheLastError</method>
+      <line>206</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>onExecutionError</method>
+      <line>171</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>470</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>452</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>71</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>110</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>205</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.vmplugin.v8.IndyInterface</class>
+      <method>fromCache</method>
+      <line>318</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1769536059443</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>254</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>360</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>349</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>652</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>398</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>access$1400</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain$GroovyCommand</class>
+      <method>process</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>115</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>569</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>117</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepErrorException: Logout Failure : Unable to click on object &apos;Object Repository/LogoutOR/userProfileIcon&apos;
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at LogOut.run(LogOut:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepErrorException</property>
+  <property name="failed.exception.message">Logout Failure : Unable to click on object &apos;Object Repository/LogoutOR/userProfileIcon&apos;</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.069658500Z</date>
+  <millis>1769536086069</millis>
+  <nanos>658500</nanos>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : markError(&amp;quot;Logout Failure : &amp;quot; + e.getMessage())</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.070655200Z</date>
+  <millis>1769536086070</millis>
+  <nanos>655200</nanos>
+  <sequence>145</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : catch (Exception e)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.071655600Z</date>
+  <millis>1769536086071</millis>
+  <nanos>655600</nanos>
+  <sequence>147</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/ProhanceWeb/LogOut_Page/LogOut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Logout Failure : Unable to click on object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos;
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at LogOut.run(LogOut:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Logout Failure : Unable to click on object 'Object Repository/LogoutOR/userProfileIcon'</message>
+    <frame>
+      <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+      <method>logMessage</method>
+      <line>512</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.logging.KeywordLogger</class>
+      <method>logMessage</method>
+      <line>447</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>logError</method>
+      <line>599</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>onExecutionError</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>470</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>452</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>71</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>110</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>205</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.vmplugin.v8.IndyInterface</class>
+      <method>fromCache</method>
+      <line>318</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1769536059443</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>254</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>360</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>349</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>652</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>398</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>access$1400</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain$GroovyCommand</class>
+      <method>process</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>115</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>569</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>117</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepErrorException: Logout Failure : Unable to click on object &apos;Object Repository/LogoutOR/userProfileIcon&apos;
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at LogOut.run(LogOut:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepErrorException</property>
+  <property name="failed.exception.message">Logout Failure : Unable to click on object &apos;Object Repository/LogoutOR/userProfileIcon&apos;</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.074131300Z</date>
+  <millis>1769536086074</millis>
+  <nanos>131300</nanos>
+  <sequence>149</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/ProhanceWeb/LogOut_Page/LogOut</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="executedKeywords">{
+  &quot;WebUI.click&quot;: 1,
+  &quot;WebUI.waitForElementPresent&quot;: 1
+}</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.079204600Z</date>
+  <millis>1769536086079</millis>
+  <nanos>204600</nanos>
+  <sequence>150</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ProhanceWeb/LogOut_Page/LogOut</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">2</property>
+  <property name="origin"></property>
+  <property name="name">Test Cases/ProhanceWeb/LogOut_Page/LogOut</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/ProhanceWeb/LogOut_Page/LogOut</property>
+  <property name="source">C:\Users\KRISHNA\git\ProhanceWebApplication\Test Cases\ProhanceWeb\LogOut_Page\LogOut.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.097137200Z</date>
+  <millis>1769536086097</millis>
+  <nanos>137200</nanos>
+  <sequence>152</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.098149300Z</date>
+  <millis>1769536086098</millis>
+  <nanos>149300</nanos>
+  <sequence>153</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(&amp;quot;Object Repository/LogoutOR/userProfileIcon&amp;quot;), Delay)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.356460400Z</date>
+  <millis>1769536086356</millis>
+  <nanos>460400</nanos>
+  <sequence>160</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:327)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:56)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:68)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:38)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+LogOut.run(LogOut:23)
+</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.357973300Z</date>
+  <millis>1769536086357</millis>
+  <nanos>973300</nanos>
+  <sequence>161</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(&amp;quot;Object Repository/LogoutOR/userProfileIcon&amp;quot;), Delay)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:06.357973300Z</date>
+  <millis>1769536086357</millis>
+  <nanos>973300</nanos>
+  <sequence>162</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Object Repository/LogoutOR/userProfileIcon&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:16.378179100Z</date>
+  <millis>1769536096378</millis>
+  <nanos>179100</nanos>
+  <sequence>171</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Waiting for element timed out</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.699697100Z</date>
+  <millis>1769536097699</millis>
+  <nanos>697100</nanos>
+  <sequence>176</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to click on object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at LogOut.run(LogOut:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &amp;lt;a href=&amp;quot;javascript:void(0)&amp;quot; class=&amp;quot;userProfileMenu dropdown-toggle&amp;quot; id=&amp;quot;userProfileDropdown&amp;quot; data-toggle=&amp;quot;dropdown&amp;quot; role=&amp;quot;button&amp;quot; aria-haspopup=&amp;quot;true&amp;quot; aria-expanded=&amp;quot;false&amp;quot; aria-label=&amp;quot;My Profile&amp;quot;&amp;gt;...&amp;lt;/a&amp;gt; is not clickable at point (1451, 24). Other element would receive the click: &amp;lt;div class=&amp;quot;modal fade font-family-opensansregular in&amp;quot; data-target=&amp;quot;#myGlobalModal&amp;quot; data-toggle=&amp;quot;modal&amp;quot; data-backdrop=&amp;quot;static&amp;quot; data-keyboard=&amp;quot;false&amp;quot; role=&amp;quot;dialog&amp;quot; tabindex=&amp;quot;-1&amp;quot; id=&amp;quot;globalCookieId&amp;quot; aria-labelledby=&amp;quot;gridSystemModalLabel&amp;quot; style=&amp;quot;display: block;&amp;quot;&amp;gt;...&amp;lt;/div&amp;gt;
+  (Session info: chrome=144.0.7559.97)
+Build info: version: &amp;apos;4.34.0&amp;apos;, revision: &amp;apos;707dcb4246*&amp;apos;
+System info: os.name: &amp;apos;Windows 11&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;17.0.14&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [dc0015122cd889dbc20edc0f2197c772, clickElement {id=f.7242C4544242860F7C4DCBE82A50572A.d.681AA05B2E414A0D7688698E65A83D17.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.31 (18537d992890..., userDataDir: C:\Users\KRISHNA\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57709}, goog:processID: 6340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57709/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:22728/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (dc0015122cd889dbc20edc0f2197c772)] -&amp;gt; xpath: //a[@id=&amp;apos;userProfileDropdown&amp;apos;]]
+Session ID: dc0015122cd889dbc20edc0f2197c772
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$MTcLZX2u.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1767513449298.run(Script1767513449298.groovy:25)
+	... 16 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.ElementClickInterceptedException</property>
+  <property name="attachment">1769536097468.png</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;javascript:void(0)&quot; class=&quot;userProfileMenu dropdown-toggle&quot; id=&quot;userProfileDropdown&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; aria-label=&quot;My Profile&quot;&gt;...&lt;/a&gt; is not clickable at point (1451, 24). Other element would receive the click: &lt;div class=&quot;modal fade font-family-opensansregular in&quot; data-target=&quot;#myGlobalModal&quot; data-toggle=&quot;modal&quot; data-backdrop=&quot;static&quot; data-keyboard=&quot;false&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; id=&quot;globalCookieId&quot; aria-labelledby=&quot;gridSystemModalLabel&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=144.0.7559.97)
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.14&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [dc0015122cd889dbc20edc0f2197c772, clickElement {id=f.7242C4544242860F7C4DCBE82A50572A.d.681AA05B2E414A0D7688698E65A83D17.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.31 (18537d992890..., userDataDir: C:\Users\KRISHNA\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57709}, goog:processID: 6340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57709/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:22728/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (dc0015122cd889dbc20edc0f2197c772)] -&gt; xpath: //a[@id=&apos;userProfileDropdown&apos;]]
+Session ID: dc0015122cd889dbc20edc0f2197c772
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$MTcLZX2u.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at LogOut.run(LogOut:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">element click intercepted: Element &lt;a href=&quot;javascript:void(0)&quot; class=&quot;userProfileMenu dropdown-toggle&quot; id=&quot;userProfileDropdown&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; aria-label=&quot;My Profile&quot;&gt;...&lt;/a&gt; is not clickable at point (1451, 24). Other element would receive the click: &lt;div class=&quot;modal fade font-family-opensansregular in&quot; data-target=&quot;#myGlobalModal&quot; data-toggle=&quot;modal&quot; data-backdrop=&quot;static&quot; data-keyboard=&quot;false&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; id=&quot;globalCookieId&quot; aria-labelledby=&quot;gridSystemModalLabel&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=144.0.7559.97)
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.14&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [dc0015122cd889dbc20edc0f2197c772, clickElement {id=f.7242C4544242860F7C4DCBE82A50572A.d.681AA05B2E414A0D7688698E65A83D17.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.31 (18537d992890..., userDataDir: C:\Users\KRISHNA\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57709}, goog:processID: 6340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57709/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:22728/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (dc0015122cd889dbc20edc0f2197c772)] -&gt; xpath: //a[@id=&apos;userProfileDropdown&apos;]]
+Session ID: dc0015122cd889dbc20edc0f2197c772</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.703709700Z</date>
+  <millis>1769536097703</millis>
+  <nanos>709700</nanos>
+  <sequence>177</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Object Repository/LogoutOR/userProfileIcon&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.703709700Z</date>
+  <millis>1769536097703</millis>
+  <nanos>709700</nanos>
+  <sequence>178</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.704705300Z</date>
+  <millis>1769536097704</millis>
+  <nanos>705300</nanos>
+  <sequence>179</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : catch (Exception e)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">31</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.705705900Z</date>
+  <millis>1769536097705</millis>
+  <nanos>705900</nanos>
+  <sequence>180</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : markError(&amp;quot;Logout Failure : &amp;quot; + e.getMessage())</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">32</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.706709600Z</date>
+  <millis>1769536097706</millis>
+  <nanos>709600</nanos>
+  <sequence>182</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/ProhanceWeb/LogOut_Page/LogOut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Logout Failure : Unable to click on object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos;
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at LogOut.run(LogOut:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Logout Failure : Unable to click on object 'Object Repository/LogoutOR/userProfileIcon'</message>
+    <frame>
+      <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+      <method>logMessage</method>
+      <line>512</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.logging.KeywordLogger</class>
+      <method>logMessage</method>
+      <line>447</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>logError</method>
+      <line>599</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>logErrorForTheLastError</method>
+      <line>206</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>onExecutionError</method>
+      <line>171</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>470</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>452</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>71</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>110</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>205</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.vmplugin.v8.IndyInterface</class>
+      <method>fromCache</method>
+      <line>318</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1769536059443</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>254</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>360</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>349</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>652</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>398</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>access$1400</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain$GroovyCommand</class>
+      <method>process</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>115</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>569</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>117</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepErrorException: Logout Failure : Unable to click on object &apos;Object Repository/LogoutOR/userProfileIcon&apos;
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at LogOut.run(LogOut:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepErrorException</property>
+  <property name="failed.exception.message">Logout Failure : Unable to click on object &apos;Object Repository/LogoutOR/userProfileIcon&apos;</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.708217600Z</date>
+  <millis>1769536097708</millis>
+  <nanos>217600</nanos>
+  <sequence>184</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : markError(&amp;quot;Logout Failure : &amp;quot; + e.getMessage())</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.709230600Z</date>
+  <millis>1769536097709</millis>
+  <nanos>230600</nanos>
+  <sequence>185</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : catch (Exception e)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.710227200Z</date>
+  <millis>1769536097710</millis>
+  <nanos>227200</nanos>
+  <sequence>187</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/ProhanceWeb/LogOut_Page/LogOut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Logout Failure : Unable to click on object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos;
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at LogOut.run(LogOut:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Logout Failure : Unable to click on object 'Object Repository/LogoutOR/userProfileIcon'</message>
+    <frame>
+      <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+      <method>logMessage</method>
+      <line>512</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.logging.KeywordLogger</class>
+      <method>logMessage</method>
+      <line>447</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>logError</method>
+      <line>599</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>onExecutionError</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>470</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>452</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>71</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>110</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>205</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.vmplugin.v8.IndyInterface</class>
+      <method>fromCache</method>
+      <line>318</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1769536059443</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>254</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>360</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>349</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>652</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>398</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>access$1400</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain$GroovyCommand</class>
+      <method>process</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>115</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>569</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>117</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepErrorException: Logout Failure : Unable to click on object &apos;Object Repository/LogoutOR/userProfileIcon&apos;
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at LogOut.run(LogOut:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepErrorException</property>
+  <property name="failed.exception.message">Logout Failure : Unable to click on object &apos;Object Repository/LogoutOR/userProfileIcon&apos;</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.713236200Z</date>
+  <millis>1769536097713</millis>
+  <nanos>236200</nanos>
+  <sequence>189</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/ProhanceWeb/LogOut_Page/LogOut</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">2</property>
+  <property name="executedKeywords">{
+  &quot;WebUI.click&quot;: 1,
+  &quot;WebUI.waitForElementPresent&quot;: 1
+}</property>
+  <property name="currentRetryCount">1</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.717970900Z</date>
+  <millis>1769536097717</millis>
+  <nanos>970900</nanos>
+  <sequence>190</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ProhanceWeb/LogOut_Page/LogOut</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">1</property>
+  <property name="origin"></property>
+  <property name="name">Test Cases/ProhanceWeb/LogOut_Page/LogOut</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/ProhanceWeb/LogOut_Page/LogOut</property>
+  <property name="source">C:\Users\KRISHNA\git\ProhanceWebApplication\Test Cases\ProhanceWeb\LogOut_Page\LogOut.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">2</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.736345100Z</date>
+  <millis>1769536097736</millis>
+  <nanos>345100</nanos>
+  <sequence>192</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.737348200Z</date>
+  <millis>1769536097737</millis>
+  <nanos>348200</nanos>
+  <sequence>193</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(&amp;quot;Object Repository/LogoutOR/userProfileIcon&amp;quot;), Delay)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.991087800Z</date>
+  <millis>1769536097991</millis>
+  <nanos>87800</nanos>
+  <sequence>200</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:327)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:56)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:68)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:38)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+LogOut.run(LogOut:23)
+</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.992089500Z</date>
+  <millis>1769536097992</millis>
+  <nanos>89500</nanos>
+  <sequence>201</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(&amp;quot;Object Repository/LogoutOR/userProfileIcon&amp;quot;), Delay)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:17.992089500Z</date>
+  <millis>1769536097992</millis>
+  <nanos>89500</nanos>
+  <sequence>202</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Object Repository/LogoutOR/userProfileIcon&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:28.018292900Z</date>
+  <millis>1769536108018</millis>
+  <nanos>292900</nanos>
+  <sequence>211</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Waiting for element timed out</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.302744200Z</date>
+  <millis>1769536109302</millis>
+  <nanos>744200</nanos>
+  <sequence>216</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to click on object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at LogOut.run(LogOut:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &amp;lt;a href=&amp;quot;javascript:void(0)&amp;quot; class=&amp;quot;userProfileMenu dropdown-toggle&amp;quot; id=&amp;quot;userProfileDropdown&amp;quot; data-toggle=&amp;quot;dropdown&amp;quot; role=&amp;quot;button&amp;quot; aria-haspopup=&amp;quot;true&amp;quot; aria-expanded=&amp;quot;false&amp;quot; aria-label=&amp;quot;My Profile&amp;quot;&amp;gt;...&amp;lt;/a&amp;gt; is not clickable at point (1451, 24). Other element would receive the click: &amp;lt;div class=&amp;quot;modal fade font-family-opensansregular in&amp;quot; data-target=&amp;quot;#myGlobalModal&amp;quot; data-toggle=&amp;quot;modal&amp;quot; data-backdrop=&amp;quot;static&amp;quot; data-keyboard=&amp;quot;false&amp;quot; role=&amp;quot;dialog&amp;quot; tabindex=&amp;quot;-1&amp;quot; id=&amp;quot;globalCookieId&amp;quot; aria-labelledby=&amp;quot;gridSystemModalLabel&amp;quot; style=&amp;quot;display: block;&amp;quot;&amp;gt;...&amp;lt;/div&amp;gt;
+  (Session info: chrome=144.0.7559.97)
+Build info: version: &amp;apos;4.34.0&amp;apos;, revision: &amp;apos;707dcb4246*&amp;apos;
+System info: os.name: &amp;apos;Windows 11&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;17.0.14&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [dc0015122cd889dbc20edc0f2197c772, clickElement {id=f.7242C4544242860F7C4DCBE82A50572A.d.681AA05B2E414A0D7688698E65A83D17.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.31 (18537d992890..., userDataDir: C:\Users\KRISHNA\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57709}, goog:processID: 6340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57709/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:22728/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (dc0015122cd889dbc20edc0f2197c772)] -&amp;gt; xpath: //a[@id=&amp;apos;userProfileDropdown&amp;apos;]]
+Session ID: dc0015122cd889dbc20edc0f2197c772
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$MTcLZX2u.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at Script1767513449298.run(Script1767513449298.groovy:25)
+	... 17 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.ElementClickInterceptedException</property>
+  <property name="attachment">1769536109118.png</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;javascript:void(0)&quot; class=&quot;userProfileMenu dropdown-toggle&quot; id=&quot;userProfileDropdown&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; aria-label=&quot;My Profile&quot;&gt;...&lt;/a&gt; is not clickable at point (1451, 24). Other element would receive the click: &lt;div class=&quot;modal fade font-family-opensansregular in&quot; data-target=&quot;#myGlobalModal&quot; data-toggle=&quot;modal&quot; data-backdrop=&quot;static&quot; data-keyboard=&quot;false&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; id=&quot;globalCookieId&quot; aria-labelledby=&quot;gridSystemModalLabel&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=144.0.7559.97)
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.14&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [dc0015122cd889dbc20edc0f2197c772, clickElement {id=f.7242C4544242860F7C4DCBE82A50572A.d.681AA05B2E414A0D7688698E65A83D17.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.31 (18537d992890..., userDataDir: C:\Users\KRISHNA\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57709}, goog:processID: 6340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57709/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:22728/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (dc0015122cd889dbc20edc0f2197c772)] -&gt; xpath: //a[@id=&apos;userProfileDropdown&apos;]]
+Session ID: dc0015122cd889dbc20edc0f2197c772
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$MTcLZX2u.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:684)
+	at LogOut.run(LogOut:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.message">element click intercepted: Element &lt;a href=&quot;javascript:void(0)&quot; class=&quot;userProfileMenu dropdown-toggle&quot; id=&quot;userProfileDropdown&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; aria-label=&quot;My Profile&quot;&gt;...&lt;/a&gt; is not clickable at point (1451, 24). Other element would receive the click: &lt;div class=&quot;modal fade font-family-opensansregular in&quot; data-target=&quot;#myGlobalModal&quot; data-toggle=&quot;modal&quot; data-backdrop=&quot;static&quot; data-keyboard=&quot;false&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; id=&quot;globalCookieId&quot; aria-labelledby=&quot;gridSystemModalLabel&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=144.0.7559.97)
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.14&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [dc0015122cd889dbc20edc0f2197c772, clickElement {id=f.7242C4544242860F7C4DCBE82A50572A.d.681AA05B2E414A0D7688698E65A83D17.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.31 (18537d992890..., userDataDir: C:\Users\KRISHNA\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57709}, goog:processID: 6340, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57709/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:22728/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (dc0015122cd889dbc20edc0f2197c772)] -&gt; xpath: //a[@id=&apos;userProfileDropdown&apos;]]
+Session ID: dc0015122cd889dbc20edc0f2197c772</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.306741800Z</date>
+  <millis>1769536109306</millis>
+  <nanos>741800</nanos>
+  <sequence>217</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Object Repository/LogoutOR/userProfileIcon&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.306741800Z</date>
+  <millis>1769536109306</millis>
+  <nanos>741800</nanos>
+  <sequence>218</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.306741800Z</date>
+  <millis>1769536109306</millis>
+  <nanos>741800</nanos>
+  <sequence>219</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : catch (Exception e)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">31</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.306741800Z</date>
+  <millis>1769536109306</millis>
+  <nanos>741800</nanos>
+  <sequence>220</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : markError(&amp;quot;Logout Failure : &amp;quot; + e.getMessage())</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">32</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.309265900Z</date>
+  <millis>1769536109309</millis>
+  <nanos>265900</nanos>
+  <sequence>222</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/ProhanceWeb/LogOut_Page/LogOut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Logout Failure : Unable to click on object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos;
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at LogOut.run(LogOut:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Logout Failure : Unable to click on object 'Object Repository/LogoutOR/userProfileIcon'</message>
+    <frame>
+      <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+      <method>logMessage</method>
+      <line>512</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.logging.KeywordLogger</class>
+      <method>logMessage</method>
+      <line>447</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>logError</method>
+      <line>599</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>logErrorForTheLastError</method>
+      <line>206</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>onExecutionError</method>
+      <line>171</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>470</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>452</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>71</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>110</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>205</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.vmplugin.v8.IndyInterface</class>
+      <method>fromCache</method>
+      <line>318</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1769536059443</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>254</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>360</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>349</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>652</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>398</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>access$1400</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain$GroovyCommand</class>
+      <method>process</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>115</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>569</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>117</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepErrorException: Logout Failure : Unable to click on object &apos;Object Repository/LogoutOR/userProfileIcon&apos;
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at LogOut.run(LogOut:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepErrorException</property>
+  <property name="failed.exception.message">Logout Failure : Unable to click on object &apos;Object Repository/LogoutOR/userProfileIcon&apos;</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.310275800Z</date>
+  <millis>1769536109310</millis>
+  <nanos>275800</nanos>
+  <sequence>224</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : markError(&amp;quot;Logout Failure : &amp;quot; + e.getMessage())</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.311277300Z</date>
+  <millis>1769536109311</millis>
+  <nanos>277300</nanos>
+  <sequence>225</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : catch (Exception e)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.311277300Z</date>
+  <millis>1769536109311</millis>
+  <nanos>277300</nanos>
+  <sequence>227</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/ProhanceWeb/LogOut_Page/LogOut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Logout Failure : Unable to click on object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos;
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at LogOut.run(LogOut:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Logout Failure : Unable to click on object 'Object Repository/LogoutOR/userProfileIcon'</message>
+    <frame>
+      <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+      <method>logMessage</method>
+      <line>512</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.logging.KeywordLogger</class>
+      <method>logMessage</method>
+      <line>447</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>logError</method>
+      <line>599</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>onExecutionError</method>
+      <line>187</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>470</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>452</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>71</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>110</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>205</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.vmplugin.v8.IndyInterface</class>
+      <method>fromCache</method>
+      <line>318</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1769536059443</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>254</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>360</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>349</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>652</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>398</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>access$1400</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain$GroovyCommand</class>
+      <method>process</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>115</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>569</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>117</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepErrorException: Logout Failure : Unable to click on object &apos;Object Repository/LogoutOR/userProfileIcon&apos;
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at LogOut.run(LogOut:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769536059443.run(TempTestSuite1769536059443.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepErrorException</property>
+  <property name="failed.exception.message">Logout Failure : Unable to click on object &apos;Object Repository/LogoutOR/userProfileIcon&apos;</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.314272600Z</date>
+  <millis>1769536109314</millis>
+  <nanos>272600</nanos>
+  <sequence>229</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/ProhanceWeb/LogOut_Page/LogOut</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">1</property>
+  <property name="executedKeywords">{
+  &quot;WebUI.click&quot;: 1,
+  &quot;WebUI.waitForElementPresent&quot;: 1
+}</property>
+  <property name="currentRetryCount">2</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.318784700Z</date>
+  <millis>1769536109318</millis>
+  <nanos>784700</nanos>
+  <sequence>230</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/ProhanceWeb/LogOut_Page/LogOut</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">0</property>
+  <property name="origin"></property>
+  <property name="name">Test Cases/ProhanceWeb/LogOut_Page/LogOut</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/ProhanceWeb/LogOut_Page/LogOut</property>
+  <property name="source">C:\Users\KRISHNA\git\ProhanceWebApplication\Test Cases\ProhanceWeb\LogOut_Page\LogOut.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">3</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.334303900Z</date>
+  <millis>1769536109334</millis>
+  <nanos>303900</nanos>
+  <sequence>232</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.335303200Z</date>
+  <millis>1769536109335</millis>
+  <nanos>303200</nanos>
+  <sequence>233</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(&amp;quot;Object Repository/LogoutOR/userProfileIcon&amp;quot;), Delay)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.591315600Z</date>
+  <millis>1769536109591</millis>
+  <nanos>315600</nanos>
+  <sequence>240</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/LogoutOR/userProfileIcon&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:327)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:56)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+jdk.proxy2/jdk.proxy2.$Proxy50.execute(Unknown Source)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.doCall(WebUIKeywordMain.groovy:155)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure2.call(WebUIKeywordMain.groovy)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:152)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:68)
+com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:38)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+LogOut.run(LogOut:23)
+</property>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.592443800Z</date>
+  <millis>1769536109592</millis>
+  <nanos>443800</nanos>
+  <sequence>241</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(&amp;quot;Object Repository/LogoutOR/userProfileIcon&amp;quot;), Delay)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2026-01-27T17:48:29.592443800Z</date>
+  <millis>1769536109592</millis>
+  <nanos>443800</nanos>
+  <sequence>242</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Object Repository/LogoutOR/userProfileIcon&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_ACTIVITY DASHBOARD</name>
+   <tag></tag>
+   <elementGuidId>57002281-3ee1-4d24-82b8-6155be05b1df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='menuitem_1']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.fnMenuClick.dashboardMenuCss</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;ACTIVITY DASHBOARD&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8c25aa15-37ad-40dd-abc7-d221d03dbc38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0)</value>
+      <webElementGuid>12a22587-ab4b-4f6b-bb75-2d11082539c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fnMenuClick dashboardMenuCss</value>
+      <webElementGuid>87d6988d-5c9e-48a1-a888-c5b642d3eaac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-menulink</name>
+      <type>Main</type>
+      <value>NReports</value>
+      <webElementGuid>acd6cc9e-2939-4e62-91b3-a7bfd1e11578</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>2ff72376-9f54-40f0-ad97-29432bc3bb9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ACTIVITY DASHBOARD</value>
+      <webElementGuid>7a237463-989c-4f39-943d-a22b2e26593f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menuitem_1&quot;)/a[@class=&quot;fnMenuClick dashboardMenuCss&quot;]</value>
+      <webElementGuid>7c82a242-6192-4d4b-940d-84368a4f93d2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='menuitem_1']/a</value>
+      <webElementGuid>179c9dab-d074-4339-a870-d2e980fc5d57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'ACTIVITY DASHBOARD')]</value>
+      <webElementGuid>6df710f0-a1ac-41db-b7da-d0123fd99189</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YES'])[1]/following::a[4]</value>
+      <webElementGuid>0d9c2d21-15ea-4348-a636-65269a114b2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURRENT ACTIVITY'])[1]/preceding::a[1]</value>
+      <webElementGuid>ce752860-e89f-4b7a-80d1-8e87401ea659</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WORKLOAD ANALYSIS'])[1]/preceding::a[2]</value>
+      <webElementGuid>a43ff5f5-5217-4669-8605-de8bf60aa50d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ACTIVITY DASHBOARD']/parent::*</value>
+      <webElementGuid>cc396f9b-faba-49e9-a385-aaa788ba5923</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'javascript:void(0)')])[3]</value>
+      <webElementGuid>2cbbd063-4613-48ab-8de8-84da33cb43fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/li/a</value>
+      <webElementGuid>987ac66a-2dd5-4fcc-820c-af1f7f6deb0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:void(0)' and (text() = 'ACTIVITY DASHBOARD' or . = 'ACTIVITY DASHBOARD')]</value>
+      <webElementGuid>9ed75322-48a7-41d1-ab5a-670fa3d7a4d5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

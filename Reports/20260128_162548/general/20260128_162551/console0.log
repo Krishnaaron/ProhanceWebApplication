@@ -1,0 +1,694 @@
+2026-01-28 16:26:03.578 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gopal.s\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-28 16:26:03.584 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gopal.s\git\ProhanceWebApplication\Include\config\log.properties
+2026-01-28 16:26:06.947 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/general
+2026-01-28 16:26:07.262 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-28 16:26:07.266 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-28 16:26:07.268 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gopal.s - JAMOCHA57.jamochahq.local
+2026-01-28 16:26:07.271 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-28 16:26:07.276 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.10.10.136
+2026-01-28 16:26:07.278 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-28 16:26:09.451 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 16:26:09.452 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/General_TC/General_TC
+2026-01-28 16:26:09.862 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-28 16:26:09.867 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-28 16:26:09.869 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = excel
+2026-01-28 16:26:11.390 DEBUG testcase.General_TC                      - 1: callTestCase(findTestCase("Test Cases/ProhanceWeb/Login_Page/Login"), ["userName":userName, "password":password])
+2026-01-28 16:26:12.374 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 16:26:12.374 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-28 16:26:12.541 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-28 16:26:12.545 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-28 16:26:13.386 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-28 16:26:13.802 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-01-28 16:26:13.992 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-01-28 16:26:28.316 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to open browser with url: '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Login.run(Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:326)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at General_TC.run(General_TC:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769597751732.run(TempTestSuite1769597751732.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 142
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
+Host info: host: 'JAMOCHA57', ip: '10.10.10.136'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}, platformName: windows, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: true}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:18)
+	at com.kms.katalon.core.webui.driver.edge.EdgeChromiumDriverBuilder.createDriver(EdgeChromiumDriverBuilder.java:34)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:53)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:247)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:149)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:44)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Script1767513437169.run(Script1767513437169.groovy:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:326)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Script1769595308401.run(Script1769595308401.groovy:20)
+	... 15 more
+)
+2026-01-28 16:26:28.336 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Login_Page/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Login.run(Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:326)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at General_TC.run(General_TC:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769597751732.run(TempTestSuite1769597751732.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 142
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
+Host info: host: 'JAMOCHA57', ip: '10.10.10.136'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}, platformName: windows, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: true}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:18)
+	at com.kms.katalon.core.webui.driver.edge.EdgeChromiumDriverBuilder.createDriver(EdgeChromiumDriverBuilder.java:34)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:53)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:247)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:149)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:44)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 39 more
+
+2026-01-28 16:26:28.342 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-28 16:26:28.342 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 16:26:28.348 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to call Test Case 'Test Cases/ProhanceWeb/Login_Page/Login' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/ProhanceWeb/Login_Page/Login' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:326)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at General_TC.run(General_TC:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769597751732.run(TempTestSuite1769597751732.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Login.run(Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 142
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
+Host info: host: 'JAMOCHA57', ip: '10.10.10.136'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}, platformName: windows, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: true}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:18)
+	at com.kms.katalon.core.webui.driver.edge.EdgeChromiumDriverBuilder.createDriver(EdgeChromiumDriverBuilder.java:34)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:53)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:247)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:149)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:44)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 39 more
+)
+2026-01-28 16:26:28.360 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/General_TC/General_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/ProhanceWeb/Login_Page/Login' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:326)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at General_TC.run(General_TC:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769597751732.run(TempTestSuite1769597751732.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Login.run(Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 142
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
+Host info: host: 'JAMOCHA57', ip: '10.10.10.136'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}, platformName: windows, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: true}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:18)
+	at com.kms.katalon.core.webui.driver.edge.EdgeChromiumDriverBuilder.createDriver(EdgeChromiumDriverBuilder.java:34)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:53)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:247)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:149)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:44)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 39 more
+
+2026-01-28 16:26:28.368 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/General_TC/General_TC
+2026-01-28 16:26:28.419 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 16:26:28.419 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/General_TC/General_TC
+2026-01-28 16:26:28.450 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-28 16:26:28.452 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-28 16:26:28.454 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = excel
+2026-01-28 16:26:28.458 DEBUG testcase.General_TC                      - 1: callTestCase(findTestCase("Test Cases/ProhanceWeb/Login_Page/Login"), ["userName":userName, "password":password])
+2026-01-28 16:26:28.536 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 16:26:28.536 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-28 16:26:28.567 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-28 16:26:28.567 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-28 16:26:28.572 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-28 16:26:28.577 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-01-28 16:26:28.587 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-01-28 16:26:38.392 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to open browser with url: '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Login.run(Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:326)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at General_TC.run(General_TC:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769597751732.run(TempTestSuite1769597751732.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 142
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
+Host info: host: 'JAMOCHA57', ip: '10.10.10.136'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}, platformName: windows, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: true}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:18)
+	at com.kms.katalon.core.webui.driver.edge.EdgeChromiumDriverBuilder.createDriver(EdgeChromiumDriverBuilder.java:34)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:53)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:247)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:149)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:44)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Script1767513437169.run(Script1767513437169.groovy:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:326)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Script1769595308401.run(Script1769595308401.groovy:20)
+	... 16 more
+)
+2026-01-28 16:26:38.397 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Login_Page/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Login.run(Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:326)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at General_TC.run(General_TC:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769597751732.run(TempTestSuite1769597751732.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 142
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
+Host info: host: 'JAMOCHA57', ip: '10.10.10.136'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}, platformName: windows, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: true}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:18)
+	at com.kms.katalon.core.webui.driver.edge.EdgeChromiumDriverBuilder.createDriver(EdgeChromiumDriverBuilder.java:34)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:53)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:247)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:149)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:44)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 40 more
+
+2026-01-28 16:26:38.404 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-28 16:26:38.404 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 16:26:38.405 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to call Test Case 'Test Cases/ProhanceWeb/Login_Page/Login' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/ProhanceWeb/Login_Page/Login' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:326)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at General_TC.run(General_TC:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769597751732.run(TempTestSuite1769597751732.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Login.run(Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 26 more
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 142
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
+Host info: host: 'JAMOCHA57', ip: '10.10.10.136'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}, platformName: windows, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: true}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:18)
+	at com.kms.katalon.core.webui.driver.edge.EdgeChromiumDriverBuilder.createDriver(EdgeChromiumDriverBuilder.java:34)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:53)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:247)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:149)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:44)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 40 more
+)
+2026-01-28 16:26:38.410 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/General_TC/General_TC FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/ProhanceWeb/Login_Page/Login' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:326)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at General_TC.run(General_TC:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769597751732.run(TempTestSuite1769597751732.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Login.run(Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:151)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 26 more
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 142
+Current browser version is 144.0.3719.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
+Host info: host: 'JAMOCHA57', ip: '10.10.10.136'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}, platformName: windows, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: true}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:18)
+	at com.kms.katalon.core.webui.driver.edge.EdgeChromiumDriverBuilder.createDriver(EdgeChromiumDriverBuilder.java:34)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:53)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:247)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:149)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:44)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 40 more
+
+2026-01-28 16:26:38.413 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/General_TC/General_TC
+2026-01-28 16:26:38.419 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 16:26:38.420 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/General_TC/General_TC
+2026-01-28 16:26:38.434 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-28 16:26:38.435 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-28 16:26:38.436 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = excel
+2026-01-28 16:26:38.439 DEBUG testcase.General_TC                      - 1: callTestCase(findTestCase("Test Cases/ProhanceWeb/Login_Page/Login"), ["userName":userName, "password":password])
+2026-01-28 16:26:38.514 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 16:26:38.514 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-28 16:26:38.563 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-28 16:26:38.564 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-28 16:26:38.571 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-28 16:26:38.576 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-01-28 16:26:38.580 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds

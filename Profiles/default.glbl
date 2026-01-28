@@ -6,14 +6,14 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://enhance.prohance.io/prohance'</initValue>
+      <initValue>'http://10.10.10.157:1001/prohance/'</initValue>
       <name>URL</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>20</initValue>
+      <initValue>5</initValue>
       <name>Delay</name>
       <protected>false</protected>
       <valueType>NUMBER</valueType>
@@ -29,6 +29,20 @@
       <description></description>
       <initValue>''</initValue>
       <name>password</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'D:/Download'</initValue>
+      <name>DownloadPath</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'excel'</initValue>
+      <name>exportType</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>

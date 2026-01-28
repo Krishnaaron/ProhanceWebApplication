@@ -1,0 +1,279 @@
+2026-01-25 21:52:39.510 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\KRISHNA\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-25 21:52:39.513 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\KRISHNA\git\ProhanceWebApplication\Include\config\log.properties
+2026-01-25 21:52:40.110 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login_Genaral
+2026-01-25 21:52:40.206 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-25 21:52:40.207 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-25 21:52:40.208 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = KRISHNA - krishna
+2026-01-25 21:52:40.209 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-25 21:52:40.209 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.9
+2026-01-25 21:52:40.210 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-25 21:52:40.762 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-25 21:52:40.762 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-25 21:52:40.838 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-25 21:52:40.839 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = tsL9urF6O/APwsPS+50KRA==
+2026-01-25 21:52:41.247 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-25 21:52:41.534 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-25 21:52:41.603 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 25, 2026 9:52:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-25 21:52:45.877 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c5be1c91723adc743ded06e649298e39
+2026-01-25 21:52:45.879 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.97
+2026-01-25 21:52:45.879 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-25 21:52:45.880 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-25 21:52:45.894 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-25 21:52:45.953 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-25 21:52:46.017 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-25 21:52:46.379 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-01-25 21:52:47.292 DEBUG testcase.Login                           - 5: try
+2026-01-25 21:52:47.294 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/LoginOR/userName"), userName)
+2026-01-25 21:52:47.927 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/LoginOR/Password"), password)
+2026-01-25 21:52:48.325 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/LoginOR/login_btn"), Delay)
+2026-01-25 21:52:48.658 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/LoginOR/login_btn"))
+2026-01-25 21:52:49.065 DEBUG testcase.Login                           - 5: if (verifyElementPresent(findTestObject("Object Repository/LoginOR/session_Distroysession"), 2))
+2026-01-25 21:52:51.442 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginOR/session_Distroysession' located by 'By.xpath: //input[@id='distroysession']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginOR/session_Distroysession' located by 'By.xpath: //input[@id='distroysession']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Login.run(Login:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769358156013.run(TempTestSuite1769358156013.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2026-01-25 21:52:51.601 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify object 'Object Repository/LoginOR/session_Distroysession' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/LoginOR/session_Distroysession' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at Login.run(Login:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769358156013.run(TempTestSuite1769358156013.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoginOR/session_Distroysession' located by 'By.xpath: //input[@id='distroysession']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+2026-01-25 21:52:51.605 DEBUG testcase.Login                           - 6: catch (Exception e)
+2026-01-25 21:52:51.607 DEBUG testcase.Login                           - 1: out.println(e.getMessage())
+Unable to verify object 'Object Repository/LoginOR/session_Distroysession' is present
+2026-01-25 21:52:51.646 DEBUG testcase.Login                           - 2: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-25 21:52:51.655 DEBUG testcase.Login                           - 7: Finally
+2026-01-25 21:52:51.668 DEBUG testcase.Login                           - 1: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-25 21:52:51.668 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-25 21:52:51.685 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-25 21:52:51.685 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-25 21:52:51.789 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = Pdf
+2026-01-25 21:52:51.985 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-25 21:52:51.985 DEBUG testcase.ActivityDashBoard               - 2: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-25 21:52:52.262 DEBUG testcase.ActivityDashBoard               - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-01-25 21:53:22.584 WARN  k.c.w.k.b.WaitForElementClickableKeyword - script timeout
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [c5be1c91723adc743ded06e649298e39, executeAsyncScript {script=async function waitWithDOMMutation(validator, timeout) {
+    return new Promise((resolve, reject) => {
+        try {
+            if (timeout <= 0) {
+                resolve(false);
+                return;
+            }
+
+            if (validator()) {
+                resolve(true);
+                return;
+            }
+
+            const observer = new MutationObserver((mutations) => {
+                if (validator()) {
+                    observer.disconnect();
+                    resolve(true);
+                }
+            });
+
+            observer.observe(document.body, { childList: true, attributes: true, subtree: true });
+
+            setTimeout(() => {
+                resolve(false);
+                observer.disconnect();
+            }, timeout);
+        } catch (error) {
+            reject(error);
+        }
+    });
+}
+const notifyWaitingResult = arguments[arguments.length - 1];
+const element = arguments[0];
+const timeout = arguments[1];
+
+const ElementWaitingInteractableState = {
+    DONE: 'DONE',
+    ELEMENT_DETACHED: 'ELEMENT_DETACHED',
+    TIMED_OUT: 'TIMED_OUT',
+    ERROR: 'ERROR',
+};
+
+function notifyWaitingError(error) {
+    notifyWaitingResult({ result: ElementWaitingInteractableState.ERROR, error: error.message });
+}
+
+
+// Wait for detached
+waitWithDOMMutation(() => {
+    if (!element || !element.isConnected) {
+        return true;
+    }
+    return false;
+}, timeout).then((isDetached) => {
+    notifyWaitingResult({ result: isDetached
+        ? ElementWaitingInteractableState.ELEMENT_DETACHED
+        : ElementWaitingInteractableState.TIMED_OUT });
+}).catch(notifyWaitingError);
+const positions = [
+    {
+        block: 'start',
+        inline: 'start'
+    },
+    {
+        block: 'center',
+        inline: 'center'
+    },
+    {
+        block: 'end',
+        inline: 'end'
+    },
+    {
+        block: 'start',
+        inline: 'center'
+    },
+    {
+        block: 'start',
+        inline: 'end'
+    },
+    {
+        block: 'center',
+        inline: 'start'
+    },
+    {
+        block: 'center',
+        inline: 'end'
+    },
+    {
+        block: 'end',
+        inline: 'start'
+    },
+    {
+        block: 'end',
+        inline: 'center'
+    }
+];
+function isShadowRoot(element) {
+    return element.shadowRoot != null;
+}
+
+function checkTopMost(element) {
+    var { left, top, width, height } = element.getBoundingClientRect();
+    var centerX = width / 2 + left;
+    var centerY = height / 2 + top;
+    var scopedDocument = element.getRootNode();
+    var elementAtPoint = scopedDocument.elementFromPoint(centerX, centerY);
+    var isTopMost = element === elementAtPoint || element.contains(elementAtPoint);
+    return isTopMost;
+}
+
+function checkAllTopMostPositions(element) {
+    if (checkTopMost(element)) {
+        return true;
+    }
+    return positions.some(position => {
+        element.scrollIntoView({
+            behavior: 'instant',
+            block: position.block,
+            inline: position.inline
+        });
+        return checkTopMost(element);
+    });
+}
+
+waitWithDOMMutation(() => checkAllTopMostPositions(element), timeout).then((waited) => {
+    notifyWaitingResult({ result: waited
+        ? ElementWaitingInteractableState.DONE
+        : ElementWaitingInteractableState.TIMED_OUT });
+}).catch(notifyWaitingError);
+, args=[{element-6066-11e4-a52e-4f735466cecf=f.CAB072AE697D96A311A7694C4207AE43.d.0D6D0B8F5529AC422F1E024FDF441A22.e.44}, 39702]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.31 (18537d992890..., userDataDir: C:\Users\KRISHNA\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51464}, goog:processID: 8708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51464/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:43184/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c5be1c91723adc743ded06e649298e39
+2026-01-25 21:53:22.597 DEBUG testcase.ActivityDashBoard               - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-01-25 21:53:29.709 DEBUG testcase.ActivityDashBoard               - 3: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay)
+2026-01-25 21:53:30.026 DEBUG testcase.ActivityDashBoard               - 4: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"))
+2026-01-25 21:53:30.389 DEBUG testcase.ActivityDashBoard               - 5: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay)
+2026-01-25 21:53:38.539 DEBUG testcase.ActivityDashBoard               - 6: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"))
+2026-01-25 21:53:39.329 DEBUG testcase.ActivityDashBoard               - 7: switchToWindowIndex(1)
+2026-01-25 21:53:39.568 DEBUG testcase.ActivityDashBoard               - 8: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-25 21:53:39.674 DEBUG testcase.ActivityDashBoard               - 9: executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+2026-01-25 21:53:39.706 DEBUG testcase.ActivityDashBoard               - 10: explort = ((exportType != null)) ? exportType : false
+2026-01-25 21:53:39.708 DEBUG testcase.ActivityDashBoard               - 11: out.println(explort)
+Pdf
+2026-01-25 21:53:39.708 DEBUG testcase.ActivityDashBoard               - 12: xPath = com.prohanceebapplication.common.Export.export(explort)
+2026-01-25 21:53:39.718 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceebapplication.common.Export.export is PASSED
+2026-01-25 21:53:39.728 DEBUG testcase.ActivityDashBoard               - 13: out.println(xPath)
+//span[.//img[@title='Export to PDF']]
+2026-01-25 21:53:39.731 DEBUG testcase.ActivityDashBoard               - 14: if (xPath != null)
+2026-01-25 21:53:39.732 DEBUG testcase.ActivityDashBoard               - 1: exportSpan = new com.kms.katalon.core.testobject.TestObject()
+2026-01-25 21:53:39.736 DEBUG testcase.ActivityDashBoard               - 2: exportSpan.addProperty("xpath", EQUALS, xPath)
+2026-01-25 21:53:39.748 DEBUG testcase.ActivityDashBoard               - 3: waitForElementPresent(exportSpan, Delay)
+2026-01-25 21:53:44.866 DEBUG testcase.ActivityDashBoard               - 4: el = findWebElement(exportSpan, Delay)
+2026-01-25 21:53:45.128 DEBUG testcase.ActivityDashBoard               - 5: executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(el))
+2026-01-25 21:53:45.168 DEBUG testcase.ActivityDashBoard               - 6: executeJavaScript("arguments[0].click();", Arrays.asList(el))
+2026-01-25 21:53:48.230 DEBUG testcase.ActivityDashBoard               - 15: com.prohancewebapplication.file.FileSizeFinder.fileSize()
+C:\Users\KRISHNA\Downloads
+Top Applications Details Report (1).xlsx 17370
+Top Applications Details Report (2).xlsx 17371
+Top Applications Details Report (3).xlsx 17369
+Top Applications Details Report (4).xlsx 17370
+Top Applications Details Report (5).xlsx 17370
+Top Applications Details Report (6).xlsx 17370
+Top Applications Details Report (7).xlsx 17370
+Top Applications Details Report.pdf 18938
+Top Applications Details Report.xlsx 17371
+2026-01-25 21:53:48.293 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+2026-01-25 21:53:48.319 DEBUG testcase.ActivityDashBoard               - 16: switchToDefaultContent()
+2026-01-25 21:53:48.369 DEBUG testcase.ActivityDashBoard               - 17: closeWindowIndex(1)
+2026-01-25 21:53:48.522 DEBUG testcase.ActivityDashBoard               - 18: delay(2)
+2026-01-25 21:53:50.569 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-25 21:53:50.858 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-25 21:53:50.858 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Login_Genaral
+2026-01-25 21:53:50.858 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

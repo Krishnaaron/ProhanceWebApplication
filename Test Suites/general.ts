@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>general</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>772bb235-43c5-4c77-a2c2-bb9064c8b4b5</testSuiteGuid>
+   <testCaseLink>
+      <guid>f10252c6-08db-459c-9345-7caa6cfa4e69</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ProhanceWeb/General_TC/General_TC</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>058c5d10-75a3-4f07-85b7-1cdafc42ac6b</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginPage/LoginPage</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>058c5d10-75a3-4f07-85b7-1cdafc42ac6b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userName</value>
+         <variableId>6072c373-d0aa-41c1-97f0-1f3a79b7deae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>058c5d10-75a3-4f07-85b7-1cdafc42ac6b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>b97b1ae6-9a00-494b-8cd0-c6e6d35c742f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>058c5d10-75a3-4f07-85b7-1cdafc42ac6b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>exportType</value>
+         <variableId>6faa5939-a322-4ea0-86b7-c0676a8376cb</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

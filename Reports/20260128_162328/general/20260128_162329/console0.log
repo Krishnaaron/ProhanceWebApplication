@@ -1,0 +1,24 @@
+2026-01-28 16:23:49.417 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gopal.s\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-28 16:23:49.422 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gopal.s\git\ProhanceWebApplication\Include\config\log.properties
+2026-01-28 16:23:52.252 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/general
+2026-01-28 16:23:52.638 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-28 16:23:52.642 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-28 16:23:52.644 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gopal.s - JAMOCHA57.jamochahq.local
+2026-01-28 16:23:52.645 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-28 16:23:52.646 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.10.10.136
+2026-01-28 16:23:52.648 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-28 16:23:53.996 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 16:23:53.997 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/General_TC/General_TC
+2026-01-28 16:23:54.073 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-28 16:23:54.075 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-28 16:23:54.076 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = excel
+2026-01-28 16:23:54.679 DEBUG testcase.General_TC                      - 1: callTestCase(findTestCase("Test Cases/ProhanceWeb/Login_Page/Login"), ["userName":userName, "password":password])
+2026-01-28 16:23:54.950 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 16:23:54.950 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-28 16:23:55.001 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-28 16:23:55.001 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-28 16:23:55.264 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-28 16:23:55.632 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-28 16:23:55.762 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 28, 2026 4:25:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144

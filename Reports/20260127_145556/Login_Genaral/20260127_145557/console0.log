@@ -1,0 +1,145 @@
+2026-01-27 14:56:05.349 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gopal.s\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-27 14:56:05.355 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gopal.s\git\ProhanceWebApplication\ProhanceWebApplication\Include\config\log.properties
+2026-01-27 14:56:06.788 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login_Genaral
+2026-01-27 14:56:06.891 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-27 14:56:06.893 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-27 14:56:06.895 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gopal.s - JAMOCHA57.jamochahq.local
+2026-01-27 14:56:06.896 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-27 14:56:06.898 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.10.10.136
+2026-01-27 14:56:06.900 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-27 14:56:07.442 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 14:56:07.443 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-27 14:56:07.526 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-27 14:56:07.527 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = tsL9urF6O/APwsPS+50KRA==
+2026-01-27 14:56:08.044 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-27 14:56:08.346 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-27 14:56:08.412 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 27, 2026 2:57:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-27 14:57:15.055 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 32434754c360aba8cb5e968248dfc09d
+2026-01-27 14:57:15.084 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.97
+2026-01-27 14:57:15.088 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-27 14:57:15.092 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-27 14:57:15.111 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-27 14:57:15.225 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-27 14:57:15.329 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-27 14:57:15.657 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-01-27 14:57:34.493 DEBUG testcase.Login                           - 5: try
+2026-01-27 14:57:34.499 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/LoginOR/userName"), userName)
+2026-01-27 14:57:35.125 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/LoginOR/Password"), password)
+2026-01-27 14:57:35.582 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/LoginOR/login_btn"), Delay)
+2026-01-27 14:57:35.996 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/LoginOR/login_btn"))
+2026-01-27 14:57:38.080 DEBUG testcase.Login                           - 5: if (verifyElementPresent(findTestObject("Object Repository/LoginOR/session_Distroysession"), 2))
+2026-01-27 14:57:38.840 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/LoginOR/session_Distroysession"), Delay)
+2026-01-27 14:57:39.151 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/LoginOR/session_Distroysession"))
+2026-01-27 14:57:39.533 DEBUG testcase.Login                           - 6: if (verifyElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay))
+2026-01-27 14:57:40.900 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay)
+2026-01-27 14:57:41.214 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Common/Accept Cookies"))
+2026-01-27 14:57:41.598 DEBUG testcase.Login                           - 7: Finally
+2026-01-27 14:57:41.613 DEBUG testcase.Login                           - 1: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-27 14:57:41.627 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-27 14:57:41.660 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 14:57:41.660 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:57:41.828 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = Pdf
+2026-01-27 14:57:42.117 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-27 14:57:42.120 DEBUG testcase.ActivityDashBoard               - 2: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-27 14:57:42.384 DEBUG testcase.ActivityDashBoard               - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-01-27 14:57:42.687 DEBUG testcase.ActivityDashBoard               - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-01-27 14:57:43.083 DEBUG testcase.ActivityDashBoard               - 3: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay)
+2026-01-27 14:57:43.423 DEBUG testcase.ActivityDashBoard               - 4: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"))
+2026-01-27 14:57:43.802 DEBUG testcase.ActivityDashBoard               - 5: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay)
+2026-01-27 14:57:46.304 DEBUG testcase.ActivityDashBoard               - 6: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"))
+2026-01-27 14:57:47.554 DEBUG testcase.ActivityDashBoard               - 7: switchToWindowIndex(1)
+2026-01-27 14:57:47.723 DEBUG testcase.ActivityDashBoard               - 8: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-27 14:57:47.820 DEBUG testcase.ActivityDashBoard               - 9: executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+2026-01-27 14:57:47.859 DEBUG testcase.ActivityDashBoard               - 10: com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete()
+C:\Users\gopal.s\Downloads
+2026-01-27 14:57:47.929 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+2026-01-27 14:57:47.932 DEBUG testcase.ActivityDashBoard               - 11: explort = ((exportType != null)) ? exportType : false
+2026-01-27 14:57:47.932 DEBUG testcase.ActivityDashBoard               - 12: browserName = getExecutedBrowser()
+2026-01-27 14:57:47.935 DEBUG testcase.ActivityDashBoard               - 13: logInfo("Browser Name :" + " " + browserName)
+2026-01-27 14:57:47.947 INFO  com.kms.katalon.core.util.KeywordUtil    - Browser Name : Chrome
+2026-01-27 14:57:47.949 DEBUG testcase.ActivityDashBoard               - 14: result = com.prohancewebapplication.file.DowloadLocation.createBrowserWithDownload(browserName, "TopApplication")
+Jan 27, 2026 2:58:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-27 14:58:40.014 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d831c1a78c4820b70ae6c4c7e5123353
+2026-01-27 14:58:40.015 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.97
+2026-01-27 14:58:40.016 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-27 14:58:40.017 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-27 14:58:40.017 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-27 14:58:40.049 ERROR k.k.c.m.CustomKeywordDelegatingMetaClass - ❌ groovy.lang.MissingMethodException: No signature of method: org.openqa.selenium.chrome.ChromeDriver.plus() is applicable for argument types: (String) values: [ ]
+Possible solutions: pin(java.lang.String), close(), get(java.lang.String), split(groovy.lang.Closure), use([Ljava.lang.Object;), is(java.lang.Object)
+groovy.lang.MissingMethodException: No signature of method: org.openqa.selenium.chrome.ChromeDriver.plus() is applicable for argument types: (String) values: [ ]
+Possible solutions: pin(java.lang.String), close(), get(java.lang.String), split(groovy.lang.Closure), use([Ljava.lang.Object;), is(java.lang.Object)
+2026-01-27 14:58:40.062 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: org.openqa.selenium.chrome.ChromeDriver.plus() is applicable for argument types: (String) values: [ ]
+Possible solutions: pin(java.lang.String), close(), get(java.lang.String), split(groovy.lang.Closure), use([Ljava.lang.Object;), is(java.lang.Object)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:102)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at ActivityDashBoard.run(ActivityDashBoard:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505957909.run(TempTestSuite1769505957909.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: org.openqa.selenium.chrome.ChromeDriver.plus() is applicable for argument types: (String) values: [ ]
+Possible solutions: pin(java.lang.String), close(), get(java.lang.String), split(groovy.lang.Closure), use([Ljava.lang.Object;), is(java.lang.Object)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1768987107445.run(Script1768987107445.groovy:47)
+	... 15 more
+Caused by: groovy.lang.MissingMethodException: No signature of method: org.openqa.selenium.chrome.ChromeDriver.plus() is applicable for argument types: (String) values: [ ]
+Possible solutions: pin(java.lang.String), close(), get(java.lang.String), split(groovy.lang.Closure), use([Ljava.lang.Object;), is(java.lang.Object)
+	at com.prohancewebapplication.file.DowloadLocation.createBrowserWithDownload(DowloadLocation.groovy:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at ActivityDashBoard.run(ActivityDashBoard:47)
+	... 15 more
+
+2026-01-27 14:58:40.080 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: org.openqa.selenium.chrome.ChromeDriver.plus() is applicable for argument types: (String) values: [ ]
+Possible solutions: pin(java.lang.String), close(), get(java.lang.String), split(groovy.lang.Closure), use([Ljava.lang.Object;), is(java.lang.Object)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at ActivityDashBoard.run(ActivityDashBoard:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769505957909.run(TempTestSuite1769505957909.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: groovy.lang.MissingMethodException: No signature of method: org.openqa.selenium.chrome.ChromeDriver.plus() is applicable for argument types: (String) values: [ ]
+Possible solutions: pin(java.lang.String), close(), get(java.lang.String), split(groovy.lang.Closure), use([Ljava.lang.Object;), is(java.lang.Object)
+	at com.prohancewebapplication.file.DowloadLocation.createBrowserWithDownload(DowloadLocation.groovy:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	... 17 more
+
+2026-01-27 14:58:40.099 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:58:40.114 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-27 14:58:40.114 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-27 14:58:40.165 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = Pdf
+2026-01-27 14:58:40.171 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-27 14:58:40.176 DEBUG testcase.ActivityDashBoard               - 2: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>logOut</name>
+   <tag></tag>
+   <elementGuidId>db8f3dcb-18bc-4332-b452-ff2f6f831acf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#closeWindow</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='closeWindow']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; Logout&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a4ca74ac-2278-4d90-9e29-a4a772b16f1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/prohance/logout.htm</value>
+      <webElementGuid>65480810-fd49-4484-b4e0-9556d030dc05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>closeWindow</value>
+      <webElementGuid>a2d2d465-6da3-449d-85bc-c3f5b877024b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+								
+								Logout
+							</value>
+      <webElementGuid>6a419aef-4f06-42e5-9b9b-8bf7f0d3594a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;closeWindow&quot;)</value>
+      <webElementGuid>acf151dc-f7c3-46b7-ae05-ccb793676f80</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='closeWindow']</value>
+      <webElementGuid>3c908248-a75f-4904-b4d3-49ee799b5fdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='rightMenus']/li[5]/ul/li[7]/a</value>
+      <webElementGuid>ed08fe58-2a7d-4ab0-8362-ea0ab5e53d86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administration'])[1]/following::a[1]</value>
+      <webElementGuid>155e7291-f5d6-47fd-8fd6-6d127eecef2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/following::a[2]</value>
+      <webElementGuid>e9e98e4b-ea69-4dbe-be51-2bb1798825b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='gopaladmin s'])[2]/preceding::a[1]</value>
+      <webElementGuid>c0d6b5aa-e30f-432c-99bb-cf4ff423bb04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/prohance/logout.htm')]</value>
+      <webElementGuid>1f9a8ede-201c-4600-beda-3074e2bc124d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/ul/li[7]/a</value>
+      <webElementGuid>b296e773-6850-4556-8f9f-a91e0f781d3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/prohance/logout.htm' and @id = 'closeWindow' and (text() = '
+								
+								Logout
+							' or . = '
+								
+								Logout
+							')]</value>
+      <webElementGuid>2d8f6310-8dcb-4ca2-b502-fc12bcaced21</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

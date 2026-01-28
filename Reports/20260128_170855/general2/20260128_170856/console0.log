@@ -1,0 +1,126 @@
+2026-01-28 17:09:04.709 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gopal.s\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-28 17:09:04.713 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gopal.s\git\ProhanceWebApplication\Include\config\log.properties
+2026-01-28 17:09:06.415 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/general2
+2026-01-28 17:09:06.555 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-28 17:09:06.558 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-28 17:09:06.561 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gopal.s - JAMOCHA57.jamochahq.local
+2026-01-28 17:09:06.563 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-28 17:09:06.564 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.10.10.136
+2026-01-28 17:09:06.565 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-28 17:09:07.273 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 17:09:07.273 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/General_TC/General_TC
+2026-01-28 17:09:07.327 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = vG9BolkT2AE=
+2026-01-28 17:09:07.329 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-28 17:09:07.333 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = pdf
+2026-01-28 17:09:07.790 DEBUG testcase.General_TC                      - 1: callTestCase(findTestCase("Test Cases/ProhanceWeb/Login_Page/Login"), ["userName":userName, "password":password])
+2026-01-28 17:09:07.980 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 17:09:07.981 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-28 17:09:08.044 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = vG9BolkT2AE=
+2026-01-28 17:09:08.045 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-28 17:09:08.250 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-28 17:09:08.460 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-28 17:09:08.543 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 28, 2026 5:10:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-28 17:10:16.623 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = eca436d74796143726d4e82bb30aa49a
+2026-01-28 17:10:16.625 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.98
+2026-01-28 17:10:16.626 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-28 17:10:16.629 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-28 17:10:16.639 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-28 17:10:16.692 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-28 17:10:16.781 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-28 17:10:17.060 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-01-28 17:10:45.250 DEBUG testcase.Login                           - 5: try
+2026-01-28 17:10:45.255 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/Login/userName"), userName)
+2026-01-28 17:10:46.047 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Login/Password"), password)
+2026-01-28 17:10:46.487 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay)
+2026-01-28 17:10:46.840 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/Login/login_btn"))
+2026-01-28 17:10:49.004 DEBUG testcase.Login                           - 5: if (verifyElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay))
+2026-01-28 17:10:49.731 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Login/session_Distroysession"), Delay)
+2026-01-28 17:10:50.056 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Login/session_Distroysession"))
+2026-01-28 17:10:50.472 DEBUG testcase.Login                           - 6: if (verifyElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay))
+2026-01-28 17:10:52.522 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay)
+2026-01-28 17:10:52.861 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Common/Accept Cookies"))
+2026-01-28 17:10:53.292 DEBUG testcase.Login                           - 7: Finally
+2026-01-28 17:10:53.302 DEBUG testcase.Login                           - 1: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-28 17:10:53.310 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-28 17:10:53.310 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 17:10:53.323 DEBUG testcase.General_TC                      - 2: callTestCase(findTestCase("Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard"), ["exportType":exportType])
+2026-01-28 17:10:53.413 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 17:10:53.413 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-28 17:10:53.549 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = pdf
+2026-01-28 17:10:53.813 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-28 17:10:53.818 DEBUG testcase.ActivityDashBoard               - 2: rows = null
+2026-01-28 17:10:53.824 DEBUG testcase.ActivityDashBoard               - 3: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-28 17:10:54.095 DEBUG testcase.ActivityDashBoard               - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-01-28 17:10:54.711 DEBUG testcase.ActivityDashBoard               - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-01-28 17:10:55.119 DEBUG testcase.ActivityDashBoard               - 3: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay)
+2026-01-28 17:10:55.418 DEBUG testcase.ActivityDashBoard               - 4: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"))
+2026-01-28 17:10:55.998 DEBUG testcase.ActivityDashBoard               - 5: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"), Delay, STOP_ON_FAILURE)
+2026-01-28 17:10:57.283 DEBUG testcase.ActivityDashBoard               - 6: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"))
+2026-01-28 17:10:58.165 DEBUG testcase.ActivityDashBoard               - 7: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-28 17:10:58.197 DEBUG testcase.ActivityDashBoard               - 8: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay)
+2026-01-28 17:10:58.805 DEBUG testcase.ActivityDashBoard               - 9: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"))
+2026-01-28 17:10:59.396 DEBUG testcase.ActivityDashBoard               - 10: switchToWindowIndex(1)
+2026-01-28 17:10:59.644 DEBUG testcase.ActivityDashBoard               - 11: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-28 17:10:59.644 DEBUG testcase.ActivityDashBoard               - 12: rows = com.prohancewebapplication.webtable.Table.webTableDataReader(findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_Id"), findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_tr"))
+2026-01-28 17:11:02.669 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.webtable.Table.webTableDataReader is PASSED
+2026-01-28 17:11:02.669 DEBUG testcase.ActivityDashBoard               - 13: if (rows != null)
+2026-01-28 17:11:02.669 DEBUG testcase.ActivityDashBoard               - 1: com.prohancewebapplication.webtable.Table.webTableDataWriter(rows)
+2026-01-28 17:11:03.321 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 0:  | Rank | Activity | Duration | #Users | #Switches | Rating | Category | 
+2026-01-28 17:11:03.628 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 1:  | 1 | Remote Desktop | 03 : 23 : 33 | 2 | 47 | +1 | Support Tools | 
+2026-01-28 17:11:03.961 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 2:  | 2 | ProHance | 02 : 32 : 40 | 3 | 66 | +2 | Business Tools | 
+2026-01-28 17:11:04.297 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 3:  | 3 | Eclipse | 02 : 06 : 06 | 2 | 63 | +2 | Development Tools | 
+2026-01-28 17:11:04.648 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 4:  | 4 | MS Teams | 01 : 43 : 20 | 2 | 48 | +2 | Communication Tools | 
+2026-01-28 17:11:04.950 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 5:  | 5 | Notepad | 01 : 07 : 38 | 2 | 29 | +2 | Development Tools | 
+2026-01-28 17:11:05.287 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 6:  | 6 | UNKNOWN AOS | 00 : 43 : 25 | 2 | 25 |  |  | 
+2026-01-28 17:11:05.636 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 7:  | 7 | Techmate Application | 00 : 39 : 19 | 2 | 13 | +2 | Support Tools | 
+2026-01-28 17:11:05.968 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 8:  | 8 | Unproductive Sites | 00 : 35 : 09 | 1 | 22 | -2 | Unproductive | 
+2026-01-28 17:11:06.318 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 9:  | 9 | Chat GPT | 00 : 30 : 22 | 2 | 21 | +2 | AI Tools | 
+2026-01-28 17:11:06.637 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 10:  | 10 | Email Applications | 00 : 21 : 51 | 2 | 5 | +2 | Communication Tools | 
+2026-01-28 17:11:06.956 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 11:  | 11 | Customer Connect Apps | 00 : 20 : 52 | 1 | 4 | +2 | Support Tools | 
+2026-01-28 17:11:07.324 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 12:  | 12 | Windows Components | 00 : 15 : 51 | 1 | 8 | +2 | Support Tools | 
+2026-01-28 17:11:07.663 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 13:  | 13 | Linux Applications | 00 : 11 : 17 | 1 | 10 | +2 | Development Tools | 
+2026-01-28 17:11:08.320 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 14:  | 14 | Jenkins | 00 : 07 : 10 | 1 | 5 | +2 | Development Tools | 
+2026-01-28 17:11:08.641 INFO  com.kms.katalon.core.util.KeywordUtil    - Row 15:  | 15 | Excel | 00 : 03 : 10 | 1 | 1 | +2 | Documentation Tools | 
+2026-01-28 17:11:08.641 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.webtable.Table.webTableDataWriter is PASSED
+2026-01-28 17:11:08.641 DEBUG testcase.ActivityDashBoard               - 14: executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+2026-01-28 17:11:08.682 DEBUG testcase.ActivityDashBoard               - 15: com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete()
+C:\Users\gopal.s\Downloads
+2026-01-28 17:11:08.764 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+2026-01-28 17:11:08.767 DEBUG testcase.ActivityDashBoard               - 16: explort = ((exportType != null)) ? exportType : false
+2026-01-28 17:11:08.772 DEBUG testcase.ActivityDashBoard               - 17: browserName = getExecutedBrowser()
+2026-01-28 17:11:08.778 DEBUG testcase.ActivityDashBoard               - 18: logInfo("Browser Name :" + " " + browserName)
+2026-01-28 17:11:08.778 INFO  com.kms.katalon.core.util.KeywordUtil    - Browser Name : Chrome
+2026-01-28 17:11:08.781 DEBUG testcase.ActivityDashBoard               - 19: xPath = com.prohanceebapplication.common.Export.export(explort)
+2026-01-28 17:11:08.801 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceebapplication.common.Export.export is PASSED
+2026-01-28 17:11:08.802 DEBUG testcase.ActivityDashBoard               - 20: out.println(xPath)
+//span[.//img[@title='Export to PDF']]
+2026-01-28 17:11:08.804 DEBUG testcase.ActivityDashBoard               - 21: if (xPath != null)
+2026-01-28 17:11:08.811 DEBUG testcase.ActivityDashBoard               - 1: exportSpan = new com.kms.katalon.core.testobject.TestObject()
+2026-01-28 17:11:08.815 DEBUG testcase.ActivityDashBoard               - 2: exportSpan.addProperty("xpath", EQUALS, xPath)
+2026-01-28 17:11:08.845 DEBUG testcase.ActivityDashBoard               - 3: waitForElementPresent(exportSpan, Delay)
+2026-01-28 17:11:09.136 DEBUG testcase.ActivityDashBoard               - 4: el = findWebElement(exportSpan, Delay)
+2026-01-28 17:11:09.464 DEBUG testcase.ActivityDashBoard               - 5: executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(el))
+2026-01-28 17:11:09.497 DEBUG testcase.ActivityDashBoard               - 6: executeJavaScript("arguments[0].click();", Arrays.asList(el))
+2026-01-28 17:11:12.713 DEBUG testcase.ActivityDashBoard               - 22: com.prohancewebapplication.file.FileSizeFinder.fileSize()
+2026-01-28 17:11:12.718 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+2026-01-28 17:11:12.719 DEBUG testcase.ActivityDashBoard               - 23: switchToDefaultContent()
+2026-01-28 17:11:12.760 DEBUG testcase.ActivityDashBoard               - 24: closeWindowIndex(1)
+2026-01-28 17:11:12.828 DEBUG testcase.ActivityDashBoard               - 25: switchToWindowIndex(0)
+2026-01-28 17:11:12.852 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-28 17:11:12.852 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 17:11:12.856 DEBUG testcase.General_TC                      - 3: callTestCase(findTestCase("Test Cases/ProhanceWeb/LogOut_Page/LogOut"), [:])
+2026-01-28 17:11:12.927 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 17:11:12.927 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/ProhanceWeb/LogOut_Page/LogOut
+2026-01-28 17:11:13.052 DEBUG testcase.LogOut                          - 1: try
+2026-01-28 17:11:13.055 DEBUG testcase.LogOut                          - 1: waitForElementPresent(findTestObject("Object Repository/Logout/userProfileIcon"), Delay)
+2026-01-28 17:11:13.464 DEBUG testcase.LogOut                          - 2: click(findTestObject("Object Repository/Logout/userProfileIcon"), STOP_ON_FAILURE)
+2026-01-28 17:11:13.901 DEBUG testcase.LogOut                          - 3: waitForElementPresent(findTestObject("Object Repository/Logout/logOut"), Delay)
+2026-01-28 17:11:14.397 DEBUG testcase.LogOut                          - 4: click(findTestObject("Object Repository/Logout/logOut"), STOP_ON_FAILURE)
+2026-01-28 17:11:15.025 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/ProhanceWeb/LogOut_Page/LogOut
+2026-01-28 17:11:15.025 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-28 17:11:15.033 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/General_TC/General_TC
+2026-01-28 17:11:15.472 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-28 17:11:15.472 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/general2
+2026-01-28 17:11:15.472 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
