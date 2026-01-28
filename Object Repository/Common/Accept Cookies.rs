@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//*[@id = 'saveGlobalCookieId']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button [@id = 'saveGlobalCookieId']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,6 +23,6 @@
       <name>id</name>
       <type>Main</type>
       <value>saveGlobalCookieId</value>
-      <webElementGuid>d86969d9-2864-4b6d-bd90-549176919893</webElementGuid>
+      <webElementGuid>6b5bf398-d5c0-4110-b040-b99bbd927931</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -38,14 +38,14 @@ try {
 
     WebUI.click(findTestObject('Object Repository/Login/login_btn'))
 
-    if (WebUI.verifyElementPresent(findTestObject('Object Repository/Login/session_Distroysession'), GlobalVariable.Delay)) {
-        WebUI.waitForElementClickable(findTestObject('Object Repository/Login/session_Distroysession'), GlobalVariable.Delay)
+    if (WebUI.verifyElementPresent(findTestObject('Object Repository/Login/session_Distroysession'), GlobalVariable.Delay,FailureHandling.OPTIONAL)) {
+        WebUI.waitForElementClickable(findTestObject('Object Repository/Login/session_Distroysession'), GlobalVariable.Delay,FailureHandling.OPTIONAL)
 
         WebUI.click(findTestObject('Object Repository/Login/session_Distroysession'))
     }
     
-    if (WebUI.verifyElementPresent(findTestObject('Object Repository/Common/Accept Cookies'), GlobalVariable.Delay)) {
-        WebUI.waitForElementClickable(findTestObject('Object Repository/Common/Accept Cookies'), GlobalVariable.Delay)
+    if (WebUI.verifyElementPresent(findTestObject('Object Repository/Common/Accept Cookies'), GlobalVariable.Delay,FailureHandling.OPTIONAL)) {
+        WebUI.waitForElementClickable(findTestObject('Object Repository/Common/Accept Cookies'), GlobalVariable.Delay,FailureHandling.OPTIONAL)
 
         WebUI.click(findTestObject('Object Repository/Common/Accept Cookies'))
     }
@@ -53,7 +53,7 @@ try {
 catch (Exception e) {
     System.out.println(e.getMessage())
 
-    String timestamp = new Date().format('yyyyMMdd_HHmmss')
+    //String timestamp = new Date().format('yyyyMMdd_HHmmss')
 } 
 // WebUI.takeScreenshot("D:\\KatalonScreenshots\\ldt_${timestamp}.png");
 finally { 
