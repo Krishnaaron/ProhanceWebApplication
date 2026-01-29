@@ -44,5 +44,17 @@
          <value>exportType</value>
          <variableId>6faa5939-a322-4ea0-86b7-c0676a8376cb</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7c37aeab-71bd-41a4-97ea-38e5e33312bd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6f57e042-9675-43d6-a78f-f2b9c660a054</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

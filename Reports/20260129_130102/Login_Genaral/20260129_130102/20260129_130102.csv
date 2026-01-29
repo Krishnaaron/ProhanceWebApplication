@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Genaral,Edge Chromium 144.0.3719.92,,,29-01-2026 13:01:21,29-01-2026 13:05:48,4m - 26.593s,FAILED
+,,,,,,,
+Test Cases/ProhanceWeb/Login_Page/Login,Edge Chromium 144.0.3719.92,Login,,29-01-2026 13:01:23,29-01-2026 13:04:18,2m - 54.226s,PASSED
+"DATA BINDING - {""password"":""HeCM15nHKBI\u003d"",""userName"":""tsL9urF6O/D/xURRxzj/8w\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Edge Chromium 144.0.3719.92,,,29-01-2026 13:01:25,29-01-2026 13:02:55,1m - 30.452s,PASSED
+maximizeWindow(),Edge Chromium 144.0.3719.92,,,29-01-2026 13:02:55,29-01-2026 13:02:55,0.173s,PASSED
+"waitForPageLoad(Delay, CONTINUE_ON_FAILURE)",Edge Chromium 144.0.3719.92,,,29-01-2026 13:02:55,29-01-2026 13:02:56,0.352s,PASSED
+navigateToUrl(URL),Edge Chromium 144.0.3719.92,,,29-01-2026 13:02:56,29-01-2026 13:04:11,1m - 15.080s,PASSED
+try,Edge Chromium 144.0.3719.92,,,29-01-2026 13:04:11,29-01-2026 13:04:18,6.770s,PASSED
+Finally,Edge Chromium 144.0.3719.92,,,29-01-2026 13:04:18,29-01-2026 13:04:18,0.013s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard,Edge Chromium 144.0.3719.92,,,29-01-2026 13:05:25,29-01-2026 13:05:46,20.591s,FAILED
+"DATA BINDING - {""isDataValion"":""true"",""exportType"":""excel"",""isFileDownload"":""true""}",,,,,,,
+explort = null,Edge Chromium 144.0.3719.92,,,29-01-2026 13:05:25,29-01-2026 13:05:25,0.002s,PASSED
+rows = null,Edge Chromium 144.0.3719.92,,,29-01-2026 13:05:25,29-01-2026 13:05:25,0.000s,PASSED
+webData = [],Edge Chromium 144.0.3719.92,,,29-01-2026 13:05:25,29-01-2026 13:05:25,0.002s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",Edge Chromium 144.0.3719.92,,,29-01-2026 13:05:25,29-01-2026 13:05:46,20.562s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/LogOut_Page/LogOut,Edge Chromium 144.0.3719.92,,,29-01-2026 13:05:46,29-01-2026 13:05:47,1.825s,PASSED
+try,Edge Chromium 144.0.3719.92,,,29-01-2026 13:05:46,29-01-2026 13:05:47,1.703s,PASSED

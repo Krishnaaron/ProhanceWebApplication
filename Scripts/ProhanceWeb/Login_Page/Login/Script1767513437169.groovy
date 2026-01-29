@@ -38,13 +38,13 @@ try {
 
     WebUI.click(findTestObject('Object Repository/Login/login_btn'))
 
-    if (WebUI.verifyElementPresent(findTestObject('Object Repository/Login/session_Distroysession'), GlobalVariable.Delay,FailureHandling.OPTIONAL)) {
+    if (WebUI.waitForElementPresent(findTestObject('Object Repository/Login/session_Distroysession'), GlobalVariable.Delay,FailureHandling.OPTIONAL)) {
         WebUI.waitForElementClickable(findTestObject('Object Repository/Login/session_Distroysession'), GlobalVariable.Delay,FailureHandling.OPTIONAL)
 
         WebUI.click(findTestObject('Object Repository/Login/session_Distroysession'))
     }
     
-    if (WebUI.verifyElementPresent(findTestObject('Object Repository/Common/Accept Cookies'), GlobalVariable.Delay,FailureHandling.OPTIONAL)) {
+    if (WebUI.waitForElementPresent(findTestObject('Object Repository/Common/Accept Cookies'), GlobalVariable.Delay,FailureHandling.OPTIONAL)) {
         WebUI.waitForElementClickable(findTestObject('Object Repository/Common/Accept Cookies'), GlobalVariable.Delay,FailureHandling.OPTIONAL)
 
         WebUI.click(findTestObject('Object Repository/Common/Accept Cookies'))

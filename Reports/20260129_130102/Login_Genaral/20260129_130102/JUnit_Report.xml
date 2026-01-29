@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Genaral" time="266.047" tests="3" failures="1" errors="0">
+   <testsuite name="Login_Genaral" tests="3" failures="1" errors="0" time="266.047" skipped="0" timestamp="2026-01-29T07:31:21.818Z" hostname="gopal.s - JAMOCHA57.jamochahq.local" id="Test Suites/Login_Genaral">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260129_130102\\Login_Genaral\\20260129_130102"/>
+         <property name="logFiles" value="C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260129_130102\\Login_Genaral\\20260129_130102\\console0.log, C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260129_130102\\Login_Genaral\\20260129_130102\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gopal.s - JAMOCHA57.jamochahq.local"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+         <property name="browser" value="Edge Chromium 144.0.3719.92"/>
+         <property name="userFullName" value="Gopal"/>
+         <property name="hostAddress" value="10.10.10.136"/>
+         <property name="sessionId" value="fa604a5608ce74d8f391dbfbd73ad5b6"/>
+         <property name="projectName" value="ProhanceWebApplication"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ProhanceWeb/Login_Page/Login" time="174.226" classname="Test Cases/ProhanceWeb/Login_Page/Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"HeCM15nHKBI\u003d","userName":"tsL9urF6O/D/xURRxzj/8w\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[29-01-2026T13:01:23 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Login_Page/Login: Test Cases/ProhanceWeb/Login_Page/Login
+
+29-01-2026T13:01:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2026T13:01:25 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+29-01-2026T13:01:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2026T13:02:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2026T13:02:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-01-2026T13:02:55 - [MESSAGE][PASSED] - Current window maximized
+
+29-01-2026T13:02:55 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, CONTINUE_ON_FAILURE): Wait for page load successfully
+
+29-01-2026T13:02:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-01-2026T13:02:56 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://10.10.10.157:1001/prohance/' successfully
+
+29-01-2026T13:04:11 - [MESSAGE][PASSED] - Navigate to 'http://10.10.10.157:1001/prohance/' successfully
+
+29-01-2026T13:04:11 - [TEST_STEP][PASSED] - try: null
+
+29-01-2026T13:04:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/userName"), userName): Text ****** has been set on object 'Object Repository/Login/userName'
+
+29-01-2026T13:04:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/userName'
+
+29-01-2026T13:04:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Password"), password): Text ****** has been set on object 'Object Repository/Login/Password'
+
+29-01-2026T13:04:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+29-01-2026T13:04:12 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay): Object 'Object Repository/Login/login_btn' is clickable
+
+29-01-2026T13:04:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login/login_btn' is clickable
+
+29-01-2026T13:04:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/login_btn")): Object: 'Object Repository/Login/login_btn' is clicked on
+
+29-01-2026T13:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/login_btn' is clicked on
+
+29-01-2026T13:04:15 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL)): null
+
+29-01-2026T13:04:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/session_Distroysession' is present
+
+29-01-2026T13:04:15 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL): Object 'Object Repository/Login/session_Distroysession' is clickable
+
+29-01-2026T13:04:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/session_Distroysession' is clickable
+
+29-01-2026T13:04:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/session_Distroysession")): Object: 'Object Repository/Login/session_Distroysession' is clicked on
+
+29-01-2026T13:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/session_Distroysession' is clicked on
+
+29-01-2026T13:04:16 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL)): null
+
+29-01-2026T13:04:17 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is present
+
+29-01-2026T13:04:17 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL): Object 'Object Repository/Common/Accept Cookies' is clickable
+
+29-01-2026T13:04:17 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is clickable
+
+29-01-2026T13:04:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Common/Accept Cookies")): Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+29-01-2026T13:04:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+29-01-2026T13:04:18 - [TEST_STEP][PASSED] - Finally: null
+
+29-01-2026T13:04:18 - [TEST_STEP][PASSED] - timestamp = Date().format("yyyyMMdd_HHmmss"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard" time="20.591" classname="Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"isDataValion":"true","exportType":"excel","isFileDownload":"true"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Mismatch | Row: 25, Column: 7 | Web: '2' | Excel: '-2'&#xa;	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)&#xa;	at com.prohanceapplication.webtableexcelvalidation.DataValidator.validateWebTableWithDownloadedExcel(DataValidator.groovy:137)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at ActivityDashBoard.run(ActivityDashBoard:81)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1769671862499.run(TempTestSuite1769671862499.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[29-01-2026T13:05:25 - [TEST_CASE][FAILED] - Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard: Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Mismatch | Row: 25, Column: 7 | Web: '2' | Excel: '-2'
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.prohanceapplication.webtableexcelvalidation.DataValidator.validateWebTableWithDownloadedExcel(DataValidator.groovy:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at ActivityDashBoard.run(ActivityDashBoard:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769671862499.run(TempTestSuite1769671862499.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+29-01-2026T13:05:25 - [TEST_STEP][PASSED] - explort = null: null
+
+29-01-2026T13:05:25 - [TEST_STEP][PASSED] - rows = null: null
+
+29-01-2026T13:05:25 - [TEST_STEP][PASSED] - webData = []: null
+
+29-01-2026T13:05:25 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)): null
+
+29-01-2026T13:05:25 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+
+29-01-2026T13:05:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clickable
+
+29-01-2026T13:05:25 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clickable
+
+29-01-2026T13:05:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clicked on
+
+29-01-2026T13:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clicked on
+
+29-01-2026T13:05:26 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clickable
+
+29-01-2026T13:05:26 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clickable
+
+29-01-2026T13:05:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clicked on
+
+29-01-2026T13:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clicked on
+
+29-01-2026T13:05:26 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"), Delay, STOP_ON_FAILURE): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clickable
+
+29-01-2026T13:05:27 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clickable
+
+29-01-2026T13:05:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clicked on
+
+29-01-2026T13:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clicked on
+
+29-01-2026T13:05:28 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, STOP_ON_FAILURE): Wait for page load successfully
+
+29-01-2026T13:05:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-01-2026T13:05:28 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clickable
+
+29-01-2026T13:05:29 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clickable
+
+29-01-2026T13:05:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clicked on
+
+29-01-2026T13:05:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clicked on
+
+29-01-2026T13:05:29 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+29-01-2026T13:05:29 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+29-01-2026T13:05:29 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, STOP_ON_FAILURE): Wait for page load successfully
+
+29-01-2026T13:05:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-01-2026T13:05:29 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+29-01-2026T13:05:29 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+29-01-2026T13:05:29 - [TEST_STEP][FAILED] - if (isFileDownload): null
+
+29-01-2026T13:05:29 - [TEST_STEP][PASSED] - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete(): com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+
+29-01-2026T13:05:29 - [MESSAGE][PASSED] - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+
+29-01-2026T13:05:29 - [TEST_STEP][PASSED] - explort = ((exportType != null)) ? exportType : false: null
+
+29-01-2026T13:05:29 - [TEST_STEP][PASSED] - browserName = getExecutedBrowser(): null
+
+29-01-2026T13:05:29 - [TEST_STEP][PASSED] - logInfo("Browser Name :" + " " + browserName): Browser Name : Edge Chromium
+
+29-01-2026T13:05:29 - [MESSAGE][INFO] - Browser Name : Edge Chromium
+
+29-01-2026T13:05:29 - [TEST_STEP][PASSED] - xPath = com.prohanceebapplication.common.Export.export(explort): com.prohanceebapplication.common.Export.export is PASSED
+
+29-01-2026T13:05:29 - [MESSAGE][PASSED] - com.prohanceebapplication.common.Export.export is PASSED
+
+29-01-2026T13:05:29 - [TEST_STEP][PASSED] - out.println(xPath): null
+
+29-01-2026T13:05:29 - [TEST_STEP][PASSED] - if (xPath != null): Execute JavaScript 'arguments[0].click();' successfully
+
+29-01-2026T13:05:29 - [TEST_STEP][PASSED] - exportSpan = new com.kms.katalon.core.testobject.TestObject(): null
+
+29-01-2026T13:05:29 - [TEST_STEP][PASSED] - exportSpan.addProperty("xpath", EQUALS, xPath): null
+
+29-01-2026T13:05:29 - [TEST_STEP][PASSED] - waitForElementPresent(exportSpan, Delay): Object '' is present
+
+29-01-2026T13:05:31 - [MESSAGE][PASSED] - Object '' is present
+
+29-01-2026T13:05:31 - [TEST_STEP][PASSED] - el = findWebElement(exportSpan, Delay): Found web element by test object 
+
+29-01-2026T13:05:31 - [MESSAGE][PASSED] - Found web element by test object 
+
+29-01-2026T13:05:31 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(el)): Execute JavaScript 'arguments[0].scrollIntoView(true);' successfully
+
+29-01-2026T13:05:31 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].scrollIntoView(true);' successfully
+
+29-01-2026T13:05:31 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(el)): Execute JavaScript 'arguments[0].click();' successfully
+
+29-01-2026T13:05:33 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+29-01-2026T13:05:33 - [TEST_STEP][FAILED] - if (isDataValion): null
+
+29-01-2026T13:05:33 - [TEST_STEP][PASSED] - rows = com.prohancewebapplication.webtable.Table.webTableDataReader(findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_Id"), findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_tr")): com.prohancewebapplication.webtable.Table.webTableDataReader is PASSED
+
+29-01-2026T13:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_Id' is visible
+
+29-01-2026T13:05:34 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_tr
+
+29-01-2026T13:05:34 - [MESSAGE][PASSED] - com.prohancewebapplication.webtable.Table.webTableDataReader is PASSED
+
+29-01-2026T13:05:34 - [TEST_STEP][FAILED] - if (rows != null): com.kms.katalon.core.exception.StepFailedException: Mismatch | Row: 25, Column: 7 | Web: '2' | Excel: '-2'
+
+29-01-2026T13:05:34 - [TEST_STEP][FAILED] - com.prohanceapplication.webtableexcelvalidation.DataValidator.validateWebTableWithDownloadedExcel(rows): com.kms.katalon.core.exception.StepFailedException: Mismatch | Row: 25, Column: 7 | Web: '2' | Excel: '-2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 1, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 1, Column: 2 | Web: '1' | Excel: '1'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 1, Column: 3 | Web: 'Eclipse' | Excel: 'Eclipse'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 1, Column: 4 | Web: '8d 11 : 41 : 56' | Excel: '8d 11 : 41 : 56'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 1, Column: 5 | Web: '6' | Excel: '6'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 1, Column: 6 | Web: '31942' | Excel: '31942'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 1, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 1, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 2, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 2, Column: 2 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 2, Column: 3 | Web: 'XCode' | Excel: 'XCode'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 2, Column: 4 | Web: '5d 02 : 16 : 51' | Excel: '5d 02 : 16 : 51'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 2, Column: 5 | Web: '5' | Excel: '5'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 2, Column: 6 | Web: '6492' | Excel: '6492'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 2, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 2, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 3, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 3, Column: 2 | Web: '3' | Excel: '3'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 3, Column: 3 | Web: 'ProHance' | Excel: 'ProHance'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 3, Column: 4 | Web: '3d 22 : 46 : 36' | Excel: '3d 22 : 46 : 36'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 3, Column: 5 | Web: '6' | Excel: '6'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 3, Column: 6 | Web: '16796' | Excel: '16796'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 3, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 3, Column: 8 | Web: 'Business Tools' | Excel: 'Business Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 4, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 4, Column: 2 | Web: '4' | Excel: '4'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 4, Column: 3 | Web: 'Notepad' | Excel: 'Notepad'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 4, Column: 4 | Web: '2d 03 : 03 : 03' | Excel: '2d 03 : 03 : 03'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 4, Column: 5 | Web: '6' | Excel: '6'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 4, Column: 6 | Web: '7549' | Excel: '7549'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 4, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 4, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 5, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 5, Column: 2 | Web: '5' | Excel: '5'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 5, Column: 3 | Web: 'MS Teams' | Excel: 'MS Teams'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 5, Column: 4 | Web: '2d 00 : 24 : 14' | Excel: '2d 00 : 24 : 14'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 5, Column: 5 | Web: '6' | Excel: '6'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 5, Column: 6 | Web: '5308' | Excel: '5308'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 5, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 5, Column: 8 | Web: 'Communication Tools' | Excel: 'Communication Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 6, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 6, Column: 2 | Web: '6' | Excel: '6'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 6, Column: 3 | Web: 'UNKNOWN AOS' | Excel: 'UNKNOWN AOS'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 6, Column: 4 | Web: '1d 16 : 14 : 33' | Excel: '1d 16 : 14 : 33'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 6, Column: 5 | Web: '6' | Excel: '6'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 6, Column: 6 | Web: '7178' | Excel: '7178'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 6, Column: 7 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 6, Column: 8 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 7, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 7, Column: 2 | Web: '7' | Excel: '7'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 7, Column: 3 | Web: 'Email Applications' | Excel: 'Email Applications'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 7, Column: 4 | Web: '1d 05 : 30 : 50' | Excel: '1d 05 : 30 : 50'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 7, Column: 5 | Web: '6' | Excel: '6'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 7, Column: 6 | Web: '2553' | Excel: '2553'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 7, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 7, Column: 8 | Web: 'Communication Tools' | Excel: 'Communication Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 8, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 8, Column: 2 | Web: '8' | Excel: '8'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 8, Column: 3 | Web: 'Excel' | Excel: 'Excel'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 8, Column: 4 | Web: '1d 02 : 53 : 56' | Excel: '1d 02 : 53 : 56'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 8, Column: 5 | Web: '6' | Excel: '6'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 8, Column: 6 | Web: '6197' | Excel: '6197'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 8, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 8, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 9, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 9, Column: 2 | Web: '9' | Excel: '9'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 9, Column: 3 | Web: 'Remote Desktop' | Excel: 'Remote Desktop'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 9, Column: 4 | Web: '18 : 16 : 38' | Excel: '18 : 16 : 38'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 9, Column: 5 | Web: '1' | Excel: '1'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 9, Column: 6 | Web: '1348' | Excel: '1348'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 9, Column: 7 | Web: '1' | Excel: '1'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 9, Column: 8 | Web: 'Support Tools' | Excel: 'Support Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 10, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 10, Column: 2 | Web: '10' | Excel: '10'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 10, Column: 3 | Web: 'Files & Folders' | Excel: 'Files & Folders'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 10, Column: 4 | Web: '14 : 12 : 41' | Excel: '14 : 12 : 41'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 10, Column: 5 | Web: '6' | Excel: '6'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 10, Column: 6 | Web: '6212' | Excel: '6212'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 10, Column: 7 | Web: '0' | Excel: '0'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 10, Column: 8 | Web: 'System Tools' | Excel: 'System Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 11, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 11, Column: 2 | Web: '11' | Excel: '11'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 11, Column: 3 | Web: 'General Web Browsing' | Excel: 'General Web Browsing'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 11, Column: 4 | Web: '13 : 09 : 23' | Excel: '13 : 09 : 23'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 11, Column: 5 | Web: '6' | Excel: '6'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 11, Column: 6 | Web: '1942' | Excel: '1942'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 11, Column: 7 | Web: '0' | Excel: '0'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 11, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 12, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 12, Column: 2 | Web: '12' | Excel: '12'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 12, Column: 3 | Web: 'CAST Application' | Excel: 'CAST Application'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 12, Column: 4 | Web: '11 : 38 : 14' | Excel: '11 : 38 : 14'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 12, Column: 5 | Web: '4' | Excel: '4'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 12, Column: 6 | Web: '915' | Excel: '915'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 12, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 12, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 13, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 13, Column: 2 | Web: '13' | Excel: '13'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 13, Column: 3 | Web: 'Windows Components' | Excel: 'Windows Components'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 13, Column: 4 | Web: '10 : 52 : 25' | Excel: '10 : 52 : 25'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 13, Column: 5 | Web: '6' | Excel: '6'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 13, Column: 6 | Web: '7372' | Excel: '7372'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 13, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 13, Column: 8 | Web: 'Support Tools' | Excel: 'Support Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 14, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 14, Column: 2 | Web: '14' | Excel: '14'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 14, Column: 3 | Web: 'Advanced Rest Client' | Excel: 'Advanced Rest Client'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 14, Column: 4 | Web: '07 : 08 : 58' | Excel: '07 : 08 : 58'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 14, Column: 5 | Web: '4' | Excel: '4'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 14, Column: 6 | Web: '1214' | Excel: '1214'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 14, Column: 7 | Web: '0' | Excel: '0'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 14, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 15, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 15, Column: 2 | Web: '15' | Excel: '15'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 15, Column: 3 | Web: 'Chat GPT' | Excel: 'Chat GPT'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 15, Column: 4 | Web: '06 : 21 : 05' | Excel: '06 : 21 : 05'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 15, Column: 5 | Web: '6' | Excel: '6'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 15, Column: 6 | Web: '1051' | Excel: '1051'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 15, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 15, Column: 8 | Web: 'Business Tools' | Excel: 'Business Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 16, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 16, Column: 2 | Web: '16' | Excel: '16'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 16, Column: 3 | Web: 'Electron' | Excel: 'Electron'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 16, Column: 4 | Web: '06 : 09 : 12' | Excel: '06 : 09 : 12'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 16, Column: 5 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 16, Column: 6 | Web: '650' | Excel: '650'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 16, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 16, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 17, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 17, Column: 2 | Web: '17' | Excel: '17'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 17, Column: 3 | Web: 'Word' | Excel: 'Word'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 17, Column: 4 | Web: '05 : 23 : 07' | Excel: '05 : 23 : 07'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 17, Column: 5 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 17, Column: 6 | Web: '395' | Excel: '395'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 17, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 17, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 18, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 18, Column: 2 | Web: '18' | Excel: '18'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 18, Column: 3 | Web: 'Customer Connect Apps' | Excel: 'Customer Connect Apps'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 18, Column: 4 | Web: '04 : 58 : 58' | Excel: '04 : 58 : 58'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 18, Column: 5 | Web: '5' | Excel: '5'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 18, Column: 6 | Web: '314' | Excel: '314'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 18, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 18, Column: 8 | Web: 'Support Tools' | Excel: 'Support Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 19, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 19, Column: 2 | Web: '19' | Excel: '19'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 19, Column: 3 | Web: 'Techmate Application' | Excel: 'Techmate Application'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 19, Column: 4 | Web: '04 : 19 : 52' | Excel: '04 : 19 : 52'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 19, Column: 5 | Web: '4' | Excel: '4'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 19, Column: 6 | Web: '370' | Excel: '370'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 19, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 19, Column: 8 | Web: 'Support Tools' | Excel: 'Support Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 20, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 20, Column: 2 | Web: '20' | Excel: '20'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 20, Column: 3 | Web: 'Tutorials' | Excel: 'Tutorials'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 20, Column: 4 | Web: '03 : 28 : 36' | Excel: '03 : 28 : 36'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 20, Column: 5 | Web: '6' | Excel: '6'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 20, Column: 6 | Web: '299' | Excel: '299'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 20, Column: 7 | Web: '1' | Excel: '1'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 20, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 21, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 21, Column: 2 | Web: '21' | Excel: '21'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 21, Column: 3 | Web: 'MYSQL Server' | Excel: 'MYSQL Server'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 21, Column: 4 | Web: '02 : 29 : 02' | Excel: '02 : 29 : 02'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 21, Column: 5 | Web: '3' | Excel: '3'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 21, Column: 6 | Web: '378' | Excel: '378'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 21, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 21, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 22, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 22, Column: 2 | Web: '22' | Excel: '22'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 22, Column: 3 | Web: 'Jenkins' | Excel: 'Jenkins'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 22, Column: 4 | Web: '01 : 53 : 42' | Excel: '01 : 53 : 42'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 22, Column: 5 | Web: '5' | Excel: '5'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 22, Column: 6 | Web: '352' | Excel: '352'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 22, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 22, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 23, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 23, Column: 2 | Web: '23' | Excel: '23'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 23, Column: 3 | Web: 'MS Visual Studio' | Excel: 'MS Visual Studio'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 23, Column: 4 | Web: '00 : 51 : 06' | Excel: '00 : 51 : 06'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 23, Column: 5 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 23, Column: 6 | Web: '83' | Excel: '83'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 23, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 23, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 24, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 24, Column: 2 | Web: '24' | Excel: '24'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 24, Column: 3 | Web: 'Browser Extensions and Addons' | Excel: 'Browser Extensions and Addons'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 24, Column: 4 | Web: '00 : 45 : 47' | Excel: '00 : 45 : 47'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 24, Column: 5 | Web: '4' | Excel: '4'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 24, Column: 6 | Web: '115' | Excel: '115'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 24, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 24, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 25, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 25, Column: 2 | Web: '25' | Excel: '25'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 25, Column: 3 | Web: 'Unproductive Sites' | Excel: 'Unproductive Sites'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 25, Column: 4 | Web: '00 : 38 : 10' | Excel: '00 : 38 : 10'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 25, Column: 5 | Web: '6' | Excel: '6'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 25, Column: 6 | Web: '159' | Excel: '159'
+
+29-01-2026T13:05:45 - [MESSAGE][FAILED] - Mismatch | Row: 25, Column: 7 | Web: '2' | Excel: '-2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 25, Column: 8 | Web: 'Unproductive' | Excel: 'Unproductive'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 26, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 26, Column: 2 | Web: '26' | Excel: '26'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 26, Column: 3 | Web: 'License Portal' | Excel: 'License Portal'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 26, Column: 4 | Web: '00 : 29 : 05' | Excel: '00 : 29 : 05'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 26, Column: 5 | Web: '6' | Excel: '6'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 26, Column: 6 | Web: '137' | Excel: '137'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 26, Column: 7 | Web: '0' | Excel: '0'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 26, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 27, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 27, Column: 2 | Web: '27' | Excel: '27'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 27, Column: 3 | Web: 'Power Point' | Excel: 'Power Point'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 27, Column: 4 | Web: '00 : 21 : 20' | Excel: '00 : 21 : 20'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 27, Column: 5 | Web: '1' | Excel: '1'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 27, Column: 6 | Web: '20' | Excel: '20'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 27, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 27, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 28, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 28, Column: 2 | Web: '28' | Excel: '28'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 28, Column: 3 | Web: 'Personal Time' | Excel: 'Personal Time'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 28, Column: 4 | Web: '00 : 18 : 00' | Excel: '00 : 18 : 00'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 28, Column: 5 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 28, Column: 6 | Web: '5' | Excel: '5'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 28, Column: 7 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 28, Column: 8 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 29, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 29, Column: 2 | Web: '29' | Excel: '29'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 29, Column: 3 | Web: 'Grey Tip HR' | Excel: 'Grey Tip HR'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 29, Column: 4 | Web: '00 : 14 : 15' | Excel: '00 : 14 : 15'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 29, Column: 5 | Web: '3' | Excel: '3'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 29, Column: 6 | Web: '29' | Excel: '29'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 29, Column: 7 | Web: '0' | Excel: '0'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 29, Column: 8 | Web: 'Internal Applications' | Excel: 'Internal Applications'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 30, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 30, Column: 2 | Web: '30' | Excel: '30'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 30, Column: 3 | Web: 'IP Messenger' | Excel: 'IP Messenger'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 30, Column: 4 | Web: '00 : 09 : 37' | Excel: '00 : 09 : 37'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 30, Column: 5 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 30, Column: 6 | Web: '36' | Excel: '36'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 30, Column: 7 | Web: '1' | Excel: '1'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 30, Column: 8 | Web: 'Communication Tools' | Excel: 'Communication Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 31, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 31, Column: 2 | Web: '31' | Excel: '31'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 31, Column: 3 | Web: 'LinkedIn' | Excel: 'LinkedIn'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 31, Column: 4 | Web: '00 : 01 : 54' | Excel: '00 : 01 : 54'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 31, Column: 5 | Web: '1' | Excel: '1'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 31, Column: 6 | Web: '10' | Excel: '10'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 31, Column: 7 | Web: '0' | Excel: '0'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 31, Column: 8 | Web: 'Communication Tools' | Excel: 'Communication Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 32, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 32, Column: 2 | Web: '32' | Excel: '32'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 32, Column: 3 | Web: 'MSSQL Server' | Excel: 'MSSQL Server'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 32, Column: 4 | Web: '00 : 00 : 24' | Excel: '00 : 00 : 24'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 32, Column: 5 | Web: '1' | Excel: '1'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 32, Column: 6 | Web: '5' | Excel: '5'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 32, Column: 7 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 32, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 33, Column: 1 | Web: '' | Excel: ''
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 33, Column: 2 | Web: '33' | Excel: '33'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 33, Column: 3 | Web: 'Paint' | Excel: 'Paint'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 33, Column: 4 | Web: '00 : 00 : 16' | Excel: '00 : 00 : 16'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 33, Column: 5 | Web: '2' | Excel: '2'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 33, Column: 6 | Web: '5' | Excel: '5'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 33, Column: 7 | Web: '0' | Excel: '0'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Mismatch | Row: 33, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - Web table data perfectly matches Excel file
+
+29-01-2026T13:05:45 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Mismatch | Row: 25, Column: 7 | Web: '2' | Excel: '-2'
+
+29-01-2026T13:05:45 - [TEST_STEP][PASSED] - com.prohancewebapplication.file.FileSizeFinder.fileSize(): com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+
+29-01-2026T13:05:45 - [MESSAGE][INFO] - Top Applications Details Report.xlsx 7016
+
+29-01-2026T13:05:45 - [MESSAGE][PASSED] - com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+
+29-01-2026T13:05:45 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+29-01-2026T13:05:45 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+29-01-2026T13:05:46 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+29-01-2026T13:05:46 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+29-01-2026T13:05:46 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[29-01-2026T13:05:25 - [TEST_CASE][FAILED] - Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard: Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Mismatch | Row: 25, Column: 7 | Web: '2' | Excel: '-2'
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.prohanceapplication.webtableexcelvalidation.DataValidator.validateWebTableWithDownloadedExcel(DataValidator.groovy:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at ActivityDashBoard.run(ActivityDashBoard:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769671862499.run(TempTestSuite1769671862499.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProhanceWeb/LogOut_Page/LogOut" time="1.825" classname="Test Cases/ProhanceWeb/LogOut_Page/LogOut" status="PASSED">
+         <system-out><![CDATA[29-01-2026T13:05:46 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/LogOut_Page/LogOut: Test Cases/ProhanceWeb/LogOut_Page/LogOut
+
+29-01-2026T13:05:46 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Logout/logOut' is clicked on
+
+29-01-2026T13:05:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Logout/userProfileIcon"), Delay): Object 'Object Repository/Logout/userProfileIcon' is present
+
+29-01-2026T13:05:46 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/userProfileIcon' is present
+
+29-01-2026T13:05:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/userProfileIcon"), STOP_ON_FAILURE): Object: 'Object Repository/Logout/userProfileIcon' is clicked on
+
+29-01-2026T13:05:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/userProfileIcon' is clicked on
+
+29-01-2026T13:05:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Logout/logOut"), Delay): Object 'Object Repository/Logout/logOut' is present
+
+29-01-2026T13:05:47 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/logOut' is present
+
+29-01-2026T13:05:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/logOut"), STOP_ON_FAILURE): Object: 'Object Repository/Logout/logOut' is clicked on
+
+29-01-2026T13:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/logOut' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-01-2026T13:01:21 - [TEST_SUITE][FAILED] - Login_Genaral: null]]></system-out>
+      <system-err><![CDATA[29-01-2026T13:01:21 - [TEST_SUITE][FAILED] - Login_Genaral: null]]></system-err>
+   </testsuite>
+</testsuites>

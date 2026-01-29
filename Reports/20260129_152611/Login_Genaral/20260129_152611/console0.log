@@ -1,0 +1,161 @@
+2026-01-29 15:26:18.164 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gopal.s\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-29 15:26:18.169 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gopal.s\git\ProhanceWebApplication\Include\config\log.properties
+2026-01-29 15:26:20.208 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login_Genaral
+2026-01-29 15:26:20.315 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-29 15:26:20.316 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-29 15:26:20.318 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gopal.s - JAMOCHA57.jamochahq.local
+2026-01-29 15:26:20.319 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-29 15:26:20.321 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.10.10.136
+2026-01-29 15:26:20.322 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-29 15:26:20.850 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 15:26:20.850 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-29 15:26:20.914 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-29 15:26:20.915 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-29 15:26:21.440 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-29 15:26:21.745 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-29 15:26:21.754 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{download.default_directory=C:/Downloads, download.prompt_for_download=false, profile.default_content_settings.popups=0, safebrowsing.enabled=true}']
+2026-01-29 15:26:21.756 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--safebrowsing-disable-download-protection]']
+2026-01-29 15:26:21.815 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 29, 2026 3:27:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-29 15:27:29.495 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4cc7bb707cf25931efe7cb4fa5875f88
+2026-01-29 15:27:29.497 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.98
+2026-01-29 15:27:29.497 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-29 15:27:29.501 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-29 15:27:29.515 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-29 15:27:29.576 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-29 15:27:29.749 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-29 15:27:30.047 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-01-29 15:27:48.179 DEBUG testcase.Login                           - 5: try
+2026-01-29 15:27:48.181 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/Login/userName"), userName)
+2026-01-29 15:27:49.259 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Login/Password"), password)
+2026-01-29 15:27:49.723 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay)
+2026-01-29 15:27:50.149 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/Login/login_btn"))
+2026-01-29 15:27:50.640 DEBUG testcase.Login                           - 5: if (waitForElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL))
+2026-01-29 15:27:51.343 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL)
+2026-01-29 15:27:51.646 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Login/session_Distroysession"))
+2026-01-29 15:27:52.019 DEBUG testcase.Login                           - 6: if (waitForElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL))
+2026-01-29 15:27:53.106 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL)
+2026-01-29 15:27:53.414 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Common/Accept Cookies"))
+2026-01-29 15:27:53.780 DEBUG testcase.Login                           - 7: Finally
+2026-01-29 15:27:53.784 DEBUG testcase.Login                           - 1: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-29 15:27:53.797 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-29 15:27:53.828 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 15:27:53.828 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-29 15:27:53.972 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = excel
+2026-01-29 15:27:53.973 INFO  c.k.katalon.core.main.TestCaseExecutor   - isFileDownload = true
+2026-01-29 15:27:53.974 INFO  c.k.katalon.core.main.TestCaseExecutor   - isDataValion = false
+2026-01-29 15:27:54.315 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-29 15:27:54.317 DEBUG testcase.ActivityDashBoard               - 2: rows = null
+2026-01-29 15:27:54.320 DEBUG testcase.ActivityDashBoard               - 3: webData = []
+2026-01-29 15:27:54.323 DEBUG testcase.ActivityDashBoard               - 4: if (waitForElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-29 15:27:54.580 DEBUG testcase.ActivityDashBoard               - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-01-29 15:27:54.878 DEBUG testcase.ActivityDashBoard               - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-01-29 15:27:55.269 DEBUG testcase.ActivityDashBoard               - 3: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay)
+2026-01-29 15:27:55.567 DEBUG testcase.ActivityDashBoard               - 4: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"))
+2026-01-29 15:27:55.981 DEBUG testcase.ActivityDashBoard               - 5: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"), Delay, STOP_ON_FAILURE)
+2026-01-29 15:27:57.263 DEBUG testcase.ActivityDashBoard               - 6: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"))
+2026-01-29 15:27:57.938 DEBUG testcase.ActivityDashBoard               - 7: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-29 15:27:57.976 DEBUG testcase.ActivityDashBoard               - 8: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay)
+2026-01-29 15:27:58.598 DEBUG testcase.ActivityDashBoard               - 9: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"))
+2026-01-29 15:27:59.231 DEBUG testcase.ActivityDashBoard               - 10: switchToWindowIndex(1)
+2026-01-29 15:27:59.397 DEBUG testcase.ActivityDashBoard               - 11: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-29 15:27:59.521 DEBUG testcase.ActivityDashBoard               - 12: executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+2026-01-29 15:27:59.554 DEBUG testcase.ActivityDashBoard               - 13: if (isFileDownload)
+2026-01-29 15:27:59.557 DEBUG testcase.ActivityDashBoard               - 1: com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete()
+C:\Users\gopal.s\Downloads
+2026-01-29 15:27:59.595 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+2026-01-29 15:27:59.600 DEBUG testcase.ActivityDashBoard               - 2: explort = ((exportType != null)) ? exportType : false
+2026-01-29 15:27:59.603 DEBUG testcase.ActivityDashBoard               - 3: browserName = getExecutedBrowser()
+2026-01-29 15:27:59.605 DEBUG testcase.ActivityDashBoard               - 4: logInfo("Browser Name :" + " " + browserName)
+2026-01-29 15:27:59.617 INFO  com.kms.katalon.core.util.KeywordUtil    - Browser Name : Chrome
+2026-01-29 15:27:59.620 DEBUG testcase.ActivityDashBoard               - 5: xPath = com.prohanceebapplication.common.Export.export(explort)
+2026-01-29 15:27:59.642 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceebapplication.common.Export.export is PASSED
+2026-01-29 15:27:59.643 DEBUG testcase.ActivityDashBoard               - 6: out.println(xPath)
+//span[.//img[@title='Export to Excel']]
+2026-01-29 15:27:59.645 DEBUG testcase.ActivityDashBoard               - 7: if (xPath != null)
+2026-01-29 15:27:59.656 DEBUG testcase.ActivityDashBoard               - 1: exportSpan = new com.kms.katalon.core.testobject.TestObject()
+2026-01-29 15:27:59.662 DEBUG testcase.ActivityDashBoard               - 2: exportSpan.addProperty("xpath", EQUALS, xPath)
+2026-01-29 15:27:59.685 DEBUG testcase.ActivityDashBoard               - 3: waitForElementPresent(exportSpan, Delay)
+2026-01-29 15:28:01.176 DEBUG testcase.ActivityDashBoard               - 4: el = findWebElement(exportSpan, Delay)
+2026-01-29 15:28:01.466 DEBUG testcase.ActivityDashBoard               - 5: executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(el))
+2026-01-29 15:28:01.500 DEBUG testcase.ActivityDashBoard               - 6: executeJavaScript("arguments[0].click();", Arrays.asList(el))
+2026-01-29 15:28:03.892 DEBUG testcase.ActivityDashBoard               - 8: if (isDataValion)
+2026-01-29 15:28:03.894 DEBUG testcase.ActivityDashBoard               - 1: rows = com.prohancewebapplication.webtable.Table.webTableDataReader(findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_Id"), findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_tr"))
+2026-01-29 15:28:04.518 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.webtable.Table.webTableDataReader is PASSED
+2026-01-29 15:28:04.519 DEBUG testcase.ActivityDashBoard               - 2: if (rows != null)
+2026-01-29 15:28:04.521 DEBUG testcase.ActivityDashBoard               - 1: com.prohanceapplication.webtableexcelvalidation.DataValidator.validateWebTableWithDownloadedExcel(rows)
+2026-01-29 15:28:16.365 ERROR com.kms.katalon.core.util.KeywordUtil    - ❌ Excel file not found in Downloads
+2026-01-29 15:28:16.368 ERROR k.k.c.m.CustomKeywordDelegatingMetaClass - ❌ com.kms.katalon.core.exception.StepFailedException: Excel file not found in Downloads
+2026-01-29 15:28:16.380 DEBUG testcase.ActivityDashBoard               - 3: com.prohancewebapplication.file.FileSizeFinder.fileSize()
+2026-01-29 15:28:16.384 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+2026-01-29 15:28:16.385 DEBUG testcase.ActivityDashBoard               - 14: switchToDefaultContent()
+2026-01-29 15:28:16.411 DEBUG testcase.ActivityDashBoard               - 15: closeWindowIndex(1)
+2026-01-29 15:28:16.508 DEBUG testcase.ActivityDashBoard               - 16: switchToWindowIndex(0)
+2026-01-29 15:28:16.531 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Excel file not found in Downloads
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.prohanceapplication.webtableexcelvalidation.DataValidator.validateWebTableWithDownloadedExcel(DataValidator.groovy:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at ActivityDashBoard.run(ActivityDashBoard:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769680571361.run(TempTestSuite1769680571361.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-01-29 15:28:16.536 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-29 15:28:16.539 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 15:28:16.540 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-29 15:28:16.583 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = excel
+2026-01-29 15:28:16.583 INFO  c.k.katalon.core.main.TestCaseExecutor   - isFileDownload = true
+2026-01-29 15:28:16.584 INFO  c.k.katalon.core.main.TestCaseExecutor   - isDataValion = false
+2026-01-29 15:28:16.586 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-29 15:28:16.587 DEBUG testcase.ActivityDashBoard               - 2: rows = null
+2026-01-29 15:28:16.588 DEBUG testcase.ActivityDashBoard               - 3: webData = []
+2026-01-29 15:28:16.594 DEBUG testcase.ActivityDashBoard               - 4: if (waitForElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-29 15:28:16.900 DEBUG testcase.ActivityDashBoard               - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-01-29 15:28:17.224 DEBUG testcase.ActivityDashBoard               - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-01-29 15:28:17.597 DEBUG testcase.ActivityDashBoard               - 3: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay)
+2026-01-29 15:28:17.898 DEBUG testcase.ActivityDashBoard               - 4: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"))
+2026-01-29 15:28:18.267 DEBUG testcase.ActivityDashBoard               - 5: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"), Delay, STOP_ON_FAILURE)
+2026-01-29 15:28:19.221 DEBUG testcase.ActivityDashBoard               - 6: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"))
+2026-01-29 15:28:19.994 DEBUG testcase.ActivityDashBoard               - 7: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-29 15:28:20.028 DEBUG testcase.ActivityDashBoard               - 8: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay)
+2026-01-29 15:28:20.638 DEBUG testcase.ActivityDashBoard               - 9: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"))
+2026-01-29 15:28:21.180 DEBUG testcase.ActivityDashBoard               - 10: switchToWindowIndex(1)
+2026-01-29 15:28:21.321 DEBUG testcase.ActivityDashBoard               - 11: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-29 15:28:21.416 DEBUG testcase.ActivityDashBoard               - 12: executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+2026-01-29 15:28:21.432 DEBUG testcase.ActivityDashBoard               - 13: if (isFileDownload)
+2026-01-29 15:28:21.446 DEBUG testcase.ActivityDashBoard               - 1: com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete()
+C:\Users\gopal.s\Downloads
+2026-01-29 15:28:21.450 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+2026-01-29 15:28:21.452 DEBUG testcase.ActivityDashBoard               - 2: explort = ((exportType != null)) ? exportType : false
+2026-01-29 15:28:21.452 DEBUG testcase.ActivityDashBoard               - 3: browserName = getExecutedBrowser()
+2026-01-29 15:28:21.456 DEBUG testcase.ActivityDashBoard               - 4: logInfo("Browser Name :" + " " + browserName)
+2026-01-29 15:28:21.460 INFO  com.kms.katalon.core.util.KeywordUtil    - Browser Name : Chrome
+2026-01-29 15:28:21.462 DEBUG testcase.ActivityDashBoard               - 5: xPath = com.prohanceebapplication.common.Export.export(explort)
+2026-01-29 15:28:21.464 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceebapplication.common.Export.export is PASSED
+2026-01-29 15:28:21.464 DEBUG testcase.ActivityDashBoard               - 6: out.println(xPath)
+//span[.//img[@title='Export to Excel']]
+2026-01-29 15:28:21.467 DEBUG testcase.ActivityDashBoard               - 7: if (xPath != null)
+2026-01-29 15:28:21.467 DEBUG testcase.ActivityDashBoard               - 1: exportSpan = new com.kms.katalon.core.testobject.TestObject()
+2026-01-29 15:28:21.469 DEBUG testcase.ActivityDashBoard               - 2: exportSpan.addProperty("xpath", EQUALS, xPath)
+2026-01-29 15:28:21.471 DEBUG testcase.ActivityDashBoard               - 3: waitForElementPresent(exportSpan, Delay)
+2026-01-29 15:28:22.659 DEBUG testcase.ActivityDashBoard               - 4: el = findWebElement(exportSpan, Delay)
+2026-01-29 15:28:22.966 DEBUG testcase.ActivityDashBoard               - 5: executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(el))
+2026-01-29 15:28:23.007 DEBUG testcase.ActivityDashBoard               - 6: executeJavaScript("arguments[0].click();", Arrays.asList(el))

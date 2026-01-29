@@ -89,4 +89,70 @@ public class FileSizeFinder {
 			KeywordUtil.markError(e.getMessage())
 		}
 	}
+
+
+
+	public void moveDownloadedFile() {
+
+		try {
+
+			String downloadPath = System.getProperty("user.home") + File.separator + "Downloads"
+			File downloadDir = new File(downloadPath)
+
+			if (!downloadDir.exists() || !downloadDir.isDirectory()) {
+				KeywordUtil.markError("Downloads folder not found: " + downloadPath)
+				return
+			}
+
+
+			String destinationPath = System.getProperty("user.home") + File.separator + "MyNewFolder"
+			File destinationDir = new File(destinationPath)
+
+			if (!destinationDir.exists()) {
+				destinationDir.mkdirs()
+				KeywordUtil.logInfo("Created folder: " + destinationPath)
+			}
+
+			File[] files = downloadDir.listFiles()
+
+			if (files == null || files.length == 0) {
+				KeywordUtil.logInfo("No files found in Downloads")
+				return
+			}
+
+			for (File file : files) {
+
+				if (file.getName().startsWith("Top Applications Details Report") && file.length() > 0) {
+
+					File destinationFile = new File(destinationDir, file.getName())
+
+					boolean moved = false
+					int retry = 0
+					int maxRetry = 10
+
+					while (!moved && retry < maxRetry) {
+						try {
+							Files.move(
+									file.toPath(),
+									destinationFile.toPath(),
+									StandardCopyOption.REPLACE_EXISTING
+									)
+							moved = true
+							KeywordUtil.logInfo("File moved successfully: " + file.getName())
+						} catch (Exception e) {
+							retry++
+							KeywordUtil.logInfo("File is in use. Retrying (" + retry + "/" + maxRetry + ")")
+							Thread.sleep(2000)
+						}
+					}
+
+					if (!moved) {
+						KeywordUtil.markError("Unable to move file after retries: " + file.getName())
+					}
+				}
+			}
+		} catch (Exception e) {
+			KeywordUtil.markError("Unexpected error: " + e.getMessage())
+		}
+	}
 }

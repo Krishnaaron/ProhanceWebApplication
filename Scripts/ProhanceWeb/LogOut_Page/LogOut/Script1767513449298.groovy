@@ -20,7 +20,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 try {
-    WebUI.waitForElementPresent(     findTestObject('Object Repository/Logout/userProfileIcon')  , GlobalVariable.Delay)
+    WebUI.waitForElementPresent( findTestObject('Object Repository/Logout/userProfileIcon')  , GlobalVariable.Delay)
 	
     WebUI.click(findTestObject('Object Repository/Logout/userProfileIcon'), FailureHandling.STOP_ON_FAILURE)
 

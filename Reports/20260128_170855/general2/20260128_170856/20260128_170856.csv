@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-general2,Chrome 144.0.7559.98,,,28-01-2026 17:09:06,28-01-2026 17:11:15,2m - 8.936s,PASSED
-,,,,,,,
-Test Cases/ProhanceWeb/General_TC/General_TC,Chrome 144.0.7559.98,,,28-01-2026 17:09:07,28-01-2026 17:11:15,2m - 7.759s,PASSED
-"DATA BINDING - {""password"":""HeCM15nHKBI\u003d"",""exportType"":""pdf"",""userName"":""vG9BolkT2AE\u003d""}",,,,,,,
-"callTestCase(findTestCase(""Test Cases/ProhanceWeb/Login_Page/Login""), [""userName"":userName, ""password"":password])",Chrome 144.0.7559.98,,,28-01-2026 17:09:07,28-01-2026 17:10:53,1m - 45.532s,PASSED
-"callTestCase(findTestCase(""Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard""), [""exportType"":exportType])",Chrome 144.0.7559.98,,,28-01-2026 17:10:53,28-01-2026 17:11:12,19.533s,PASSED
-"callTestCase(findTestCase(""Test Cases/ProhanceWeb/LogOut_Page/LogOut""), [:])",Chrome 144.0.7559.98,,,28-01-2026 17:11:12,28-01-2026 17:11:15,2.169s,PASSED

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Genaral" time="104.602" tests="3" failures="0" errors="0">
+   <testsuite name="Login_Genaral" tests="3" failures="0" errors="0" time="104.602" skipped="0" timestamp="2026-01-29T09:15:51.077Z" hostname="gopal.s - JAMOCHA57.jamochahq.local" id="Test Suites/Login_Genaral">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260129_144540\\Login_Genaral\\20260129_144540"/>
+         <property name="logFiles" value="C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260129_144540\\Login_Genaral\\20260129_144540\\console0.log, C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260129_144540\\Login_Genaral\\20260129_144540\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gopal.s - JAMOCHA57.jamochahq.local"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+         <property name="browser" value="Chrome 144.0.7559.98"/>
+         <property name="userFullName" value="Gopal"/>
+         <property name="hostAddress" value="10.10.10.136"/>
+         <property name="sessionId" value="ee73a90d2f49e5f10742a1b92bf4b2de"/>
+         <property name="projectName" value="ProhanceWebApplication"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ProhanceWeb/Login_Page/Login" time="95.544" classname="Test Cases/ProhanceWeb/Login_Page/Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"HeCM15nHKBI\u003d","userName":"tsL9urF6O/D/xURRxzj/8w\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[29-01-2026T14:45:51 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Login_Page/Login: Test Cases/ProhanceWeb/Login_Page/Login
+
+29-01-2026T14:45:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2026T14:45:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-01-2026T14:45:53 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:/Downloads, download.prompt_for_download=false, profile.default_content_settings.popups=0, safebrowsing.enabled=true}']
+
+29-01-2026T14:45:53 - [MESSAGE][INFO] - User set preference: ['args', '[--safebrowsing-disable-download-protection]']
+
+29-01-2026T14:45:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2026T14:47:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2026T14:47:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-01-2026T14:47:02 - [MESSAGE][PASSED] - Current window maximized
+
+29-01-2026T14:47:02 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, CONTINUE_ON_FAILURE): Wait for page load successfully
+
+29-01-2026T14:47:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-01-2026T14:47:02 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://10.10.10.157:1001/prohance/' successfully
+
+29-01-2026T14:47:19 - [MESSAGE][PASSED] - Navigate to 'http://10.10.10.157:1001/prohance/' successfully
+
+29-01-2026T14:47:19 - [TEST_STEP][PASSED] - try: null
+
+29-01-2026T14:47:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/userName"), userName): Text ****** has been set on object 'Object Repository/Login/userName'
+
+29-01-2026T14:47:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/userName'
+
+29-01-2026T14:47:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Password"), password): Text ****** has been set on object 'Object Repository/Login/Password'
+
+29-01-2026T14:47:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+29-01-2026T14:47:20 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay): Object 'Object Repository/Login/login_btn' is clickable
+
+29-01-2026T14:47:20 - [MESSAGE][PASSED] - Object 'Object Repository/Login/login_btn' is clickable
+
+29-01-2026T14:47:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/login_btn")): Object: 'Object Repository/Login/login_btn' is clicked on
+
+29-01-2026T14:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/login_btn' is clicked on
+
+29-01-2026T14:47:21 - [TEST_STEP][WARNING] - if (verifyElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/session_Distroysession' located by 'By.xpath: //input[@id='distroysession']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/session_Distroysession' located by 'By.xpath: //input[@id='distroysession']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1549)
+	at Login.run(Login:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769678140448.run(TempTestSuite1769678140448.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+29-01-2026T14:47:26 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/session_Distroysession' located by 'By.xpath: //input[@id='distroysession']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/session_Distroysession' located by 'By.xpath: //input[@id='distroysession']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1549)
+	at Login.run(Login:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769678140448.run(TempTestSuite1769678140448.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+29-01-2026T14:47:26 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL)): null
+
+29-01-2026T14:47:26 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is present
+
+29-01-2026T14:47:26 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL): Object 'Object Repository/Common/Accept Cookies' is clickable
+
+29-01-2026T14:47:27 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is clickable
+
+29-01-2026T14:47:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Common/Accept Cookies")): Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+29-01-2026T14:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+29-01-2026T14:47:27 - [TEST_STEP][PASSED] - Finally: null
+
+29-01-2026T14:47:27 - [TEST_STEP][PASSED] - timestamp = Date().format("yyyyMMdd_HHmmss"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard" time="5.598" classname="Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"isDataValion":"false","exportType":"excel","(Default) isFil...":"false"}]]></property>
+         </properties>
+         <system-out><![CDATA[29-01-2026T14:47:27 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard: Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+
+29-01-2026T14:47:27 - [TEST_STEP][PASSED] - explort = null: null
+
+29-01-2026T14:47:27 - [TEST_STEP][PASSED] - rows = null: null
+
+29-01-2026T14:47:27 - [TEST_STEP][PASSED] - webData = []: null
+
+29-01-2026T14:47:27 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)): null
+
+29-01-2026T14:47:28 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+
+29-01-2026T14:47:28 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clickable
+
+29-01-2026T14:47:28 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clickable
+
+29-01-2026T14:47:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clicked on
+
+29-01-2026T14:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clicked on
+
+29-01-2026T14:47:28 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clickable
+
+29-01-2026T14:47:29 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clickable
+
+29-01-2026T14:47:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clicked on
+
+29-01-2026T14:47:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clicked on
+
+29-01-2026T14:47:29 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"), Delay, STOP_ON_FAILURE): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clickable
+
+29-01-2026T14:47:30 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clickable
+
+29-01-2026T14:47:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clicked on
+
+29-01-2026T14:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clicked on
+
+29-01-2026T14:47:31 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, STOP_ON_FAILURE): Wait for page load successfully
+
+29-01-2026T14:47:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-01-2026T14:47:31 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clickable
+
+29-01-2026T14:47:31 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clickable
+
+29-01-2026T14:47:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clicked on
+
+29-01-2026T14:47:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clicked on
+
+29-01-2026T14:47:32 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+29-01-2026T14:47:32 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+29-01-2026T14:47:32 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, STOP_ON_FAILURE): Wait for page load successfully
+
+29-01-2026T14:47:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-01-2026T14:47:32 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+29-01-2026T14:47:32 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+29-01-2026T14:47:32 - [TEST_STEP][PASSED] - if (isFileDownload): null
+
+29-01-2026T14:47:32 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+29-01-2026T14:47:32 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+29-01-2026T14:47:33 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+29-01-2026T14:47:33 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+29-01-2026T14:47:33 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProhanceWeb/LogOut_Page/LogOut" time="2.571" classname="Test Cases/ProhanceWeb/LogOut_Page/LogOut" status="PASSED">
+         <system-out><![CDATA[29-01-2026T14:47:33 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/LogOut_Page/LogOut: Test Cases/ProhanceWeb/LogOut_Page/LogOut
+
+29-01-2026T14:47:33 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Logout/logOut' is clicked on
+
+29-01-2026T14:47:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Logout/userProfileIcon"), Delay): Object 'Object Repository/Logout/userProfileIcon' is present
+
+29-01-2026T14:47:34 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/userProfileIcon' is present
+
+29-01-2026T14:47:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/userProfileIcon"), STOP_ON_FAILURE): Object: 'Object Repository/Logout/userProfileIcon' is clicked on
+
+29-01-2026T14:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/userProfileIcon' is clicked on
+
+29-01-2026T14:47:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Logout/logOut"), Delay): Object 'Object Repository/Logout/logOut' is present
+
+29-01-2026T14:47:35 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/logOut' is present
+
+29-01-2026T14:47:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/logOut"), STOP_ON_FAILURE): Object: 'Object Repository/Logout/logOut' is clicked on
+
+29-01-2026T14:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/logOut' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-01-2026T14:45:51 - [TEST_SUITE][PASSED] - Login_Genaral: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

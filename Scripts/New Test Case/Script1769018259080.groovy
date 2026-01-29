@@ -1,51 +1,83 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
+import java.io.File
+import java.nio.file.Files
+import java.nio.file.StandardCopyOption
+ 
+ 
+ 
+import org.apache.poi.ss.usermodel.*
+import org.apache.poi.xssf.usermodel.XSSFWorkbook
+import org.apache.poi.hssf.usermodel.HSSFWorkbook
+import com.kms.katalon.core.util.KeywordUtil
+import java.io.FileInputStream
+ 
+def readExcelFromDownloads() {
+	
+	
+	
+	String excelPath = null;
+	String downloadPath = System.getProperty("user.home") + File.separator + "Downloads"
+	File downloadDir = new File(downloadPath)
 
-WebUI.openBrowser('')
+	if (!downloadDir.exists() || !downloadDir.isDirectory()) {
+		KeywordUtil.markError("Downloads folder not found: " + downloadPath)
+		return
+	}
+	File[] files = downloadDir.listFiles()
+	
+		   if (files == null || files.length == 0) {
+			   KeywordUtil.logInfo("No files found in Downloads")
+			   return
+		   }
+	for (File file : files) {
+    if (file.getName().startsWith('Top Applications Details Report') && (file.length() > 0)) {
+        excelPath = file.getPath()
+    }
+}
+	FileInputStream fis
+	Workbook workbook
+	List<List<String>> excelData = []
+	try {
+		fis = new FileInputStream(excelPath)
+ 
+		if (excelPath.endsWith('.xlsx')) {
+			workbook = new XSSFWorkbook(fis)
+		} else if (excelPath.endsWith('.xls')) {
+			workbook = new HSSFWorkbook(fis)
+		} else {
+			throw new IllegalArgumentException('Excel must be .xlsx or .xls')
+		}
+ 
+		Sheet sheet = workbook.getSheetAt(0)
+ 
 
-WebUI.navigateToUrl('https://enhance.prohance.io/phxauth/login?reqJson=g+X%2FozY2ipGypjdR%2F1GwZM+v28Zm8v3tzg3MTDU0x2FriRFlYIRbKFVjT3ORELKjwKVUrk4QmNSyFfdGgXK7pA%3D%3D')
-
-WebUI.click(findTestObject('Object Repository/Organization Settings/New Folder/Page_ProHance/label_Username'))
-
-WebUI.click(findTestObject('Object Repository/Organization Settings/New Folder/Page_ProHance/div_Username'))
-
-WebUI.setText(findTestObject('Object Repository/Organization Settings/New Folder/Page_ProHance/input_Username_tlogin'), 
-    'gopaladmin')
-
-WebUI.click(findTestObject('Object Repository/Organization Settings/New Folder/Page_ProHance/div_Password'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Organization Settings/New Folder/Page_ProHance/input_Password_tpwdsaved'), 
-    'tsL9urF6O/APwsPS+50KRA==')
-
-WebUI.click(findTestObject('Object Repository/Organization Settings/New Folder/Page_ProHance/div_Captcha Text_col-lg-12'))
-
-WebUI.click(findTestObject('Object Repository/Organization Settings/New Folder/Page_ProHance/div_Would you like to terminate the other s_d1016e'))
-
-WebUI.click(findTestObject('Object Repository/Organization Settings/New Folder/Page_ProHance/button_OK'))
-
-WebUI.click(findTestObject('Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME'))
-
-WebUI.click(findTestObject('Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD'))
-
-WebUI.click(findTestObject('Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b'))
-
-WebUI.switchToWindowTitle('ProHance')
-
-WebUI.click(findTestObject('Object Repository/Organization Settings/New Folder/Page_ProHance/img__ph-dash-vertical-align-middle ph-dash-_e9ae0f'))
-
+		
+		for (int i = 0; i <= sheet.getLastRowNum(); i++) {   
+			
+				Row row = sheet.getRow(i)
+				if (row == null) continue
+			
+				List<String> rowData = []
+			
+				for (int c = 0; c < row.getLastCellNum(); c++) {
+			
+					Cell cell = row.getCell(c, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK)
+					rowData.add(cell.toString().trim())
+				}
+			
+				excelData.add(rowData)
+				KeywordUtil.logInfo("Excel Row ${i + 1}: ${rowData}")
+			}
+		
+			System.out.println(excelData);
+	} catch (Exception e) {
+		KeywordUtil.markFailed('Error reading Excel: ' + e.getMessage())
+	} finally {
+		workbook?.close()
+		fis?.close()
+	}
+}
+ 
+// Call the method
+readExcelFromDownloads()
+ 

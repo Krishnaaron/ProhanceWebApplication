@@ -6,17 +6,52 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>bf37c9c7-ab03-4446-a8dc-569208e788c6</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>62dd0309-cf6e-4a05-a4e1-b2b7628e8d93</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Activity Dashboard/Group Widgets/Top Application</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>62dd0309-cf6e-4a05-a4e1-b2b7628e8d93</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>exportType</value>
+      <variableId>d41db5d9-148b-4fd0-a782-e364b051317f</variableId>
+   </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d41db5d9-148b-4fd0-a782-e364b051317f</variableId>
+      <variableId>1a8d04e1-88b9-438f-9639-b085f577f841</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>62dd0309-cf6e-4a05-a4e1-b2b7628e8d93</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>isDataValion</value>
+      <variableId>d2fe38e6-3540-471d-9b42-5308c5d4d0c5</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'excel'</defaultValue>
       <description></description>
       <id>d41db5d9-148b-4fd0-a782-e364b051317f</id>
       <masked>false</masked>
       <name>exportType</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>1a8d04e1-88b9-438f-9639-b085f577f841</id>
+      <masked>false</masked>
+      <name>isFileDownload</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>d2fe38e6-3540-471d-9b42-5308c5d4d0c5</id>
+      <masked>false</masked>
+      <name>isDataValion</name>
    </variable>
 </TestCaseEntity>

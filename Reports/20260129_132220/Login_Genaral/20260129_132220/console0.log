@@ -1,0 +1,26 @@
+2026-01-29 13:22:30.362 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gopal.s\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-29 13:22:30.367 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gopal.s\git\ProhanceWebApplication\Include\config\log.properties
+2026-01-29 13:22:32.195 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login_Genaral
+2026-01-29 13:22:33.213 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-29 13:22:33.214 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-29 13:22:33.215 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gopal.s - JAMOCHA57.jamochahq.local
+2026-01-29 13:22:33.216 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-29 13:22:33.216 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.10.10.136
+2026-01-29 13:22:33.217 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-29 13:22:33.812 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 13:22:33.812 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-29 13:22:33.889 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-29 13:22:33.892 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-29 13:22:34.565 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-29 13:22:34.918 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-01-29 13:22:35.017 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 29, 2026 1:24:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-29 13:24:03.878 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ce192b0eef5dab87895144b3f9a1465b
+2026-01-29 13:24:03.880 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 144.0.3719.92
+2026-01-29 13:24:03.881 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-29 13:24:03.882 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-29 13:24:03.891 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-29 13:24:03.984 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-29 13:24:04.080 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-29 13:24:04.474 DEBUG testcase.Login                           - 4: navigateToUrl(URL)

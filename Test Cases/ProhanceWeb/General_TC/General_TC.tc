@@ -15,6 +15,15 @@
       </iterationEntity>
       <testDataId>Data Files/LoginPage/LoginPage</testDataId>
    </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5fccf0f3-82df-4d95-9a75-a00424c7d0f6</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Activity Dashboard/Group Widgets/Top Application</testDataId>
+   </testDataLinks>
    <variableLinks>
       <testDataLinkId>8f7eb8c2-1bec-4423-ab83-7120462bd395</testDataLinkId>
       <type>DATA_COLUMN</type>
@@ -28,10 +37,22 @@
       <variableId>b97b1ae6-9a00-494b-8cd0-c6e6d35c742f</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>8f7eb8c2-1bec-4423-ab83-7120462bd395</testDataLinkId>
+      <testDataLinkId>5fccf0f3-82df-4d95-9a75-a00424c7d0f6</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>exportType</value>
       <variableId>6faa5939-a322-4ea0-86b7-c0676a8376cb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5fccf0f3-82df-4d95-9a75-a00424c7d0f6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>isFileDownload</value>
+      <variableId>7c37aeab-71bd-41a4-97ea-38e5e33312bd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5fccf0f3-82df-4d95-9a75-a00424c7d0f6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>isDataValion</value>
+      <variableId>6f57e042-9675-43d6-a78f-f2b9c660a054</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
@@ -53,5 +74,19 @@
       <id>6faa5939-a322-4ea0-86b7-c0676a8376cb</id>
       <masked>false</masked>
       <name>exportType</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>7c37aeab-71bd-41a4-97ea-38e5e33312bd</id>
+      <masked>false</masked>
+      <name>isFileDownload</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>6f57e042-9675-43d6-a78f-f2b9c660a054</id>
+      <masked>false</masked>
+      <name>isDataValion</name>
    </variable>
 </TestCaseEntity>

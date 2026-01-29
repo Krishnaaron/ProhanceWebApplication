@@ -46,19 +46,31 @@
       <testCaseId>Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>4ad311d1-9893-4b95-ac70-25e67b76f4d5</id>
+         <id>dabaadb1-5810-4404-a014-66dca6824e15</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/LoginPage/LoginPage</testDataId>
+         <testDataId>Data Files/Activity Dashboard/Group Widgets/Top Application</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>4ad311d1-9893-4b95-ac70-25e67b76f4d5</testDataLinkId>
+         <testDataLinkId>dabaadb1-5810-4404-a014-66dca6824e15</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>exportType</value>
          <variableId>d41db5d9-148b-4fd0-a782-e364b051317f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dabaadb1-5810-4404-a014-66dca6824e15</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>isFileDownload</value>
+         <variableId>1a8d04e1-88b9-438f-9639-b085f577f841</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dabaadb1-5810-4404-a014-66dca6824e15</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>isDataValion</value>
+         <variableId>d2fe38e6-3540-471d-9b42-5308c5d4d0c5</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

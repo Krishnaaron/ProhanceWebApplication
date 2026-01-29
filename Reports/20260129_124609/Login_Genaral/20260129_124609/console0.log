@@ -1,0 +1,774 @@
+2026-01-29 12:46:16.874 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\gopal.s\.katalon\packages\KSE-10.4.3\configuration\org.eclipse.osgi\133\0\.cp\resources\logback\logback-execution.xml
+2026-01-29 12:46:16.878 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\gopal.s\git\ProhanceWebApplication\Include\config\log.properties
+2026-01-29 12:46:19.226 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login_Genaral
+2026-01-29 12:46:19.421 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-29 12:46:19.422 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-29 12:46:19.424 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gopal.s - JAMOCHA57.jamochahq.local
+2026-01-29 12:46:19.425 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-29 12:46:19.427 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.10.10.136
+2026-01-29 12:46:19.429 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.3.0
+2026-01-29 12:46:20.067 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 12:46:20.068 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-29 12:46:20.185 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-29 12:46:20.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-29 12:46:20.756 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-29 12:46:21.166 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2026-01-29 12:46:21.276 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 29, 2026 12:47:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 144
+2026-01-29 12:47:50.640 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 693ef2edd6516dc1f19bd7f13a7f25e9
+2026-01-29 12:47:50.644 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 144.0.3719.92
+2026-01-29 12:47:50.646 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-29 12:47:50.646 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2026-01-29 12:47:50.658 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-29 12:47:50.713 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-29 12:47:50.790 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-29 12:47:51.066 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-01-29 12:49:06.625 DEBUG testcase.Login                           - 5: try
+2026-01-29 12:49:06.635 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/Login/userName"), userName)
+2026-01-29 12:49:07.427 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Login/Password"), password)
+2026-01-29 12:49:07.909 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay)
+2026-01-29 12:49:08.378 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/Login/login_btn"))
+2026-01-29 12:49:08.841 DEBUG testcase.Login                           - 5: if (verifyElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL))
+2026-01-29 12:49:09.409 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL)
+2026-01-29 12:49:09.737 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Login/session_Distroysession"))
+2026-01-29 12:49:10.140 DEBUG testcase.Login                           - 6: if (verifyElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL))
+2026-01-29 12:49:11.457 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL)
+2026-01-29 12:49:11.807 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Common/Accept Cookies"))
+2026-01-29 12:49:12.178 DEBUG testcase.Login                           - 7: Finally
+2026-01-29 12:49:12.183 DEBUG testcase.Login                           - 1: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-29 12:49:12.203 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-29 12:49:12.212 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 12:49:12.212 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-29 12:49:12.420 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = excel
+2026-01-29 12:49:12.655 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-29 12:49:12.657 DEBUG testcase.ActivityDashBoard               - 2: rows = null
+2026-01-29 12:49:12.659 DEBUG testcase.ActivityDashBoard               - 3: webData = []
+2026-01-29 12:49:12.663 DEBUG testcase.ActivityDashBoard               - 4: isDataValion = true
+2026-01-29 12:49:12.667 DEBUG testcase.ActivityDashBoard               - 5: isFileDownload = true
+2026-01-29 12:49:12.670 DEBUG testcase.ActivityDashBoard               - 6: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-29 12:49:12.969 DEBUG testcase.ActivityDashBoard               - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-01-29 12:49:13.320 DEBUG testcase.ActivityDashBoard               - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-01-29 12:49:13.725 DEBUG testcase.ActivityDashBoard               - 3: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay)
+2026-01-29 12:49:14.042 DEBUG testcase.ActivityDashBoard               - 4: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"))
+2026-01-29 12:49:14.417 DEBUG testcase.ActivityDashBoard               - 5: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"), Delay, STOP_ON_FAILURE)
+2026-01-29 12:49:15.879 DEBUG testcase.ActivityDashBoard               - 6: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"))
+2026-01-29 12:49:16.585 DEBUG testcase.ActivityDashBoard               - 7: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-29 12:49:16.633 DEBUG testcase.ActivityDashBoard               - 8: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay)
+2026-01-29 12:49:17.187 DEBUG testcase.ActivityDashBoard               - 9: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"))
+2026-01-29 12:49:17.745 DEBUG testcase.ActivityDashBoard               - 10: switchToWindowIndex(1)
+2026-01-29 12:49:17.948 DEBUG testcase.ActivityDashBoard               - 11: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-29 12:49:18.062 DEBUG testcase.ActivityDashBoard               - 12: executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+2026-01-29 12:49:18.100 DEBUG testcase.ActivityDashBoard               - 13: if (isFileDownload)
+2026-01-29 12:49:18.107 DEBUG testcase.ActivityDashBoard               - 1: com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete()
+C:\Users\gopal.s\Downloads
+2026-01-29 12:49:18.150 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+2026-01-29 12:49:18.161 DEBUG testcase.ActivityDashBoard               - 2: explort = ((exportType != null)) ? exportType : false
+2026-01-29 12:49:18.196 DEBUG testcase.ActivityDashBoard               - 3: browserName = getExecutedBrowser()
+2026-01-29 12:49:18.222 DEBUG testcase.ActivityDashBoard               - 4: logInfo("Browser Name :" + " " + browserName)
+2026-01-29 12:49:18.249 INFO  com.kms.katalon.core.util.KeywordUtil    - Browser Name : Edge Chromium
+2026-01-29 12:49:18.254 DEBUG testcase.ActivityDashBoard               - 5: xPath = com.prohanceebapplication.common.Export.export(explort)
+2026-01-29 12:49:18.278 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceebapplication.common.Export.export is PASSED
+2026-01-29 12:49:18.280 DEBUG testcase.ActivityDashBoard               - 6: out.println(xPath)
+//span[.//img[@title='Export to Excel']]
+2026-01-29 12:49:18.289 DEBUG testcase.ActivityDashBoard               - 7: if (xPath != null)
+2026-01-29 12:49:18.296 DEBUG testcase.ActivityDashBoard               - 1: exportSpan = new com.kms.katalon.core.testobject.TestObject()
+2026-01-29 12:49:18.297 DEBUG testcase.ActivityDashBoard               - 2: exportSpan.addProperty("xpath", EQUALS, xPath)
+2026-01-29 12:49:18.331 DEBUG testcase.ActivityDashBoard               - 3: waitForElementPresent(exportSpan, Delay)
+2026-01-29 12:49:19.727 DEBUG testcase.ActivityDashBoard               - 4: el = findWebElement(exportSpan, Delay)
+2026-01-29 12:49:19.994 DEBUG testcase.ActivityDashBoard               - 5: executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(el))
+2026-01-29 12:49:20.019 DEBUG testcase.ActivityDashBoard               - 6: executeJavaScript("arguments[0].click();", Arrays.asList(el))
+2026-01-29 12:49:22.458 DEBUG testcase.ActivityDashBoard               - 8: if (isDataValion)
+2026-01-29 12:49:22.462 DEBUG testcase.ActivityDashBoard               - 1: rows = com.prohancewebapplication.webtable.Table.webTableDataReader(findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_Id"), findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_tr"))
+2026-01-29 12:49:23.237 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.webtable.Table.webTableDataReader is PASSED
+2026-01-29 12:49:23.239 DEBUG testcase.ActivityDashBoard               - 2: if (rows != null)
+2026-01-29 12:49:23.240 DEBUG testcase.ActivityDashBoard               - 1: com.prohanceapplication.webtableexcelvalidation.DataValidator.validateWebTableWithDownloadedExcel(rows)
+2026-01-29 12:49:35.419 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.432 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 2 | Web: '1' | Excel: '1'
+2026-01-29 12:49:35.434 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 3 | Web: 'Eclipse' | Excel: 'Eclipse'
+2026-01-29 12:49:35.436 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 4 | Web: '8d 11 : 41 : 56' | Excel: '8d 11 : 41 : 56'
+2026-01-29 12:49:35.440 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:49:35.443 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 6 | Web: '31942' | Excel: '31942'
+2026-01-29 12:49:35.448 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.450 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:49:35.453 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.455 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 2 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.457 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 3 | Web: 'XCode' | Excel: 'XCode'
+2026-01-29 12:49:35.460 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 4 | Web: '5d 02 : 16 : 51' | Excel: '5d 02 : 16 : 51'
+2026-01-29 12:49:35.464 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 5 | Web: '5' | Excel: '5'
+2026-01-29 12:49:35.466 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 6 | Web: '6492' | Excel: '6492'
+2026-01-29 12:49:35.469 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.471 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:49:35.473 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.475 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 2 | Web: '3' | Excel: '3'
+2026-01-29 12:49:35.476 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 3 | Web: 'ProHance' | Excel: 'ProHance'
+2026-01-29 12:49:35.477 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 4 | Web: '3d 22 : 46 : 36' | Excel: '3d 22 : 46 : 36'
+2026-01-29 12:49:35.478 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:49:35.481 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 6 | Web: '16796' | Excel: '16796'
+2026-01-29 12:49:35.482 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.484 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 8 | Web: 'Business Tools' | Excel: 'Business Tools'
+2026-01-29 12:49:35.486 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.488 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 2 | Web: '4' | Excel: '4'
+2026-01-29 12:49:35.489 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 3 | Web: 'Notepad' | Excel: 'Notepad'
+2026-01-29 12:49:35.491 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 4 | Web: '2d 03 : 03 : 03' | Excel: '2d 03 : 03 : 03'
+2026-01-29 12:49:35.492 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:49:35.493 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 6 | Web: '7549' | Excel: '7549'
+2026-01-29 12:49:35.498 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.499 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:49:35.500 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.503 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 2 | Web: '5' | Excel: '5'
+2026-01-29 12:49:35.507 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 3 | Web: 'MS Teams' | Excel: 'MS Teams'
+2026-01-29 12:49:35.515 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 4 | Web: '2d 00 : 24 : 14' | Excel: '2d 00 : 24 : 14'
+2026-01-29 12:49:35.518 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:49:35.521 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 6 | Web: '5308' | Excel: '5308'
+2026-01-29 12:49:35.523 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.525 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 8 | Web: 'Communication Tools' | Excel: 'Communication Tools'
+2026-01-29 12:49:35.530 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.531 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 2 | Web: '6' | Excel: '6'
+2026-01-29 12:49:35.534 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 3 | Web: 'UNKNOWN AOS' | Excel: 'UNKNOWN AOS'
+2026-01-29 12:49:35.535 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 4 | Web: '1d 16 : 14 : 33' | Excel: '1d 16 : 14 : 33'
+2026-01-29 12:49:35.536 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:49:35.537 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 6 | Web: '7178' | Excel: '7178'
+2026-01-29 12:49:35.538 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 7 | Web: '' | Excel: ''
+2026-01-29 12:49:35.539 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 8 | Web: '' | Excel: ''
+2026-01-29 12:49:35.541 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.542 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 2 | Web: '7' | Excel: '7'
+2026-01-29 12:49:35.542 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 3 | Web: 'Email Applications' | Excel: 'Email Applications'
+2026-01-29 12:49:35.544 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 4 | Web: '1d 05 : 30 : 50' | Excel: '1d 05 : 30 : 50'
+2026-01-29 12:49:35.545 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:49:35.551 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 6 | Web: '2553' | Excel: '2553'
+2026-01-29 12:49:35.561 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.565 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 8 | Web: 'Communication Tools' | Excel: 'Communication Tools'
+2026-01-29 12:49:35.571 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.582 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 2 | Web: '8' | Excel: '8'
+2026-01-29 12:49:35.583 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 3 | Web: 'Excel' | Excel: 'Excel'
+2026-01-29 12:49:35.584 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 4 | Web: '1d 02 : 53 : 56' | Excel: '1d 02 : 53 : 56'
+2026-01-29 12:49:35.585 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:49:35.587 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 6 | Web: '6197' | Excel: '6197'
+2026-01-29 12:49:35.591 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.594 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:49:35.600 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.602 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 2 | Web: '9' | Excel: '9'
+2026-01-29 12:49:35.603 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 3 | Web: 'Remote Desktop' | Excel: 'Remote Desktop'
+2026-01-29 12:49:35.604 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 4 | Web: '18 : 16 : 38' | Excel: '18 : 16 : 38'
+2026-01-29 12:49:35.610 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 5 | Web: '1' | Excel: '1'
+2026-01-29 12:49:35.615 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 6 | Web: '1348' | Excel: '1348'
+2026-01-29 12:49:35.616 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 7 | Web: '1' | Excel: '1'
+2026-01-29 12:49:35.620 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 8 | Web: 'Support Tools' | Excel: 'Support Tools'
+2026-01-29 12:49:35.623 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.626 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 2 | Web: '10' | Excel: '10'
+2026-01-29 12:49:35.630 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 3 | Web: 'Files & Folders' | Excel: 'Files & Folders'
+2026-01-29 12:49:35.633 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 4 | Web: '14 : 12 : 41' | Excel: '14 : 12 : 41'
+2026-01-29 12:49:35.635 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:49:35.640 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 6 | Web: '6212' | Excel: '6212'
+2026-01-29 12:49:35.642 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 7 | Web: '0' | Excel: '0'
+2026-01-29 12:49:35.644 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 8 | Web: 'System Tools' | Excel: 'System Tools'
+2026-01-29 12:49:35.652 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.659 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 2 | Web: '11' | Excel: '11'
+2026-01-29 12:49:35.664 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 3 | Web: 'General Web Browsing' | Excel: 'General Web Browsing'
+2026-01-29 12:49:35.667 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 4 | Web: '13 : 09 : 23' | Excel: '13 : 09 : 23'
+2026-01-29 12:49:35.668 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:49:35.670 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 6 | Web: '1942' | Excel: '1942'
+2026-01-29 12:49:35.676 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 7 | Web: '0' | Excel: '0'
+2026-01-29 12:49:35.677 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:49:35.683 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.684 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 2 | Web: '12' | Excel: '12'
+2026-01-29 12:49:35.686 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 3 | Web: 'CAST Application' | Excel: 'CAST Application'
+2026-01-29 12:49:35.689 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 4 | Web: '11 : 38 : 14' | Excel: '11 : 38 : 14'
+2026-01-29 12:49:35.691 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 5 | Web: '4' | Excel: '4'
+2026-01-29 12:49:35.693 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 6 | Web: '915' | Excel: '915'
+2026-01-29 12:49:35.697 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.699 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:49:35.704 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.706 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 2 | Web: '13' | Excel: '13'
+2026-01-29 12:49:35.707 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 3 | Web: 'Windows Components' | Excel: 'Windows Components'
+2026-01-29 12:49:35.708 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 4 | Web: '10 : 52 : 25' | Excel: '10 : 52 : 25'
+2026-01-29 12:49:35.710 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:49:35.711 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 6 | Web: '7372' | Excel: '7372'
+2026-01-29 12:49:35.719 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.720 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 8 | Web: 'Support Tools' | Excel: 'Support Tools'
+2026-01-29 12:49:35.723 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.725 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 2 | Web: '14' | Excel: '14'
+2026-01-29 12:49:35.726 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 3 | Web: 'Advanced Rest Client' | Excel: 'Advanced Rest Client'
+2026-01-29 12:49:35.728 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 4 | Web: '07 : 08 : 58' | Excel: '07 : 08 : 58'
+2026-01-29 12:49:35.731 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 5 | Web: '4' | Excel: '4'
+2026-01-29 12:49:35.733 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 6 | Web: '1214' | Excel: '1214'
+2026-01-29 12:49:35.734 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 7 | Web: '0' | Excel: '0'
+2026-01-29 12:49:35.735 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:49:35.736 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.742 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 2 | Web: '15' | Excel: '15'
+2026-01-29 12:49:35.743 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 3 | Web: 'Chat GPT' | Excel: 'Chat GPT'
+2026-01-29 12:49:35.745 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 4 | Web: '06 : 21 : 05' | Excel: '06 : 21 : 05'
+2026-01-29 12:49:35.745 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:49:35.747 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 6 | Web: '1051' | Excel: '1051'
+2026-01-29 12:49:35.748 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.749 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 8 | Web: 'Business Tools' | Excel: 'Business Tools'
+2026-01-29 12:49:35.750 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.750 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 2 | Web: '16' | Excel: '16'
+2026-01-29 12:49:35.752 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 3 | Web: 'Electron' | Excel: 'Electron'
+2026-01-29 12:49:35.753 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 4 | Web: '06 : 09 : 12' | Excel: '06 : 09 : 12'
+2026-01-29 12:49:35.754 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 5 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.755 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 6 | Web: '650' | Excel: '650'
+2026-01-29 12:49:35.756 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.765 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:49:35.767 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.769 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 2 | Web: '17' | Excel: '17'
+2026-01-29 12:49:35.771 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 3 | Web: 'Word' | Excel: 'Word'
+2026-01-29 12:49:35.774 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 4 | Web: '05 : 23 : 07' | Excel: '05 : 23 : 07'
+2026-01-29 12:49:35.775 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 5 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.776 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 6 | Web: '395' | Excel: '395'
+2026-01-29 12:49:35.777 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.781 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:49:35.782 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.783 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 2 | Web: '18' | Excel: '18'
+2026-01-29 12:49:35.791 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 3 | Web: 'Customer Connect Apps' | Excel: 'Customer Connect Apps'
+2026-01-29 12:49:35.792 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 4 | Web: '04 : 58 : 58' | Excel: '04 : 58 : 58'
+2026-01-29 12:49:35.794 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 5 | Web: '5' | Excel: '5'
+2026-01-29 12:49:35.795 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 6 | Web: '314' | Excel: '314'
+2026-01-29 12:49:35.798 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.802 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 8 | Web: 'Support Tools' | Excel: 'Support Tools'
+2026-01-29 12:49:35.808 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.809 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 2 | Web: '19' | Excel: '19'
+2026-01-29 12:49:35.812 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 3 | Web: 'Techmate Application' | Excel: 'Techmate Application'
+2026-01-29 12:49:35.819 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 4 | Web: '04 : 19 : 52' | Excel: '04 : 19 : 52'
+2026-01-29 12:49:35.821 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 5 | Web: '4' | Excel: '4'
+2026-01-29 12:49:35.823 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 6 | Web: '370' | Excel: '370'
+2026-01-29 12:49:35.824 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.825 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 8 | Web: 'Support Tools' | Excel: 'Support Tools'
+2026-01-29 12:49:35.826 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.827 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 2 | Web: '20' | Excel: '20'
+2026-01-29 12:49:35.828 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 3 | Web: 'Tutorials' | Excel: 'Tutorials'
+2026-01-29 12:49:35.832 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 4 | Web: '03 : 28 : 36' | Excel: '03 : 28 : 36'
+2026-01-29 12:49:35.833 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:49:35.834 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 6 | Web: '299' | Excel: '299'
+2026-01-29 12:49:35.836 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 7 | Web: '1' | Excel: '1'
+2026-01-29 12:49:35.838 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:49:35.840 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.841 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 2 | Web: '21' | Excel: '21'
+2026-01-29 12:49:35.842 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 3 | Web: 'MYSQL Server' | Excel: 'MYSQL Server'
+2026-01-29 12:49:35.843 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 4 | Web: '02 : 29 : 02' | Excel: '02 : 29 : 02'
+2026-01-29 12:49:35.844 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 5 | Web: '3' | Excel: '3'
+2026-01-29 12:49:35.900 ERROR com.kms.katalon.core.util.KeywordUtil    - ❌ Mismatch | Row: 25, Column: 7 | Web: '2' | Excel: '-2'
+2026-01-29 12:49:35.848 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 6 | Web: '378' | Excel: '378'
+2026-01-29 12:49:35.851 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.852 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:49:35.853 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.854 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 2 | Web: '22' | Excel: '22'
+2026-01-29 12:49:35.854 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 3 | Web: 'Jenkins' | Excel: 'Jenkins'
+2026-01-29 12:49:35.856 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 4 | Web: '01 : 53 : 42' | Excel: '01 : 53 : 42'
+2026-01-29 12:49:35.857 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 5 | Web: '5' | Excel: '5'
+2026-01-29 12:49:35.859 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 6 | Web: '352' | Excel: '352'
+2026-01-29 12:49:35.860 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.861 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:49:35.862 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.866 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 2 | Web: '23' | Excel: '23'
+2026-01-29 12:49:35.867 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 3 | Web: 'MS Visual Studio' | Excel: 'MS Visual Studio'
+2026-01-29 12:49:35.868 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 4 | Web: '00 : 51 : 06' | Excel: '00 : 51 : 06'
+2026-01-29 12:49:35.870 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 5 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.871 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 6 | Web: '83' | Excel: '83'
+2026-01-29 12:49:35.873 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.874 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:49:35.875 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.876 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 2 | Web: '24' | Excel: '24'
+2026-01-29 12:49:35.877 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 3 | Web: 'Browser Extensions and Addons' | Excel: 'Browser Extensions and Addons'
+2026-01-29 12:49:35.883 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 4 | Web: '00 : 45 : 47' | Excel: '00 : 45 : 47'
+2026-01-29 12:49:35.884 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 5 | Web: '4' | Excel: '4'
+2026-01-29 12:49:35.886 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 6 | Web: '115' | Excel: '115'
+2026-01-29 12:49:35.887 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.888 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:49:35.889 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 25, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.890 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 25, Column: 2 | Web: '25' | Excel: '25'
+2026-01-29 12:49:35.891 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 25, Column: 3 | Web: 'Unproductive Sites' | Excel: 'Unproductive Sites'
+2026-01-29 12:49:35.893 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 25, Column: 4 | Web: '00 : 38 : 10' | Excel: '00 : 38 : 10'
+2026-01-29 12:49:35.894 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 25, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:49:35.895 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 25, Column: 6 | Web: '159' | Excel: '159'
+2026-01-29 12:49:35.903 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 25, Column: 8 | Web: 'Unproductive' | Excel: 'Unproductive'
+2026-01-29 12:49:35.904 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.905 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 2 | Web: '26' | Excel: '26'
+2026-01-29 12:49:35.906 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 3 | Web: 'License Portal' | Excel: 'License Portal'
+2026-01-29 12:49:35.907 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 4 | Web: '00 : 29 : 05' | Excel: '00 : 29 : 05'
+2026-01-29 12:49:35.909 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:49:35.910 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 6 | Web: '137' | Excel: '137'
+2026-01-29 12:49:35.911 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 7 | Web: '0' | Excel: '0'
+2026-01-29 12:49:35.912 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:49:35.916 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.918 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 2 | Web: '27' | Excel: '27'
+2026-01-29 12:49:35.920 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 3 | Web: 'Power Point' | Excel: 'Power Point'
+2026-01-29 12:49:35.924 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 4 | Web: '00 : 21 : 20' | Excel: '00 : 21 : 20'
+2026-01-29 12:49:35.925 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 5 | Web: '1' | Excel: '1'
+2026-01-29 12:49:35.926 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 6 | Web: '20' | Excel: '20'
+2026-01-29 12:49:35.927 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.928 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:49:35.929 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.932 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 2 | Web: '28' | Excel: '28'
+2026-01-29 12:49:35.933 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 3 | Web: 'Personal Time' | Excel: 'Personal Time'
+2026-01-29 12:49:35.934 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 4 | Web: '00 : 18 : 00' | Excel: '00 : 18 : 00'
+2026-01-29 12:49:35.935 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 5 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.936 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 6 | Web: '5' | Excel: '5'
+2026-01-29 12:49:35.938 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 7 | Web: '' | Excel: ''
+2026-01-29 12:49:35.939 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 8 | Web: '' | Excel: ''
+2026-01-29 12:49:35.942 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.943 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 2 | Web: '29' | Excel: '29'
+2026-01-29 12:49:35.943 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 3 | Web: 'Grey Tip HR' | Excel: 'Grey Tip HR'
+2026-01-29 12:49:35.944 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 4 | Web: '00 : 14 : 15' | Excel: '00 : 14 : 15'
+2026-01-29 12:49:35.945 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 5 | Web: '3' | Excel: '3'
+2026-01-29 12:49:35.946 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 6 | Web: '29' | Excel: '29'
+2026-01-29 12:49:35.947 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 7 | Web: '0' | Excel: '0'
+2026-01-29 12:49:35.949 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 8 | Web: 'Internal Applications' | Excel: 'Internal Applications'
+2026-01-29 12:49:35.950 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.952 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 2 | Web: '30' | Excel: '30'
+2026-01-29 12:49:35.953 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 3 | Web: 'IP Messenger' | Excel: 'IP Messenger'
+2026-01-29 12:49:35.954 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 4 | Web: '00 : 09 : 37' | Excel: '00 : 09 : 37'
+2026-01-29 12:49:35.954 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 5 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.955 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 6 | Web: '36' | Excel: '36'
+2026-01-29 12:49:35.957 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 7 | Web: '1' | Excel: '1'
+2026-01-29 12:49:35.957 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 8 | Web: 'Communication Tools' | Excel: 'Communication Tools'
+2026-01-29 12:49:35.958 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.958 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 2 | Web: '31' | Excel: '31'
+2026-01-29 12:49:35.960 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 3 | Web: 'LinkedIn' | Excel: 'LinkedIn'
+2026-01-29 12:49:35.960 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 4 | Web: '00 : 01 : 54' | Excel: '00 : 01 : 54'
+2026-01-29 12:49:35.961 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 5 | Web: '1' | Excel: '1'
+2026-01-29 12:49:35.962 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 6 | Web: '10' | Excel: '10'
+2026-01-29 12:49:35.963 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 7 | Web: '0' | Excel: '0'
+2026-01-29 12:49:35.965 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 8 | Web: 'Communication Tools' | Excel: 'Communication Tools'
+2026-01-29 12:49:35.966 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.967 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 2 | Web: '32' | Excel: '32'
+2026-01-29 12:49:35.968 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 3 | Web: 'MSSQL Server' | Excel: 'MSSQL Server'
+2026-01-29 12:49:35.968 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 4 | Web: '00 : 00 : 24' | Excel: '00 : 00 : 24'
+2026-01-29 12:49:35.969 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 5 | Web: '1' | Excel: '1'
+2026-01-29 12:49:35.970 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 6 | Web: '5' | Excel: '5'
+2026-01-29 12:49:35.973 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.973 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:49:35.976 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:49:35.977 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 2 | Web: '33' | Excel: '33'
+2026-01-29 12:49:35.978 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 3 | Web: 'Paint' | Excel: 'Paint'
+2026-01-29 12:49:35.979 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 4 | Web: '00 : 00 : 16' | Excel: '00 : 00 : 16'
+2026-01-29 12:49:35.980 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 5 | Web: '2' | Excel: '2'
+2026-01-29 12:49:35.983 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 6 | Web: '5' | Excel: '5'
+2026-01-29 12:49:35.986 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 7 | Web: '0' | Excel: '0'
+2026-01-29 12:49:35.987 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:49:35.990 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Web table data perfectly matches Excel file
+2026-01-29 12:49:35.992 ERROR k.k.c.m.CustomKeywordDelegatingMetaClass - ❌ com.kms.katalon.core.exception.StepFailedException: Mismatch | Row: 25, Column: 7 | Web: '2' | Excel: '-2'
+2026-01-29 12:49:36.006 DEBUG testcase.ActivityDashBoard               - 3: com.prohancewebapplication.file.FileSizeFinder.fileSize()
+2026-01-29 12:49:36.011 INFO  com.kms.katalon.core.util.KeywordUtil    - Top Applications Details Report.xlsx 7015
+2026-01-29 12:49:36.011 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+2026-01-29 12:49:36.012 DEBUG testcase.ActivityDashBoard               - 14: switchToDefaultContent()
+2026-01-29 12:49:36.049 DEBUG testcase.ActivityDashBoard               - 15: closeWindowIndex(1)
+2026-01-29 12:49:39.530 DEBUG testcase.ActivityDashBoard               - 16: switchToWindowIndex(0)
+2026-01-29 12:49:39.568 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Mismatch | Row: 25, Column: 7 | Web: '2' | Excel: '-2'
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.prohanceapplication.webtableexcelvalidation.DataValidator.validateWebTableWithDownloadedExcel(DataValidator.groovy:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at ActivityDashBoard.run(ActivityDashBoard:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769670969913.run(TempTestSuite1769670969913.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-01-29 12:49:39.573 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-29 12:49:39.587 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 12:49:39.587 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-29 12:49:39.635 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = excel
+2026-01-29 12:49:39.638 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-29 12:49:39.640 DEBUG testcase.ActivityDashBoard               - 2: rows = null
+2026-01-29 12:49:39.642 DEBUG testcase.ActivityDashBoard               - 3: webData = []
+2026-01-29 12:49:39.644 DEBUG testcase.ActivityDashBoard               - 4: isDataValion = true
+2026-01-29 12:49:39.646 DEBUG testcase.ActivityDashBoard               - 5: isFileDownload = true
+2026-01-29 12:49:39.648 DEBUG testcase.ActivityDashBoard               - 6: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-29 12:49:39.932 DEBUG testcase.ActivityDashBoard               - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-01-29 12:49:40.247 DEBUG testcase.ActivityDashBoard               - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-01-29 12:49:40.617 DEBUG testcase.ActivityDashBoard               - 3: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay)
+2026-01-29 12:49:40.900 DEBUG testcase.ActivityDashBoard               - 4: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"))
+2026-01-29 12:49:41.292 DEBUG testcase.ActivityDashBoard               - 5: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"), Delay, STOP_ON_FAILURE)
+2026-01-29 12:49:42.246 DEBUG testcase.ActivityDashBoard               - 6: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"))
+2026-01-29 12:49:42.813 DEBUG testcase.ActivityDashBoard               - 7: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-29 12:49:42.970 DEBUG testcase.ActivityDashBoard               - 8: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay)
+2026-01-29 12:49:43.483 DEBUG testcase.ActivityDashBoard               - 9: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"))
+2026-01-29 12:49:44.005 DEBUG testcase.ActivityDashBoard               - 10: switchToWindowIndex(1)
+2026-01-29 12:49:44.156 DEBUG testcase.ActivityDashBoard               - 11: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-29 12:49:44.282 DEBUG testcase.ActivityDashBoard               - 12: executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+2026-01-29 12:49:44.295 DEBUG testcase.ActivityDashBoard               - 13: if (isFileDownload)
+2026-01-29 12:49:44.297 DEBUG testcase.ActivityDashBoard               - 1: com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete()
+C:\Users\gopal.s\Downloads
+2026-01-29 12:49:44.302 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+2026-01-29 12:49:44.303 DEBUG testcase.ActivityDashBoard               - 2: explort = ((exportType != null)) ? exportType : false
+2026-01-29 12:49:44.304 DEBUG testcase.ActivityDashBoard               - 3: browserName = getExecutedBrowser()
+2026-01-29 12:49:44.306 DEBUG testcase.ActivityDashBoard               - 4: logInfo("Browser Name :" + " " + browserName)
+2026-01-29 12:49:44.308 INFO  com.kms.katalon.core.util.KeywordUtil    - Browser Name : Edge Chromium
+2026-01-29 12:49:44.309 DEBUG testcase.ActivityDashBoard               - 5: xPath = com.prohanceebapplication.common.Export.export(explort)
+2026-01-29 12:49:44.314 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceebapplication.common.Export.export is PASSED
+2026-01-29 12:49:44.315 DEBUG testcase.ActivityDashBoard               - 6: out.println(xPath)
+//span[.//img[@title='Export to Excel']]
+2026-01-29 12:49:44.316 DEBUG testcase.ActivityDashBoard               - 7: if (xPath != null)
+2026-01-29 12:49:44.317 DEBUG testcase.ActivityDashBoard               - 1: exportSpan = new com.kms.katalon.core.testobject.TestObject()
+2026-01-29 12:49:44.321 DEBUG testcase.ActivityDashBoard               - 2: exportSpan.addProperty("xpath", EQUALS, xPath)
+2026-01-29 12:49:44.323 DEBUG testcase.ActivityDashBoard               - 3: waitForElementPresent(exportSpan, Delay)
+2026-01-29 12:49:45.504 DEBUG testcase.ActivityDashBoard               - 4: el = findWebElement(exportSpan, Delay)
+2026-01-29 12:49:45.753 DEBUG testcase.ActivityDashBoard               - 5: executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(el))
+2026-01-29 12:49:45.771 DEBUG testcase.ActivityDashBoard               - 6: executeJavaScript("arguments[0].click();", Arrays.asList(el))
+2026-01-29 12:49:48.196 DEBUG testcase.ActivityDashBoard               - 8: if (isDataValion)
+2026-01-29 12:49:48.203 DEBUG testcase.ActivityDashBoard               - 1: rows = com.prohancewebapplication.webtable.Table.webTableDataReader(findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_Id"), findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_tr"))
+2026-01-29 12:49:48.839 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.webtable.Table.webTableDataReader is PASSED
+2026-01-29 12:49:48.840 DEBUG testcase.ActivityDashBoard               - 2: if (rows != null)
+2026-01-29 12:49:48.841 DEBUG testcase.ActivityDashBoard               - 1: com.prohanceapplication.webtableexcelvalidation.DataValidator.validateWebTableWithDownloadedExcel(rows)
+2026-01-29 12:50:00.686 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.690 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 2 | Web: '1' | Excel: '1'
+2026-01-29 12:50:00.692 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 3 | Web: 'Eclipse' | Excel: 'Eclipse'
+2026-01-29 12:50:00.693 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 4 | Web: '8d 11 : 41 : 56' | Excel: '8d 11 : 41 : 56'
+2026-01-29 12:50:00.694 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:50:00.695 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 6 | Web: '31942' | Excel: '31942'
+2026-01-29 12:50:00.695 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.696 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 1, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:50:00.697 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.698 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 2 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.699 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 3 | Web: 'XCode' | Excel: 'XCode'
+2026-01-29 12:50:00.702 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 4 | Web: '5d 02 : 16 : 51' | Excel: '5d 02 : 16 : 51'
+2026-01-29 12:50:00.703 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 5 | Web: '5' | Excel: '5'
+2026-01-29 12:50:00.704 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 6 | Web: '6492' | Excel: '6492'
+2026-01-29 12:50:00.707 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.708 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 2, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:50:00.709 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.710 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 2 | Web: '3' | Excel: '3'
+2026-01-29 12:50:00.711 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 3 | Web: 'ProHance' | Excel: 'ProHance'
+2026-01-29 12:50:00.712 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 4 | Web: '3d 22 : 46 : 36' | Excel: '3d 22 : 46 : 36'
+2026-01-29 12:50:00.713 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:50:00.714 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 6 | Web: '16796' | Excel: '16796'
+2026-01-29 12:50:00.715 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.716 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 3, Column: 8 | Web: 'Business Tools' | Excel: 'Business Tools'
+2026-01-29 12:50:00.718 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.719 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 2 | Web: '4' | Excel: '4'
+2026-01-29 12:50:00.720 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 3 | Web: 'Notepad' | Excel: 'Notepad'
+2026-01-29 12:50:00.725 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 4 | Web: '2d 03 : 03 : 03' | Excel: '2d 03 : 03 : 03'
+2026-01-29 12:50:00.726 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:50:00.727 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 6 | Web: '7549' | Excel: '7549'
+2026-01-29 12:50:00.730 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.731 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 4, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:50:00.731 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.732 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 2 | Web: '5' | Excel: '5'
+2026-01-29 12:50:00.732 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 3 | Web: 'MS Teams' | Excel: 'MS Teams'
+2026-01-29 12:50:00.733 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 4 | Web: '2d 00 : 24 : 14' | Excel: '2d 00 : 24 : 14'
+2026-01-29 12:50:00.736 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:50:00.737 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 6 | Web: '5308' | Excel: '5308'
+2026-01-29 12:50:00.738 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.739 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 5, Column: 8 | Web: 'Communication Tools' | Excel: 'Communication Tools'
+2026-01-29 12:50:00.740 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.740 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 2 | Web: '6' | Excel: '6'
+2026-01-29 12:50:00.741 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 3 | Web: 'UNKNOWN AOS' | Excel: 'UNKNOWN AOS'
+2026-01-29 12:50:00.742 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 4 | Web: '1d 16 : 14 : 33' | Excel: '1d 16 : 14 : 33'
+2026-01-29 12:50:00.743 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:50:00.744 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 6 | Web: '7178' | Excel: '7178'
+2026-01-29 12:50:00.744 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 7 | Web: '' | Excel: ''
+2026-01-29 12:50:00.745 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 6, Column: 8 | Web: '' | Excel: ''
+2026-01-29 12:50:00.746 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.747 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 2 | Web: '7' | Excel: '7'
+2026-01-29 12:50:00.748 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 3 | Web: 'Email Applications' | Excel: 'Email Applications'
+2026-01-29 12:50:00.749 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 4 | Web: '1d 05 : 30 : 50' | Excel: '1d 05 : 30 : 50'
+2026-01-29 12:50:00.752 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:50:00.753 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 6 | Web: '2553' | Excel: '2553'
+2026-01-29 12:50:00.755 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.755 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 7, Column: 8 | Web: 'Communication Tools' | Excel: 'Communication Tools'
+2026-01-29 12:50:00.756 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.757 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 2 | Web: '8' | Excel: '8'
+2026-01-29 12:50:00.758 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 3 | Web: 'Excel' | Excel: 'Excel'
+2026-01-29 12:50:00.758 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 4 | Web: '1d 02 : 53 : 56' | Excel: '1d 02 : 53 : 56'
+2026-01-29 12:50:00.760 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:50:00.763 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 6 | Web: '6197' | Excel: '6197'
+2026-01-29 12:50:00.764 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.766 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 8, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:50:00.767 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.770 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 2 | Web: '9' | Excel: '9'
+2026-01-29 12:50:00.770 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 3 | Web: 'Remote Desktop' | Excel: 'Remote Desktop'
+2026-01-29 12:50:00.771 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 4 | Web: '18 : 16 : 38' | Excel: '18 : 16 : 38'
+2026-01-29 12:50:00.773 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 5 | Web: '1' | Excel: '1'
+2026-01-29 12:50:00.774 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 6 | Web: '1348' | Excel: '1348'
+2026-01-29 12:50:00.774 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 7 | Web: '1' | Excel: '1'
+2026-01-29 12:50:00.776 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 9, Column: 8 | Web: 'Support Tools' | Excel: 'Support Tools'
+2026-01-29 12:50:00.777 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.778 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 2 | Web: '10' | Excel: '10'
+2026-01-29 12:50:00.779 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 3 | Web: 'Files & Folders' | Excel: 'Files & Folders'
+2026-01-29 12:50:00.782 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 4 | Web: '14 : 12 : 41' | Excel: '14 : 12 : 41'
+2026-01-29 12:50:00.790 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:50:00.791 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 6 | Web: '6212' | Excel: '6212'
+2026-01-29 12:50:00.792 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 7 | Web: '0' | Excel: '0'
+2026-01-29 12:50:00.794 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 10, Column: 8 | Web: 'System Tools' | Excel: 'System Tools'
+2026-01-29 12:50:00.796 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.797 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 2 | Web: '11' | Excel: '11'
+2026-01-29 12:50:00.797 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 3 | Web: 'General Web Browsing' | Excel: 'General Web Browsing'
+2026-01-29 12:50:00.798 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 4 | Web: '13 : 09 : 23' | Excel: '13 : 09 : 23'
+2026-01-29 12:50:00.799 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:50:00.803 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 6 | Web: '1942' | Excel: '1942'
+2026-01-29 12:50:00.804 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 7 | Web: '0' | Excel: '0'
+2026-01-29 12:50:00.804 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 11, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:50:00.805 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.806 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 2 | Web: '12' | Excel: '12'
+2026-01-29 12:50:00.807 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 3 | Web: 'CAST Application' | Excel: 'CAST Application'
+2026-01-29 12:50:00.808 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 4 | Web: '11 : 38 : 14' | Excel: '11 : 38 : 14'
+2026-01-29 12:50:00.808 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 5 | Web: '4' | Excel: '4'
+2026-01-29 12:50:00.809 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 6 | Web: '915' | Excel: '915'
+2026-01-29 12:50:00.810 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.811 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 12, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:50:00.811 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.812 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 2 | Web: '13' | Excel: '13'
+2026-01-29 12:50:00.813 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 3 | Web: 'Windows Components' | Excel: 'Windows Components'
+2026-01-29 12:50:00.813 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 4 | Web: '10 : 52 : 25' | Excel: '10 : 52 : 25'
+2026-01-29 12:50:00.814 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:50:00.815 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 6 | Web: '7372' | Excel: '7372'
+2026-01-29 12:50:00.816 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.816 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 13, Column: 8 | Web: 'Support Tools' | Excel: 'Support Tools'
+2026-01-29 12:50:00.819 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.819 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 2 | Web: '14' | Excel: '14'
+2026-01-29 12:50:00.820 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 3 | Web: 'Advanced Rest Client' | Excel: 'Advanced Rest Client'
+2026-01-29 12:50:00.821 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 4 | Web: '07 : 08 : 58' | Excel: '07 : 08 : 58'
+2026-01-29 12:50:00.822 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 5 | Web: '4' | Excel: '4'
+2026-01-29 12:50:00.822 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 6 | Web: '1214' | Excel: '1214'
+2026-01-29 12:50:00.823 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 7 | Web: '0' | Excel: '0'
+2026-01-29 12:50:00.824 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 14, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:50:00.825 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.826 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 2 | Web: '15' | Excel: '15'
+2026-01-29 12:50:00.827 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 3 | Web: 'Chat GPT' | Excel: 'Chat GPT'
+2026-01-29 12:50:00.828 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 4 | Web: '06 : 21 : 05' | Excel: '06 : 21 : 05'
+2026-01-29 12:50:00.829 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:50:00.830 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 6 | Web: '1051' | Excel: '1051'
+2026-01-29 12:50:00.831 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.837 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 15, Column: 8 | Web: 'Business Tools' | Excel: 'Business Tools'
+2026-01-29 12:50:00.838 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.841 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 2 | Web: '16' | Excel: '16'
+2026-01-29 12:50:00.841 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 3 | Web: 'Electron' | Excel: 'Electron'
+2026-01-29 12:50:00.842 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 4 | Web: '06 : 09 : 12' | Excel: '06 : 09 : 12'
+2026-01-29 12:50:00.843 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 5 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.843 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 6 | Web: '650' | Excel: '650'
+2026-01-29 12:50:00.844 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.847 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 16, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:50:00.848 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.854 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 2 | Web: '17' | Excel: '17'
+2026-01-29 12:50:00.855 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 3 | Web: 'Word' | Excel: 'Word'
+2026-01-29 12:50:00.855 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 4 | Web: '05 : 23 : 07' | Excel: '05 : 23 : 07'
+2026-01-29 12:50:00.856 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 5 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.857 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 6 | Web: '395' | Excel: '395'
+2026-01-29 12:50:00.857 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.858 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 17, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:50:00.859 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.861 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 2 | Web: '18' | Excel: '18'
+2026-01-29 12:50:00.862 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 3 | Web: 'Customer Connect Apps' | Excel: 'Customer Connect Apps'
+2026-01-29 12:50:00.863 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 4 | Web: '04 : 58 : 58' | Excel: '04 : 58 : 58'
+2026-01-29 12:50:00.864 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 5 | Web: '5' | Excel: '5'
+2026-01-29 12:50:00.865 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 6 | Web: '314' | Excel: '314'
+2026-01-29 12:50:00.865 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.866 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 18, Column: 8 | Web: 'Support Tools' | Excel: 'Support Tools'
+2026-01-29 12:50:00.867 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.870 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 2 | Web: '19' | Excel: '19'
+2026-01-29 12:50:00.870 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 3 | Web: 'Techmate Application' | Excel: 'Techmate Application'
+2026-01-29 12:50:00.871 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 4 | Web: '04 : 19 : 52' | Excel: '04 : 19 : 52'
+2026-01-29 12:50:00.873 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 5 | Web: '4' | Excel: '4'
+2026-01-29 12:50:00.874 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 6 | Web: '370' | Excel: '370'
+2026-01-29 12:50:00.877 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.878 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 19, Column: 8 | Web: 'Support Tools' | Excel: 'Support Tools'
+2026-01-29 12:50:00.883 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.886 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 2 | Web: '20' | Excel: '20'
+2026-01-29 12:50:00.889 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 3 | Web: 'Tutorials' | Excel: 'Tutorials'
+2026-01-29 12:50:00.890 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 4 | Web: '03 : 28 : 36' | Excel: '03 : 28 : 36'
+2026-01-29 12:50:00.891 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:50:00.892 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 6 | Web: '299' | Excel: '299'
+2026-01-29 12:50:00.892 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 7 | Web: '1' | Excel: '1'
+2026-01-29 12:50:00.895 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 20, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:50:00.896 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.896 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 2 | Web: '21' | Excel: '21'
+2026-01-29 12:50:00.899 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 3 | Web: 'MYSQL Server' | Excel: 'MYSQL Server'
+2026-01-29 12:50:00.900 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 4 | Web: '02 : 29 : 02' | Excel: '02 : 29 : 02'
+2026-01-29 12:50:00.904 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 5 | Web: '3' | Excel: '3'
+2026-01-29 12:50:00.905 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 6 | Web: '378' | Excel: '378'
+2026-01-29 12:50:00.996 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:00.997 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 21, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:50:00.997 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:00.999 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 2 | Web: '22' | Excel: '22'
+2026-01-29 12:50:00.999 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 3 | Web: 'Jenkins' | Excel: 'Jenkins'
+2026-01-29 12:50:01.000 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 4 | Web: '01 : 53 : 42' | Excel: '01 : 53 : 42'
+2026-01-29 12:50:01.004 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 5 | Web: '5' | Excel: '5'
+2026-01-29 12:50:01.008 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 6 | Web: '352' | Excel: '352'
+2026-01-29 12:50:01.009 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:01.010 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 22, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:50:01.010 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:01.011 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 2 | Web: '23' | Excel: '23'
+2026-01-29 12:50:01.012 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 3 | Web: 'MS Visual Studio' | Excel: 'MS Visual Studio'
+2026-01-29 12:50:01.012 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 4 | Web: '00 : 51 : 06' | Excel: '00 : 51 : 06'
+2026-01-29 12:50:01.013 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 5 | Web: '2' | Excel: '2'
+2026-01-29 12:50:01.014 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 6 | Web: '83' | Excel: '83'
+2026-01-29 12:50:01.015 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:01.015 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 23, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:50:01.016 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:01.016 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 2 | Web: '24' | Excel: '24'
+2026-01-29 12:50:01.017 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 3 | Web: 'Browser Extensions and Addons' | Excel: 'Browser Extensions and Addons'
+2026-01-29 12:50:01.021 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 4 | Web: '00 : 45 : 47' | Excel: '00 : 45 : 47'
+2026-01-29 12:50:01.022 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 5 | Web: '4' | Excel: '4'
+2026-01-29 12:50:01.022 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 6 | Web: '115' | Excel: '115'
+2026-01-29 12:50:01.023 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:01.024 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 24, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:50:01.025 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 25, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:01.025 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 25, Column: 2 | Web: '25' | Excel: '25'
+2026-01-29 12:50:01.026 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 25, Column: 3 | Web: 'Unproductive Sites' | Excel: 'Unproductive Sites'
+2026-01-29 12:50:01.027 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 25, Column: 4 | Web: '00 : 38 : 10' | Excel: '00 : 38 : 10'
+2026-01-29 12:50:01.028 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 25, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:50:01.028 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 25, Column: 6 | Web: '159' | Excel: '159'
+2026-01-29 12:50:01.029 ERROR com.kms.katalon.core.util.KeywordUtil    - ❌ Mismatch | Row: 25, Column: 7 | Web: '2' | Excel: '-2'
+2026-01-29 12:50:01.030 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 25, Column: 8 | Web: 'Unproductive' | Excel: 'Unproductive'
+2026-01-29 12:50:01.031 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:01.032 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 2 | Web: '26' | Excel: '26'
+2026-01-29 12:50:01.033 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 3 | Web: 'License Portal' | Excel: 'License Portal'
+2026-01-29 12:50:01.034 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 4 | Web: '00 : 29 : 05' | Excel: '00 : 29 : 05'
+2026-01-29 12:50:01.037 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 5 | Web: '6' | Excel: '6'
+2026-01-29 12:50:01.038 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 6 | Web: '137' | Excel: '137'
+2026-01-29 12:50:01.039 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 7 | Web: '0' | Excel: '0'
+2026-01-29 12:50:01.040 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 26, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:50:01.040 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:01.041 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 2 | Web: '27' | Excel: '27'
+2026-01-29 12:50:01.042 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 3 | Web: 'Power Point' | Excel: 'Power Point'
+2026-01-29 12:50:01.042 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 4 | Web: '00 : 21 : 20' | Excel: '00 : 21 : 20'
+2026-01-29 12:50:01.043 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 5 | Web: '1' | Excel: '1'
+2026-01-29 12:50:01.044 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 6 | Web: '20' | Excel: '20'
+2026-01-29 12:50:01.045 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:01.046 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 27, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:50:01.047 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:01.047 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 2 | Web: '28' | Excel: '28'
+2026-01-29 12:50:01.048 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 3 | Web: 'Personal Time' | Excel: 'Personal Time'
+2026-01-29 12:50:01.049 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 4 | Web: '00 : 18 : 00' | Excel: '00 : 18 : 00'
+2026-01-29 12:50:01.049 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 5 | Web: '2' | Excel: '2'
+2026-01-29 12:50:01.050 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 6 | Web: '5' | Excel: '5'
+2026-01-29 12:50:01.051 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 7 | Web: '' | Excel: ''
+2026-01-29 12:50:01.054 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 28, Column: 8 | Web: '' | Excel: ''
+2026-01-29 12:50:01.055 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:01.056 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 2 | Web: '29' | Excel: '29'
+2026-01-29 12:50:01.056 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 3 | Web: 'Grey Tip HR' | Excel: 'Grey Tip HR'
+2026-01-29 12:50:01.057 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 4 | Web: '00 : 14 : 15' | Excel: '00 : 14 : 15'
+2026-01-29 12:50:01.058 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 5 | Web: '3' | Excel: '3'
+2026-01-29 12:50:01.058 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 6 | Web: '29' | Excel: '29'
+2026-01-29 12:50:01.059 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 7 | Web: '0' | Excel: '0'
+2026-01-29 12:50:01.060 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 29, Column: 8 | Web: 'Internal Applications' | Excel: 'Internal Applications'
+2026-01-29 12:50:01.060 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:01.061 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 2 | Web: '30' | Excel: '30'
+2026-01-29 12:50:01.063 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 3 | Web: 'IP Messenger' | Excel: 'IP Messenger'
+2026-01-29 12:50:01.064 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 4 | Web: '00 : 09 : 37' | Excel: '00 : 09 : 37'
+2026-01-29 12:50:01.064 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 5 | Web: '2' | Excel: '2'
+2026-01-29 12:50:01.065 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 6 | Web: '36' | Excel: '36'
+2026-01-29 12:50:01.071 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 7 | Web: '1' | Excel: '1'
+2026-01-29 12:50:01.071 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 30, Column: 8 | Web: 'Communication Tools' | Excel: 'Communication Tools'
+2026-01-29 12:50:01.072 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:01.073 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 2 | Web: '31' | Excel: '31'
+2026-01-29 12:50:01.073 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 3 | Web: 'LinkedIn' | Excel: 'LinkedIn'
+2026-01-29 12:50:01.074 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 4 | Web: '00 : 01 : 54' | Excel: '00 : 01 : 54'
+2026-01-29 12:50:01.074 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 5 | Web: '1' | Excel: '1'
+2026-01-29 12:50:01.075 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 6 | Web: '10' | Excel: '10'
+2026-01-29 12:50:01.076 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 7 | Web: '0' | Excel: '0'
+2026-01-29 12:50:01.077 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 31, Column: 8 | Web: 'Communication Tools' | Excel: 'Communication Tools'
+2026-01-29 12:50:01.100 ERROR k.k.c.m.CustomKeywordDelegatingMetaClass - ❌ com.kms.katalon.core.exception.StepFailedException: Mismatch | Row: 25, Column: 7 | Web: '2' | Excel: '-2'
+2026-01-29 12:50:01.079 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:01.081 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 2 | Web: '32' | Excel: '32'
+2026-01-29 12:50:01.082 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 3 | Web: 'MSSQL Server' | Excel: 'MSSQL Server'
+2026-01-29 12:50:01.088 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 4 | Web: '00 : 00 : 24' | Excel: '00 : 00 : 24'
+2026-01-29 12:50:01.089 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 5 | Web: '1' | Excel: '1'
+2026-01-29 12:50:01.091 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 6 | Web: '5' | Excel: '5'
+2026-01-29 12:50:01.092 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 7 | Web: '2' | Excel: '2'
+2026-01-29 12:50:01.092 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 32, Column: 8 | Web: 'Development Tools' | Excel: 'Development Tools'
+2026-01-29 12:50:01.093 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 1 | Web: '' | Excel: ''
+2026-01-29 12:50:01.094 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 2 | Web: '33' | Excel: '33'
+2026-01-29 12:50:01.094 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 3 | Web: 'Paint' | Excel: 'Paint'
+2026-01-29 12:50:01.095 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 4 | Web: '00 : 00 : 16' | Excel: '00 : 00 : 16'
+2026-01-29 12:50:01.096 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 5 | Web: '2' | Excel: '2'
+2026-01-29 12:50:01.097 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 6 | Web: '5' | Excel: '5'
+2026-01-29 12:50:01.098 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 7 | Web: '0' | Excel: '0'
+2026-01-29 12:50:01.099 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Mismatch | Row: 33, Column: 8 | Web: 'Documentation Tools' | Excel: 'Documentation Tools'
+2026-01-29 12:50:01.100 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Web table data perfectly matches Excel file
+2026-01-29 12:50:01.104 DEBUG testcase.ActivityDashBoard               - 3: com.prohancewebapplication.file.FileSizeFinder.fileSize()
+2026-01-29 12:50:01.105 INFO  com.kms.katalon.core.util.KeywordUtil    - Top Applications Details Report.xlsx 7016
+2026-01-29 12:50:01.105 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+2026-01-29 12:50:01.105 DEBUG testcase.ActivityDashBoard               - 14: switchToDefaultContent()
+2026-01-29 12:50:01.115 DEBUG testcase.ActivityDashBoard               - 15: closeWindowIndex(1)
+2026-01-29 12:50:14.864 DEBUG testcase.ActivityDashBoard               - 16: switchToWindowIndex(0)
+2026-01-29 12:50:14.891 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Mismatch | Row: 25, Column: 7 | Web: '2' | Excel: '-2'
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.prohanceapplication.webtableexcelvalidation.DataValidator.validateWebTableWithDownloadedExcel(DataValidator.groovy:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at ActivityDashBoard.run(ActivityDashBoard:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769670969913.run(TempTestSuite1769670969913.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2026-01-29 12:50:14.894 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-29 12:50:14.906 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-29 12:50:14.906 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard
+2026-01-29 12:50:14.947 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = excel
+2026-01-29 12:50:14.962 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-29 12:50:14.963 DEBUG testcase.ActivityDashBoard               - 2: rows = null
+2026-01-29 12:50:14.964 DEBUG testcase.ActivityDashBoard               - 3: webData = []
+2026-01-29 12:50:14.966 DEBUG testcase.ActivityDashBoard               - 4: isDataValion = true
+2026-01-29 12:50:14.966 DEBUG testcase.ActivityDashBoard               - 5: isFileDownload = true
+2026-01-29 12:50:14.968 DEBUG testcase.ActivityDashBoard               - 6: if (verifyElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-29 12:50:15.300 DEBUG testcase.ActivityDashBoard               - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-01-29 12:50:15.628 DEBUG testcase.ActivityDashBoard               - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-01-29 12:50:16.036 DEBUG testcase.ActivityDashBoard               - 3: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay)
+2026-01-29 12:50:16.357 DEBUG testcase.ActivityDashBoard               - 4: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"))
+2026-01-29 12:50:16.752 DEBUG testcase.ActivityDashBoard               - 5: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"), Delay, STOP_ON_FAILURE)
+2026-01-29 12:50:17.781 DEBUG testcase.ActivityDashBoard               - 6: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"))
+2026-01-29 12:50:18.460 DEBUG testcase.ActivityDashBoard               - 7: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-29 12:50:18.509 DEBUG testcase.ActivityDashBoard               - 8: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay)
+2026-01-29 12:50:19.045 DEBUG testcase.ActivityDashBoard               - 9: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"))
+2026-01-29 12:50:19.650 DEBUG testcase.ActivityDashBoard               - 10: switchToWindowIndex(1)
+2026-01-29 12:50:19.833 DEBUG testcase.ActivityDashBoard               - 11: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-29 12:50:19.930 DEBUG testcase.ActivityDashBoard               - 12: executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+2026-01-29 12:50:19.946 DEBUG testcase.ActivityDashBoard               - 13: if (isFileDownload)
+2026-01-29 12:50:19.947 DEBUG testcase.ActivityDashBoard               - 1: com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete()
+C:\Users\gopal.s\Downloads
+2026-01-29 12:50:19.949 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+2026-01-29 12:50:19.950 DEBUG testcase.ActivityDashBoard               - 2: explort = ((exportType != null)) ? exportType : false
+2026-01-29 12:50:19.956 DEBUG testcase.ActivityDashBoard               - 3: browserName = getExecutedBrowser()
+2026-01-29 12:50:19.957 DEBUG testcase.ActivityDashBoard               - 4: logInfo("Browser Name :" + " " + browserName)
+2026-01-29 12:50:19.957 INFO  com.kms.katalon.core.util.KeywordUtil    - Browser Name : Edge Chromium
+2026-01-29 12:50:19.958 DEBUG testcase.ActivityDashBoard               - 5: xPath = com.prohanceebapplication.common.Export.export(explort)
+2026-01-29 12:50:19.958 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceebapplication.common.Export.export is PASSED
+2026-01-29 12:50:19.958 DEBUG testcase.ActivityDashBoard               - 6: out.println(xPath)
+//span[.//img[@title='Export to Excel']]
+2026-01-29 12:50:19.959 DEBUG testcase.ActivityDashBoard               - 7: if (xPath != null)
+2026-01-29 12:50:19.959 DEBUG testcase.ActivityDashBoard               - 1: exportSpan = new com.kms.katalon.core.testobject.TestObject()
+2026-01-29 12:50:19.960 DEBUG testcase.ActivityDashBoard               - 2: exportSpan.addProperty("xpath", EQUALS, xPath)
+2026-01-29 12:50:19.960 DEBUG testcase.ActivityDashBoard               - 3: waitForElementPresent(exportSpan, Delay)
+2026-01-29 12:50:21.281 DEBUG testcase.ActivityDashBoard               - 4: el = findWebElement(exportSpan, Delay)
+2026-01-29 12:50:21.599 DEBUG testcase.ActivityDashBoard               - 5: executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(el))
+2026-01-29 12:50:21.631 DEBUG testcase.ActivityDashBoard               - 6: executeJavaScript("arguments[0].click();", Arrays.asList(el))
+2026-01-29 12:50:23.969 DEBUG testcase.ActivityDashBoard               - 8: if (isDataValion)
+2026-01-29 12:50:23.970 DEBUG testcase.ActivityDashBoard               - 1: rows = com.prohancewebapplication.webtable.Table.webTableDataReader(findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_Id"), findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_tr"))
+2026-01-29 12:50:24.661 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.webtable.Table.webTableDataReader is PASSED
+2026-01-29 12:50:24.662 DEBUG testcase.ActivityDashBoard               - 2: if (rows != null)
+2026-01-29 12:50:24.663 DEBUG testcase.ActivityDashBoard               - 1: com.prohanceapplication.webtableexcelvalidation.DataValidator.validateWebTableWithDownloadedExcel(rows)

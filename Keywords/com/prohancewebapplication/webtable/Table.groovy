@@ -30,22 +30,30 @@ public class Table {
 	}
 
 	@Keyword
-	public void webTableDataWriter(List<WebElement> rows) {
-		for (int i = 0; i < rows.size(); i++) {
-			List<WebElement> cols = rows.get(i).findElements(By.tagName('td'))
+	List<List<String>> getWebTableData(List<WebElement> rows) {
 
+		List<List<String>> webData = []
+
+		for (int i = 0; i < rows.size(); i++) {
+
+			List<WebElement> cols = rows[i].findElements(By.tagName("td"))
 
 			if (cols.size() == 0) {
-				cols = rows.get(i).findElements(By.tagName('th'))
+				cols = rows[i].findElements(By.tagName("th"))
 			}
 
-			String rowText = ''
+			List<String> rowData = []
 
 			for (WebElement col : cols) {
-				rowText += (col.getText() + ' | ')
+				if(col !=null || col !='') {
+					rowData.add(col.getText().trim())
+				}
 			}
 
-			KeywordUtil.logInfo((('Row ' + i) + ': ') + rowText)
+			webData.add(rowData)
+			//KeywordUtil.logInfo("Row ${i + 1}: ${rowData}")
 		}
+		System.out.println(webData);
+		return webData
 	}
 }

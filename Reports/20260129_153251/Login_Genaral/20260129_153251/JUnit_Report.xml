@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Genaral" time="203.726" tests="3" failures="0" errors="1">
+   <testsuite name="Login_Genaral" tests="3" failures="0" errors="1" time="203.726" skipped="0" timestamp="2026-01-29T10:03:00.876Z" hostname="gopal.s - JAMOCHA57.jamochahq.local" id="Test Suites/Login_Genaral">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260129_153251\\Login_Genaral\\20260129_153251"/>
+         <property name="logFiles" value="C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260129_153251\\Login_Genaral\\20260129_153251\\console0.log, C:\\Users\\gopal.s\\git\\ProhanceWebApplication\\Reports\\20260129_153251\\Login_Genaral\\20260129_153251\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="gopal.s - JAMOCHA57.jamochahq.local"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.3.0"/>
+         <property name="browser" value="Chrome 144.0.7559.98"/>
+         <property name="userFullName" value="Gopal"/>
+         <property name="hostAddress" value="10.10.10.136"/>
+         <property name="sessionId" value="1cd719b17c05110ced499e53d8e0579a"/>
+         <property name="projectName" value="ProhanceWebApplication"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ProhanceWeb/Login_Page/Login" time="116.119" classname="Test Cases/ProhanceWeb/Login_Page/Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"HeCM15nHKBI\u003d","userName":"tsL9urF6O/D/xURRxzj/8w\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[29-01-2026T15:33:01 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Login_Page/Login: Test Cases/ProhanceWeb/Login_Page/Login
+
+29-01-2026T15:33:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2026T15:33:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-01-2026T15:33:02 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:/Downloads, download.prompt_for_download=false, profile.default_content_settings.popups=0, safebrowsing.enabled=true}']
+
+29-01-2026T15:33:02 - [MESSAGE][INFO] - User set preference: ['args', '[--safebrowsing-disable-download-protection]']
+
+29-01-2026T15:33:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2026T15:34:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2026T15:34:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-01-2026T15:34:10 - [MESSAGE][PASSED] - Current window maximized
+
+29-01-2026T15:34:10 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, CONTINUE_ON_FAILURE): Wait for page load successfully
+
+29-01-2026T15:34:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-01-2026T15:34:10 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://10.10.10.157:1001/prohance/' successfully
+
+29-01-2026T15:34:51 - [MESSAGE][PASSED] - Navigate to 'http://10.10.10.157:1001/prohance/' successfully
+
+29-01-2026T15:34:51 - [TEST_STEP][PASSED] - try: null
+
+29-01-2026T15:34:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/userName"), userName): Text ****** has been set on object 'Object Repository/Login/userName'
+
+29-01-2026T15:34:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/userName'
+
+29-01-2026T15:34:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Password"), password): Text ****** has been set on object 'Object Repository/Login/Password'
+
+29-01-2026T15:34:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+29-01-2026T15:34:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay): Object 'Object Repository/Login/login_btn' is clickable
+
+29-01-2026T15:34:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login/login_btn' is clickable
+
+29-01-2026T15:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/login_btn")): Object: 'Object Repository/Login/login_btn' is clicked on
+
+29-01-2026T15:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/login_btn' is clicked on
+
+29-01-2026T15:34:53 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL)): null
+
+29-01-2026T15:34:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login/session_Distroysession' is present
+
+29-01-2026T15:34:54 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL): Object 'Object Repository/Login/session_Distroysession' is clickable
+
+29-01-2026T15:34:54 - [MESSAGE][PASSED] - Object 'Object Repository/Login/session_Distroysession' is clickable
+
+29-01-2026T15:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/session_Distroysession")): Object: 'Object Repository/Login/session_Distroysession' is clicked on
+
+29-01-2026T15:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/session_Distroysession' is clicked on
+
+29-01-2026T15:34:55 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL)): null
+
+29-01-2026T15:34:56 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is present
+
+29-01-2026T15:34:56 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL): Object 'Object Repository/Common/Accept Cookies' is clickable
+
+29-01-2026T15:34:57 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is clickable
+
+29-01-2026T15:34:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Common/Accept Cookies")): Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+29-01-2026T15:34:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+29-01-2026T15:34:57 - [TEST_STEP][PASSED] - Finally: null
+
+29-01-2026T15:34:57 - [TEST_STEP][PASSED] - timestamp = Date().format("yyyyMMdd_HHmmss"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard" time="20.149" classname="Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard" status="ERROR">
+         <properties>
+            <property name="data_binding"><![CDATA[{"isDataValion":"false","exportType":"excel","isFileDownload":"true"}]]></property>
+         </properties>
+         <error type="ERROR" message="Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepErrorException: ...................................... : false&#xa;	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)&#xa;	at ActivityDashBoard.run(ActivityDashBoard:78)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1769680971537.run(TempTestSuite1769680971537.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[29-01-2026T15:36:02 - [TEST_CASE][ERROR] - Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard: Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: ...................................... : false
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at ActivityDashBoard.run(ActivityDashBoard:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769680971537.run(TempTestSuite1769680971537.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+29-01-2026T15:36:02 - [TEST_STEP][PASSED] - explort = null: null
+
+29-01-2026T15:36:02 - [TEST_STEP][PASSED] - rows = null: null
+
+29-01-2026T15:36:02 - [TEST_STEP][PASSED] - webData = []: null
+
+29-01-2026T15:36:02 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)): null
+
+29-01-2026T15:36:02 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+
+29-01-2026T15:36:02 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clickable
+
+29-01-2026T15:36:03 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clickable
+
+29-01-2026T15:36:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clicked on
+
+29-01-2026T15:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clicked on
+
+29-01-2026T15:36:03 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clickable
+
+29-01-2026T15:36:03 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clickable
+
+29-01-2026T15:36:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clicked on
+
+29-01-2026T15:36:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clicked on
+
+29-01-2026T15:36:04 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"), Delay, STOP_ON_FAILURE): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clickable
+
+29-01-2026T15:36:05 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clickable
+
+29-01-2026T15:36:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clicked on
+
+29-01-2026T15:36:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clicked on
+
+29-01-2026T15:36:05 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, STOP_ON_FAILURE): Wait for page load successfully
+
+29-01-2026T15:36:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-01-2026T15:36:05 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clickable
+
+29-01-2026T15:36:06 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clickable
+
+29-01-2026T15:36:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clicked on
+
+29-01-2026T15:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clicked on
+
+29-01-2026T15:36:06 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+29-01-2026T15:36:07 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+29-01-2026T15:36:07 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, STOP_ON_FAILURE): Wait for page load successfully
+
+29-01-2026T15:36:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-01-2026T15:36:07 - [TEST_STEP][PASSED] - executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null): Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+29-01-2026T15:36:07 - [MESSAGE][PASSED] - Execute JavaScript 'window.scrollTo(0, document.body.scrollHeight);' successfully
+
+29-01-2026T15:36:07 - [TEST_STEP][FAILED] - if (isFileDownload): null
+
+29-01-2026T15:36:07 - [TEST_STEP][PASSED] - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete(): com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+
+29-01-2026T15:36:07 - [MESSAGE][PASSED] - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+
+29-01-2026T15:36:07 - [TEST_STEP][PASSED] - explort = ((exportType != null)) ? exportType : false: null
+
+29-01-2026T15:36:07 - [TEST_STEP][PASSED] - browserName = getExecutedBrowser(): null
+
+29-01-2026T15:36:07 - [TEST_STEP][PASSED] - logInfo("Browser Name :" + " " + browserName): Browser Name : Chrome
+
+29-01-2026T15:36:07 - [MESSAGE][INFO] - Browser Name : Chrome
+
+29-01-2026T15:36:07 - [TEST_STEP][PASSED] - xPath = com.prohanceebapplication.common.Export.export(explort): com.prohanceebapplication.common.Export.export is PASSED
+
+29-01-2026T15:36:07 - [MESSAGE][PASSED] - com.prohanceebapplication.common.Export.export is PASSED
+
+29-01-2026T15:36:07 - [TEST_STEP][PASSED] - out.println(xPath): null
+
+29-01-2026T15:36:07 - [TEST_STEP][PASSED] - if (xPath != null): Execute JavaScript 'arguments[0].click();' successfully
+
+29-01-2026T15:36:07 - [TEST_STEP][PASSED] - exportSpan = new com.kms.katalon.core.testobject.TestObject(): null
+
+29-01-2026T15:36:07 - [TEST_STEP][PASSED] - exportSpan.addProperty("xpath", EQUALS, xPath): null
+
+29-01-2026T15:36:07 - [TEST_STEP][PASSED] - waitForElementPresent(exportSpan, Delay): Object '' is present
+
+29-01-2026T15:36:08 - [MESSAGE][PASSED] - Object '' is present
+
+29-01-2026T15:36:08 - [TEST_STEP][PASSED] - el = findWebElement(exportSpan, Delay): Found web element by test object 
+
+29-01-2026T15:36:08 - [MESSAGE][PASSED] - Found web element by test object 
+
+29-01-2026T15:36:08 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(el)): Execute JavaScript 'arguments[0].scrollIntoView(true);' successfully
+
+29-01-2026T15:36:08 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].scrollIntoView(true);' successfully
+
+29-01-2026T15:36:08 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(el)): Execute JavaScript 'arguments[0].click();' successfully
+
+29-01-2026T15:36:10 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+29-01-2026T15:36:10 - [TEST_STEP][FAILED] - if (isDataValion): null
+
+29-01-2026T15:36:10 - [TEST_STEP][PASSED] - markError("...................................... : " + isDataValion): null
+
+29-01-2026T15:36:10 - [TEST_STEP][PASSED] - rows = com.prohancewebapplication.webtable.Table.webTableDataReader(findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_Id"), findTestObject("Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_tr")): com.prohancewebapplication.webtable.Table.webTableDataReader is PASSED
+
+29-01-2026T15:36:11 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_Id' is visible
+
+29-01-2026T15:36:11 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Organization Settings/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_tr
+
+29-01-2026T15:36:11 - [MESSAGE][PASSED] - com.prohancewebapplication.webtable.Table.webTableDataReader is PASSED
+
+29-01-2026T15:36:11 - [TEST_STEP][FAILED] - if (rows != null): com.kms.katalon.core.exception.StepFailedException: Excel file not found in Downloads
+
+29-01-2026T15:36:11 - [TEST_STEP][FAILED] - com.prohanceapplication.webtableexcelvalidation.DataValidator.validateWebTableWithDownloadedExcel(rows): com.kms.katalon.core.exception.StepFailedException: Excel file not found in Downloads
+
+29-01-2026T15:36:22 - [MESSAGE][FAILED] - Excel file not found in Downloads
+
+29-01-2026T15:36:22 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Excel file not found in Downloads
+
+29-01-2026T15:36:22 - [TEST_STEP][PASSED] - com.prohancewebapplication.file.FileSizeFinder.fileSize(): com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+
+29-01-2026T15:36:22 - [MESSAGE][PASSED] - com.prohancewebapplication.file.FileSizeFinder.fileSize is PASSED
+
+29-01-2026T15:36:22 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+29-01-2026T15:36:22 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+29-01-2026T15:36:22 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+29-01-2026T15:36:22 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+29-01-2026T15:36:22 - [MESSAGE][PASSED] - Switched to window with index: '0']]></system-out>
+         <system-err><![CDATA[29-01-2026T15:36:02 - [TEST_CASE][ERROR] - Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard: Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: ...................................... : false
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at ActivityDashBoard.run(ActivityDashBoard:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1769680971537.run(TempTestSuite1769680971537.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProhanceWeb/LogOut_Page/LogOut" time="1.791" classname="Test Cases/ProhanceWeb/LogOut_Page/LogOut" status="PASSED">
+         <system-out><![CDATA[29-01-2026T15:36:22 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/LogOut_Page/LogOut: Test Cases/ProhanceWeb/LogOut_Page/LogOut
+
+29-01-2026T15:36:22 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Logout/logOut' is clicked on
+
+29-01-2026T15:36:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Logout/userProfileIcon"), Delay): Object 'Object Repository/Logout/userProfileIcon' is present
+
+29-01-2026T15:36:23 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/userProfileIcon' is present
+
+29-01-2026T15:36:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/userProfileIcon"), STOP_ON_FAILURE): Object: 'Object Repository/Logout/userProfileIcon' is clicked on
+
+29-01-2026T15:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/userProfileIcon' is clicked on
+
+29-01-2026T15:36:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Logout/logOut"), Delay): Object 'Object Repository/Logout/logOut' is present
+
+29-01-2026T15:36:24 - [MESSAGE][PASSED] - Object 'Object Repository/Logout/logOut' is present
+
+29-01-2026T15:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/logOut"), STOP_ON_FAILURE): Object: 'Object Repository/Logout/logOut' is clicked on
+
+29-01-2026T15:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/logOut' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-01-2026T15:33:00 - [TEST_SUITE][ERROR] - Login_Genaral: null]]></system-out>
+      <system-err><![CDATA[29-01-2026T15:33:00 - [TEST_SUITE][ERROR] - Login_Genaral: null]]></system-err>
+   </testsuite>
+</testsuites>

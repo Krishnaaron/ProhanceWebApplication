@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Genaral,Edge Chromium 144.0.3719.92,,,29-01-2026 14:42:14,29-01-2026 14:45:19,3m - 5.175s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Login_Page/Login,Edge Chromium 144.0.3719.92,Login,,29-01-2026 14:42:15,29-01-2026 14:45:11,2m - 55.858s,PASSED
+"DATA BINDING - {""password"":""HeCM15nHKBI\u003d"",""userName"":""tsL9urF6O/D/xURRxzj/8w\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Edge Chromium 144.0.3719.92,,,29-01-2026 14:42:16,29-01-2026 14:43:48,1m - 32.180s,PASSED
+maximizeWindow(),Edge Chromium 144.0.3719.92,,,29-01-2026 14:43:48,29-01-2026 14:43:48,0.108s,PASSED
+"waitForPageLoad(Delay, CONTINUE_ON_FAILURE)",Edge Chromium 144.0.3719.92,,,29-01-2026 14:43:48,29-01-2026 14:43:48,0.486s,PASSED
+navigateToUrl(URL),Edge Chromium 144.0.3719.92,,,29-01-2026 14:43:49,29-01-2026 14:45:02,1m - 13.441s,PASSED
+try,Edge Chromium 144.0.3719.92,,,29-01-2026 14:45:02,29-01-2026 14:45:11,8.875s,PASSED
+Finally,Edge Chromium 144.0.3719.92,,,29-01-2026 14:45:11,29-01-2026 14:45:11,0.018s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard,Edge Chromium 144.0.3719.92,,,29-01-2026 14:45:11,29-01-2026 14:45:17,5.676s,PASSED
+"DATA BINDING - {""isDataValion"":""false"",""exportType"":""excel"",""(Default) isFil..."":""false""}",,,,,,,
+explort = null,Edge Chromium 144.0.3719.92,,,29-01-2026 14:45:11,29-01-2026 14:45:11,0.002s,PASSED
+rows = null,Edge Chromium 144.0.3719.92,,,29-01-2026 14:45:11,29-01-2026 14:45:11,0.003s,PASSED
+webData = [],Edge Chromium 144.0.3719.92,,,29-01-2026 14:45:11,29-01-2026 14:45:11,0.001s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",Edge Chromium 144.0.3719.92,,,29-01-2026 14:45:11,29-01-2026 14:45:17,5.060s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/LogOut_Page/LogOut,Edge Chromium 144.0.3719.92,,,29-01-2026 14:45:17,29-01-2026 14:45:18,1.870s,PASSED
+try,Edge Chromium 144.0.3719.92,,,29-01-2026 14:45:17,29-01-2026 14:45:18,1.691s,PASSED
