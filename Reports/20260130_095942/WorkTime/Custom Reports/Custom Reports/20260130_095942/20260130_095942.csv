@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Custom Reports,Chrome 144.0.7559.98,,,30-01-2026 09:59:47,30-01-2026 09:59:59,12.179s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Login_Page/Login,Chrome 144.0.7559.98,Login,,30-01-2026 09:59:48,30-01-2026 09:59:58,10.232s,PASSED
+"DATA BINDING - {""password"":""HeCM15nHKBI\u003d"",""userName"":""tsL9urF6O/D/xURRxzj/8w\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Chrome 144.0.7559.98,,,30-01-2026 09:59:48,30-01-2026 09:59:52,3.608s,PASSED
+maximizeWindow(),Chrome 144.0.7559.98,,,30-01-2026 09:59:52,30-01-2026 09:59:52,0.155s,PASSED
+"waitForPageLoad(Delay, CONTINUE_ON_FAILURE)",Chrome 144.0.7559.98,,,30-01-2026 09:59:52,30-01-2026 09:59:52,0.291s,PASSED
+navigateToUrl(URL),Chrome 144.0.7559.98,,,30-01-2026 09:59:52,30-01-2026 09:59:53,0.282s,PASSED
+try,Chrome 144.0.7559.98,,,30-01-2026 09:59:53,30-01-2026 09:59:58,5.287s,PASSED
+Finally,Chrome 144.0.7559.98,,,30-01-2026 09:59:58,30-01-2026 09:59:58,0.013s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports,Chrome 144.0.7559.98,,,30-01-2026 09:59:58,30-01-2026 09:59:59,1.021s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",Chrome 144.0.7559.98,,,30-01-2026 09:59:58,30-01-2026 09:59:59,0.954s,PASSED

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Genaral,Chrome 144.0.7559.98,,,30-01-2026 13:18:37,30-01-2026 13:26:11,7m - 34.494s,INCOMPLETE
+,,,,,,,
+Test Cases/ProhanceWeb/Login_Page/Login,Chrome 144.0.7559.98,Login,,30-01-2026 13:18:38,30-01-2026 13:18:52,14.348s,PASSED
+"DATA BINDING - {""password"":""HeCM15nHKBI\u003d"",""userName"":""tsL9urF6O/D/xURRxzj/8w\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Chrome 144.0.7559.98,,,30-01-2026 13:18:39,30-01-2026 13:18:45,6.751s,PASSED
+maximizeWindow(),Chrome 144.0.7559.98,,,30-01-2026 13:18:45,30-01-2026 13:18:45,0.153s,PASSED
+"waitForPageLoad(Delay, CONTINUE_ON_FAILURE)",Chrome 144.0.7559.98,,,30-01-2026 13:18:45,30-01-2026 13:18:46,0.494s,PASSED
+navigateToUrl(URL),Chrome 144.0.7559.98,,,30-01-2026 13:18:46,30-01-2026 13:18:46,0.394s,PASSED
+try,Chrome 144.0.7559.98,,,30-01-2026 13:18:46,30-01-2026 13:18:52,5.733s,PASSED
+Finally,Chrome 144.0.7559.98,,,30-01-2026 13:18:52,30-01-2026 13:18:52,0.014s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Work Time/Activity DashBoard/ActivityDashBoard,Chrome 144.0.7559.98,,,30-01-2026 13:18:52,30-01-2026 13:26:11,7m - 19.273s,INCOMPLETE
+explort = null,Chrome 144.0.7559.98,,,30-01-2026 13:18:53,30-01-2026 13:18:53,0.004s,PASSED
+rows = null,Chrome 144.0.7559.98,,,30-01-2026 13:18:53,30-01-2026 13:18:53,0.004s,PASSED
+webData = [],Chrome 144.0.7559.98,,,30-01-2026 13:18:53,30-01-2026 13:18:53,0.006s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",Chrome 144.0.7559.98,,,30-01-2026 13:18:53,30-01-2026 13:26:11,7m - 18.676s,INCOMPLETE

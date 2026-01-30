@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CustomRepot</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>97f48d14-3117-485f-948e-2105b2deb859</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>d33bc96a-0381-4b71-a116-4e156499f9e6</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/LoginPage/LoginPage</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>d33bc96a-0381-4b71-a116-4e156499f9e6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>userName</value>
+      <variableId>6578139c-9ebf-451b-b79b-617d4c618942</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d33bc96a-0381-4b71-a116-4e156499f9e6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>3306117f-0880-458e-b3ed-b3017cc56daa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6578139c-9ebf-451b-b79b-617d4c618942</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3306117f-0880-458e-b3ed-b3017cc56daa</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Genaral" time="454.494" tests="2" failures="0" errors="0">
+   <testsuite name="Login_Genaral" tests="2" failures="0" errors="0" time="454.494" skipped="0" timestamp="2026-01-30T07:48:37.418Z" hostname="gopal.s - JAMOCHA57.jamochahq.local" id="Test Suites/Login_Genaral">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="E:\\ProhanceWebApplication\\Reports\\20260130_131830\\Login_Genaral\\20260130_131830"/>
+         <property name="logFiles" value="E:\\ProhanceWebApplication\\Reports\\20260130_131830\\Login_Genaral\\20260130_131830\\console0.log, E:\\ProhanceWebApplication\\Reports\\20260130_131830\\Login_Genaral\\20260130_131830\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[&#xa;  {&#xa;    &quot;value&quot;: &quot;excel&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;exportType&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;true&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;isFileDownload&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;true&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;isDataValion&quot;,&#xa;    &quot;masked&quot;: false&#xa;  }&#xa;]"/>
+         <property name="hostName" value="gopal.s - JAMOCHA57.jamochahq.local"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.0.0.0"/>
+         <property name="browser" value="Chrome 144.0.7559.98"/>
+         <property name="userFullName" value="Gopal"/>
+         <property name="hostAddress" value="10.10.10.136"/>
+         <property name="sessionId" value="93f21ed4c7e90ee343ef48d3b33f9af5"/>
+         <property name="projectName" value="ProhanceWebApplication"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ProhanceWeb/Login_Page/Login" time="14.348" classname="b94e0e3c-b71b-40e8-8df1-b4226d61864a" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"HeCM15nHKBI\u003d","userName":"tsL9urF6O/D/xURRxzj/8w\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[30-01-2026T13:18:38 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Login_Page/Login: Test Cases/ProhanceWeb/Login_Page/Login
+
+30-01-2026T13:18:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2026T13:18:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2026T13:18:39 - [MESSAGE][INFO] - User set preference: ['args', '[--allow-running-insecure-content, --ignore-certificate-errors, --disable-web-security, --unsafely-treat-insecure-origin-as-secure=http://10.10.10.157:1001/prohance]']
+
+30-01-2026T13:18:39 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:/Users/gopal.s/Downloads, download.prompt_for_download=false, download.directory_upgrade=true, profile.default_content_setting_values.automatic_downloads=1, plugins.always_open_pdf_externally=true, safebrowsing.enabled=true}']
+
+30-01-2026T13:18:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2026T13:18:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2026T13:18:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-01-2026T13:18:45 - [MESSAGE][PASSED] - Current window maximized
+
+30-01-2026T13:18:45 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, CONTINUE_ON_FAILURE): Wait for page load successfully
+
+30-01-2026T13:18:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+30-01-2026T13:18:46 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://10.10.10.157:1001/prohance/' successfully
+
+30-01-2026T13:18:46 - [MESSAGE][PASSED] - Navigate to 'http://10.10.10.157:1001/prohance/' successfully
+
+30-01-2026T13:18:46 - [TEST_STEP][PASSED] - try: null
+
+30-01-2026T13:18:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/userName"), userName): Text ****** has been set on object 'Object Repository/Login/userName'
+
+30-01-2026T13:18:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/userName'
+
+30-01-2026T13:18:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Password"), password): Text ****** has been set on object 'Object Repository/Login/Password'
+
+30-01-2026T13:18:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+30-01-2026T13:18:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay): Object 'Object Repository/Login/login_btn' is clickable
+
+30-01-2026T13:18:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/login_btn' is clickable
+
+30-01-2026T13:18:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/login_btn")): Object: 'Object Repository/Login/login_btn' is clicked on
+
+30-01-2026T13:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/login_btn' is clicked on
+
+30-01-2026T13:18:49 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL)): null
+
+30-01-2026T13:18:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login/session_Distroysession' is present
+
+30-01-2026T13:18:49 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL): Object 'Object Repository/Login/session_Distroysession' is clickable
+
+30-01-2026T13:18:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login/session_Distroysession' is clickable
+
+30-01-2026T13:18:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/session_Distroysession")): Object: 'Object Repository/Login/session_Distroysession' is clicked on
+
+30-01-2026T13:18:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/session_Distroysession' is clicked on
+
+30-01-2026T13:18:50 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL)): null
+
+30-01-2026T13:18:51 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is present
+
+30-01-2026T13:18:51 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL): Object 'Object Repository/Common/Accept Cookies' is clickable
+
+30-01-2026T13:18:52 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is clickable
+
+30-01-2026T13:18:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Common/Accept Cookies")): Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+30-01-2026T13:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+30-01-2026T13:18:52 - [TEST_STEP][PASSED] - Finally: null
+
+30-01-2026T13:18:52 - [TEST_STEP][PASSED] - timestamp = Date().format("yyyyMMdd_HHmmss"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProhanceWeb/Organization Settings/Work Time/Activity DashBoard/ActivityDashBoard" time="439.273" classname="9b62eab8-0a15-450e-8831-c1122d0c0359" status="INCOMPLETE">
+         <system-out><![CDATA[30-01-2026T13:18:52 - [TEST_CASE][INCOMPLETE] - Test Cases/ProhanceWeb/Organization Settings/Work Time/Activity DashBoard/ActivityDashBoard: null
+
+30-01-2026T13:18:53 - [TEST_STEP][PASSED] - explort = null: null
+
+30-01-2026T13:18:53 - [TEST_STEP][PASSED] - rows = null: null
+
+30-01-2026T13:18:53 - [TEST_STEP][PASSED] - webData = []: null
+
+30-01-2026T13:18:53 - [TEST_STEP][INCOMPLETE] - if (waitForElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)): null
+
+30-01-2026T13:18:53 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is present
+
+30-01-2026T13:18:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clickable
+
+30-01-2026T13:18:53 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clickable
+
+30-01-2026T13:18:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clicked on
+
+30-01-2026T13:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is clicked on
+
+30-01-2026T13:18:54 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clickable
+
+30-01-2026T13:18:54 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clickable
+
+30-01-2026T13:18:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clicked on
+
+30-01-2026T13:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD' is clicked on
+
+30-01-2026T13:18:54 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"), Delay, STOP_ON_FAILURE): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clickable
+
+30-01-2026T13:18:56 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clickable
+
+30-01-2026T13:18:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clicked on
+
+30-01-2026T13:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container' is clicked on
+
+30-01-2026T13:18:57 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, STOP_ON_FAILURE): Wait for page load successfully
+
+30-01-2026T13:18:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+30-01-2026T13:18:57 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clickable
+
+30-01-2026T13:18:57 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clickable
+
+30-01-2026T13:18:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b")): Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clicked on
+
+30-01-2026T13:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b' is clicked on
+
+30-01-2026T13:18:58 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+30-01-2026T13:18:58 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+30-01-2026T13:18:58 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, STOP_ON_FAILURE): Wait for page load successfully
+
+30-01-2026T13:18:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+30-01-2026T13:18:58 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+30-01-2026T13:18:58 - [TEST_STEP][PASSED] - headers = : null
+
+30-01-2026T13:18:58 - [TEST_STEP][PASSED] - headerCount = xpath("//table[@id='topAppsDetailsList']//th//*[self::span or self::a]")).size(): null
+
+30-01-2026T13:19:00 - [TEST_STEP][INCOMPLETE] - for ([i = 0, i < headerCount, (i++)]): null
+
+30-01-2026T13:19:00 - [TEST_STEP][PASSED] - headers = driver.findElements(By.xpath("//table[@id='topAppsDetailsList']//th//*[self::span or self::a]")): null
+
+30-01-2026T13:19:00 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(headers.get(i))): Execute JavaScript 'arguments[0].scrollIntoView(true);' successfully
+
+30-01-2026T13:19:00 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].scrollIntoView(true);' successfully
+
+30-01-2026T13:19:00 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(headers.get(i))): Execute JavaScript 'arguments[0].click();' successfully
+
+30-01-2026T13:19:00 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+30-01-2026T13:19:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+30-01-2026T13:19:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+30-01-2026T13:19:02 - [TEST_STEP][PASSED] - com.prohancewebapplication.webtable.Table.verifySorting(driver, i, "ASC"): com.prohancewebapplication.webtable.Table.verifySorting is PASSED
+
+30-01-2026T13:21:58 - [MESSAGE][WARNING] - actual : [, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ]
+
+30-01-2026T13:21:58 - [MESSAGE][WARNING] - expected : [, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ]
+
+30-01-2026T13:22:03 - [MESSAGE][PASSED] - com.prohancewebapplication.webtable.Table.verifySorting is PASSED
+
+30-01-2026T13:22:11 - [TEST_STEP][PASSED] - headers = driver.findElements(By.xpath("//table[@id='topAppsDetailsList']//th//*[self::span or self::a]")): null
+
+30-01-2026T13:22:13 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(headers.get(i))): Execute JavaScript 'arguments[0].click();' successfully
+
+30-01-2026T13:22:17 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+30-01-2026T13:22:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+30-01-2026T13:22:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+30-01-2026T13:22:20 - [TEST_STEP][PASSED] - com.prohancewebapplication.webtable.Table.verifySorting(driver, i, "DESC"): com.prohancewebapplication.webtable.Table.verifySorting is PASSED
+
+30-01-2026T13:25:21 - [MESSAGE][WARNING] - actual : [, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ]
+
+30-01-2026T13:25:22 - [MESSAGE][WARNING] - expected : [, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ]
+
+30-01-2026T13:25:39 - [MESSAGE][PASSED] - com.prohancewebapplication.webtable.Table.verifySorting is PASSED
+
+30-01-2026T13:25:47 - [TEST_STEP][PASSED] - headers = driver.findElements(By.xpath("//table[@id='topAppsDetailsList']//th//*[self::span or self::a]")): null
+
+30-01-2026T13:25:57 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(headers.get(i))): Execute JavaScript 'arguments[0].scrollIntoView(true);' successfully
+
+30-01-2026T13:26:01 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].scrollIntoView(true);' successfully
+
+30-01-2026T13:26:01 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click();", Arrays.asList(headers.get(i))): Execute JavaScript 'arguments[0].click();' successfully
+
+30-01-2026T13:26:05 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully
+
+30-01-2026T13:26:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+30-01-2026T13:26:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+30-01-2026T13:26:11 - [TEST_STEP][INCOMPLETE] - com.prohancewebapplication.webtable.Table.verifySorting(driver, i, "ASC"): null]]></system-out>
+         <system-err><![CDATA[30-01-2026T13:18:52 - [TEST_CASE][INCOMPLETE] - Test Cases/ProhanceWeb/Organization Settings/Work Time/Activity DashBoard/ActivityDashBoard: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-01-2026T13:18:37 - [TEST_SUITE][PASSED] - Login_Genaral: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

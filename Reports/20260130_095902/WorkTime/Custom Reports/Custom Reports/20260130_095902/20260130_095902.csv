@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Custom Reports,Edge Chromium 144.0.3719.92,,,30-01-2026 09:59:07,30-01-2026 09:59:22,14.609s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Login_Page/Login,Edge Chromium 144.0.3719.92,Login,,30-01-2026 09:59:08,30-01-2026 09:59:20,12.465s,PASSED
+"DATA BINDING - {""password"":""HeCM15nHKBI\u003d"",""userName"":""tsL9urF6O/D/xURRxzj/8w\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Edge Chromium 144.0.3719.92,,,30-01-2026 09:59:08,30-01-2026 09:59:12,4.047s,PASSED
+maximizeWindow(),Edge Chromium 144.0.3719.92,,,30-01-2026 09:59:12,30-01-2026 09:59:13,0.092s,PASSED
+"waitForPageLoad(Delay, CONTINUE_ON_FAILURE)",Edge Chromium 144.0.3719.92,,,30-01-2026 09:59:13,30-01-2026 09:59:13,0.321s,PASSED
+navigateToUrl(URL),Edge Chromium 144.0.3719.92,,,30-01-2026 09:59:13,30-01-2026 09:59:13,0.344s,PASSED
+try,Edge Chromium 144.0.3719.92,,,30-01-2026 09:59:13,30-01-2026 09:59:20,6.950s,PASSED
+Finally,Edge Chromium 144.0.3719.92,,,30-01-2026 09:59:20,30-01-2026 09:59:20,0.025s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports,Edge Chromium 144.0.3719.92,,,30-01-2026 09:59:20,30-01-2026 09:59:21,1.140s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",Edge Chromium 144.0.3719.92,,,30-01-2026 09:59:20,30-01-2026 09:59:21,1.045s,PASSED

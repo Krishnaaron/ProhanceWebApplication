@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='userProfileDropdown']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Quick Links'])[1]/following::a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -104,7 +104,7 @@
       <webElementGuid>0bebefba-27fb-4abe-a090-7a11b6982d3e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

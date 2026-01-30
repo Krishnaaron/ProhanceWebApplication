@@ -1,0 +1,51 @@
+2026-01-30 09:59:47.444 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: E:\Katalon_Studio_Windows_64-11.0.0\Katalon_Studio_Windows_64-11.0.0\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-01-30 09:59:47.448 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: E:\ProhanceWebApplication\Include\config\log.properties
+2026-01-30 09:59:47.607 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/WorkTime/Custom Reports/Custom Reports
+2026-01-30 09:59:47.714 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-30 09:59:47.715 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-30 09:59:47.717 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gopal.s - JAMOCHA57.jamochahq.local
+2026-01-30 09:59:47.718 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-30 09:59:47.720 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.10.10.136
+2026-01-30 09:59:47.723 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.0.0
+2026-01-30 09:59:48.267 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-30 09:59:48.267 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-30 09:59:48.344 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-30 09:59:48.348 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-30 09:59:48.857 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-30 09:59:49.161 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-30 09:59:49.169 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--allow-running-insecure-content, --ignore-certificate-errors, --disable-web-security, --unsafely-treat-insecure-origin-as-secure=http://10.10.10.157:1001/prohance]']
+2026-01-30 09:59:49.176 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{download.default_directory=C:/Users/gopal.s/Downloads, download.prompt_for_download=false, download.directory_upgrade=true, profile.default_content_setting_values.automatic_downloads=1, plugins.always_open_pdf_externally=true, safebrowsing.enabled=true}']
+2026-01-30 09:59:49.231 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 30, 2026 9:59:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 144
+2026-01-30 09:59:52.407 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = bae6bb8f55851afcc39e5d6f7365dcc9
+2026-01-30 09:59:52.408 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.98
+2026-01-30 09:59:52.412 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-30 09:59:52.414 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-01-30 09:59:52.421 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-30 09:59:52.465 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-30 09:59:52.621 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-30 09:59:52.914 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-01-30 09:59:53.198 DEBUG testcase.Login                           - 5: try
+2026-01-30 09:59:53.209 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/Login/userName"), userName)
+2026-01-30 09:59:53.876 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Login/Password"), password)
+2026-01-30 09:59:54.341 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay)
+2026-01-30 09:59:54.804 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/Login/login_btn"))
+2026-01-30 09:59:55.295 DEBUG testcase.Login                           - 5: if (waitForElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL))
+2026-01-30 09:59:55.931 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL)
+2026-01-30 09:59:56.279 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Login/session_Distroysession"))
+2026-01-30 09:59:56.668 DEBUG testcase.Login                           - 6: if (waitForElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL))
+2026-01-30 09:59:57.719 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL)
+2026-01-30 09:59:58.078 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Common/Accept Cookies"))
+2026-01-30 09:59:58.486 DEBUG testcase.Login                           - 7: Finally
+2026-01-30 09:59:58.488 DEBUG testcase.Login                           - 1: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-30 09:59:58.500 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-30 09:59:58.507 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-30 09:59:58.507 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports
+2026-01-30 09:59:58.573 DEBUG testcase.Custom Reports                  - 1: if (waitForElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-30 09:59:58.850 DEBUG testcase.Custom Reports                  - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-01-30 09:59:59.172 DEBUG testcase.Custom Reports                  - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-01-30 09:59:59.527 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports
+2026-01-30 09:59:59.866 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-01-30 09:59:59.866 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/WorkTime/Custom Reports/Custom Reports
+2026-01-30 09:59:59.866 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

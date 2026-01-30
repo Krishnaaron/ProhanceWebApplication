@@ -1,0 +1,132 @@
+2026-01-30 11:38:08.077 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: E:\Katalon_Studio_Windows_64-11.0.0\Katalon_Studio_Windows_64-11.0.0\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-01-30 11:38:08.087 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: E:\ProhanceWebApplication\Include\config\log.properties
+2026-01-30 11:38:08.302 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Login_Genaral
+2026-01-30 11:38:08.442 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-01-30 11:38:08.443 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-01-30 11:38:08.445 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = gopal.s - JAMOCHA57.jamochahq.local
+2026-01-30 11:38:08.445 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-01-30 11:38:08.446 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.10.10.136
+2026-01-30 11:38:08.447 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.0.0
+2026-01-30 11:38:09.167 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-30 11:38:09.167 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-30 11:38:09.247 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-01-30 11:38:09.248 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = HeCM15nHKBI=
+2026-01-30 11:38:09.798 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-01-30 11:38:10.152 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-01-30 11:38:10.161 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--allow-running-insecure-content, --ignore-certificate-errors, --disable-web-security, --unsafely-treat-insecure-origin-as-secure=http://10.10.10.157:1001/prohance]']
+2026-01-30 11:38:10.163 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{download.default_directory=C:/Users/gopal.s/Downloads, download.prompt_for_download=false, download.directory_upgrade=true, profile.default_content_setting_values.automatic_downloads=1, plugins.always_open_pdf_externally=true, safebrowsing.enabled=true}']
+2026-01-30 11:38:10.225 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jan 30, 2026 11:38:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 144
+2026-01-30 11:38:14.582 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3193b81f432bbad3bd686d4321f1ee92
+2026-01-30 11:38:14.583 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.98
+2026-01-30 11:38:14.584 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-01-30 11:38:14.584 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-01-30 11:38:14.599 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-01-30 11:38:14.651 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-01-30 11:38:14.749 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-01-30 11:38:15.083 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-01-30 11:38:15.580 DEBUG testcase.Login                           - 5: try
+2026-01-30 11:38:15.595 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/Login/userName"), userName)
+2026-01-30 11:38:16.492 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Login/Password"), password)
+2026-01-30 11:38:16.971 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay)
+2026-01-30 11:38:17.355 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/Login/login_btn"))
+2026-01-30 11:38:17.862 DEBUG testcase.Login                           - 5: if (waitForElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL))
+2026-01-30 11:38:23.130 WARN  k.k.c.w.k.b.WaitForElementPresentKeyword - Object 'Object Repository/Login/session_Distroysession' is not present after 5 second(s)
+2026-01-30 11:38:23.158 DEBUG testcase.Login                           - 6: if (waitForElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL))
+2026-01-30 11:38:23.463 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL)
+2026-01-30 11:38:23.912 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Common/Accept Cookies"))
+2026-01-30 11:38:24.345 DEBUG testcase.Login                           - 7: Finally
+2026-01-30 11:38:24.348 DEBUG testcase.Login                           - 1: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-01-30 11:38:24.369 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Login_Page/Login
+2026-01-30 11:38:24.398 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-01-30 11:38:24.398 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Work Time/Activity DashBoard/ActivityDashBoard
+2026-01-30 11:38:24.726 INFO  c.k.katalon.core.main.TestCaseExecutor   - exportType = excel
+2026-01-30 11:38:24.730 INFO  c.k.katalon.core.main.TestCaseExecutor   - isFileDownload = true
+2026-01-30 11:38:24.731 INFO  c.k.katalon.core.main.TestCaseExecutor   - isDataValion = true
+2026-01-30 11:38:25.151 DEBUG testcase.ActivityDashBoard               - 1: explort = null
+2026-01-30 11:38:25.162 DEBUG testcase.ActivityDashBoard               - 2: rows = null
+2026-01-30 11:38:25.164 DEBUG testcase.ActivityDashBoard               - 3: webData = []
+2026-01-30 11:38:25.215 DEBUG testcase.ActivityDashBoard               - 4: if (waitForElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-01-30 11:38:25.534 DEBUG testcase.ActivityDashBoard               - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-01-30 11:38:25.873 DEBUG testcase.ActivityDashBoard               - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-01-30 11:38:26.318 DEBUG testcase.ActivityDashBoard               - 3: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"), Delay)
+2026-01-30 11:38:26.662 DEBUG testcase.ActivityDashBoard               - 4: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_ACTIVITY DASHBOARD"))
+2026-01-30 11:38:27.127 DEBUG testcase.ActivityDashBoard               - 5: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"), Delay, STOP_ON_FAILURE)
+2026-01-30 11:38:28.500 DEBUG testcase.ActivityDashBoard               - 6: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/First_Container"))
+2026-01-30 11:38:29.200 DEBUG testcase.ActivityDashBoard               - 7: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-30 11:38:29.296 DEBUG testcase.ActivityDashBoard               - 8: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"), Delay)
+2026-01-30 11:38:29.777 DEBUG testcase.ActivityDashBoard               - 9: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/span_Top Applications For All Groups_drilld_ef368b"))
+2026-01-30 11:38:30.434 DEBUG testcase.ActivityDashBoard               - 10: switchToWindowIndex(1)
+2026-01-30 11:38:30.689 DEBUG testcase.ActivityDashBoard               - 11: waitForPageLoad(Delay, STOP_ON_FAILURE)
+2026-01-30 11:38:30.786 DEBUG testcase.ActivityDashBoard               - 12: driver = getWebDriver()
+2026-01-30 11:38:30.790 DEBUG testcase.ActivityDashBoard               - 13: thList = driver.findElements(By.xpath("//table[@id='topAppsDetailsList']//th"))
+2026-01-30 11:38:32.577 DEBUG testcase.ActivityDashBoard               - 14: for ([i = 0, i < thList.size(), (i++)])
+2026-01-30 11:38:32.581 DEBUG testcase.ActivityDashBoard               - 1: th = thList.get(i)
+2026-01-30 11:38:32.591 DEBUG testcase.ActivityDashBoard               - 2: if (getAttribute("class").contains("sorting_disabled"))
+2026-01-30 11:38:32.630 DEBUG testcase.ActivityDashBoard               - 1: continue
+2026-01-30 11:38:32.643 DEBUG testcase.ActivityDashBoard               - 1: th = thList.get(i)
+2026-01-30 11:38:32.644 DEBUG testcase.ActivityDashBoard               - 2: if (getAttribute("class").contains("sorting_disabled"))
+2026-01-30 11:38:32.659 DEBUG testcase.ActivityDashBoard               - 1: continue
+2026-01-30 11:38:32.660 DEBUG testcase.ActivityDashBoard               - 1: th = thList.get(i)
+2026-01-30 11:38:32.661 DEBUG testcase.ActivityDashBoard               - 2: if (getAttribute("class").contains("sorting_disabled"))
+2026-01-30 11:38:32.674 DEBUG testcase.ActivityDashBoard               - 1: continue
+2026-01-30 11:38:32.675 DEBUG testcase.ActivityDashBoard               - 1: th = thList.get(i)
+2026-01-30 11:38:32.677 DEBUG testcase.ActivityDashBoard               - 2: if (getAttribute("class").contains("sorting_disabled"))
+2026-01-30 11:38:32.691 DEBUG testcase.ActivityDashBoard               - 1: continue
+2026-01-30 11:38:32.692 DEBUG testcase.ActivityDashBoard               - 1: th = thList.get(i)
+2026-01-30 11:38:32.693 DEBUG testcase.ActivityDashBoard               - 2: if (getAttribute("class").contains("sorting_disabled"))
+2026-01-30 11:38:32.706 DEBUG testcase.ActivityDashBoard               - 1: continue
+2026-01-30 11:38:32.707 DEBUG testcase.ActivityDashBoard               - 1: th = thList.get(i)
+2026-01-30 11:38:32.708 DEBUG testcase.ActivityDashBoard               - 2: if (getAttribute("class").contains("sorting_disabled"))
+2026-01-30 11:38:32.722 DEBUG testcase.ActivityDashBoard               - 1: continue
+2026-01-30 11:38:32.723 DEBUG testcase.ActivityDashBoard               - 1: th = thList.get(i)
+2026-01-30 11:38:32.725 DEBUG testcase.ActivityDashBoard               - 2: if (getAttribute("class").contains("sorting_disabled"))
+2026-01-30 11:38:32.739 DEBUG testcase.ActivityDashBoard               - 1: continue
+2026-01-30 11:38:32.739 DEBUG testcase.ActivityDashBoard               - 1: th = thList.get(i)
+2026-01-30 11:38:32.740 DEBUG testcase.ActivityDashBoard               - 2: if (getAttribute("class").contains("sorting_disabled"))
+2026-01-30 11:38:32.750 DEBUG testcase.ActivityDashBoard               - 1: continue
+2026-01-30 11:38:32.756 DEBUG testcase.ActivityDashBoard               - 15: executeJavaScript("window.scrollTo(0, document.body.scrollHeight);", null)
+2026-01-30 11:38:32.782 DEBUG testcase.ActivityDashBoard               - 16: if (isFileDownload.toBoolean())
+2026-01-30 11:38:32.808 DEBUG testcase.ActivityDashBoard               - 1: com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete()
+C:\Users\gopal.s\Downloads
+2026-01-30 11:38:32.864 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.file.FileSizeFinder.exisitingFileDelete is PASSED
+2026-01-30 11:38:32.878 DEBUG testcase.ActivityDashBoard               - 2: explort = ((exportType != null)) ? exportType : false
+2026-01-30 11:38:32.881 DEBUG testcase.ActivityDashBoard               - 3: browserName = getExecutedBrowser()
+2026-01-30 11:38:32.883 DEBUG testcase.ActivityDashBoard               - 4: logInfo("Browser Name :" + " " + browserName)
+2026-01-30 11:38:32.896 INFO  com.kms.katalon.core.util.KeywordUtil    - Browser Name : Chrome
+2026-01-30 11:38:32.898 DEBUG testcase.ActivityDashBoard               - 5: xPath = com.prohanceebapplication.common.Export.export(explort)
+2026-01-30 11:38:32.928 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceebapplication.common.Export.export is PASSED
+2026-01-30 11:38:32.929 DEBUG testcase.ActivityDashBoard               - 6: out.println(xPath)
+//span[.//img[@title='Export to Excel']]
+2026-01-30 11:38:32.941 DEBUG testcase.ActivityDashBoard               - 7: if (xPath != null)
+2026-01-30 11:38:32.944 DEBUG testcase.ActivityDashBoard               - 1: exportSpan = new com.kms.katalon.core.testobject.TestObject()
+2026-01-30 11:38:32.946 DEBUG testcase.ActivityDashBoard               - 2: exportSpan.addProperty("xpath", EQUALS, xPath)
+2026-01-30 11:38:32.960 DEBUG testcase.ActivityDashBoard               - 3: waitForElementPresent(exportSpan, Delay)
+2026-01-30 11:38:33.242 DEBUG testcase.ActivityDashBoard               - 4: el = findWebElement(exportSpan, Delay)
+2026-01-30 11:38:33.518 DEBUG testcase.ActivityDashBoard               - 5: executeJavaScript("arguments[0].scrollIntoView(true);", Arrays.asList(el))
+2026-01-30 11:38:33.549 DEBUG testcase.ActivityDashBoard               - 6: executeJavaScript("arguments[0].click();", Arrays.asList(el))
+2026-01-30 11:38:35.936 DEBUG testcase.ActivityDashBoard               - 8: if (isDataValion.toBoolean())
+2026-01-30 11:38:35.941 DEBUG testcase.ActivityDashBoard               - 1: rows = com.prohancewebapplication.webtable.Table.webTableDataReader(findTestObject("Object Repository/Organization Settings/Work Time/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_Id"), findTestObject("Object Repository/Organization Settings/Work Time/Activity DashBoard/TopApplicationWebTable/FirstDrillDown/table_tr"))
+2026-01-30 11:38:36.792 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohancewebapplication.webtable.Table.webTableDataReader is PASSED
+2026-01-30 11:38:36.794 DEBUG testcase.ActivityDashBoard               - 2: if (rows != null)
+2026-01-30 11:38:36.804 DEBUG testcase.ActivityDashBoard               - 1: com.prohanceapplication.webtableexcelvalidation.DataValidator.validateWebTableWithDownloadedExcel(rows)
+Jan 30, 2026 11:38:39 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1477)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1422)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1422)
+

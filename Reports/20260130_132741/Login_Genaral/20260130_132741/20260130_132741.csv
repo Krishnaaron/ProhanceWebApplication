@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Genaral,Chrome 144.0.7559.98,,,30-01-2026 13:27:48,30-01-2026 13:29:25,1m - 36.356s,ERROR
+,,,,,,,
+Test Cases/ProhanceWeb/Login_Page/Login,Chrome 144.0.7559.98,Login,,30-01-2026 13:27:49,30-01-2026 13:28:02,12.873s,PASSED
+"DATA BINDING - {""password"":""HeCM15nHKBI\u003d"",""userName"":""tsL9urF6O/D/xURRxzj/8w\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Chrome 144.0.7559.98,,,30-01-2026 13:27:50,30-01-2026 13:27:55,5.300s,PASSED
+maximizeWindow(),Chrome 144.0.7559.98,,,30-01-2026 13:27:55,30-01-2026 13:27:55,0.119s,PASSED
+"waitForPageLoad(Delay, CONTINUE_ON_FAILURE)",Chrome 144.0.7559.98,,,30-01-2026 13:27:55,30-01-2026 13:27:56,0.477s,PASSED
+navigateToUrl(URL),Chrome 144.0.7559.98,,,30-01-2026 13:27:56,30-01-2026 13:27:56,0.689s,PASSED
+try,Chrome 144.0.7559.98,,,30-01-2026 13:27:56,30-01-2026 13:28:02,5.523s,PASSED
+Finally,Chrome 144.0.7559.98,,,30-01-2026 13:28:02,30-01-2026 13:28:02,0.069s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Work Time/Activity DashBoard/ActivityDashBoard,Chrome 144.0.7559.98,,,30-01-2026 13:28:16,30-01-2026 13:28:21,5.082s,PASSED
+"DATA BINDING - {""isDataValion"":""true"",""exportType"":""excel"",""isFileDownload"":""true""}",,,,,,,
+explort = null,Chrome 144.0.7559.98,,,30-01-2026 13:28:16,30-01-2026 13:28:16,0.001s,PASSED
+rows = null,Chrome 144.0.7559.98,,,30-01-2026 13:28:16,30-01-2026 13:28:16,0.002s,PASSED
+webData = [],Chrome 144.0.7559.98,,,30-01-2026 13:28:16,30-01-2026 13:28:16,0.002s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",Chrome 144.0.7559.98,,,30-01-2026 13:28:16,30-01-2026 13:28:21,5.019s,WARNING
+,,,,,,,
+Test Cases/ProhanceWeb/LogOut_Page/LogOut,Chrome 144.0.7559.98,,,30-01-2026 13:29:08,30-01-2026 13:29:24,15.834s,ERROR
+try,Chrome 144.0.7559.98,,,30-01-2026 13:29:08,30-01-2026 13:29:24,15.801s,FAILED
+catch (Exception e),Chrome 144.0.7559.98,,,30-01-2026 13:29:24,30-01-2026 13:29:24,0.004s,ERROR
