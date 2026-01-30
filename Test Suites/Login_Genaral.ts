@@ -43,7 +43,7 @@
       <guid>2b4f9513-e30a-4100-adf8-4ddcfe153e06</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard</testCaseId>
+      <testCaseId>Test Cases/ProhanceWeb/Organization Settings/Work Time/Activity DashBoard/ActivityDashBoard</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>dabaadb1-5810-4404-a014-66dca6824e15</id>
@@ -71,6 +71,18 @@
          <type>DATA_COLUMN</type>
          <value>isDataValion</value>
          <variableId>d2fe38e6-3540-471d-9b42-5308c5d4d0c5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>042c0460-eed5-410d-9792-4565bebca5e2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e240312b-4d95-491e-bbfc-3b687f54be30</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

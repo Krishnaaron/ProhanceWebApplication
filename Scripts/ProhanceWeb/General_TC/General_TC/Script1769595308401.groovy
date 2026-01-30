@@ -19,6 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Test Cases/ProhanceWeb/Login_Page/Login'), [('userName') : userName, ('password') : password])
 
-WebUI.callTestCase(findTestCase('Test Cases/ProhanceWeb/Organization Settings/Activity DashBoard/ActivityDashBoard'), [('exportType') : exportType,('isDataValion') : isDataValion, ('isFileDownload') : isFileDownload])
+WebUI.callTestCase(findTestCase('Test Cases/ProhanceWeb/Organization Settings/Work Time/Activity DashBoard/ActivityDashBoard'), [('exportType') : exportType,('isDataValion') : isDataValion, ('isFileDownload') : isFileDownload , ('isTableSorting') : isTableSorting,('isTSValidation') : isTSValidation])
 
 WebUI.callTestCase(findTestCase('Test Cases/ProhanceWeb/LogOut_Page/LogOut'), [:])

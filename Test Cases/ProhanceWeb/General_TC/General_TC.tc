@@ -54,6 +54,18 @@
       <value>isDataValion</value>
       <variableId>6f57e042-9675-43d6-a78f-f2b9c660a054</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5fccf0f3-82df-4d95-9a75-a00424c7d0f6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>isTableSorting</value>
+      <variableId>571362ed-f065-4f5f-bd99-70e6823726d5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5fccf0f3-82df-4d95-9a75-a00424c7d0f6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>isTSValidation</value>
+      <variableId>1c6ec449-e377-410d-9eda-21f2c57b8dab</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -88,5 +100,19 @@
       <id>6f57e042-9675-43d6-a78f-f2b9c660a054</id>
       <masked>false</masked>
       <name>isDataValion</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>571362ed-f065-4f5f-bd99-70e6823726d5</id>
+      <masked>false</masked>
+      <name>isTableSorting</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>1c6ec449-e377-410d-9eda-21f2c57b8dab</id>
+      <masked>false</masked>
+      <name>isTSValidation</name>
    </variable>
 </TestCaseEntity>

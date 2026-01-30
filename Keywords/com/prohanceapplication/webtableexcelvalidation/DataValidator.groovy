@@ -33,7 +33,7 @@ public class DataValidator {
 				List<String> rowValues = []
 
 				tds.each {
-					rowValues.add(it.getText().trim().replaceAll('[+\\--]', ""))
+					rowValues.add(it.getText().trim().replaceAll('[+]', ""))
 				}
 				webTableData.add(rowValues)
 			}
