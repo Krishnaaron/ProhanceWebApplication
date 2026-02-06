@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Click_Day Type_Main</name>
+   <tag></tag>
+   <elementGuidId>4101b2a6-296d-40c9-b81f-369d09c45e0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#selectedAction</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='selectedAction']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#selectedAction</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4197b3ee-c243-40c1-aecd-1a0cc2f90979</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>width-190px-padding-top-4pximportant-text-align-left-margin-left-10px dropdown-toggle report-attr-toggle form-control form-control-filter workload-filter</value>
+      <webElementGuid>164cdee4-751f-43df-badb-818d3b21095b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>dropdown</value>
+      <webElementGuid>4284b3cb-d0bf-444e-ad75-ac56be3c9e2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>selectedAction</value>
+      <webElementGuid>dca732cd-9b53-4504-897c-043dd94ad383</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7038dc6e-0fb7-4a19-b085-adb62290474e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+			All Days
+			
+		 </value>
+      <webElementGuid>c5c99232-2551-46d7-bc2f-0dff2918c196</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;selectedAction&quot;)</value>
+      <webElementGuid>1c2fd477-7c23-4beb-a98a-1f994a9458d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='selectedAction']</value>
+      <webElementGuid>9bd8c1e6-5ae5-4ab2-a247-583252d08831</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='customizeReportByView']/span[2]</value>
+      <webElementGuid>953d48d6-0e38-494a-979a-0bb00b9565bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/span/span[2]</value>
+      <webElementGuid>14a6030a-6c4d-457d-8b4a-59e6eb2ff7a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'selectedAction' and (text() = '
+			All Days
+			
+		 ' or . = '
+			All Days
+			
+		 ')]</value>
+      <webElementGuid>10b0c09f-25be-4b55-aac8-e85192830182</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

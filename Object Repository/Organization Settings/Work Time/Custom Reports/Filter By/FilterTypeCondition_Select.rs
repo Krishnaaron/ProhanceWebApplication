@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FilterTypeCondition_Select</name>
+   <tag></tag>
+   <elementGuidId>1b8fb3c5-1f0e-43be-a35e-1d55a471096d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='lhCondition']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#lhCondition</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#lhCondition</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>c1e4df46-e2ee-40eb-ae3d-d8fb076ad078</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control form-control-filter width-105px</value>
+      <webElementGuid>c7a94bed-ccf3-415b-afcb-b479696f5fd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>lhCondition</value>
+      <webElementGuid>dc64abbc-e5b3-4a1c-8517-cfe9db1fe92d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>lhCondition</value>
+      <webElementGuid>15065f9a-728f-42f1-abae-b6ed8a0ae4a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+					Greater Than
+					Less Than
+					Between
+			  	</value>
+      <webElementGuid>dd5e913b-5a24-47fc-8160-aa2809b30e94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lhCondition&quot;)</value>
+      <webElementGuid>2e292e31-4d29-4395-8cdc-44d755b1e615</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='lhCondition']</value>
+      <webElementGuid>ea53f091-c351-41fe-811f-374efb627e17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='lhConditionDiv']/select</value>
+      <webElementGuid>e0cc7af9-3602-4370-81b4-a62182d9611c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Day [+2]'])[1]/following::select[2]</value>
+      <webElementGuid>55ba2697-eede-4bcc-ab56-bdd4869076f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='min'])[1]/preceding::select[1]</value>
+      <webElementGuid>092440f5-9a08-4395-90d9-47c23df43562</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span/span[3]/select</value>
+      <webElementGuid>362084d4-6649-4ad8-8d17-434d460a38f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'lhCondition' and @name = 'lhCondition' and (text() = '
+					Greater Than
+					Less Than
+					Between
+			  	' or . = '
+					Greater Than
+					Less Than
+					Between
+			  	')]</value>
+      <webElementGuid>3e1f626f-eea0-4116-bc3d-3f84edea26bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

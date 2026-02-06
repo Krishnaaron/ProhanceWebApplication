@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select_Group_Main</name>
+   <tag></tag>
+   <elementGuidId>4913acbb-52b2-4b28-97c9-0b5a18b3f829</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#showByGroupVal</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='showByGroupVal']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#showByGroupVal</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>053282bd-7316-4a78-93b0-9628b88ea0dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control form-control-filter width-125px</value>
+      <webElementGuid>aaafa678-f770-4fdc-a65c-206ca59e719c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>showByGroupVal</value>
+      <webElementGuid>0119e256-1437-4c56-b036-637c64c51643</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>showByGroupVal</value>
+      <webElementGuid>7764f2f3-e827-4695-816d-f6ece9887cb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+	   			across all groups
+	   			by each group
+	   		</value>
+      <webElementGuid>70376842-22ec-4e9b-b34c-18204531edca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;showByGroupVal&quot;)</value>
+      <webElementGuid>91331ed4-0d21-40ab-a2e3-567a9a6ed96e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='showByGroupVal']</value>
+      <webElementGuid>385a1d5c-b02c-4900-972e-d3cc65fe72ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='showByGroupSpan']/select</value>
+      <webElementGuid>edc704da-dc9b-4973-bc85-93e7e8969619</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='that the user was part of during the selected period'])[1]/preceding::select[1]</value>
+      <webElementGuid>970c9ea0-9ea3-423c-927c-9bf3fbe0ff86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/select</value>
+      <webElementGuid>17a5edaa-91df-4bc3-96ef-413b4ac79ed8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'showByGroupVal' and @id = 'showByGroupVal' and (text() = '
+	   			across all groups
+	   			by each group
+	   		' or . = '
+	   			across all groups
+	   			by each group
+	   		')]</value>
+      <webElementGuid>691b8149-740d-494e-9dba-d25b059b8f87</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

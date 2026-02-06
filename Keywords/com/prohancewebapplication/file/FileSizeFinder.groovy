@@ -80,7 +80,7 @@ public class FileSizeFinder {
 
 			for (File file : files) {
 
-				if (file.getName().startsWith("Top Applications Details Report")) {
+				if (file.getName().startsWith("Custom Reports")) {
 
 					file.delete();
 				}

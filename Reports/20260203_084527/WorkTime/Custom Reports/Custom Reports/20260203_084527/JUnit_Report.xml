@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Custom Reports" time="372.18" tests="2" failures="0" errors="0">
+   <testsuite name="Custom Reports" tests="2" failures="0" errors="0" time="372.18" skipped="0" timestamp="2026-02-03T03:15:32.077Z" hostname="KRISHNA - krishna" id="Test Suites/WorkTime/Custom Reports/Custom Reports">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\ProhanceWebApplicationsssd\\ProhanceWebApplicationsssd\\Reports\\20260203_084527\\WorkTime\\Custom Reports\\Custom Reports\\20260203_084527"/>
+         <property name="logFiles" value="D:\\ProhanceWebApplicationsssd\\ProhanceWebApplicationsssd\\Reports\\20260203_084527\\WorkTime\\Custom Reports\\Custom Reports\\20260203_084527\\console0.log, D:\\ProhanceWebApplicationsssd\\ProhanceWebApplicationsssd\\Reports\\20260203_084527\\WorkTime\\Custom Reports\\Custom Reports\\20260203_084527\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="KRISHNA - krishna"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.0.0.0"/>
+         <property name="browser" value="Chrome 144.0.7559.110"/>
+         <property name="userFullName" value="Gopal"/>
+         <property name="hostAddress" value="192.168.0.9"/>
+         <property name="sessionId" value="ec2bd3610422764eb4392753b3abb955"/>
+         <property name="projectName" value="ProhanceWebApplication"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ProhanceWeb/Login_Page/Login" time="9.195" classname="2b9886b6-1ccf-4b77-a6c7-31b8474c2d68" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"tsL9urF6O/APwsPS+50KRA\u003d\u003d","userName":"tsL9urF6O/D/xURRxzj/8w\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[03-02-2026T08:45:32 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Login_Page/Login: Test Cases/ProhanceWeb/Login_Page/Login
+
+03-02-2026T08:45:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-02-2026T08:45:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-02-2026T08:45:33 - [MESSAGE][INFO] - User set preference: ['args', '[--allow-running-insecure-content, --ignore-certificate-errors, --disable-web-security, --unsafely-treat-insecure-origin-as-secure=http://10.10.10.157:1001/prohance]']
+
+03-02-2026T08:45:33 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:/Users/gopal.s/Downloads, download.prompt_for_download=false, download.directory_upgrade=true, profile.default_content_setting_values.automatic_downloads=1, plugins.always_open_pdf_externally=true, safebrowsing.enabled=true}']
+
+03-02-2026T08:45:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-02-2026T08:45:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-02-2026T08:45:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-02-2026T08:45:35 - [MESSAGE][PASSED] - Current window maximized
+
+03-02-2026T08:45:35 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, CONTINUE_ON_FAILURE): Wait for page load successfully
+
+03-02-2026T08:45:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+03-02-2026T08:45:35 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://enhance.prohance.io/prohance/' successfully
+
+03-02-2026T08:45:36 - [MESSAGE][PASSED] - Navigate to 'https://enhance.prohance.io/prohance/' successfully
+
+03-02-2026T08:45:36 - [TEST_STEP][PASSED] - try: null
+
+03-02-2026T08:45:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/userName"), userName): Text ****** has been set on object 'Object Repository/Login/userName'
+
+03-02-2026T08:45:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/userName'
+
+03-02-2026T08:45:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Password"), password): Text ****** has been set on object 'Object Repository/Login/Password'
+
+03-02-2026T08:45:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+03-02-2026T08:45:37 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay): Object 'Object Repository/Login/login_btn' is clickable
+
+03-02-2026T08:45:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login/login_btn' is clickable
+
+03-02-2026T08:45:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/login_btn")): Object: 'Object Repository/Login/login_btn' is clicked on
+
+03-02-2026T08:45:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/login_btn' is clicked on
+
+03-02-2026T08:45:38 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL)): null
+
+03-02-2026T08:45:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/session_Distroysession' is present
+
+03-02-2026T08:45:39 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL): Object 'Object Repository/Login/session_Distroysession' is clickable
+
+03-02-2026T08:45:39 - [MESSAGE][PASSED] - Object 'Object Repository/Login/session_Distroysession' is clickable
+
+03-02-2026T08:45:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/session_Distroysession")): Object: 'Object Repository/Login/session_Distroysession' is clicked on
+
+03-02-2026T08:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/session_Distroysession' is clicked on
+
+03-02-2026T08:45:39 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL)): null
+
+03-02-2026T08:45:40 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is present
+
+03-02-2026T08:45:40 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL): Object 'Object Repository/Common/Accept Cookies' is clickable
+
+03-02-2026T08:45:41 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is clickable
+
+03-02-2026T08:45:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Common/Accept Cookies")): Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+03-02-2026T08:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+03-02-2026T08:45:41 - [TEST_STEP][PASSED] - Finally: null
+
+03-02-2026T08:45:41 - [TEST_STEP][PASSED] - timestamp = Date().format("yyyyMMdd_HHmmss"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports" time="5.706" classname="5957e95c-3ac1-4613-a3bf-26c5004cd432" status="PASSED">
+         <system-out><![CDATA[03-02-2026T08:51:38 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports: Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports
+
+03-02-2026T08:51:38 - [TEST_STEP][PASSED] - ViewBy = null: null
+
+03-02-2026T08:51:38 - [TEST_STEP][PASSED] - UserType = null: null
+
+03-02-2026T08:51:38 - [TEST_STEP][WARNING] - if (waitForElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is not present after 5 second(s)
+
+03-02-2026T08:51:43 - [MESSAGE][WARNING] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is not present after 5 second(s)
+
+03-02-2026T08:51:43 - [TEST_STEP][PASSED] - else: null
+
+03-02-2026T08:51:43 - [TEST_STEP][PASSED] - println("WORK TIME menu not found"): null
+
+03-02-2026T08:51:43 - [TEST_STEP][PASSED] - chec = verifyElementChecked(findTestObject("Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_ Display Overall Data"), 2, OPTIONAL): Object 'Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_ Display Overall Data' is checked
+
+03-02-2026T08:51:44 - [MESSAGE][PASSED] - Object 'Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_ Display Overall Data' is checked
+
+03-02-2026T08:51:44 - [TEST_STEP][PASSED] - out.println(chec): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-02-2026T08:45:32 - [TEST_SUITE][PASSED] - Custom Reports: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Custom Reports,Chrome 144.0.7559.132,,,04-02-2026 16:51:10,04-02-2026 16:52:34,1m - 24.589s,FAILED
+,,,,,,,
+Test Cases/ProhanceWeb/Login_Page/Login,Chrome 144.0.7559.132,Login,,04-02-2026 16:51:10,04-02-2026 16:51:31,21.054s,PASSED
+"DATA BINDING - {""password"":""tsL9urF6O/APwsPS+50KRA\u003d\u003d"",""userName"":""tsL9urF6O/D/xURRxzj/8w\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Chrome 144.0.7559.132,,,04-02-2026 16:51:11,04-02-2026 16:51:16,4.821s,PASSED
+maximizeWindow(),Chrome 144.0.7559.132,,,04-02-2026 16:51:16,04-02-2026 16:51:16,0.131s,PASSED
+"waitForPageLoad(Delay, CONTINUE_ON_FAILURE)",Chrome 144.0.7559.132,,,04-02-2026 16:51:16,04-02-2026 16:51:16,0.416s,PASSED
+navigateToUrl(URL),Chrome 144.0.7559.132,,,04-02-2026 16:51:16,04-02-2026 16:51:17,0.488s,PASSED
+try,Chrome 144.0.7559.132,,,04-02-2026 16:51:17,04-02-2026 16:51:31,14.257s,PASSED
+Finally,Chrome 144.0.7559.132,,,04-02-2026 16:51:31,04-02-2026 16:51:31,0.010s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports,Chrome 144.0.7559.132,,,04-02-2026 16:51:47,04-02-2026 16:51:52,5.065s,FAILED
+"DATA BINDING - {""dayType"":""dayType"",""dodCheck"":""false"",""shiftType"":""acrossAllShift"",""reportDuration"":""D"",""showByGroupVal"":""acrossAllGroups"",""timeZoneType"":""byLoggedInUser"",""isDisplayData"":""false"",""isDisplayOnlyAc..."":""false"",""isDisplayTimeZo..."":""false"",""ReportBy"":""User"",""UserType"":""All Users"",""isDWShOutsideSh..."":""false""}",,,,,,,
+"if (waitForElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",Chrome 144.0.7559.132,,,04-02-2026 16:51:47,04-02-2026 16:51:52,5.018s,FAILED
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports,Chrome 144.0.7559.132,,,04-02-2026 16:52:08,04-02-2026 16:52:13,5.447s,FAILED
+"DATA BINDING - {""dayType"":""dayType"",""dodCheck"":""true"",""shiftType"":""byEachShift"",""reportDuration"":""W"",""showByGroupVal"":""byEachGroup"",""timeZoneType"":""bySpecificUser"",""isDisplayData"":""true"",""isDisplayOnlyAc..."":""true"",""isDisplayTimeZo..."":""true"",""ReportBy"":""User"",""UserType"":""AGENT"",""isDWShOutsideSh..."":""false""}",,,,,,,
+"if (waitForElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",Chrome 144.0.7559.132,,,04-02-2026 16:52:08,04-02-2026 16:52:13,5.019s,FAILED
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports,Chrome 144.0.7559.132,,,04-02-2026 16:52:29,04-02-2026 16:52:34,5.050s,FAILED
+"DATA BINDING - {""dayType"":""dayType"",""dodCheck"":""false"",""shiftType"":""acrossAllShift"",""reportDuration"":""M"",""showByGroupVal"":""byEachGroup"",""timeZoneType"":""bySpecificUser"",""isDisplayData"":""true"",""isDisplayOnlyAc..."":""false"",""isDisplayTimeZo..."":""false"",""ReportBy"":""User"",""UserType"":""AGENTLESS"",""isDWShOutsideSh..."":""true""}",,,,,,,
+"if (waitForElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",Chrome 144.0.7559.132,,,04-02-2026 16:52:29,04-02-2026 16:52:34,5.015s,FAILED

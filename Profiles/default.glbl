@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://10.10.10.157:1001/prohance/'</initValue>
+      <initValue>'https://services.jamochatech.com/'</initValue>
       <name>URL</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

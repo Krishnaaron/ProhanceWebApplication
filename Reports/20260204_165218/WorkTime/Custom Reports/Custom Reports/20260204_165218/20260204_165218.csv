@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Custom Reports,Chrome 144.0.7559.132,,,04-02-2026 16:52:30,04-02-2026 16:55:05,2m - 34.740s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Login_Page/Login,Chrome 144.0.7559.132,Login,,04-02-2026 16:52:31,04-02-2026 16:52:45,13.743s,PASSED
+"DATA BINDING - {""password"":""tsL9urF6O/APwsPS+50KRA\u003d\u003d"",""userName"":""tsL9urF6O/D/xURRxzj/8w\u003d\u003d""}",,,,,,,
+"openBrowser("""")",Chrome 144.0.7559.132,,,04-02-2026 16:52:33,04-02-2026 16:52:38,4.474s,PASSED
+maximizeWindow(),Chrome 144.0.7559.132,,,04-02-2026 16:52:38,04-02-2026 16:52:38,0.111s,PASSED
+"waitForPageLoad(Delay, CONTINUE_ON_FAILURE)",Chrome 144.0.7559.132,,,04-02-2026 16:52:38,04-02-2026 16:52:38,0.300s,PASSED
+navigateToUrl(URL),Chrome 144.0.7559.132,,,04-02-2026 16:52:38,04-02-2026 16:52:39,0.469s,PASSED
+try,Chrome 144.0.7559.132,,,04-02-2026 16:52:39,04-02-2026 16:52:45,6.190s,PASSED
+Finally,Chrome 144.0.7559.132,,,04-02-2026 16:52:45,04-02-2026 16:52:45,0.015s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports,Chrome 144.0.7559.132,,,04-02-2026 16:52:45,04-02-2026 16:54:54,2m - 9.036s,PASSED
+"DATA BINDING - {""dayType"":""dayType"",""dodCheck"":""false"",""shiftType"":""acrossAllShift"",""reportDuration"":""D"",""showByGroupVal"":""acrossAllGroups"",""timeZoneType"":""byLoggedInUser"",""isDisplayData"":""false"",""isDisplayOnlyAc..."":""false"",""isDisplayTimeZo..."":""false"",""ReportBy"":""User"",""UserType"":""All Users"",""isDWShOutsideSh..."":""false""}",,,,,,,
+"if (waitForElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",Chrome 144.0.7559.132,,,04-02-2026 16:52:46,04-02-2026 16:53:01,14.664s,PASSED
+"isDay = ""D"".equalsIgnoreCase(reportDuration)",Chrome 144.0.7559.132,,,04-02-2026 16:53:01,04-02-2026 16:53:01,0.002s,PASSED
+getObjectsAsMap = com.prohanceapplication.common.ObjectUtils.getObjectsAsMap(filePath),Chrome 144.0.7559.132,,,04-02-2026 16:53:01,04-02-2026 16:53:01,0.079s,PASSED
+grouped = getObjectsAsMap.groupBy({ java.lang.Object entry -> ... }),Chrome 144.0.7559.132,,,04-02-2026 16:53:01,04-02-2026 16:53:01,0.019s,PASSED
+"grouped.each({ java.lang.Object groupKey, java.lang.Object entries -> ... })",Chrome 144.0.7559.132,,,04-02-2026 16:53:01,04-02-2026 16:53:01,0.018s,PASSED
+if (obj == null),Chrome 144.0.7559.132,,,04-02-2026 16:53:01,04-02-2026 16:53:01,0.001s,PASSED
+try,Chrome 144.0.7559.132,,,04-02-2026 16:53:01,04-02-2026 16:53:02,1.700s,PASSED
+if (obj == null),Chrome 144.0.7559.132,,,04-02-2026 16:53:02,04-02-2026 16:53:02,0.002s,PASSED
+try,Chrome 144.0.7559.132,,,04-02-2026 16:53:02,04-02-2026 16:53:04,1.489s,PASSED
+if (obj == null),Chrome 144.0.7559.132,,,04-02-2026 16:53:04,04-02-2026 16:53:04,0.001s,PASSED
+try,Chrome 144.0.7559.132,,,04-02-2026 16:53:04,04-02-2026 16:53:05,1.616s,PASSED
+if (obj == null),Chrome 144.0.7559.132,,,04-02-2026 16:53:05,04-02-2026 16:53:05,0.000s,PASSED
+try,Chrome 144.0.7559.132,,,04-02-2026 16:53:05,04-02-2026 16:53:07,1.689s,PASSED
+if (obj == null),Chrome 144.0.7559.132,,,04-02-2026 16:53:07,04-02-2026 16:53:07,0.000s,PASSED
+if (obj == null),Chrome 144.0.7559.132,,,04-02-2026 16:53:07,04-02-2026 16:53:07,0.001s,PASSED
+try,Chrome 144.0.7559.132,,,04-02-2026 16:53:07,04-02-2026 16:53:29,21.553s,FAILED
+catch (Exception e),Chrome 144.0.7559.132,,,04-02-2026 16:53:29,04-02-2026 16:53:29,0.012s,PASSED
+if (obj == null),Chrome 144.0.7559.132,,,04-02-2026 16:53:29,04-02-2026 16:53:29,0.000s,PASSED
+try,Chrome 144.0.7559.132,,,04-02-2026 16:53:29,04-02-2026 16:53:30,1.426s,PASSED
+if (obj == null),Chrome 144.0.7559.132,,,04-02-2026 16:53:30,04-02-2026 16:53:30,0.000s,PASSED
+try,Chrome 144.0.7559.132,,,04-02-2026 16:53:30,04-02-2026 16:53:32,1.475s,PASSED
+if (obj == null),Chrome 144.0.7559.132,,,04-02-2026 16:53:32,04-02-2026 16:53:32,0.000s,PASSED
+try,Chrome 144.0.7559.132,,,04-02-2026 16:53:32,04-02-2026 16:53:33,1.483s,PASSED
+if (obj == null),Chrome 144.0.7559.132,,,04-02-2026 16:53:33,04-02-2026 16:53:33,0.000s,PASSED
+try,Chrome 144.0.7559.132,,,04-02-2026 16:53:33,04-02-2026 16:54:48,1m - 15.169s,PASSED
+getObjectsAsMap = com.prohanceapplication.common.ObjectUtils.getObjectsAsMap(filePath),Chrome 144.0.7559.132,,,04-02-2026 16:54:48,04-02-2026 16:54:48,0.041s,PASSED
+out.println(getObjectsAsMap),Chrome 144.0.7559.132,,,04-02-2026 16:54:48,04-02-2026 16:54:48,0.002s,PASSED
+grouped = getObjectsAsMap.groupBy({ java.lang.Object entry -> ... }),Chrome 144.0.7559.132,,,04-02-2026 16:54:48,04-02-2026 16:54:48,0.005s,PASSED
+"grouped.each({ java.lang.Object groupKey, java.lang.Object entries -> ... })",Chrome 144.0.7559.132,,,04-02-2026 16:54:48,04-02-2026 16:54:54,5.674s,PASSED
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports,Chrome 144.0.7559.132,,,04-02-2026 16:54:54,04-02-2026 16:54:59,5.158s,PASSED
+"DATA BINDING - {""dayType"":""dayType"",""dodCheck"":""true"",""shiftType"":""byEachShift"",""reportDuration"":""W"",""showByGroupVal"":""byEachGroup"",""timeZoneType"":""bySpecificUser"",""isDisplayData"":""true"",""isDisplayOnlyAc..."":""true"",""isDisplayTimeZo..."":""true"",""ReportBy"":""User"",""UserType"":""AGENT"",""isDWShOutsideSh..."":""false""}",,,,,,,
+"if (waitForElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",Chrome 144.0.7559.132,,,04-02-2026 16:54:54,04-02-2026 16:54:59,5.118s,WARNING
+,,,,,,,
+Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports,Chrome 144.0.7559.132,,,04-02-2026 16:54:59,04-02-2026 16:55:04,5.146s,PASSED
+"DATA BINDING - {""dayType"":""dayType"",""dodCheck"":""false"",""shiftType"":""acrossAllShift"",""reportDuration"":""M"",""showByGroupVal"":""byEachGroup"",""timeZoneType"":""bySpecificUser"",""isDisplayData"":""true"",""isDisplayOnlyAc..."":""false"",""isDisplayTimeZo..."":""false"",""ReportBy"":""User"",""UserType"":""AGENTLESS"",""isDWShOutsideSh..."":""true""}",,,,,,,
+"if (waitForElementPresent(findTestObject(""Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME""), Delay))",Chrome 144.0.7559.132,,,04-02-2026 16:54:59,04-02-2026 16:55:04,5.107s,WARNING

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FilterTypeCD2_Select</name>
+   <tag></tag>
+   <elementGuidId>98a10fb1-49a6-4a7c-8095-e251615d68e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='manDaysTypeCondition']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#manDaysTypeCondition</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#manDaysTypeCondition</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>5ba32d08-cfa7-400d-bef0-03ff4a794b1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control form-control-filter width-105px</value>
+      <webElementGuid>46d169a0-cf75-45e0-aa82-48426dfccbbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>manDaysTypeCondition</value>
+      <webElementGuid>fde49cbf-8162-452e-ab25-557904f256f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>manDaysTypeCondition</value>
+      <webElementGuid>80096fa3-87e7-4dd7-963a-2b62ae637921</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+					Greater Than
+					Less Than
+					Between
+			  	</value>
+      <webElementGuid>1f680a12-c9ae-4ab2-8612-763d8aedbf9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;manDaysTypeCondition&quot;)</value>
+      <webElementGuid>9c4005e9-5108-4a0f-88bd-19834fcbb336</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='manDaysTypeCondition']</value>
+      <webElementGuid>815a97b1-1f75-4f68-a0aa-63e5848ed377</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='manDaysTypeConditionDiv']/select</value>
+      <webElementGuid>ff5b8581-cec8-4e4e-975f-5de63c6869f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='[AND]'])[1]/following::select[2]</value>
+      <webElementGuid>416e4128-f25e-4a8d-a414-51029ae339cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='days'])[1]/preceding::select[1]</value>
+      <webElementGuid>e3859371-f6ea-4e63-9e76-5f18419ad123</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[3]/span[3]/select</value>
+      <webElementGuid>af0fa8c4-3c71-41d0-87d9-7d7e77acc105</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'manDaysTypeCondition' and @name = 'manDaysTypeCondition' and (text() = '
+					Greater Than
+					Less Than
+					Between
+			  	' or . = '
+					Greater Than
+					Less Than
+					Between
+			  	')]</value>
+      <webElementGuid>c5dd0833-f7da-4eb9-b3c0-442715858148</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

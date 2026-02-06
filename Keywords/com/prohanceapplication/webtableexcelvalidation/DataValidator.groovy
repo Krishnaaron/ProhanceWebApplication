@@ -63,7 +63,7 @@ public class DataValidator {
 			}
 
 			File excelFile = downloadDir.listFiles()
-					.findAll { it.name.startsWith("Top Applications Details Report") }
+					.findAll { it.name.startsWith("Custom Reports") }
 					.sort { -it.lastModified() }
 					.find { it.length() > 0 }
 

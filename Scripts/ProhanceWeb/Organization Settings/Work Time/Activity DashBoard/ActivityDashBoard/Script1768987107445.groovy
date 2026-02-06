@@ -54,7 +54,7 @@ def handleExportAndValidation() {
     String browserName = DriverFactory.getExecutedBrowser()
     KeywordUtil.logInfo("Browser Name : ${browserName}")
 
-    String exportXpath = CustomKeywords.'com.prohanceebapplication.common.Export.export'(exportResolved)
+    String exportXpath = CustomKeywords.'com.prohanceapplication.common.Export.export'(exportResolved)
 
     if (exportXpath) {
         TestObject exportBtn = new TestObject()

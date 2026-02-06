@@ -18,4 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Test Cases/ProhanceWeb/Login_Page/Login'), [('userName') : userName, ('password') : password])
-WebUI.callTestCase(findTestCase('Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports'), [:])
+WebUI.callTestCase(findTestCase('Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports'),  [('ReportBy') : ReportBy, ('reportDuration') : reportDuration, ('UserType') : UserType, ('dodCheck') : dodCheck, ('isDisplayData') : isDisplayData, ('showByGroupVal') : showByGroupVal, ('isDisplayOnlyActiveUsersData') : isDisplayOnlyActiveUsersData, ('isDWShOutsideShift') : isDWShOutsideShift, ('shiftType') : shiftType, ('isDisplayTimeZone') : isDisplayTimeZone, ('timeZoneType') : timeZoneType, ('dayType') : dayType, ('dayTypesE') : dayTypesE,('weekTypesE') : weekTypesE,('isEnableFilter') : isEnableFilter,('filterTypeMin') : filterTypeMin,('lhType') : lhType,('loggedhoursMin') : loggedhoursMin,('considerBetweenTo') : considerBetweenTo,
+	('isEnablePDFilter') : isEnablePDFilter, ('filterTypeDays') : filterTypeDays, ('pdType') : pdType, ('loggedhoursDays') : loggedhoursDays, ('daysConsiderBetweenTo') : daysConsiderBetweenTo])

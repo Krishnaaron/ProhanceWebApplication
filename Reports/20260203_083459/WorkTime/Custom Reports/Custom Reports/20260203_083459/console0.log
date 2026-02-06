@@ -1,0 +1,274 @@
+2026-02-03 08:35:05.065 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\KRISHNA\.katalon\packages\KS-11.0.0\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-02-03 08:35:05.068 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: D:\ProhanceWebApplicationsssd\ProhanceWebApplicationsssd\Include\config\log.properties
+2026-02-03 08:35:05.221 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/WorkTime/Custom Reports/Custom Reports
+2026-02-03 08:35:05.316 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Gopal
+2026-02-03 08:35:05.318 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProhanceWebApplication
+2026-02-03 08:35:05.319 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = KRISHNA - krishna
+2026-02-03 08:35:05.319 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-02-03 08:35:05.320 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.9
+2026-02-03 08:35:05.321 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.0.0
+2026-02-03 08:35:05.926 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-03 08:35:05.926 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Login_Page/Login
+2026-02-03 08:35:06.011 INFO  c.k.katalon.core.main.TestCaseExecutor   - userName = tsL9urF6O/D/xURRxzj/8w==
+2026-02-03 08:35:06.012 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = tsL9urF6O/APwsPS+50KRA==
+2026-02-03 08:35:06.392 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-02-03 08:35:06.749 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-02-03 08:35:06.759 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--allow-running-insecure-content, --ignore-certificate-errors, --disable-web-security, --unsafely-treat-insecure-origin-as-secure=http://10.10.10.157:1001/prohance]']
+2026-02-03 08:35:06.760 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['prefs', '{download.default_directory=C:/Users/gopal.s/Downloads, download.prompt_for_download=false, download.directory_upgrade=true, profile.default_content_setting_values.automatic_downloads=1, plugins.always_open_pdf_externally=true, safebrowsing.enabled=true}']
+2026-02-03 08:35:06.830 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Feb 03, 2026 8:35:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 144, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 144
+2026-02-03 08:35:08.979 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 12a2d2155cada4813bf632835115aab5
+2026-02-03 08:35:08.980 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 144.0.7559.110
+2026-02-03 08:35:08.981 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-02-03 08:35:08.981 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-02-03 08:35:08.988 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-02-03 08:35:09.052 DEBUG testcase.Login                           - 2: maximizeWindow()
+2026-02-03 08:35:09.125 DEBUG testcase.Login                           - 3: waitForPageLoad(Delay, CONTINUE_ON_FAILURE)
+2026-02-03 08:35:09.482 DEBUG testcase.Login                           - 4: navigateToUrl(URL)
+2026-02-03 08:35:10.509 DEBUG testcase.Login                           - 5: try
+2026-02-03 08:35:10.512 DEBUG testcase.Login                           - 1: setEncryptedText(findTestObject("Object Repository/Login/userName"), userName)
+2026-02-03 08:35:11.096 DEBUG testcase.Login                           - 2: setEncryptedText(findTestObject("Object Repository/Login/Password"), password)
+2026-02-03 08:35:11.521 DEBUG testcase.Login                           - 3: waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay)
+2026-02-03 08:35:11.905 DEBUG testcase.Login                           - 4: click(findTestObject("Object Repository/Login/login_btn"))
+2026-02-03 08:35:12.370 DEBUG testcase.Login                           - 5: if (waitForElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL))
+2026-02-03 08:35:13.102 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL)
+2026-02-03 08:35:13.412 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Login/session_Distroysession"))
+2026-02-03 08:35:13.809 DEBUG testcase.Login                           - 6: if (waitForElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL))
+2026-02-03 08:35:16.395 DEBUG testcase.Login                           - 1: waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL)
+2026-02-03 08:35:16.716 DEBUG testcase.Login                           - 2: click(findTestObject("Object Repository/Common/Accept Cookies"))
+2026-02-03 08:35:17.118 DEBUG testcase.Login                           - 7: Finally
+2026-02-03 08:35:17.121 DEBUG testcase.Login                           - 1: timestamp = Date().format("yyyyMMdd_HHmmss")
+2026-02-03 08:35:17.147 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Login_Page/Login
+2026-02-03 08:35:17.158 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-03 08:35:17.158 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports
+2026-02-03 08:35:17.893 DEBUG testcase.Custom Reports                  - 1: ViewBy = null
+2026-02-03 08:35:17.895 DEBUG testcase.Custom Reports                  - 2: UserType = null
+2026-02-03 08:35:17.897 DEBUG testcase.Custom Reports                  - 3: if (waitForElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-02-03 08:35:18.159 DEBUG testcase.Custom Reports                  - 1: waitForElementClickable(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)
+2026-02-03 08:35:18.472 DEBUG testcase.Custom Reports                  - 2: click(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"))
+2026-02-03 08:35:18.846 DEBUG testcase.Custom Reports                  - 3: driver = getWebDriver()
+2026-02-03 08:35:18.849 DEBUG testcase.Custom Reports                  - 4: efficiencyLinks = driver.findElements(By.xpath("//a[@data-menulink='EfficiencyDetailsFilter']"))
+2026-02-03 08:35:19.097 DEBUG testcase.Custom Reports                  - 5: if (!(efficiencyLinks.isEmpty()))
+2026-02-03 08:35:19.100 DEBUG testcase.Custom Reports                  - 1: get(0).click()
+2026-02-03 08:35:19.349 DEBUG testcase.Custom Reports                  - 7: getImmediateChildFolders = com.prohanceapplication.common.ObjectUtils.getImmediateChildFolders("Organization Settings/Work Time/Custom Reports/Check_Box")
+2026-02-03 08:35:19.395 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceapplication.common.ObjectUtils.getImmediateChildFolders is PASSED
+2026-02-03 08:35:19.397 DEBUG testcase.Custom Reports                  - 8: for (String filePath : getImmediateChildFolders)
+2026-02-03 08:35:19.400 DEBUG testcase.Custom Reports                  - 9: switchToWindowIndex(1)
+2026-02-03 08:35:19.592 DEBUG testcase.Custom Reports                  - 10: filterMenu = driver.findElement(By.xpath("//span[@id='show-content-menu-main']"))
+2026-02-03 08:35:28.693 DEBUG testcase.Custom Reports                  - 11: filterMenu.click()
+2026-02-03 08:35:29.193 DEBUG testcase.Custom Reports                  - 12: viewByDropdown = new com.kms.katalon.core.testobject.TestObject(ViewByDropdown)
+2026-02-03 08:35:29.196 DEBUG testcase.Custom Reports                  - 13: viewByDropdown.addProperty("xpath", EQUALS, "//select[@id='customReportViewByFilter']")
+2026-02-03 08:35:29.206 DEBUG testcase.Custom Reports                  - 14: waitForElementPresent(viewByDropdown, 20)
+2026-02-03 08:35:29.487 DEBUG testcase.Custom Reports                  - 15: dropdownElement = findWebElement(viewByDropdown)
+2026-02-03 08:35:29.760 DEBUG testcase.Custom Reports                  - 16: select = new org.openqa.selenium.support.ui.Select(dropdownElement)
+2026-02-03 08:35:29.786 DEBUG testcase.Custom Reports                  - 17: selectedValue = getText().trim()
+2026-02-03 08:35:30.104 DEBUG testcase.Custom Reports                  - 18: println("Selected View By Value: " + selectedValue)
+Selected View By Value: Skill Set
+2026-02-03 08:35:30.109 DEBUG testcase.Custom Reports                  - 19: dropdownValues = []
+2026-02-03 08:35:30.111 DEBUG testcase.Custom Reports                  - 20: getOptions().each({ -> ... })
+2026-02-03 08:35:30.623 DEBUG testcase.Custom Reports                  - 21: reportDuration = "r"
+2026-02-03 08:35:30.625 DEBUG testcase.Custom Reports                  - 22: UserType = "AGENT"
+2026-02-03 08:35:30.627 DEBUG testcase.Custom Reports                  - 23: dodCheck = false
+2026-02-03 08:35:30.629 DEBUG testcase.Custom Reports                  - 24: reportDurationElementValue = findWebElement(findTestObject("Object Repository/Organization Settings/Work Time/Custom Reports/Custom Reports Hidden Element/Report Duration")).getAttribute("Value")
+2026-02-03 08:35:30.902 DEBUG testcase.Custom Reports                  - 25: if (reportDuration != null && reportDuration != "" && reportDurationElementValue != null && reportDurationElementValue != "")
+2026-02-03 08:35:30.905 DEBUG testcase.Custom Reports                  - 1: com.prohanceapplication.customreports.CustomReports.selectReportDuration(reportDuration, reportDurationElementValue)
+2026-02-03 08:35:31.622 WARN  com.kms.katalon.core.util.KeywordUtil    - Selected Value : Decorated {[[[[CChromeDriver: chrome on windows (12a2d2155cada4813bf632835115aab5)] -> xpath: //select[@id='CustomDurationViewBy']]] -> tag name: option]}
+2026-02-03 08:35:31.926 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceapplication.customreports.CustomReports.selectReportDuration is PASSED
+2026-02-03 08:35:31.928 DEBUG testcase.Custom Reports                  - 26: if (UserType != null && UserType != "")
+2026-02-03 08:35:31.929 DEBUG testcase.Custom Reports                  - 1: com.prohanceapplication.customreports.CustomReports.selectUserType(UserType)
+2026-02-03 08:35:32.566 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceapplication.customreports.CustomReports.selectUserType is PASSED
+2026-02-03 08:35:32.569 DEBUG testcase.Custom Reports                  - 27: checkbox = findTestObject("Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_ Display Overall Data")
+2026-02-03 08:35:32.576 DEBUG testcase.Custom Reports                  - 28: waitForElementPresent(checkbox, 0, OPTIONAL)
+2026-02-03 08:35:32.589 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '10'
+2026-02-03 08:35:32.829 DEBUG testcase.Custom Reports                  - 29: isChecked = verifyElementChecked(checkbox, 1, OPTIONAL)
+2026-02-03 08:35:33.147 DEBUG testcase.Custom Reports                  - 30: if (dodCheck && !(isChecked))
+2026-02-03 08:35:33.148 DEBUG testcase.Custom Reports                  - 31: else if (!(dodCheck) && isChecked)
+2026-02-03 08:35:33.149 DEBUG testcase.Custom Reports                  - 1: uncheck(checkbox)
+2026-02-03 08:35:33.577 DEBUG testcase.Custom Reports                  - 32: immediateChildFolders = com.prohanceapplication.common.ObjectUtils.getImmediateChildFolders("Organization Settings/Work Time/Custom Reports/Check_Box")
+2026-02-03 08:35:33.582 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceapplication.common.ObjectUtils.getImmediateChildFolders is PASSED
+2026-02-03 08:35:33.583 DEBUG testcase.Custom Reports                  - 33: for (String filePath : immediateChildFolders)
+2026-02-03 08:35:33.587 DEBUG testcase.Custom Reports                  - 1: customizeReportView(filePath)
+2026-02-03 08:35:33.588 DEBUG testcase.Custom Reports                  - 1: getObjectsAsMap = com.prohanceapplication.common.ObjectUtils.getObjectsAsMap(filePath)
+2026-02-03 08:35:33.696 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - com.prohanceapplication.common.ObjectUtils.getObjectsAsMap is PASSED
+2026-02-03 08:35:33.697 DEBUG testcase.Custom Reports                  - 2: grouped = getObjectsAsMap.groupBy({ java.lang.Object entry -> ... })
+2026-02-03 08:35:33.731 DEBUG testcase.Custom Reports                  - 3: grouped.each({ java.lang.Object groupKey, java.lang.Object entries -> ... })
+2026-02-03 08:35:44.844 WARN  k.c.w.k.b.WaitForElementClickableKeyword - Waiting for element timed out
+2026-02-03 08:35:55.117 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-02-03 08:35:55.336 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Idle Time_Avg' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Idle Time_Avg'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1769747049695$_customizeReportView_closure5.doCall(Script1769747049695.groovy:288)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at Custom Reports.customizeReportView(Custom Reports:273)
+	at Custom Reports.run(Custom Reports:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=144.0.7559.110)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [12a2d2155cada4813bf632835115aab5, clickElement {id=f.D2F13E75C50850531D954AF56E06C21F.d.8DC04082A03442DF676B7910915EB83F.e.825}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\KRISHNA\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63910}, goog:processID: 20580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63910/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:32611/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (12a2d2155cada4813bf632835115aab5)] -> xpath: //input[@id='AVG_Idle']]
+Session ID: 12a2d2155cada4813bf632835115aab5
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$kj8xakom.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1769747049695$_customizeReportView_closure5.doCall(Script1769747049695.groovy:288)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at Script1769747049695.customizeReportView(Script1769747049695.groovy:273)
+	at Script1769747049695.run(Script1769747049695.groovy:120)
+	... 13 more
+)
+2026-02-03 08:35:55.341 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Idle Time_Avg'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1769747049695$_customizeReportView_closure5.doCall(Script1769747049695.groovy:288)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at Custom Reports.customizeReportView(Custom Reports:273)
+	at Custom Reports.run(Custom Reports:120)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=144.0.7559.110)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [12a2d2155cada4813bf632835115aab5, clickElement {id=f.D2F13E75C50850531D954AF56E06C21F.d.8DC04082A03442DF676B7910915EB83F.e.825}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\KRISHNA\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63910}, goog:processID: 20580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63910/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:32611/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (12a2d2155cada4813bf632835115aab5)] -> xpath: //input[@id='AVG_Idle']]
+Session ID: 12a2d2155cada4813bf632835115aab5
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:326)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:416)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$kj8xakom.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+2026-02-03 08:35:55.346 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports
+2026-02-03 08:35:55.350 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-02-03 08:35:55.350 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports - Retry attempt 1
+2026-02-03 08:35:55.383 DEBUG testcase.Custom Reports                  - 1: ViewBy = null
+2026-02-03 08:35:55.384 DEBUG testcase.Custom Reports                  - 2: UserType = null
+2026-02-03 08:35:55.385 DEBUG testcase.Custom Reports                  - 3: if (waitForElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay))
+2026-02-03 08:36:00.582 WARN  k.k.c.w.k.b.WaitForElementPresentKeyword - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is not present after 5 second(s)
+2026-02-03 08:36:00.584 DEBUG testcase.Custom Reports                  - 4: else
+2026-02-03 08:36:00.585 DEBUG testcase.Custom Reports                  - 1: println("WORK TIME menu not found")
+WORK TIME menu not found
+2026-02-03 08:36:00.586 DEBUG testcase.Custom Reports                  - 5: chec = verifyElementChecked(findTestObject("Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_ Display Overall Data"), 2, OPTIONAL)
+2026-02-03 08:36:00.892 WARN  c.k.k.core.keyword.internal.KeywordMain  - Object 'Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_ Display Overall Data' is not checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_ Display Overall Data' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1483)
+	at Custom Reports.run(Custom Reports:206)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:422)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-02-03 08:36:00.894 DEBUG testcase.Custom Reports                  - 6: out.println(chec)
+false
+2026-02-03 08:36:00.908 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports
+2026-02-03 08:36:01.210 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-02-03 08:36:01.210 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/WorkTime/Custom Reports/Custom Reports
+2026-02-03 08:36:01.210 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

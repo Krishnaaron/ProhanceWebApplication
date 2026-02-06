@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Custom Reports" time="55.615" tests="2" failures="0" errors="0">
+   <testsuite name="Custom Reports" tests="2" failures="0" errors="0" time="55.615" skipped="0" timestamp="2026-02-03T03:05:05.293Z" hostname="KRISHNA - krishna" id="Test Suites/WorkTime/Custom Reports/Custom Reports">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\ProhanceWebApplicationsssd\\ProhanceWebApplicationsssd\\Reports\\20260203_083459\\WorkTime\\Custom Reports\\Custom Reports\\20260203_083459"/>
+         <property name="logFiles" value="D:\\ProhanceWebApplicationsssd\\ProhanceWebApplicationsssd\\Reports\\20260203_083459\\WorkTime\\Custom Reports\\Custom Reports\\20260203_083459\\console0.log, D:\\ProhanceWebApplicationsssd\\ProhanceWebApplicationsssd\\Reports\\20260203_083459\\WorkTime\\Custom Reports\\Custom Reports\\20260203_083459\\execution0.log"/>
+         <property name="attachments" value="D:\\ProhanceWebApplicationsssd\\ProhanceWebApplicationsssd\\Reports\\20260203_083459\\WorkTime\\Custom Reports\\Custom Reports\\20260203_083459\\1770087955152.png"/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="KRISHNA - krishna"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.0.0.0"/>
+         <property name="browser" value="Chrome 144.0.7559.110"/>
+         <property name="userFullName" value="Gopal"/>
+         <property name="hostAddress" value="192.168.0.9"/>
+         <property name="sessionId" value="12a2d2155cada4813bf632835115aab5"/>
+         <property name="projectName" value="ProhanceWebApplication"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/ProhanceWeb/Login_Page/Login" time="11.221" classname="32fb88f7-812b-45d7-84f9-831d09b0b206" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"tsL9urF6O/APwsPS+50KRA\u003d\u003d","userName":"tsL9urF6O/D/xURRxzj/8w\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[03-02-2026T08:35:05 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Login_Page/Login: Test Cases/ProhanceWeb/Login_Page/Login
+
+03-02-2026T08:35:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-02-2026T08:35:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-02-2026T08:35:06 - [MESSAGE][INFO] - User set preference: ['args', '[--allow-running-insecure-content, --ignore-certificate-errors, --disable-web-security, --unsafely-treat-insecure-origin-as-secure=http://10.10.10.157:1001/prohance]']
+
+03-02-2026T08:35:06 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:/Users/gopal.s/Downloads, download.prompt_for_download=false, download.directory_upgrade=true, profile.default_content_setting_values.automatic_downloads=1, plugins.always_open_pdf_externally=true, safebrowsing.enabled=true}']
+
+03-02-2026T08:35:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-02-2026T08:35:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-02-2026T08:35:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-02-2026T08:35:09 - [MESSAGE][PASSED] - Current window maximized
+
+03-02-2026T08:35:09 - [TEST_STEP][PASSED] - waitForPageLoad(Delay, CONTINUE_ON_FAILURE): Wait for page load successfully
+
+03-02-2026T08:35:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+03-02-2026T08:35:09 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://enhance.prohance.io/prohance/' successfully
+
+03-02-2026T08:35:10 - [MESSAGE][PASSED] - Navigate to 'https://enhance.prohance.io/prohance/' successfully
+
+03-02-2026T08:35:10 - [TEST_STEP][PASSED] - try: null
+
+03-02-2026T08:35:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/userName"), userName): Text ****** has been set on object 'Object Repository/Login/userName'
+
+03-02-2026T08:35:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/userName'
+
+03-02-2026T08:35:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Password"), password): Text ****** has been set on object 'Object Repository/Login/Password'
+
+03-02-2026T08:35:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Password'
+
+03-02-2026T08:35:11 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Login/login_btn"), Delay): Object 'Object Repository/Login/login_btn' is clickable
+
+03-02-2026T08:35:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login/login_btn' is clickable
+
+03-02-2026T08:35:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/login_btn")): Object: 'Object Repository/Login/login_btn' is clicked on
+
+03-02-2026T08:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/login_btn' is clicked on
+
+03-02-2026T08:35:12 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL)): null
+
+03-02-2026T08:35:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login/session_Distroysession' is present
+
+03-02-2026T08:35:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Login/session_Distroysession"), Delay, OPTIONAL): Object 'Object Repository/Login/session_Distroysession' is clickable
+
+03-02-2026T08:35:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login/session_Distroysession' is clickable
+
+03-02-2026T08:35:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/session_Distroysession")): Object: 'Object Repository/Login/session_Distroysession' is clicked on
+
+03-02-2026T08:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/session_Distroysession' is clicked on
+
+03-02-2026T08:35:13 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL)): null
+
+03-02-2026T08:35:16 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is present
+
+03-02-2026T08:35:16 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Common/Accept Cookies"), Delay, OPTIONAL): Object 'Object Repository/Common/Accept Cookies' is clickable
+
+03-02-2026T08:35:16 - [MESSAGE][PASSED] - Object 'Object Repository/Common/Accept Cookies' is clickable
+
+03-02-2026T08:35:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Common/Accept Cookies")): Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+03-02-2026T08:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/Accept Cookies' is clicked on
+
+03-02-2026T08:35:17 - [TEST_STEP][PASSED] - Finally: null
+
+03-02-2026T08:35:17 - [TEST_STEP][PASSED] - timestamp = Date().format("yyyyMMdd_HHmmss"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports" time="5.558" classname="4f89d452-7a26-48fb-806c-2e2ac3874e83" status="PASSED">
+         <system-out><![CDATA[03-02-2026T08:35:55 - [TEST_CASE][PASSED] - Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports: Test Cases/ProhanceWeb/Organization Settings/Work Time/Custom Reports/Custom Reports
+
+03-02-2026T08:35:55 - [TEST_STEP][PASSED] - ViewBy = null: null
+
+03-02-2026T08:35:55 - [TEST_STEP][PASSED] - UserType = null: null
+
+03-02-2026T08:35:55 - [TEST_STEP][WARNING] - if (waitForElementPresent(findTestObject("Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME"), Delay)): Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is not present after 5 second(s)
+
+03-02-2026T08:36:00 - [MESSAGE][WARNING] - Object 'Object Repository/Organization Settings/New Folder/Page_ProHance/a_WORK TIME' is not present after 5 second(s)
+
+03-02-2026T08:36:00 - [TEST_STEP][PASSED] - else: null
+
+03-02-2026T08:36:00 - [TEST_STEP][PASSED] - println("WORK TIME menu not found"): null
+
+03-02-2026T08:36:00 - [TEST_STEP][WARNING] - chec = verifyElementChecked(findTestObject("Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_ Display Overall Data"), 2, OPTIONAL): Object 'Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_ Display Overall Data' is not checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_ Display Overall Data' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1483)
+	at Custom Reports.run(Custom Reports:206)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:422)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+03-02-2026T08:36:00 - [MESSAGE][WARNING] - Object 'Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_ Display Overall Data' is not checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_ Display Overall Data' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:133)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1483)
+	at Custom Reports.run(Custom Reports:206)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:422)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+03-02-2026T08:36:00 - [TEST_STEP][PASSED] - out.println(chec): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-02-2026T08:35:05 - [TEST_SUITE][PASSED] - Custom Reports: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

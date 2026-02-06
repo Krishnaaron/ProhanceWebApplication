@@ -1,3 +1,144 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Organization Settings/Work Time/Custom Reports/Custom Reports Hidden Element/Report Duration",
+      "brokenLocator": "//form[@id\u003d\u0027ReportFilterDurationFormBean\u0027]//input[@id\u003d\u0027reportDuration\u0027",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:label\u003d\"Display data\"i",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_Display Within Shift Outside Shift",
+      "brokenLocator": "//input [id\u003d\u0027showByShify\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027displayColumns\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_Display Only Active UsersData",
+      "brokenLocator": "//input [id\u003d\u0027displayOnlyActiveUsersData\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//option[@value\u003d\u0027G|132\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_Display Within Shift Outside Shift",
+      "brokenLocator": "//input [@ id\u003d\u0027showByShify\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@id\u003d\u0027displayColumns\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Organization Settings/Work Time/Custom Reports/Common/Chk_Display time specific",
+      "brokenLocator": "//input [id\u003d\u0027showByTimezone\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//option[@value\u003d\u0027G|1\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Neutral Hours_Main",
+      "brokenLocator": "//input[@id\u003d\u0027TH_2\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[3]/ul[2]/li/div/table/tbody/tr/td/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Neutral Hours_Main_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Neutral Hours_Avg",
+      "brokenLocator": "//input[@id\u003d\u0027AVG_TH_2\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[3]/ul[2]/li/div/table/tbody/tr[3]/td/span/input[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Neutral Hours_Avg_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Neutral Hours_Tot",
+      "brokenLocator": "//input[@id\u003d\u0027TOT_TH_2\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[3]/ul[2]/li/div/table/tbody/tr[3]/td/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Neutral Hours_Tot_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Non Productive Hours_Main",
+      "brokenLocator": "//input[@id\u003d\u0027TH_3\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[3]/ul[3]/li/div/table/tbody/tr/td/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Non Productive Hours_Main_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Non Productive Hours_Avg",
+      "brokenLocator": "//input[@id\u003d\u0027AVG_TH_3\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[3]/ul[3]/li/div/table/tbody/tr[3]/td/span/input[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Non Productive Hours_Avg_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Non Productive Hours_Tot",
+      "brokenLocator": "//input[@id\u003d\u0027TOT_TH_3\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//div[@id\u003d\u0027current\u0027]/table/tbody/tr[3]/td/span/input)[29]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Non Productive Hours_Tot_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Productive Hours_Main",
+      "brokenLocator": "//input[@id\u003d\u0027TH_1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//div[@id\u003d\u0027current\u0027]/table/tbody/tr/td/span/input)[11]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Productive Hours_Avg",
+      "brokenLocator": "//input[@id\u003d\u0027AVG_TH_1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//div[@id\u003d\u0027current\u0027]/table/tbody/tr[3]/td/span/input[3])[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Productive Hours_Avg_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Productive Hours_Tot",
+      "brokenLocator": "//input[@id\u003d\u0027TOT_TH_1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//div[@id\u003d\u0027current\u0027]/table/tbody/tr[3]/td/span/input)[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Organization Settings/Work Time/Custom Reports/Check_Box/By Business Impact/Productive Hours_Tot_idRelative.png"
+    }
+  ]
 }

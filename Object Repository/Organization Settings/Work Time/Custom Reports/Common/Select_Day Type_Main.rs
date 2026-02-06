@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select_Day Type_Main</name>
+   <tag></tag>
+   <elementGuidId>36b64234-ae6a-4611-9800-6499672f18b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#dayFilter</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='dayFilter']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#dayFilter</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>aecb2d57-97cf-452e-a9a6-220176366ed2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>width-150px form-control form-control-filter</value>
+      <webElementGuid>98b68623-862a-4a87-b5ef-825854faddc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>dayFilter</value>
+      <webElementGuid>0eea7b31-5d9a-4228-9778-0104692cb16f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dayFilter</value>
+      <webElementGuid>637f54ec-a67a-48d5-a785-680c41da7c55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-onchange</name>
+      <type>Main</type>
+      <value>fnPopulateDropDownfnCheckDaysOnChange</value>
+      <webElementGuid>273ed592-c93f-4909-943e-218d850f2735</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-param1</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>e4b38f14-bc01-48c2-952e-e24f9086ae22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+					Day Type
+			        Day of Week
+			</value>
+      <webElementGuid>c71fe67e-2473-4c4d-8373-32fd7c109346</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dayFilter&quot;)</value>
+      <webElementGuid>7e513d39-23cc-4472-a86d-7da693203a34</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='dayFilter']</value>
+      <webElementGuid>c91b2c6c-b0c7-41a2-ab7c-82037fb2a06e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//span[@id='customizeUserType']/select)[2]</value>
+      <webElementGuid>b01c6202-b3a2-4a28-87e7-2c1d3eb38d79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Days'])[1]/preceding::select[1]</value>
+      <webElementGuid>fc49a6f0-144c-4274-bab9-b4314c3904ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/span/span/select</value>
+      <webElementGuid>4fd7f4f6-9957-427b-97a9-8e1dc5efe617</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'dayFilter' and @id = 'dayFilter' and (text() = '
+					Day Type
+			        Day of Week
+			' or . = '
+					Day Type
+			        Day of Week
+			')]</value>
+      <webElementGuid>92e9efa7-0392-493b-a6e3-b37982f1bf28</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
